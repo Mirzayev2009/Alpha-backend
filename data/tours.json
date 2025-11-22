@@ -1,0 +1,332 @@
+{
+  "tours": {
+    "uzbekistan": [
+      {
+        "id": "t_pearls_uzbekistan_11d",
+        "title": "The Pearls of Uzbekistan — 11 Days",
+        "short": "Classic 11-day circuit through Uzbekistan's Silk Road jewels: Tashkent, Khiva, Bukhara, Samarkand and Shakhrisabz.",
+        "destination": "Tashkent, Khiva, Bukhara, Samarkand, Shakhrisabz",
+        "region": "Uzbekistan",
+        "images": [],
+        "price": 1360,
+        "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "duration": "11 days / 10 nights",
+        "rating": null,
+        "category": "uzbekistan",
+        "availableDates": [],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival to Tashkent",
+            "activity": "Arrive in Tashkent, meet your English-speaking guide and driver, and transfer to your hotel for check-in. Overnight stay at the hotel in Tashkent."
+          },
+          {
+            "day": 2,
+            "title": "Tashkent — Flight to Urgench, Transfer to Khiva",
+            "activity": "Morning city tour of Tashkent visiting Khast Imam Square (Barak Khan Madrasa, Tilla Sheikh Mosque, Kaffal Shashi Mausoleum) where you may see the handwritten Uthman Qur'an, then explore Chorsu Bazaar and the modern city (Independence Square and Amir Timur Square). In the evening transfer to Tashkent airport for the flight to Urgench; upon arrival transfer to Khiva. Overnight in Khiva."
+          },
+          {
+            "day": 3,
+            "title": "Khiva — Old Town & Crafts",
+            "activity": "Full day exploring Khiva's UNESCO old town: visit Juma Mosque, Muhammad Amin Khan Madrasa, Kukhna Ark Citadel, Pakhlovon Makhmud Mausoleum, Alakuli Khan Madrasa and other landmarks, and observe local craftsmen in their workshops. Overnight in Khiva."
+          },
+          {
+            "day": 4,
+            "title": "Transfer: Khiva → Bukhara (Kyzylkum Desert)",
+            "activity": "Drive across the Kyzylkum Desert following the Amu Darya River, enjoy commentary from your guide about the land and people, and arrive in Bukhara for an overnight stay."
+          },
+          {
+            "day": 5,
+            "title": "Bukhara — Historic City Tour",
+            "activity": "Discover Bukhara with visits to Ismail Samani Mausoleum, Chashma-Ayub Mausoleum, Bolo Hauz Mosque and the Ark Fortress; after lunch see the Poyi-Kalon complex (Kalon Mosque and madrasas), the Madrasas of Abdul Aziz Khan and Mir-i-Arab, Lyabi-Hauz square with Nadir Divan Begi and Kukeldash madrasas, dome bazaars, and the Ustoz Shogird Center to watch miniature-style painting; the day ends with a dance performance in a madrasa. Overnight in Bukhara."
+          },
+          {
+            "day": 6,
+            "title": "Nurata — Yurt Camp Experience",
+            "activity": "Morning drive to Nurata to visit the Chil Ustun Mosque, the remains of Alexander the Great's fortress and the sacred Chashma spring (famous for its fish). Enjoy lunch with a local family and an authentic yurt-camp overnight experience."
+          },
+          {
+            "day": 7,
+            "title": "Bukhara → Samarkand (via Rabati Malik & Imam Bukhari)",
+            "activity": "Depart Bukhara and drive toward Samarkand with a stop at the Rabati Malik caravanserai and a visit to the Imam Bukhari complex en route; continue to Samarkand and settle in for the night."
+          },
+          {
+            "day": 8,
+            "title": "Samarkand → Shakhrisabz → Samarkand",
+            "activity": "Day trip to Shakhrisabz, the birthplace of Tamerlane: see the remains of the White Palace (Ak-Saray), the Kok Gumbaz Mosque, Gumbazi Seidan Mausoleum and the Hazrati Imam Mosque, then drive back through the Zerafshan mountains to Samarkand. Overnight in Samarkand."
+          },
+          {
+            "day": 9,
+            "title": "Samarkand — Timurid Heritage",
+            "activity": "Explore Samarkand's Timurid treasures including Bibi-Khanym Mosque, Gur-Emir Mausoleum (Tamerlane's tomb) and the iconic Registan Square; free time in the evening and overnight in Samarkand."
+          },
+          {
+            "day": 10,
+            "title": "Samarkand — Shah-i-Zinda, Paper Workshop, Ulugh Beg",
+            "activity": "Visit the Shah-i-Zinda necropolis, a historic textile/paper workshop, and the Ulugh Beg Observatory; enjoy free time or bazaar shopping before boarding the evening train to Tashkent. Overnight in Tashkent."
+          },
+          {
+            "day": 11,
+            "title": "Departure from Tashkent",
+            "activity": "Transfer to Tashkent airport for your departure flight. End of services."
+          }
+        ],
+        "highlights": [
+          "Registan Square",
+          "Gur-Emir Mausoleum",
+          "Bibi-Khanym Mosque",
+          "Shah-i-Zinda",
+          "Ulugh Beg Observatory",
+          "Ichan-Kala (Khiva)",
+          "Ark Fortress (Bukhara)",
+          "Rabati Malik caravanserai",
+          "Ak-Saray (Shakhrisabz)"
+        ],
+        "organizer": {
+          "name": "Shohrukh Umurzakov - Alpha Travel",
+          "phone": "+998976151603",
+          "email": "Alpha.avia.travel@gmail.com ",
+          "website": ""
+        },
+        "participants": "4-16 people",
+        "notes": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "extras": []
+      },
+      {
+        "id": "t_grand_uzbekistan_17d",
+        "title": "The Grand Uzbekistan Discovery Tour — 17 Days",
+        "short": "Comprehensive 17-day exploration of Uzbekistan’s Silk Road and hidden gems: Tashkent, Fergana Valley, Khiva, Bukhara, Samarkand, Shakhrisabz, Darbent, Boysun and Termez.",
+        "destination": "Tashkent, Fergana Valley, Khiva, Bukhara, Samarkand, Shakhrisabz, Darbent, Boysun, Termez",
+        "region": "Uzbekistan",
+        "images": [],
+        "price": 2160,
+        "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "duration": "17 days / 16 nights",
+        "rating": null,
+        "category": "uzbekistan",
+        "availableDates": [],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival in Tashkent",
+            "activity": "Flight to Tashkent. Meet your local guide at the airport, transfer to the hotel and relax after your journey. Overnight stay at the hotel."
+          },
+          {
+            "day": 2,
+            "title": "Tashkent — City Highlights",
+            "activity": "Full day exploring Tashkent: Khast Imam Square (Barak Khan Madrasa, Tilla Sheikh Mosque, Kaffal Shashi Mausoleum with the historic Qur'an), Chorsu Bazaar, and modern landmarks including Independence Square and Amir Timur Square. Overnight in Tashkent."
+          },
+          {
+            "day": 3,
+            "title": "Tashkent → Kokand (Fergana Valley)",
+            "activity": "Drive through the scenic Fergana Valley and a mountain pass with stunning views. In Kokand visit Khudoyar Khan Palace, Juma Mosque, Norbuta-Biy Madrasa and Modari Khan Mausoleum. Overnight in Kokand."
+          },
+          {
+            "day": 4,
+            "title": "Kokand → Rishtan → Margilan → Tashkent",
+            "activity": "Travel to Rishtan to see traditional pottery workshops famed for blue glazes, then continue to Margilan to visit the Yodgorlik silk factory and local bazaars (Kumtepa bazaar on Thursdays and Sundays). Drive back to Tashkent. Overnight in Tashkent."
+          },
+          {
+            "day": 5,
+            "title": "Tashkent — Flight to Urgench, Transfer to Khiva",
+            "activity": "Morning flight to Urgench and transfer to Khiva. Explore Khiva's fairytale-like old town with visits to Juma Mosque, Muhammad Amin Khan Madrasah, Kukhna Ark Citadel, Pakhlovon Makhmud Mausoleum and Alakuli Khan Madrasah. Visit local craft workshops. Overnight in Khiva."
+          },
+          {
+            "day": 6,
+            "title": "Khiva — Ancient Fortresses and Kyzylkum",
+            "activity": "Day trip to Khorezm archaeological sites: Toprak-Kala (capital of Khorezm in the 3rd century AD) and the fortress complexes of Ayaz-Kala, returning to Khiva in the evening. Overnight in Khiva."
+          },
+          {
+            "day": 7,
+            "title": "Khiva → Bukhara (Desert Drive)",
+            "activity": "Drive across the Kyzylkum Desert following the Amu Darya River with commentary from your guide about the region and its people, arriving in Bukhara by evening. Overnight in Bukhara."
+          },
+          {
+            "day": 8,
+            "title": "Bukhara — Main Sights",
+            "activity": "Explore Bukhara: Ismail Samani Mausoleum, Chashma-Ayub Mausoleum, Bolo Hauz Mosque, the Ark Fortress and Poyi-Kalon complex (Kalon Mosque and madrasas). Visit Lyabi-Hauz, dome bazaars and the Ustoz Shogird Center; enjoy a traditional dance performance. Overnight in Bukhara."
+          },
+          {
+            "day": 9,
+            "title": "Bukhara — Surroundings & Sacred Sites",
+            "activity": "Visit Sitorai-Mokhi-Khosa (summer residence), Chor Bakr Mausoleum and the Bahauddin Naqshbandi Complex; remainder of the day free for exploration or relaxation. Overnight in Bukhara."
+          },
+          {
+            "day": 10,
+            "title": "Bukhara → Nurata — Yurt Camp",
+            "activity": "Depart for Nurata to see the Chil Ustun Mosque, remains of Alexander's fortress and the sacred Chashma spring. Lunch with a local family and overnight in a yurt camp for an authentic experience."
+          },
+          {
+            "day": 11,
+            "title": "Nurata → Samarkand (via Rabati Malik)",
+            "activity": "Drive to Samarkand with a stop at the Rabati Malik caravanserai and a visit to the Imam Bukhari complex en route. Arrive in Samarkand and overnight."
+          },
+          {
+            "day": 12,
+            "title": "Samarkand — Timurid Treasures",
+            "activity": "Explore Samarkand’s highlights: Bibi-Khanym Mosque, Gur-Emir Mausoleum and the iconic Registan Square. Overnight in Samarkand."
+          },
+          {
+            "day": 13,
+            "title": "Samarkand — Shah-i-Zinda & Observatory",
+            "activity": "Visit the Shah-i-Zinda necropolis, the historic paper/textile workshop and the Ulugh Beg Observatory; free time for bazaar strolls. Overnight in Samarkand."
+          },
+          {
+            "day": 14,
+            "title": "Samarkand → Shakhrisabz → Darbent",
+            "activity": "Day trip to Shakhrisabz to see the White Palace (Ak-Saray), Kok Gumbaz Mosque, Gumbazi Seidan Mausoleum and Hazrati Imam Mosque. In the late afternoon transfer through mountain landscapes to Darbent. Overnight in a guest house."
+          },
+          {
+            "day": 15,
+            "title": "Darbent → Boysun → Termez",
+            "activity": "Travel to Boysun to experience preserved local traditions, handicrafts and the village bazaar; interact with locals and learn about cultural life. Continue to Termez. Overnight in Termez."
+          },
+          {
+            "day": 16,
+            "title": "Termez — Archaeology & Heritage → Tashkent",
+            "activity": "Explore Termez's Buddhist and Islamic heritage including Fayaz-Tepe (ancient Buddhist monastery), the Mausoleum of Hakim at-Termezi and the Sultan Saodat complex; visit the Termez Archaeological Museum. In the evening transfer to the airport and fly to Tashkent. Overnight in Tashkent."
+          },
+          {
+            "day": 17,
+            "title": "Departure from Tashkent",
+            "activity": "Transfer to Tashkent airport for your departure flight. End of services and farewell."
+          }
+        ],
+        "highlights": [
+          "Registan Square",
+          "Gur-Emir Mausoleum",
+          "Bibi-Khanym Mosque",
+          "Shah-i-Zinda",
+          "Ulugh Beg Observatory",
+          "Ichan-Kala (Khiva)",
+          "Toprak-Kala",
+          "Sitorai-Mokhi-Khosa",
+          "Rabati Malik caravanserai",
+          "Ak-Saray (Shakhrisabz)",
+          "Fayaz-Tepe (Termez)",
+          "Boysun traditional village"
+        ],
+        "organizer": {
+          "name": "Shohrukh Umurzakov - Alpha Travel",
+          "phone": "+998976151603",
+          "email": "Alpha.avia.travel@gmail.com ",
+          "website": ""
+        },
+        "participants": "4-16 people",
+        "notes": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "extras": []
+      },
+      {
+        "id": "t_welcome_uzbekistan_5d",
+        "title": "Welcome Tour to Uzbekistan — 5 Days / 4 Nights",
+        "short": "Short introductory circuit: Tashkent, Bukhara and Samarkand — ideal first-time visit to Uzbekistan's major Silk Road highlights.",
+        "destination": "Tashkent, Bukhara, Samarkand",
+        "region": "Uzbekistan",
+        "images": [],
+        "price": 460,
+        "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "duration": "5 days / 4 nights",
+        "rating": null,
+        "category": "uzbekistan",
+        "availableDates": [],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival to Tashkent — City Highlights",
+            "activity": "Arrive in Tashkent and meet your English-speaking guide and driver. Transfer to your guest house and begin a city tour visiting Khast Imam Square (Barak Khan Madrasa, Tilla Sheikh Mosque, Kaffal Shashi Mausoleum), view the historic Qur'an, explore Chorsu Bazaar, and see Independence Square and Amir Timur Square. Overnight at the guest house in Tashkent."
+          },
+          {
+            "day": 2,
+            "title": "Flight to Bukhara — Introductory Tour",
+            "activity": "Transfer to the airport and fly to Bukhara. Upon arrival transfer to your guest house (luggage drop, check-in at 14:00). Discover Bukhara with visits to Ismail Samani Mausoleum, Chashma-Ayub Mausoleum, Bolo Hauz Mosque and the Ark Fortress; have lunch at a local restaurant and continue to the Poyi-Kalon complex (Kalon Mosque, madrasas), visit Abdul Aziz Khan and Mir-i-Arab madrasas, Lyabi-Hauz square, dome bazaars, and the Ustoz Shogird Center. End the day with a traditional dance performance. Overnight at the guest house in Bukhara."
+          },
+          {
+            "day": 3,
+            "title": "Bukhara → Samarkand (285 km, approx. 5 hrs)",
+            "activity": "Visit Sitorai-Mokhi-Khosa (summer palace of the last emir), Chor Bakr mausoleum and the Bahauddin Naqshbandi ensemble. During the drive toward Samarkand stop at the Imam Bukhari complex en route. Arrive in Samarkand and overnight at the guest house."
+          },
+          {
+            "day": 4,
+            "title": "Samarkand — Timurid Highlights & Train to Tashkent",
+            "activity": "Explore Samarkand's major sites: Bibi-Khanym Mosque, Gur-Emir Mausoleum and Registan Square. Visit the Shah-i-Zinda necropolis and a historic paper/textile workshop. Transfer to the railway station and take a high-speed train back to Tashkent; on arrival transfer to your guest house. Overnight in Tashkent."
+          },
+          {
+            "day": 5,
+            "title": "Departure from Tashkent",
+            "activity": "Transfer to Tashkent airport for your departure flight. End of services and farewell."
+          }
+        ],
+        "highlights": [
+          "Registan Square",
+          "Gur-Emir Mausoleum",
+          "Bibi-Khanym Mosque",
+          "Shah-i-Zinda",
+          "Ismail Samani Mausoleum",
+          "Ark Fortress (Bukhara)",
+          "Poyi-Kalon complex",
+          "Chorsu Bazaar"
+        ],
+        "organizer": {
+          "name": "Shohrukh Umurzakov - Alpha Travel",
+          "phone": "+998976151603",
+          "email": "Alpha.avia.travel@gmail.com ",
+          "website": ""
+        },
+        "participants": "4-16 people",
+        "notes": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "extras": []
+      },
+       {
+        "id": "t_short_trip_big_memories_3d",
+        "title": "Short Trip, Big Memories — 3 Days",
+        "short": "Compact Samarkand-focused 3-day trip covering Registan, Bibi-Khanym, Gur-Emir, Shah-i-Zinda, a day in Shakhrisabz and local craft workshops.",
+        "destination": "Samarkand, Shakhrisabz",
+        "region": "Samarkand Region, Uzbekistan",
+        "images": [],
+        "price": 225,
+        "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "duration": "3 days / 2 nights",
+        "rating": null,
+        "category": "uzbekistan",
+        "availableDates": [],
+        "itinerary": [
+          {
+            "day": 1,
+            "title": "Arrival in Samarkand — Timurid Treasures",
+            "activity": "Arrive in Samarkand (airport or train), meet your guide and transfer to the hotel. After a short rest start exploring the Timurid capital: visit Registan Square with its madrassas, Bibi-Khanym Mosque and the Gur-Emir Mausoleum (Tamerlane's tomb). Time permitting, stroll through the local bazaar before overnight at the hotel in Samarkand."
+          },
+          {
+            "day": 2,
+            "title": "Shakhrisabz — Homeland of Amir Temur",
+            "activity": "Full-day excursion to Shakhrisabz (approx. 300 km round trip). Explore the Ak-Saray White Palace ruins and its mosaic portal, visit the Kok Gumbaz Mosque, Gumbazi Seidan Mausoleum and the Hazrati Imam Mosque. Return through the Zerafshan mountains to Samarkand for overnight stay."
+          },
+          {
+            "day": 3,
+            "title": "The Craftsmen of Samarkand — Carpets & Paper",
+            "activity": "Visit local artisan workshops to witness traditional crafts: tour the Samarkand Bukhara Silk Carpets (Hudjum) factory to see silk carpet weaving techniques, and visit the Konigil Meros Paper Factory to learn historic paper-making from walnut and other fibers. Transfer to the airport or train station for departure. End of the short trip."
+          }
+        ],
+        "highlights": [
+          "Registan Square",
+          "Gur-Emir Mausoleum",
+          "Bibi-Khanym Mosque",
+          "Shah-i-Zinda Necropolis",
+          "Ulugh Beg Observatory",
+          "Ak-Saray (Shakhrisabz)",
+          "Samarkand Bukhara Silk Carpets Factory (Hudjum)",
+          "Konigil Meros Paper Factory",
+          "Zerafshan mountain views"
+        ],
+        "organizer": {
+          "name": "Shohrukh Umurzakov - Alpha Travel",
+          "phone": "+998976151603",
+          "email": "Alpha.avia.travel@gmail.com ",
+          "website": ""
+        },        "participants": "4-16 people",
+        "notes": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
+        "extras": []
+      }
+    ],
+    "world": []
+  }
+}
