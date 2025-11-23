@@ -1,129 +1,178 @@
-// index.js — your main backend entry file
-import "dotenv/config";
+// 
 
 
-// 1️⃣ Import required modules
-import express from "express"; // The Express framework
-import cors from "cors";       // To allow frontend requests (cross-origin)
-import dotenv from "dotenv";   // For environment variables
-import fs from "fs";           // To read JSON data files
-import nodemailer from "nodemailer"; // For sending emails
+// index.js — improved, robust version for local or server deployment
+import dotenv from "dotenv";
+dotenv.config(); // load .env first
 
-// 2️⃣ Initialize dotenv to read .env
-dotenv.config();
+import express from "express";
+import cors from "cors";
+import fs from "fs";
+import path from "path";
+import nodemailer from "nodemailer";
 
-// 3️⃣ Create the Express app
 const app = express();
 
-// 4️⃣ Middleware setup
-app.use(cors());               // Allow requests from any origin (frontend)
-app.use(express.json());       // Parse JSON request bodies
-
-// 5️⃣ Define the port
+// ---------- Configuration ----------
 const PORT = process.env.PORT || 5000;
+const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || "http://localhost:3000"; // set this in production to your frontend
+const ALLOWED_ORIGINS = [FRONTEND_ORIGIN, "http://localhost:3000"];
 
-// 6️⃣ Create helper function to load JSON safely
-// const loadJSON = (path) => {
-//   const data = fs.readFileSync(path);
-//   return JSON.parse(data);
-// };
-const loadJSON = (path) => {
-  const data = fs.readFileSync(path);
-  return JSON.parse(data)
+// ---------- Middleware ----------
+app.use(express.json());
+app.use(cors({
+  origin: function (origin, callback) {
+    // allow non-browser requests (e.g. Postman) when origin is undefined
+    if (!origin) return callback(null, true);
+    if (ALLOWED_ORIGINS.includes(origin)) return callback(null, true);
+    return callback(new Error("CORS: Origin not allowed"));
+  }
+}));
+
+// ---------- Helpers ----------
+/**
+ * Safely load JSON file from ./data/<filename>
+ * @param {string} filename - e.g. 'tours.json'
+ * @returns {object} parsed JSON
+ * @throws Error when file missing or invalid
+ */
+function loadJSONFile(filename) {
+  const fullPath = path.resolve(process.cwd(), "data", filename);
+  try {
+    if (!fs.existsSync(fullPath)) {
+      const e = new Error(`File not found: ${fullPath}`);
+      e.code = "ENOENT";
+      throw e;
+    }
+    const raw = fs.readFileSync(fullPath, "utf8");
+    return JSON.parse(raw);
+  } catch (err) {
+    // rethrow to be handled by route
+    throw err;
+  }
 }
 
-// 7️⃣ Create GET endpoints for your data files
-// app.get("/api/tours", (req, res) => {
-//   const tours = loadJSON("./data/tours.json");
-//   res.json(tours);
-// });
-app.get("/api/tours", (req, res)=> {
-  const tours = loadJSON("./data/tours.json");
-  res.json(tours)
-})
+// ---------- Nodemailer setup (create transporter lazily) ----------
+let transporter = null;
+function getTransporter() {
+  if (transporter) return transporter;
 
-app.get("/api/destinations", (req, res) => {
-  const destinations = loadJSON("./data/destinations.json");
-  res.json(destinations);
+  const user = process.env.EMAIL_USER;
+  const pass = process.env.EMAIL_PASS;
+
+  if (!user || !pass) {
+    // Do not throw here; routes will check and return a useful error
+    return null;
+  }
+
+  transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user,
+      pass
+    }
+  });
+
+  return transporter;
+}
+
+// ---------- Routes ----------
+
+// Health
+app.get("/ping", (req, res) => {
+  res.json({ ok: true, ts: Date.now() });
 });
 
-app.get("/api/gallery", (req, res) => {
-  const gallery = loadJSON("./data/gallery.json");
-  res.json(gallery);
-});
+// Generic generator for simple JSON GET endpoints
+function createJsonGetRoute(routePath, filename) {
+  app.get(routePath, (req, res) => {
+    try {
+      const data = loadJSONFile(filename);
+      return res.status(200).json(data);
+    } catch (err) {
+      console.error(`${routePath} error:`, err && err.message);
+      if (err.code === "ENOENT") {
+        return res.status(404).json({ error: "Data file not found" });
+      }
+      return res.status(500).json({ error: "Failed to load data" });
+    }
+  });
+}
 
-app.get("/api/team", (req, res) => {
-  const team = loadJSON("./data/team.json");
-  res.json(team);
-});
+// register GET endpoints
+createJsonGetRoute("/api/tours", "tours.json");
+createJsonGetRoute("/api/destinations", "destinations.json");
+createJsonGetRoute("/api/gallery", "gallery.json");
+createJsonGetRoute("/api/team", "team.json");
+createJsonGetRoute("/api/hotel", "hotel.json");
+createJsonGetRoute("/api/transport", "transport.json");
+createJsonGetRoute("/api/visa", "visa.json");
 
-app.get("/api/hotel", (req, res) => {
-  const services = loadJSON("./data/hotel.json");
-  res.json(services);
-});
-app.get("/api/transport", (req, res) => {
-  const services = loadJSON("./data/transport.json");
-  res.json(services);
-});
-
-// The visa data (we’ll later add filtering logic)
-app.get("/api/visa", (req, res) => {
-  const visa = loadJSON("./data/visa.json");
-  res.json(visa);
-});
-
-// 8️⃣ POST endpoint: Registration form (send email)
+// POST /api/register - sends email
 app.post("/api/register", async (req, res) => {
   try {
-    const { name, email, country, phone, message } = req.body;
+    const { name, email, country, phone, message } = req.body || {};
 
-    // Set up transporter (SMTP)
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
-    });
+    if (!name || !email) {
+      return res.status(400).json({ success: false, message: "name and email are required" });
+    }
 
-    // Prepare email content
+    const transporterInstance = getTransporter();
+    if (!transporterInstance) {
+      console.error("EMAIL_USER / EMAIL_PASS not configured");
+      return res.status(500).json({ success: false, message: "Email not configured on server" });
+    }
+
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.RECEIVER_EMAIL,
+      to: process.env.RECEIVER_EMAIL || process.env.EMAIL_USER,
       subject: "New Registration Form",
-      text: `
-        Name: ${name}
-        Email: ${email}
-        Country: ${country}
-        Phone: ${phone}
-        Message: ${message}
-      `,
+      text:
+        `Name: ${name}\nEmail: ${email}\nCountry: ${country || ""}\nPhone: ${phone || ""}\nMessage: ${message || ""}`
     };
 
-    // Send the email
-    await transporter.sendMail(mailOptions);
+    // Note: transporter.sendMail can throw — we await inside try/catch
+    await transporterInstance.sendMail(mailOptions);
 
-    res.status(200).json({ success: true, message: "Registration email sent successfully!" });
+    return res.status(200).json({ success: true, message: "Registration email sent successfully!" });
   } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, message: "Error sending email" });
+    console.error("POST /api/register error:", error && error.message);
+    return res.status(500).json({ success: false, message: "Error sending email" });
   }
 });
 
-// 9️⃣ POST endpoint: Visa question (will handle filters later)
+// POST /api/visa-question - simple echo
 app.post("/api/visa-question", (req, res) => {
-  const { fromCountry, toCountry, nationality, purpose, duration } = req.body;
+  try {
+    const { fromCountry, toCountry, nationality, purpose, duration } = req.body || {};
+    console.log("Visa question received:", { fromCountry, toCountry, nationality, purpose, duration });
+    return res.json({ success: true, message: "Visa question received. We'll process it soon." });
+  } catch (err) {
+    console.error("POST /api/visa-question error:", err && err.message);
+    return res.status(500).json({ success: false });
+  }
+});
 
-  console.log("Visa question received:", req.body);
+// 404 fallback for unknown routes
+app.use((req, res) => {
+  res.status(404).json({ error: "Not found" });
+});
 
-  // For now, just confirm receipt
-  res.json({
-    success: true,
-    message: "Visa question received. We'll process it soon.",
+// Global error handler
+app.use((err, req, res, next) => {
+  console.error("Unhandled error:", err && err.stack ? err.stack : err);
+  // If headers already sent, delegate to default Express handler
+  if (res.headersSent) return next(err);
+  res.status(500).json({ error: "Internal server error" });
+});
+
+// ---------- Start server ----------
+if (process.env.VERCEL) {
+  // When deployed as serverless on Vercel, do NOT call app.listen().
+  // Vercel supplies its own handler for functions or the platform will fail.
+  console.log("Running in Vercel serverless environment (no listen).");
+} else {
+  app.listen(PORT, () => {
+    console.log(`✅ Server running on http://localhost:${PORT} (NODE_ENV=${process.env.NODE_ENV || "development"})`);
   });
-});
-
-// 🔟 Start the server
-app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
-});
+}
