@@ -1,178 +1,153 @@
-// 
+// index.js — your main backend entry file
+import "dotenv/config";
 
 
-// index.js — improved, robust version for local or server deployment
-import dotenv from "dotenv";
-dotenv.config(); // load .env first
+// 1️⃣ Import required modules
+import express from "express"; // The Express framework
+import cors from "cors";       // To allow frontend requests (cross-origin)
+import dotenv from "dotenv";   // For environment variables
+import fs from "fs";           // To read JSON data files
+import nodemailer from "nodemailer"; // For sending emails
 
-import express from "express";
-import cors from "cors";
-import fs from "fs";
-import path from "path";
-import nodemailer from "nodemailer";
+// 2️⃣ Initialize dotenv to read .env
+dotenv.config();
 
+// 3️⃣ Create the Express app
 const app = express();
 
-// ---------- Configuration ----------
+// 4️⃣ Middleware setup
+app.use(cors());               // Allow requests from any origin (frontend)
+app.use(express.json());       // Parse JSON request bodies
+
+// 5️⃣ Define the port
 const PORT = process.env.PORT || 5000;
-const FRONTEND_ORIGIN = process.env.FRONTEND_ORIGIN || "http://localhost:3000"; // set this in production to your frontend
-const ALLOWED_ORIGINS = [FRONTEND_ORIGIN, "http://localhost:3000"];
 
-// ---------- Middleware ----------
-app.use(express.json());
-app.use(cors({
-  origin: function (origin, callback) {
-    // allow non-browser requests (e.g. Postman) when origin is undefined
-    if (!origin) return callback(null, true);
-    if (ALLOWED_ORIGINS.includes(origin)) return callback(null, true);
-    return callback(new Error("CORS: Origin not allowed"));
-  }
-}));
-
-// ---------- Helpers ----------
-/**
- * Safely load JSON file from ./data/<filename>
- * @param {string} filename - e.g. 'tours.json'
- * @returns {object} parsed JSON
- * @throws Error when file missing or invalid
- */
-function loadJSONFile(filename) {
-  const fullPath = path.resolve(process.cwd(), "data", filename);
-  try {
-    if (!fs.existsSync(fullPath)) {
-      const e = new Error(`File not found: ${fullPath}`);
-      e.code = "ENOENT";
-      throw e;
-    }
-    const raw = fs.readFileSync(fullPath, "utf8");
-    return JSON.parse(raw);
-  } catch (err) {
-    // rethrow to be handled by route
-    throw err;
-  }
+// 6️⃣ Create helper function to load JSON safely
+// const loadJSON = (path) => {
+//   const data = fs.readFileSync(path);
+//   return JSON.parse(data);
+// };
+const loadJSON = (path) => {
+  const data = fs.readFileSync(path);
+  return JSON.parse(data)
 }
 
-// ---------- Nodemailer setup (create transporter lazily) ----------
-let transporter = null;
-function getTransporter() {
-  if (transporter) return transporter;
+// 7️⃣ Create GET endpoints for your data files
+// app.get("/api/tours", (req, res) => {
+//   const tours = loadJSON("./data/tours.json");
+//   res.json(tours);
+// });
 
-  const user = process.env.EMAIL_USER;
-  const pass = process.env.EMAIL_PASS;
+app.use("/images", express.static("data/images"));
 
-  if (!user || !pass) {
-    // Do not throw here; routes will check and return a useful error
-    return null;
-  }
 
-  transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: {
-      user,
-      pass
-    }
-  });
+app.get("/api/tours", (req, res)=> {
+  const tours = loadJSON("./data/tours.json");
+  res.json(tours)
+})
 
-  return transporter;
-}
-
-// ---------- Routes ----------
-
-// Health
-app.get("/ping", (req, res) => {
-  res.json({ ok: true, ts: Date.now() });
+app.get("/api/destinations", (req, res) => {
+  const destinations = loadJSON("./data/destination.json");
+  res.json(destinations);
 });
 
-// Generic generator for simple JSON GET endpoints
-function createJsonGetRoute(routePath, filename) {
-  app.get(routePath, (req, res) => {
-    try {
-      const data = loadJSONFile(filename);
-      return res.status(200).json(data);
-    } catch (err) {
-      console.error(`${routePath} error:`, err && err.message);
-      if (err.code === "ENOENT") {
-        return res.status(404).json({ error: "Data file not found" });
-      }
-      return res.status(500).json({ error: "Failed to load data" });
+app.get("/api/gallery", (req, res) => {
+  const gallery = loadJSON("./data/gallery.json");
+  res.json(gallery);
+});
+
+app.get("/api/team", (req, res) => {
+  const team = loadJSON("./data/team.json");
+  res.json(team);
+});
+
+app.get("/api/hotel", (req, res) => {
+  const services = loadJSON("./data/hotel.json");
+  res.json(services);
+});
+app.get("/api/transport", (req, res) => {
+  const services = loadJSON("./data/transport.json");
+  res.json(services);
+});
+
+// The visa data (we’ll later add filtering logic)
+app.get("/api/visa", (req, res) => {
+  const visa = loadJSON("./data/visa.json");
+  res.json(visa);
+});
+
+// add near other routes (after static middleware)
+
+
+app.get("/api/transport/:id/image", (req, res) => {
+  try {
+    const id = req.params.id;
+    const data = loadJSON("./data/transport.json"); // your loader
+    const item = data.transport.find(t => t.id === id);
+    if (!item) return res.status(404).json({ error: "Transport not found" });
+
+    // normalize image field: allow "data/images/..." or "/data/images/..." or "/images/..."
+    let img = item.image || "";
+    // make it point to your public static route:
+    img = img.replace(/^\/?data\/images\//, "/images/"); // convert "data/images/..." to "/images/..."
+    img = img.replace(/^\/data\/public\//, "/images/"); // extra safety, if needed
+
+    // if img doesn't start with /images, try to construct it
+    if (!img.startsWith("/images")) {
+      const baseName = path.basename(item.image || "");
+      img = `/images/${baseName}`;
     }
-  });
-}
 
-// register GET endpoints
-createJsonGetRoute("/api/tours", "tours.json");
-createJsonGetRoute("/api/destinations", "destinations.json");
-createJsonGetRoute("/api/gallery", "gallery.json");
-createJsonGetRoute("/api/team", "team.json");
-createJsonGetRoute("/api/hotel", "hotel.json");
-createJsonGetRoute("/api/transport", "transport.json");
-createJsonGetRoute("/api/visa", "visa.json");
+    // redirect browser to the static file URL
+    return res.redirect(302, img);
+  } catch (err) {
+    console.error("/api/transport/:id/image error:", err);
+    return res.status(500).json({ error: "Internal server error" });
+  }
+});
 
-// POST /api/register - sends email
+
+// 8️⃣ POST endpoint: Registration form (send email)
 app.post("/api/register", async (req, res) => {
   try {
-    const { name, email, country, phone, message } = req.body || {};
+    const { name, email, country, phone, message } = req.body;
 
-    if (!name || !email) {
-      return res.status(400).json({ success: false, message: "name and email are required" });
-    }
+    // Set up transporter (SMTP)
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
+    });
 
-    const transporterInstance = getTransporter();
-    if (!transporterInstance) {
-      console.error("EMAIL_USER / EMAIL_PASS not configured");
-      return res.status(500).json({ success: false, message: "Email not configured on server" });
-    }
-
+    // Prepare email content
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.RECEIVER_EMAIL || process.env.EMAIL_USER,
+      to: process.env.RECEIVER_EMAIL,
       subject: "New Registration Form",
-      text:
-        `Name: ${name}\nEmail: ${email}\nCountry: ${country || ""}\nPhone: ${phone || ""}\nMessage: ${message || ""}`
+      text: `
+        Name: ${name}
+        Email: ${email}
+        Country: ${country}
+        Phone: ${phone}
+        Message: ${message}
+      `,
     };
 
-    // Note: transporter.sendMail can throw — we await inside try/catch
-    await transporterInstance.sendMail(mailOptions);
+    // Send the email
+    await transporter.sendMail(mailOptions);
 
-    return res.status(200).json({ success: true, message: "Registration email sent successfully!" });
+    res.status(200).json({ success: true, message: "Registration email sent successfully!" });
   } catch (error) {
-    console.error("POST /api/register error:", error && error.message);
-    return res.status(500).json({ success: false, message: "Error sending email" });
+    console.error(error);
+    res.status(500).json({ success: false, message: "Error sending email" });
   }
 });
 
-// POST /api/visa-question - simple echo
-app.post("/api/visa-question", (req, res) => {
-  try {
-    const { fromCountry, toCountry, nationality, purpose, duration } = req.body || {};
-    console.log("Visa question received:", { fromCountry, toCountry, nationality, purpose, duration });
-    return res.json({ success: true, message: "Visa question received. We'll process it soon." });
-  } catch (err) {
-    console.error("POST /api/visa-question error:", err && err.message);
-    return res.status(500).json({ success: false });
-  }
-});
 
-// 404 fallback for unknown routes
-app.use((req, res) => {
-  res.status(404).json({ error: "Not found" });
-});
 
-// Global error handler
-app.use((err, req, res, next) => {
-  console.error("Unhandled error:", err && err.stack ? err.stack : err);
-  // If headers already sent, delegate to default Express handler
-  if (res.headersSent) return next(err);
-  res.status(500).json({ error: "Internal server error" });
+// 🔟 Start the server
+app.listen(PORT, () => {
+  console.log(`✅ Server running on http://localhost:${PORT}`);
 });
-
-// ---------- Start server ----------
-if (process.env.VERCEL) {
-  // When deployed as serverless on Vercel, do NOT call app.listen().
-  // Vercel supplies its own handler for functions or the platform will fail.
-  console.log("Running in Vercel serverless environment (no listen).");
-} else {
-  app.listen(PORT, () => {
-    console.log(`✅ Server running on http://localhost:${PORT} (NODE_ENV=${process.env.NODE_ENV || "development"})`);
-  });
-}

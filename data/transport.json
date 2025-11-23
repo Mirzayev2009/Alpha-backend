@@ -12,7 +12,7 @@
         "LCD, DVD, and music system"
       ],
       "description": "Experience luxury travel with our flagship Zhong Tong coach, featuring spacious seating for 53 passengers. This modern bus offers premium amenities including climate control, entertainment systems, and onboard refreshments, perfect for long-distance tours across Uzbekistan.",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      "image": "/data/images/transport-1.jpg"
     },
     {
       "id": "t2",
@@ -27,7 +27,7 @@
 
       ],
        "description": "Discover Uzbekistan in comfort with our Mercedes-Benz Vito, ideal for small groups or families. This premium van combines elegance with practicality, offering ample luggage space and modern amenities for an intimate travel experience with personalized service.",
-      "image": "https://images.unsplash.com/photo-1615461065840-5d5e1a63c1c3"
+      "image": "/data/images/transport-2.jpg"
     },
     {
       "id": "t3",
@@ -41,7 +41,7 @@
         "LCD, DVD, and music system"
       ],
        "description": "Journey in style aboard our well-appointed Zhong Tong coach, featuring comprehensive amenities for ultimate passenger comfort. Ideal for large group tours, this bus ensures a pleasant travel experience with entertainment options and convenient refreshment facilities.",
-      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70"
+      "image": "/data/images/transport-3.jpg"
     },
     {
       "id": "t4",
@@ -56,7 +56,7 @@
 
       ],
       "description": "Perfect for small group excursions, our Hyundai H1 van provides a versatile travel solution with comfortable seating for eight passengers. Enjoy modern conveniences and ample storage space while exploring Uzbekistan's historic sites and urban attractions.",
-      "image": "https://images.unsplash.com/photo-1519648023493-d82b5f8d7b8a"
+      "image": "/data/images/transport-4.jpg"
     },
     {
       "id": "t5",
@@ -69,7 +69,7 @@
         "LCD, DVD, and music system"
       ],
       "description": "The Joylong minibus offers the perfect balance between capacity and maneuverability, making it ideal for city tours and airport transfers. With professional service and thoughtful amenities, this 16-seater ensures a comfortable journey for medium-sized groups.",
-      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a"
+      "image": "data/images/transport-5.jpg"
     },
     {
       "id": "t6",
@@ -79,7 +79,7 @@
          "LCD, DVD, and music system"
         ],
        "description": "Our YUTONG ZK6858 offers an efficient solution for medium-sized groups with its 33-seat configuration. This well-equipped coach provides essential comfort features and entertainment options, perfect for day trips and shorter excursions around Uzbekistan.",
-      "image": "https://images.unsplash.com/photo-1519648023493-d82b5f8d7b8a"
+      "image": "data/images/transport-6.jpg"
     },
     {
       "id": "t7",
@@ -92,7 +92,7 @@
         "LCD, DVD, and music system"
       ],
       "description": "Travel in comfort aboard our YUTONG ZK6119, a spacious 43-seater coach equipped with all modern conveniences. Perfect for extended tours, this vehicle combines luxury amenities with reliable performance for an exceptional group travel experience.",
-      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a"
+      "image": "data/images/transport-7.jpg"
     },
      {
       "id": "t8",
@@ -105,7 +105,7 @@
         "LCD, DVD, and music system"
       ],
       "description": "The YUTONG ZK6127 delivers premium comfort for larger groups with its 45-seat capacity. Equipped with comprehensive amenities including refreshment facilities and entertainment systems, this coach ensures a superior travel experience across Uzbekistan.",
-      "image": "https://images.unsplash.com/photo-1519648023493-d82b5f8d7b8a"
+      "image": "data/images/transport-8.jpg"
     },
     {
       "id": "t9",
@@ -119,7 +119,7 @@
         "LCD, DVD, and music system"
       ],
       "description": "Our largest capacity Zhong Tong LCK6127 coach accommodates 53 passengers in supreme comfort. Featuring full amenities and modern entertainment systems, this vehicle is perfect for large group tours and extended journeys throughout Uzbekistan.",
-      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a"
+      "image": "data/images/transport-9.jpg"
     },
     {
       "id": "t10",
@@ -133,7 +133,7 @@
       "LCD, DVD, and music system"
     ],
     "description": "Experience premium group travel in our YUTONG ZK6122, a sophisticated 49-seater coach with comprehensive amenities. From climate control to onboard refreshments, every detail is designed for passenger comfort on long-distance tours across Uzbekistan.",
-      "image": "https://images.unsplash.com/photo-1502877338535-766e1452684a"
+      "image": "data/images/transport-10.jpg"
     }
 
   ]
