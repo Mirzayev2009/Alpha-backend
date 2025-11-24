@@ -8,8 +8,9 @@
         "destination": "Tashkent, Khiva, Bukhara, Samarkand, Shakhrisabz",
         "region": "Uzbekistan",
         "images": [
+          "/images/samarqand/iStock-1249451586.jpg",
           "/images/samarqand/ph001.jpg",
-          "/images/tour-pearls-uzbekistan-2.jpg"
+          "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
         ],
         "price": 1360,
         "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
@@ -101,7 +102,14 @@
         "short": "Comprehensive 17-day exploration of Uzbekistan’s Silk Road and hidden gems: Tashkent, Fergana Valley, Khiva, Bukhara, Samarkand, Shakhrisabz, Darbent, Boysun and Termez.",
         "destination": "Tashkent, Fergana Valley, Khiva, Bukhara, Samarkand, Shakhrisabz, Darbent, Boysun, Termez",
         "region": "Uzbekistan",
-        "images": [],
+        "images": [
+          "/images/buxoro/service_content-5d77b07839e46.jpg",
+          "/images/samarqand/iStock-1249451586.jpg",
+          "/images/buxoro/55ee4898d3526351afba9e6dcb279e3bfab7a3a5.jpg",
+          "/images/samarqand/ph001.jpg",
+          "/images/buxoro/9f1014c3-7604-42ff-a49c-555ddb6f2048.webp",
+          "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+        ],
         "price": 2160,
         "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
         "duration": "17 days / 16 nights",
@@ -225,7 +233,15 @@
         "short": "Short introductory circuit: Tashkent, Bukhara and Samarkand — ideal first-time visit to Uzbekistan's major Silk Road highlights.",
         "destination": "Tashkent, Bukhara, Samarkand",
         "region": "Uzbekistan",
-        "images": [],
+        "images": [
+          
+          "/images/buxoro/55ee4898d3526351afba9e6dcb279e3bfab7a3a5.jpg",
+          "/images/samarqand/ph001.jpg",
+          "/images/buxoro/big_ac85a6489d99af5e18ced5ac848c7550.jpg",
+          "/images/Tashkent/unnamed.jpg",
+          "/images/samarqand/samarkand.jpg",
+          "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+        ],
         "price": 460,
         "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
         "duration": "5 days / 4 nights",
@@ -285,7 +301,13 @@
         "short": "Compact Samarkand-focused 3-day trip covering Registan, Bibi-Khanym, Gur-Emir, Shah-i-Zinda, a day in Shakhrisabz and local craft workshops.",
         "destination": "Samarkand, Shakhrisabz",
         "region": "Samarkand Region, Uzbekistan",
-        "images": [],
+        "images": [
+            
+          "/images/samarqand/ph001.jpg",
+          "/images/samarqand/b857bcb0-258e-42b0-9c7f-1a8e4f48e3fb-shutterstock_1949090296.jpg",
+          "/images/samarqand/iStock-1249451586.jpg",
+          "/images/samarqand/samarkand.jpg"
+        ],
         "price": 225,
         "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
         "duration": "3 days / 2 nights",
