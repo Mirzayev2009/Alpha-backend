@@ -8,8 +8,8 @@
         "destination": "Tashkent, Khiva, Bukhara, Samarkand, Shakhrisabz",
         "region": "Uzbekistan",
         "images": [
-          "data/images/oh001.jpg",
-          "data/images/tour-pearls-uzbekistan-2.jpg"
+          "/images/samarqand/ph001.jpg",
+          "/images/tour-pearls-uzbekistan-2.jpg"
         ],
         "price": 1360,
         "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",

@@ -12,7 +12,7 @@
         "LCD, DVD, and music system"
       ],
       "description": "Experience luxury travel with our flagship Zhong Tong coach, featuring spacious seating for 53 passengers. This modern bus offers premium amenities including climate control, entertainment systems, and onboard refreshments, perfect for long-distance tours across Uzbekistan.",
-      "image": "/data/images/transport-1.jpg"
+      "image": "/images/transport-1.jpg"
     },
     {
       "id": "t2",
@@ -27,7 +27,7 @@
 
       ],
        "description": "Discover Uzbekistan in comfort with our Mercedes-Benz Vito, ideal for small groups or families. This premium van combines elegance with practicality, offering ample luggage space and modern amenities for an intimate travel experience with personalized service.",
-      "image": "/data/images/transport-2.jpg"
+      "image": "/images/transport-2.jpg"
     },
     {
       "id": "t3",
@@ -41,7 +41,7 @@
         "LCD, DVD, and music system"
       ],
        "description": "Journey in style aboard our well-appointed Zhong Tong coach, featuring comprehensive amenities for ultimate passenger comfort. Ideal for large group tours, this bus ensures a pleasant travel experience with entertainment options and convenient refreshment facilities.",
-      "image": "/data/images/transport-3.jpg"
+      "image": "/images/transport-3.jpg"
     },
     {
       "id": "t4",
@@ -56,7 +56,7 @@
 
       ],
       "description": "Perfect for small group excursions, our Hyundai H1 van provides a versatile travel solution with comfortable seating for eight passengers. Enjoy modern conveniences and ample storage space while exploring Uzbekistan's historic sites and urban attractions.",
-      "image": "/data/images/transport-4.jpg"
+      "image": "/images/transport-4.jpg"
     },
     {
       "id": "t5",
