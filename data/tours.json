@@ -7,7 +7,10 @@
         "short": "Classic 11-day circuit through Uzbekistan's Silk Road jewels: Tashkent, Khiva, Bukhara, Samarkand and Shakhrisabz.",
         "destination": "Tashkent, Khiva, Bukhara, Samarkand, Shakhrisabz",
         "region": "Uzbekistan",
-        "images": [],
+        "images": [
+          "data/images/oh001.jpg",
+          "data/images/tour-pearls-uzbekistan-2.jpg"
+        ],
         "price": 1360,
         "priceNote": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
         "duration": "11 days / 10 nights",

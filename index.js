@@ -17,7 +17,8 @@ const app = express();
 
 // 4️⃣ Middleware setup
 app.use(cors());               // Allow requests from any origin (frontend)
-app.use(express.json());       // Parse JSON request bodies
+app.use(express.json()); 
+app.use(express.static('data'))      // Parse JSON request bodies
 
 // 5️⃣ Define the port
 const PORT = process.env.PORT || 5000;
