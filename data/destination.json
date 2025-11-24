@@ -1,8 +1,8 @@
 [
   {
     "id": "d1",
-    "name": "Samarkand",
-    "heroImage": "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=1200",
+    "name": "Samarkand",     
+    "heroImage":  "/images/samarqand/iStock-1249451586.jpg",
     "summary": "Samarkand, 'The Jewel of the Silk Road,' is a city steeped in over 2,500 years of history, most famously as the glorious capital of Timur's empire. It's a mandatory stop for any traveler seeking to be awestruck by the sheer scale and beauty of Central Asian Islamic architecture, primarily showcased in its world-famous historical squares and complexes, earning its reputation as a UNESCO World Heritage site and a cultural melting pot.",
     "bestTime": "April-May (pleasant spring weather with blossoms), September-October (ideal autumn temperatures)",
     "travelTips": "Aim to visit Registan Square both during the day and at sunset to witness the color changes on the tiles. Book accommodations near the old town for easy walking access to major sites. Learning a few basic Russian or Uzbek phrases will greatly enhance your interactions with locals.",
@@ -20,7 +20,7 @@
   {
     "id": "d2",
     "name": "Bukhara",
-    "heroImage": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1200",
+    "heroImage":  "/images/buxoro/service_content-5d77b07839e46.jpg",
     "summary": "Bukhara is often called a 'living museum' due to its miraculously well-preserved, centuries-old historic center, which contains over 140 protected architectural monuments. This UNESCO World Heritage Site served as a major intellectual and spiritual hub on the Silk Road, offering a deeply authentic and immersive journey back in time, characterized by its labyrinthine alleyways, ancient *madrasas*, and peaceful central pools.",
     "bestTime": "March-May (cool spring) or September-November (mild autumn) to avoid intense summer heat.",
     "travelTips": "Stay within or close to the old town (Shakhristan) to experience the city's atmosphere fully, as most sights are within walking distance. Remember to bargain politely and with a smile when purchasing crafts at the historic dome bazaars. Try to find a local tea house near Lyabi-Hauz for people-watching.",
@@ -38,7 +38,7 @@
   {
     "id": "d3",
     "name": "Khiva",
-    "heroImage": "https://media.gettyimages.com/id/1189800495/photo/khiva-sunset-twilight-xiva-%D1%85%D0%B8%D0%B2%D0%B0-islam-khoja-minaret-uzbekistan.jpg?s=612x612&w=0&k=20&c=bx8HgpRRqg30AeC97fUuOqjw-862_OAwes7vVMaOuTM=",
+    "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
     "summary": "Khiva is an entire walled city, the **Ichan-Kala**, which has been perfectly preserved, offering travelers an unparalleled, immersive journey into medieval Central Asia. Walking its fortified walls and navigating its narrow, sandy lanes, surrounded by mosques and *madrasas* clad in breathtaking turquoise and blue tiles, truly makes it feel like a perfectly preserved open-air museum and the most intimate of the Silk Road's great oases.",
     "bestTime": "April-June and September-October. The summer months (July/August) can be extremely hot.",
     "travelTips": "Dedicate time to climb one of the minarets, like Islam Khoja's, just before sunset; the view of the tiled city glowing in the golden light is unforgettable. Be prepared to purchase a single, comprehensive entrance ticket to the Ichan-Kala, which grants access to most internal museums and monuments. Support local artisans by watching and purchasing their handmade crafts inside the city walls.",
@@ -56,7 +56,7 @@
   {
     "id": "d4",
     "name": "Tashkent",
-    "heroImage": "https://images.unsplash.com/photo-1559628376-f3fe5f782a2e?w=1200",
+    "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
     "summary": "As the largest city in Central Asia, Tashkent is the vibrant, modern capital of Uzbekistan, offering a unique blend of Soviet-era monumental architecture, contemporary glass and steel development, and deeply rooted Islamic heritage. It serves as the country's main economic and cultural engine, providing a fascinating contrast to the ancient Silk Road cities and acting as the primary international gateway for most travelers.",
     "bestTime": "March-May and September-November, when the weather is mild and comfortable for city exploration.",
     "travelTips": "Make sure to use the Tashkent Metro for transport; it's incredibly cheap, efficient, and many of the stations are stunning, decorated like underground palaces. Exchange currency at official bank booths upon arrival as rates are generally standardized. Download a local ride-hailing app for convenient and inexpensive taxi services.",
@@ -74,7 +74,7 @@
   {
     "id": "d5",
     "name": "Fergana Valley",
-    "heroImage": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?w=1200",
+    "heroImage": "/images/istockphoto-1202671593-612x612.webp0",
     "summary": "The Fergana Valley is the most fertile and densely populated region of Uzbekistan, often referred to as the 'Garden of Uzbekistan.' It is a distinct cultural area renowned for its traditional crafts, including silk production and ceramics, and offers a glimpse into authentic rural life and the agricultural heart of the country, far from the main tourist trail of the Silk Road cities.",
     "bestTime": "April-June for spring blossoms and pleasant heat, or August-September for the bountiful fruit harvest.",
     "travelTips": "The best way to experience the valley is to visit the specialized workshops in each town, like the silk factory in Margilan or the ceramic studios in Rishtan. Due to the regional dialect and less tourist traffic, hiring a local guide is highly recommended, especially for navigating the rural areas and markets. Don't miss out on trying the incredible fresh fruits and local sweets.",
@@ -91,8 +91,8 @@
   },
   {
     "id": "d6",
-    "name": "Nukus & Aral Sea",
-    "heroImage": "",
+    "name": "Nukus & Aral Sea", 
+    "heroImage": "/images/nukus.jpg",
     "summary": "Nukus, the capital of the autonomous Karakalpakstan region, and the Aral Sea offer a stark, poignant contrast to the opulence of the Silk Road cities. This region provides a powerful journey into environmental history with the haunting 'ship graveyard' at Moynaq, which stands as a monument to ecological disaster, combined with the world-class Savitsky Museum—a true hidden gem of avant-garde art—making it an essential stop for the adventurous and culturally curious traveler.",
     "bestTime": "April-May and September-October. Avoid the extreme cold of winter and the intense heat of summer.",
     "travelTips": "Plan your trip well in advance, as this region is remote and transport is less frequent. The Savitsky Museum is a world-class hidden gem, so dedicate a full morning or afternoon to explore its unique collection. When visiting the Aral Sea site, be prepared for a long, bumpy 4WD journey across the desert, and wear layers as desert temperatures can fluctuate dramatically.",
