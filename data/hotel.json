@@ -1,0 +1,104 @@
+[
+    {
+  "id": "sahid-zarafshon",
+  "title": "Sahid Zarafshon",
+  "description": "Sahid Zarafshon is a 4-star hotel located in central Bukhara. The hotel offers comfortable rooms, indoor and outdoor pools, a gym, a restaurant, and 24/7 reception. Its central location makes it easy for tourists to explore the city.",
+  "location": {
+    "city": "Bukhara",
+    "area": "City Center",
+    "address": "",
+    "country": "Uzbekistan"
+  },
+  "star_rating": 4,
+  "facilities": [
+    "Indoor swimming pool",
+    "Outdoor swimming pool",
+    "Fitness center",
+    "Restaurant and bar",
+    "Garden/Terrace",
+    "24-hour front desk",
+    "Currency exchange",
+    "Laundry service",
+    "Airport shuttle (extra fee)",
+    "Local breakfast available"
+  ],
+  "rooms_info": {
+    "total_rooms": 150,
+    "amenities": ["Air conditioning", "Flat-screen TV", "Refrigerator"]
+  },
+  "images": [],
+
+  "tags": ["Central location", "Tourist-friendly", "Comfortable stay"]
+},
+{
+  "id": "movenpick-hotels",
+  "title": "Mövenpick Hotels & Resorts",
+  "description": "Mövenpick Hotels & Resorts is a Swiss-heritage hospitality brand known for upscale accommodation and strong culinary traditions. The brand began in 1948 in Zurich with an innovative dining concept inspired by a seagull picking food mid-flight. Mövenpick expanded into hotels in 1973 and today operates more than 80 hotels, resorts, and Nile cruisers in over 35 countries.",
+  "location": {
+    "city": "Zurich (origin)",
+    "area": "Swiss heritage brand",
+    "address": "",
+    "country": "Switzerland"
+  },
+  "star_rating": null,
+  "facilities": [
+    "Upscale accommodation",
+    "Culinary-focused experiences",
+    "Sustainability-focused operations",
+    "International locations",
+    "Hotels, resorts, and Nile cruisers"
+  ],
+  "rooms_info": {
+    "total_rooms": null,
+    "amenities": []
+  },
+  "images": [],
+  "tags": [
+    "Swiss-heritage",
+    "Upscale",
+    "Culinary",
+    "International brand"
+  ]
+},
+{
+  "id": "farovon-khiva",
+  "title": "Farovon Khiva Hotel",
+  "description": "Farovon Khiva Hotel is located in the heart of Khiva, one of the oldest cities in Uzbekistan and Central Asia. The hotel is suitable for both leisure and business stays, offering 106 modern rooms with national design elements. It features 3 restaurants, a bar, spacious ballrooms, multiple meeting rooms, and a large indoor swimming pool.",
+  "location": {
+    "city": "Khiva",
+    "area": "City Center",
+    "address": "",
+    "country": "Uzbekistan"
+  },
+  "star_rating": null,
+  "facilities": [
+    "3 restaurants and a bar",
+    "Indoor swimming pool",
+    "Ballrooms for up to 430 people",
+    "2 large banquet halls (390 sq.m and 479 sq.m)",
+    "11 meeting rooms (10–80 people)",
+    "Event hosting (weddings, conferences, workshops)",
+    "Coffee break and catering services",
+    "Professional cleaning and disinfection measures"
+  ],
+  "rooms_info": {
+    "total_rooms": 106,
+    "amenities": [
+      "Modern design",
+      "National décor elements"
+    ]
+  },
+  "images": [],
+  "tags": [
+    "City center",
+    "Business-friendly",
+    "Event-friendly",
+    "Modern style",
+    "National design"
+  ]
+}
+
+
+
+
+]

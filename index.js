@@ -1,154 +1,214 @@
-// index.js — your main backend entry file
 import "dotenv/config";
+import express from "express";
+import cors from "cors";
+import fs from "fs";
+import crypto from "crypto";
+import path from "path";
 
-
-// 1️⃣ Import required modules
-import express from "express"; // The Express framework
-import cors from "cors";       // To allow frontend requests (cross-origin)
-import dotenv from "dotenv";   // For environment variables
-import fs from "fs";           // To read JSON data files
-import nodemailer from "nodemailer"; // For sending emails
-
-// 2️⃣ Initialize dotenv to read .env
-dotenv.config();
-
-// 3️⃣ Create the Express app
 const app = express();
 
-// 4️⃣ Middleware setup
-app.use(cors());               // Allow requests from any origin (frontend)
-app.use(express.json()); 
-app.use(express.static('data'))      // Parse JSON request bodies
+// Middleware
+app.use(cors());
+app.use(express.json());
+app.use(express.static('data'));
 
-// 5️⃣ Define the port
 const PORT = process.env.PORT || 5000;
+const NODE_ENV = process.env.NODE_ENV || 'development';
 
-// 6️⃣ Create helper function to load JSON safely
-// const loadJSON = (path) => {
-//   const data = fs.readFileSync(path);
-//   return JSON.parse(data);
-// };
-const loadJSON = (path) => {
-  const data = fs.readFileSync(path);
-  return JSON.parse(data)
+// Registration file setup
+const REGISTRATION_FILE = path.join(process.cwd(), "data", "registrations.json"); 
+const DATA_DIR = path.dirname(REGISTRATION_FILE);
+
+if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+if (!fs.existsSync(REGISTRATION_FILE)) {
+    fs.writeFileSync(REGISTRATION_FILE, JSON.stringify([]), 'utf8');
 }
 
-// 7️⃣ Create GET endpoints for your data files
-// app.get("/api/tours", (req, res) => {
-//   const tours = loadJSON("./data/tours.json");
-//   res.json(tours);
-// });
+// Helper functions
+const loadJSON = (filePath) => {
+    const data = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(data);
+};
 
-app.use("/images", express.static("data/images"));
+const saveJSON = (filePath, data) => {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+};
 
+// Static images
+app.use("/images", express.static(path.join(process.cwd(), "data", "images")));
 
-app.get("/api/tours", (req, res)=> {
-  const tours = loadJSON("./data/tours.json");
-  res.json(tours)
-})
-
-app.get("/api/destinations", (req, res) => {
-  const destinations = loadJSON("./data/destination.json");
-  res.json(destinations);
-});
-
-app.get("/api/gallery", (req, res) => {
-  const gallery = loadJSON("./data/gallery.json");
-  res.json(gallery);
-});
-
-app.get("/api/team", (req, res) => {
-  const team = loadJSON("./data/team.json");
-  res.json(team);
-});
-
-app.get("/api/hotel", (req, res) => {
-  const services = loadJSON("./data/hotel.json");
-  res.json(services);
-});
-app.get("/api/transport", (req, res) => {
-  const services = loadJSON("./data/transport.json");
-  res.json(services);
-});
-
-// The visa data (we’ll later add filtering logic)
-app.get("/api/visa", (req, res) => {
-  const visa = loadJSON("./data/visa.json");
-  res.json(visa);
-});
-
-// add near other routes (after static middleware)
-
-
-app.get("/api/transport/:id/image", (req, res) => {
-  try {
-    const id = req.params.id;
-    const data = loadJSON("./data/transport.json"); // your loader
-    const item = data.transport.find(t => t.id === id);
-    if (!item) return res.status(404).json({ error: "Transport not found" });
-
-    // normalize image field: allow "data/images/..." or "/data/images/..." or "/images/..."
-    let img = item.image || "";
-    // make it point to your public static route:
-    img = img.replace(/^\/?data\/images\//, "/images/"); // convert "data/images/..." to "/images/..."
-    img = img.replace(/^\/data\/public\//, "/images/"); // extra safety, if needed
-
-    // if img doesn't start with /images, try to construct it
-    if (!img.startsWith("/images")) {
-      const baseName = path.basename(item.image || "");
-      img = `/images/${baseName}`;
-    }
-
-    // redirect browser to the static file URL
-    return res.redirect(302, img);
-  } catch (err) {
-    console.error("/api/transport/:id/image error:", err);
-    return res.status(500).json({ error: "Internal server error" });
-  }
-});
-
-
-// 8️⃣ POST endpoint: Registration form (send email)
-app.post("/api/register", async (req, res) => {
-  try {
-    const { name, email, country, phone, message } = req.body;
-
-    // Set up transporter (SMTP)
-    const transporter = nodemailer.createTransport({
-      service: "gmail",
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
-      },
+// Helper for other endpoints
+const createGetDataEndpoint = (route, filePath) => {
+    app.get(route, (req, res) => {
+        try {
+            const data = loadJSON(filePath);
+            res.json(data);
+        } catch (error) {
+            console.error(`Error loading data for ${route}:`, error);
+            res.status(500).json({ success: false, message: `Error loading data from ${path.basename(filePath)}` });
+        }
     });
+};
 
-    // Prepare email content
-    const mailOptions = {
-      from: process.env.EMAIL_USER,
-      to: process.env.RECEIVER_EMAIL,
-      subject: "New Registration Form",
-      text: `
-        Name: ${name}
-        Email: ${email}
-        Country: ${country}
-        Phone: ${phone}
-        Message: ${message}
-      `,
-    };
+createGetDataEndpoint("/api/destinations", "./data/destination.json");
+createGetDataEndpoint("/api/gallery", "./data/gallery.json");
+createGetDataEndpoint("/api/team", "./data/team.json");
+createGetDataEndpoint("/api/hotel", "./data/hotel.json");
+createGetDataEndpoint("/api/transport", "./data/transport.json");
+createGetDataEndpoint("/api/visa", "./data/visa.json");
 
-    // Send the email
-    await transporter.sendMail(mailOptions);
 
-    res.status(200).json({ success: true, message: "Registration email sent successfully!" });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ success: false, message: "Error sending email" });
-  }
+// ✅ UPDATED: Get ALL tours data in all languages and categories
+app.get("/api/tours", (req, res) => {
+    try {
+        const toursData = loadJSON("./data/tours.json");
+        
+        // Return the entire tours object which contains both 'uzbekistan' and 'world' categories
+        if (toursData && toursData.tours) {
+            res.status(200).json(toursData.tours);
+        } else {
+            // If the file exists but 'tours' key is missing or data is malformed
+            res.status(404).json({ 
+                success: false, 
+                message: "Tours data not found or 'tours' key is missing in the data file." 
+            });
+        }
+    } catch (error) {
+        console.error("Error fetching all tours:", error);
+        res.status(500).json({ 
+            success: false, 
+            message: "Error loading tour data" 
+        });
+    }
+});
+
+// ✅ REMOVED: The old multi-parameter route is removed since the frontend will handle filtering.
+// app.get("/api/tours/:lang/:category", ... );
+
+
+// ✅ NEW: Get all available languages (This endpoint remains useful)
+app.get("/api/tours/languages", (req, res) => {
+    try {
+        const toursData = loadJSON("./data/tours.json");
+        const uzbekistanLangs = Object.keys(toursData.tours?.uzbekistan || {});
+        const worldLangs = Object.keys(toursData.tours?.world || {});
+        
+        // Get unique languages across both categories
+        const allLangs = [...new Set([...uzbekistanLangs, ...worldLangs])];
+        
+        res.status(200).json({
+            success: true,
+            languages: allLangs,
+            categories: {
+                uzbekistan: uzbekistanLangs,
+                world: worldLangs
+            }
+        });
+    } catch (error) {
+        console.error("Error fetching languages:", error);
+        res.status(500).json({ 
+            success: false, 
+            message: "Error loading language data" 
+        });
+    }
 });
 
 
+// Registration endpoints
+app.get("/api/admin/registrations", (req, res) => {
+    try {
+        const registrations = loadJSON(REGISTRATION_FILE);
+        const statusFilter = req.query.status;
+        let filteredRegistrations = registrations;
 
-// 🔟 Start the server
+        if (statusFilter === 'done' || statusFilter === 'undone') {
+            filteredRegistrations = registrations.filter(r => r.status === statusFilter);
+        }
+        
+        filteredRegistrations.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+        res.status(200).json(filteredRegistrations);
+    } catch (error) {
+        console.error("Error fetching registrations:", error);
+        res.status(500).json({ success: false, message: "Error fetching registrations" });
+    }
+});
+
+app.post("/api/registrations", async (req, res) => {
+    try {
+        const { name, email, country, phone, message } = req.body;
+
+        if (!name || !email) {
+            return res.status(400).json({ success: false, message: "Name and Email are required." });
+        }
+
+        const registrations = loadJSON(REGISTRATION_FILE);
+
+        const newRegistration = {
+            id: crypto.randomBytes(16).toString("hex"),
+            name,
+            email,
+            country: country || 'Not Specified',
+            phone: phone || 'Not Specified',
+            message: message || '',
+            status: "undone",
+            createdAt: new Date().toISOString(),
+        };
+
+        registrations.push(newRegistration);
+        saveJSON(REGISTRATION_FILE, registrations);
+
+        res.status(201).json({ success: true, message: "Registration saved successfully!", data: newRegistration });
+    } catch (error) {
+        console.error("Error saving registration:", error);
+        res.status(500).json({ success: false, message: "Error saving registration" });
+    }
+});
+
+app.patch("/api/admin/registrations/:id", (req, res) => {
+    try {
+        const { id } = req.params;
+        const { status } = req.body;
+
+        if (status !== 'done' && status !== 'undone') {
+            return res.status(400).json({ success: false, message: "Invalid status value. Must be 'done' or 'undone'." });
+        }
+
+        const registrations = loadJSON(REGISTRATION_FILE);
+        const registrationIndex = registrations.findIndex(r => r.id === id);
+
+        if (registrationIndex === -1) {
+            return res.status(404).json({ success: false, message: "Registration not found." });
+        }
+
+        registrations[registrationIndex].status = status;
+        registrations[registrationIndex].updatedAt = new Date().toISOString();
+
+        saveJSON(REGISTRATION_FILE, registrations);
+
+        res.status(200).json({ 
+            success: true, 
+            message: `Registration ${id} updated to status: ${status}`,
+            data: registrations[registrationIndex]
+        });
+    } catch (error) {
+        console.error("Error patching registration:", error);
+        res.status(500).json({ success: false, message: "Error updating registration" });
+    }
+});
+
+// Global error handler
+app.use((err, req, res, next) => {
+    console.error(`🚨 Global Error Handler Caught: ${err.stack}`);
+    res.status(500).json({ 
+        success: false, 
+        message: 'Something went wrong on the server.',
+        error: NODE_ENV === 'development' ? err.message : undefined
+    });
+});
+
+// Start server
 app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT}`);
+    console.log(`✅ Server running on http://localhost:${PORT} in ${NODE_ENV} mode`);
 });
