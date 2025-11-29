@@ -1,0 +1,28 @@
+[
+  {
+    "id": "e2d45a9b8f1c0d3e2b1a0f5e4d7c6b9a",
+    "name": "Jane Doe",
+    "email": "jane.doe@example.com",
+    "phone": "+998 90 123 45 67",
+    "tourTitle": "The Silk Road Grand Tour 10 Days",
+    "people": 2,
+    "unitPrice": 850,
+    "totalPrice": 1700,
+    "status": "undone",
+    "createdAt": "2025-11-28T10:00:00.000Z",
+    "message": "Booking request for The Silk Road Grand Tour 10 Days (2 person(s)). Total: $1700."
+  },
+  {
+    "id": "a1b2c3d4e5f67890a1b2c3d4e5f67890",
+    "name": "Alex Smith",
+    "email": "alex.smith@example.com",
+    "phone": "+1 555 123 4567",
+    "tourTitle": "Desert Fortresses Adventure",
+    "people": 1,
+    "unitPrice": 450,
+    "totalPrice": 450,
+    "status": "done",
+    "createdAt": "2025-11-29T12:30:00.000Z",
+    "message": "Booking request for Desert Fortresses Adventure (1 person(s)). Total: $450."
+  }
+]
