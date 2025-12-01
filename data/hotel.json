@@ -26,7 +26,23 @@
     "total_rooms": 150,
     "amenities": ["Air conditioning", "Flat-screen TV", "Refrigerator"]
   },
-  "images": [],
+  "images": [
+    "/images/photo_1_2025-12-01_19-18-07.jpg",
+    "/images/photo_2_2025-12-01_19-18-07.jpg",
+    "/images/photo_3_2025-12-01_19-18-07.jpg",
+    "/images/photo_4_2025-12-01_19-18-07.jpg",
+    "/images/photo_5_2025-12-01_19-18-07.jpg",
+    "/images/photo_6_2025-12-01_19-18-07.jpg",
+    "/images/photo_7_2025-12-01_19-18-07.jpg",
+    "/images/photo_8_2025-12-01_19-18-07.jpg",
+    "/images/photo_9_2025-12-01_19-18-07.jpg",
+    "/images/photo_10_2025-12-01_19-18-07.jpg",
+    "/images/photo_11_2025-12-01_19-18-07.jpg",
+    "/images/photo_12_2025-12-01_19-18-07.jpg",
+    "/images/photo_13_2025-12-01_19-18-07.jpg",
+    "/images/photo_14_2025-12-01_19-18-07.jpg",
+    "/images/photo_15_2025-12-01_19-18-07.jpg"
+  ],
 
   "tags": ["Central location", "Tourist-friendly", "Comfortable stay"]
 },
@@ -52,7 +68,24 @@
     "total_rooms": null,
     "amenities": []
   },
-  "images": [],
+  "images": [
+    "/images/photo_1_2025-12-01_19-23-30.jpg",
+    "/images/photo_2_2025-12-01_19-23-30.jpg",
+    "/images/photo_3_2025-12-01_19-23-30.jpg",
+    "/images/photo_4_2025-12-01_19-23-30.jpg",
+    "/images/photo_5_2025-12-01_19-23-30.jpg",
+    "/images/photo_6_2025-12-01_19-23-30.jpg",
+    "/images/photo_7_2025-12-01_19-23-30.jpg",
+    "/images/photo_8_2025-12-01_19-23-30.jpg",
+    "/images/photo_9_2025-12-01_19-23-30.jpg",
+    "/images/photo_10_2025-12-01_19-23-30.jpg",
+    "/images/photo_11_2025-12-01_19-23-30.jpg",
+    "/images/photo_12_2025-12-01_19-23-30.jpg",
+    "/images/photo_13_2025-12-01_19-23-30.jpg",
+    "/images/photo_14_2025-12-01_19-23-30.jpg",
+    "/images/photo_15_2025-12-01_19-23-30.jpg",
+    "/images/photo_16_2025-12-01_19-23-30.jpg"
+  ],
   "tags": [
     "Swiss-heritage",
     "Upscale",
@@ -88,13 +121,133 @@
       "National décor elements"
     ]
   },
-  "images": [],
+  "images": [
+    "/images/photo_1_2025-12-01_19-13-35.jpg",
+    "/images/photo_2_2025-12-01_19-13-35.jpg",
+    "/images/photo_3_2025-12-01_19-13-35.jpg",
+    "/images/photo_4_2025-12-01_19-13-35.jpg",
+    "/images/photo_5_2025-12-01_19-13-35.jpg",
+    "/images/photo_6_2025-12-01_19-13-35.jpg",
+    "/images/photo_7_2025-12-01_19-13-35.jpg",
+    "/images/photo_8_2025-12-01_19-13-35.jpg",
+    "/images/photo_9_2025-12-01_19-13-35.jpg",
+    "/images/photo_10_2025-12-01_19-13-35.jpg",
+    "/images/photo_11_2025-12-01_19-13-35.jpg",
+    "/images/photo_12_2025-12-01_19-13-35.jpg",
+    "/images/photo_13_2025-12-01_19-13-35.jpg",
+    "/images/photo_14_2025-12-01_19-13-35.jpg",
+    "/images/photo_15_2025-12-01_19-13-35.jpg"
+    
+  ],
   "tags": [
     "City center",
     "Business-friendly",
     "Event-friendly",
     "Modern style",
     "National design"
+  ]
+},
+{
+  "id": "savitsky-plaza",
+  "title": "Savitsky Plaza Hotel",
+  "description": "Savitsky Plaza Hotel was named after Igor Savitsky, the honored art collector and founder of the Nukus art museum. The hotel's interior design features contemporary artworks and references to Savitsky's legacy, particularly his work related to avant-garde art and the Kara-Kalpaks. It is a modern hotel suitable for both leisure and business stays.",
+  "location": {
+    "city": "Nukus",
+    "area": "",
+    "address": "",
+    "country": "Uzbekistan"
+  },
+  "star_rating": null,
+  "facilities": [
+    "Restaurant services",
+    "Bar amenities",
+    "1 conference room for meetings and events"
+  ],
+  "rooms_info": {
+    "total_rooms": 175,
+    "amenities": [
+      "Fully-equipped services (standard rooms)",
+      "27 suites"
+    ]
+  },
+  "images": [
+    "/images/photo_1_2025-12-01_19-28-05.jpg",
+    "/images/photo_2_2025-12-01_19-28-05.jpg",
+    "/images/photo_3_2025-12-01_19-28-05.jpg",
+    "/images/photo_4_2025-12-01_19-28-05.jpg",
+    "/images/photo_5_2025-12-01_19-28-05.jpg",
+    "/images/photo_6_2025-12-01_19-28-05.jpg",
+    "/images/photo_7_2025-12-01_19-28-05.jpg",
+    "/images/photo_8_2025-12-01_19-28-05.jpg",
+    "/images/photo_9_2025-12-01_19-28-05.jpg",
+    "/images/photo_10_2025-12-01_19-28-05.jpg",
+    "/images/photo_11_2025-12-01_19-28-05.jpg",
+    "/images/photo_12_2025-12-01_19-28-05.jpg",
+    "/images/photo_13_2025-12-01_19-28-05.jpg",
+    "/images/photo_14_2025-12-01_19-28-05.jpg",
+    "/images/photo_15_2025-12-01_19-28-05.jpg",
+    "/images/photo_16_2025-12-01_19-28-05.jpg"
+  ],
+  "tags": [
+    "Art-themed",
+    "Igor Savitsky",
+    "Modern design",
+    "Business-friendly",
+    "Nukus"
+  ]
+},
+{
+  "id": "marwa-hotel-tashkent",
+  "title": "Marwa Hotel Tashkent",
+  "description": "Marwa Hotel Tashkent is located in the city center, offering luxurious rooms for a comfortable stay. It is an ideal place to relax and hold business meetings. It features an indoor pool, spa, rooftop terrace, and Pan Asian restaurant. Its central location places it within 10 minutes of Chorsu Bazaar and the Alisher Navoï Opera, and it is around the corner from two metro stations.",
+  "location": {
+    "city": "Tashkent",
+    "area": "City Center",
+    "address": "Between Chorsu Bazaar and Alisher Navoï Opera (Near two metro stations)",
+    "country": "Uzbekistan"
+  },
+  "star_rating": null,
+  "facilities": [
+    "Restaurant (including delicious breakfast)",
+    "Pan Asian restaurant on the rooftop terrace",
+    "Indoor pool",
+    "Spa",
+    "Rooftop terrace",
+    "Facilities for business meetings"
+  ],
+  "rooms_info": {
+    "total_rooms": null,
+    "amenities": [
+      "Luxurious rooms",
+      "Equipped with everything necessary for a comfortable stay"
+    ]
+  },
+  "images": [
+    "/images/photo_1_2025-12-01_19-08-07.jpg",
+    "/images/photo_2_2025-12-01_19-08-07.jpg",
+    "/images/photo_3_2025-12-01_19-08-07.jpg",
+    "/images/photo_4_2025-12-01_19-08-07.jpg",
+    "/images/photo_5_2025-12-01_19-08-07.jpg",
+    "/images/photo_6_2025-12-01_19-08-07.jpg",
+    "/images/photo_7_2025-12-01_19-08-07.jpg",
+    "/images/photo_8_2025-12-01_19-08-07.jpg",
+    "/images/photo_9_2025-12-01_19-08-07.jpg",
+    "/images/photo_10_2025-12-01_19-08-07.jpg",
+    "/images/photo_11_2025-12-01_19-08-07.jpg",
+    "/images/photo_12_2025-12-01_19-08-07.jpg",
+    "/images/photo_13_2025-12-01_19-08-07.jpg",
+    "/images/photo_14_2025-12-01_19-08-07.jpg",
+    "/images/photo_15_2025-12-01_19-08-07.jpg",
+    "/images/photo_16_2025-12-01_19-08-07.jpg"
+    
+
+  ],
+  "tags": [
+    "City center",
+    "Business-friendly",
+    "Luxury",
+    "Spa",
+    "Rooftop"
   ]
 }
 
