@@ -1,4 +1,4 @@
-// server-supabase-index.js
+// server-supabase-index.js - FINAL WORKING VERSION
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
@@ -22,9 +22,9 @@ app.use(express.static("data"));
 const PORT = process.env.PORT || 5000;
 const NODE_ENV = process.env.NODE_ENV || "development";
 
-// Supabase client (server should use service_role key)
+// Supabase client
 if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) {
-  console.error("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in environment. Exiting.");
+  console.error("❌ Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY in environment. Exiting.");
   process.exit(1);
 }
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
@@ -43,6 +43,7 @@ const loadJSON = (filePath) => {
     throw new Error(`Failed to process data file: ${path.basename(filePath)}`);
   }
 };
+
 const saveJSON = (filePath, data) => {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
 };
@@ -50,7 +51,7 @@ const saveJSON = (filePath, data) => {
 // Static images
 app.use("/images", express.static(path.join(__dirname, "data", "images")));
 
-// Helper endpoints unchanged
+// Helper endpoints
 const createGetDataEndpoint = (route, relativePath) => {
   const filePath = path.join(__dirname, relativePath);
   app.get(route, (req, res) => {
@@ -100,156 +101,225 @@ app.get("/api/tours/languages", (req, res) => {
   }
 });
 
-/* ---------------------------
-   Admin registrations (Supabase-backed)
-   --------------------------- */
+/* ============================================
+   REGISTRATION ENDPOINTS (Supabase-backed)
+   ============================================ */
 
-// Helper to map DB row (snake_case) -> client-friendly (camelCase)
-const mapDbToClient = (row) => {
-  if (!row) return row;
-  return {
-    // id may be numeric in DB; keep as-is
-    id: row.id,
-    name: row.name,
-    email: row.email,
-    phone: row.phone,
-    tourTitle: row.tourTitle ?? row.tour_title ?? null,
-    people: row.people,
-    unitPrice: row.unitPrice ?? row.unit_price ?? 0,
-    totalPrice: row.totalPrice ?? row.total_price ?? 0,
-    status: row.status,
-    createdAt: row.created_at ?? row.createdAt ?? null,
-    updatedAt: row.updated_at ?? row.updatedAt ?? null,
-    message: row.message,
-  };
-};
+/**
+ * GET /api/admin/registrations
+ * Fetches all registrations from Supabase
+ */
+app.get("/api/admin/registrations", async (req, res) => {
+  try {
+    const statusFilter = req.query.status;
+    
+    let query = supabase
+      .from("Alpha_registration_data")
+      .select("*")
+      .order("created_at", { ascending: false });
 
-// server-supabase-index.js - FIXED POST ENDPOINT
+    if (statusFilter === "done" || statusFilter === "undone") {
+      query = query.eq("status", statusFilter);
+    }
+
+    const { data, error } = await query;
+    
+    if (error) {
+      console.error("❌ Supabase fetch error:", error);
+      return res.status(500).json({ success: false, message: "Error fetching registrations" });
+    }
+
+    console.log(`✅ Fetched ${data?.length || 0} registrations from Supabase`);
+    return res.status(200).json(data || []);
+  } catch (error) {
+    console.error("💥 Error fetching registrations:", error);
+    res.status(500).json({ success: false, message: "Error fetching registrations" });
+  }
+});
+
+/**
+ * POST /api/registrations
+ * Creates new tour booking in Supabase
+ * 
+ * COLUMN MAPPING (from table schema):
+ * - name, email, phone, tourTitle, people, unitPrice, totalPrice, status, message → as-is
+ * - created_at, updated_at → Supabase auto-generates these (don't include in insert)
+ */
 app.post("/api/registrations", async (req, res) => {
   try {
     const { name, email, phone, people, tourTitle, unitPrice, totalPrice } = req.body;
 
+    console.log("📥 Received registration request:", { name, email, tourTitle, people, totalPrice });
+
+    // Validation
     if (!name || !email || !phone || !tourTitle || !totalPrice) {
-      return res.status(400).json({ success: false, message: "Name, Email, Phone, Tour Title, and Total Price are required." });
+      return res.status(400).json({ 
+        success: false, 
+        message: "Name, Email, Phone, Tour Title, and Total Price are required." 
+      });
     }
 
-    // ✅ FIXED: Use camelCase to match your Supabase column names
-    const dbRow = {
+    // Prepare insert object - EXACT match to Supabase columns
+    // Note: We do NOT include 'id', 'created_at', or 'updated_at' as Supabase auto-generates these
+    const insertData = {
       name,
       email,
       phone,
-      tourTitle,  // ✅ Changed from tour_title
+      tourTitle,           // camelCase
       people: people || 1,
-      unitPrice: unitPrice || 0,  // ✅ Changed from unit_price
-      totalPrice,  // ✅ Changed from total_price
+      unitPrice: unitPrice || 0,   // camelCase
+      totalPrice,          // camelCase
       status: "undone",
-      createdAt: new Date().toISOString(),  // ✅ Changed from created_at
       message: `Booking request for ${tourTitle} (${people || 1} person(s)). Total: $${totalPrice}.`,
     };
 
-    console.log("🔍 Attempting to insert:", dbRow);
+    console.log("🔍 Inserting into Supabase:", insertData);
 
     // Insert into Supabase
-    const { data: insertData, error: insertError } = await supabase
+    const { data: result, error: insertError } = await supabase
       .from("Alpha_registration_data")
-      .insert([dbRow])
+      .insert([insertData])
       .select()
       .single();
 
-    console.log("📊 Supabase response:", { insertData, insertError });
+    console.log("📊 Supabase response:", { result, insertError });
 
     if (insertError) {
-      console.error("❌ Supabase insert error:", insertError);
+      console.error("❌ Supabase insert failed:", insertError);
+      console.error("❌ Error code:", insertError.code);
+      console.error("❌ Error message:", insertError.message);
+      console.error("❌ Error details:", insertError.details);
+      console.error("❌ Error hint:", insertError.hint);
 
       // Fallback to local file
       const fallback = {
         id: crypto.randomBytes(16).toString("hex"),
-        ...dbRow
+        ...insertData,
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString()
       };
 
       try {
         const registrations = loadJSON(REGISTRATION_FILE);
         registrations.push(fallback);
         saveJSON(REGISTRATION_FILE, registrations);
+        console.log("💾 Saved to local file as fallback");
       } catch (fileErr) {
         console.warn("⚠️ Could not save fallback:", fileErr.message);
       }
 
       return res.status(201).json({
-        success: true,
-        message: "Tour booking saved locally (Supabase insert failed).",
+        success: false,
+        message: "Failed to save to database. Check server logs.",
         data: fallback,
-        supabaseError: insertError,
+        supabaseError: {
+          code: insertError.code,
+          message: insertError.message,
+          details: insertError.details,
+          hint: insertError.hint
+        }
       });
     }
 
-    // ✅ Success - sync to local file
+    // ✅ SUCCESS!
+    console.log("✅ Successfully saved to Supabase! ID:", result.id);
+    
+    // Backup to local file
     try {
       const registrations = loadJSON(REGISTRATION_FILE);
-      registrations.push(insertData);
+      registrations.push(result);
       saveJSON(REGISTRATION_FILE, registrations);
+      console.log("💾 Also backed up to local file");
     } catch (fileErr) {
       console.warn("⚠️ Could not sync local JSON:", fileErr.message);
     }
 
     return res.status(201).json({ 
       success: true, 
-      message: "Tour booking saved successfully!", 
-      data: insertData 
+      message: "Tour booking saved successfully to database!", 
+      data: result 
     });
+
   } catch (err) {
-    console.error("💥 Error saving registration:", err);
-    return res.status(500).json({ success: false, message: "Error saving registration" });
+    console.error("💥 Unexpected error:", err);
+    console.error("💥 Stack trace:", err.stack);
+    return res.status(500).json({ 
+      success: false, 
+      message: "Internal server error",
+      error: NODE_ENV === "development" ? err.message : undefined
+    });
   }
 });
 
-// ✅ ALSO FIX THE PATCH ENDPOINT
+/**
+ * PATCH /api/admin/registrations/:id
+ * Updates registration status
+ */
 app.patch("/api/admin/registrations/:id", async (req, res) => {
   try {
     const { id } = req.params;
     const { status } = req.body;
 
+    console.log("📝 Update request:", { id, status });
+
+    // Validation
     if (status !== "done" && status !== "undone") {
-      return res.status(400).json({ success: false, message: "Invalid status value." });
+      return res.status(400).json({ 
+        success: false, 
+        message: "Invalid status. Must be 'done' or 'undone'." 
+      });
     }
 
     const idNumber = Number(id);
     if (Number.isNaN(idNumber)) {
-      return res.status(400).json({ success: false, message: "Invalid id" });
+      return res.status(400).json({ 
+        success: false, 
+        message: "Invalid ID format" 
+      });
     }
 
+    // Check if exists
     const { data: existing, error: selectErr } = await supabase
       .from("Alpha_registration_data")
       .select("*")
       .eq("id", idNumber)
-      .limit(1)
       .single();
 
     if (selectErr || !existing) {
       console.error("❌ Registration not found:", selectErr);
-      return res.status(404).json({ success: false, message: "Registration not found." });
+      return res.status(404).json({ 
+        success: false, 
+        message: "Registration not found" 
+      });
     }
 
-    // ✅ Use camelCase for updatedAt
+    // Update status (updated_at will auto-update if you have a trigger, or we set it manually)
     const { data: updated, error: updateErr } = await supabase
       .from("Alpha_registration_data")
-      .update({ status, updatedAt: new Date().toISOString() })  // Changed from updated_at
+      .update({ 
+        status,
+        updated_at: new Date().toISOString() // Manually set timestamp
+      })
       .eq("id", idNumber)
       .select()
       .single();
 
     if (updateErr) {
-      console.error("❌ Supabase update error:", updateErr);
-      return res.status(500).json({ success: false, message: "Error updating registration" });
+      console.error("❌ Update failed:", updateErr);
+      return res.status(500).json({ 
+        success: false, 
+        message: "Failed to update status" 
+      });
     }
+
+    console.log("✅ Successfully updated registration:", updated.id);
 
     // Sync local file
     try {
       const registrations = loadJSON(REGISTRATION_FILE);
-      const idx = registrations.findIndex((r) => Number(r.id) === idNumber);
+      const idx = registrations.findIndex(r => Number(r.id) === idNumber);
       if (idx !== -1) {
-        registrations[idx].status = status;
-        registrations[idx].updatedAt = new Date().toISOString();
+        registrations[idx] = updated;
         saveJSON(REGISTRATION_FILE, registrations);
       }
     } catch (fileErr) {
@@ -258,96 +328,33 @@ app.patch("/api/admin/registrations/:id", async (req, res) => {
 
     return res.status(200).json({
       success: true,
-      message: `Registration ${id} updated to status: ${status}`,
-      data: updated,
+      message: `Status updated to ${status}`,
+      data: updated
     });
+
   } catch (error) {
-    console.error("💥 Error patching registration:", error);
-    return res.status(500).json({ success: false, message: "Error updating registration" });
-  }
-});
-
-// ✅ REMOVE the mapDbToClient function - it's no longer needed
-// Since we're using camelCase everywhere, no mapping required!
-
-/**
- * PATCH /api/admin/registrations/:id
- * - expects numeric id (cast to Number) if your DB id is int8
- */
-app.patch("/api/admin/registrations/:id", async (req, res) => {
-  try {
-    const { id } = req.params;
-    const { status } = req.body;
-
-    if (status !== "done" && status !== "undone") {
-      return res.status(400).json({ success: false, message: "Invalid status value. Must be 'done' or 'undone'." });
-    }
-
-    const idNumber = Number(id);
-    if (Number.isNaN(idNumber)) {
-      return res.status(400).json({ success: false, message: "Invalid id; must be numeric" });
-    }
-
-    // Check existence
-    const { data: existing, error: selectErr } = await supabase
-      .from("Alpha_registration_data")
-      .select("*")
-      .eq("id", idNumber)
-      .limit(1)
-      .single();
-
-    if (selectErr || !existing) {
-      console.error("Supabase select for patch error or not found:", selectErr);
-      return res.status(404).json({ success: false, message: "Registration not found." });
-    }
-
-    const { data: updated, error: updateErr } = await supabase
-      .from("Alpha_registration_data")
-      .update({ status, updated_at: new Date().toISOString() })
-      .eq("id", idNumber)
-      .select()
-      .single();
-
-    if (updateErr) {
-      console.error("Supabase update error:", updateErr);
-      return res.status(500).json({ success: false, message: "Error updating registration" });
-    }
-
-    // sync local file (best-effort)
-    try {
-      const registrations = loadJSON(REGISTRATION_FILE);
-      const idx = registrations.findIndex((r) => String(r.id) === String(id) || Number(r.id) === idNumber);
-      if (idx !== -1) {
-        registrations[idx].status = status;
-        registrations[idx].updatedAt = new Date().toISOString();
-        saveJSON(REGISTRATION_FILE, registrations);
-      }
-    } catch (fileErr) {
-      console.warn("Warning: could not sync local JSON file after patch:", fileErr.message);
-    }
-
-    const mapped = mapDbToClient(updated);
-    return res.status(200).json({
-      success: true,
-      message: `Registration ${id} updated to status: ${status}`,
-      data: mapped,
+    console.error("💥 Error updating registration:", error);
+    return res.status(500).json({ 
+      success: false, 
+      message: "Error updating registration" 
     });
-  } catch (error) {
-    console.error("Error patching registration:", error);
-    return res.status(500).json({ success: false, message: "Error updating registration" });
   }
 });
 
 // Global error handler
 app.use((err, req, res, next) => {
-  console.error(`🚨 Global Error Handler Caught: ${err && (err.stack || err.message || err)}`);
+  console.error("🚨 Unhandled error:", err);
   res.status(500).json({
     success: false,
-    message: "Something went wrong on the server.",
-    error: NODE_ENV === "development" ? (err && (err.message || String(err))) : undefined,
+    message: "Something went wrong",
+    error: NODE_ENV === "development" ? err.message : undefined
   });
 });
 
+// Start server
 app.listen(PORT, () => {
-  console.log(`✅ Server running on http://localhost:${PORT} in ${NODE_ENV} mode`);
+  console.log(`✅ Server running on port ${PORT}`);
+  console.log(`📊 Environment: ${NODE_ENV}`);
+  console.log(`🔗 Supabase URL: ${process.env.SUPABASE_URL}`);
+  console.log(`🔑 Service role key configured: ${process.env.SUPABASE_SERVICE_ROLE_KEY ? 'Yes' : 'No'}`);
 });
