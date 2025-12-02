@@ -124,38 +124,7 @@ const mapDbToClient = (row) => {
   };
 };
 
-/**
- * GET /api/admin/registrations
- */
-app.get("/api/admin/registrations", async (req, res) => {
-  try {
-    const statusFilter = req.query.status;
-    let q = supabase.from("Alpha_registration_data").select("*").order("created_at", { ascending: false });
-
-    if (statusFilter === "done" || statusFilter === "undone") {
-      q = supabase.from("Alpha_registration_data").select("*").eq("status", statusFilter).order("created_at", { ascending: false });
-    }
-
-    const { data, error } = await q;
-    if (error) {
-      console.error("Supabase fetch error (GET list):", error);
-      return res.status(500).json({ success: false, message: "Error fetching registrations" });
-    }
-
-    // map to camelCase for client
-    const mapped = (data || []).map(mapDbToClient);
-    return res.status(200).json(mapped);
-  } catch (error) {
-    console.error("Error fetching registrations:", error);
-    res.status(500).json({ success: false, message: "Error fetching registrations" });
-  }
-});
-
-/**
- * POST /api/registrations
- * - insert into Supabase using snake_case column names
- * - log debug info and return DB row (mapped)
- */
+// server-supabase-index.js - FIXED POST ENDPOINT
 app.post("/api/registrations", async (req, res) => {
   try {
     const { name, email, phone, people, tourTitle, unitPrice, totalPrice } = req.body;
@@ -164,47 +133,38 @@ app.post("/api/registrations", async (req, res) => {
       return res.status(400).json({ success: false, message: "Name, Email, Phone, Tour Title, and Total Price are required." });
     }
 
-    // Prepare DB object with snake_case column names (match your Supabase table)
+    // ✅ FIXED: Use camelCase to match your Supabase column names
     const dbRow = {
       name,
       email,
       phone,
-      tour_title: tourTitle,
+      tourTitle,  // ✅ Changed from tour_title
       people: people || 1,
-      unit_price: unitPrice || 0,
-      total_price: totalPrice,
+      unitPrice: unitPrice || 0,  // ✅ Changed from unit_price
+      totalPrice,  // ✅ Changed from total_price
       status: "undone",
-      created_at: new Date().toISOString(),
+      createdAt: new Date().toISOString(),  // ✅ Changed from created_at
       message: `Booking request for ${tourTitle} (${people || 1} person(s)). Total: $${totalPrice}.`,
     };
+
+    console.log("🔍 Attempting to insert:", dbRow);
 
     // Insert into Supabase
     const { data: insertData, error: insertError } = await supabase
       .from("Alpha_registration_data")
       .insert([dbRow])
-      .select() // request the inserted row back
+      .select()
       .single();
 
-    // DEBUG - always log these so you can see what happened
-    console.log("DEBUG SUPABASE INSERT result:", { insertData, insertError });
+    console.log("📊 Supabase response:", { insertData, insertError });
 
     if (insertError) {
-      // If something went wrong with Supabase insert, log and fall back to local file
-      console.error("Supabase insert error:", insertError);
+      console.error("❌ Supabase insert error:", insertError);
 
-      // Attempt to create a local fallback record (with a hex id) so frontend still gets success UX
+      // Fallback to local file
       const fallback = {
         id: crypto.randomBytes(16).toString("hex"),
-        name,
-        email,
-        phone,
-        tourTitle,
-        people: people || 1,
-        unitPrice: unitPrice || 0,
-        totalPrice,
-        status: "undone",
-        createdAt: dbRow.created_at,
-        message: dbRow.message,
+        ...dbRow
       };
 
       try {
@@ -212,35 +172,103 @@ app.post("/api/registrations", async (req, res) => {
         registrations.push(fallback);
         saveJSON(REGISTRATION_FILE, registrations);
       } catch (fileErr) {
-        console.warn("Warning: could not save fallback local registration:", fileErr.message);
+        console.warn("⚠️ Could not save fallback:", fileErr.message);
       }
 
-      // Return fallback with explicit error message in response so you see it client-side
       return res.status(201).json({
         success: true,
-        message: "Tour booking saved locally (Supabase insert failed). Check server logs for Supabase error.",
+        message: "Tour booking saved locally (Supabase insert failed).",
         data: fallback,
         supabaseError: insertError,
       });
     }
 
-    // If insert succeeded, map DB row to client fields and respond
-    const mapped = mapDbToClient(insertData);
-    // Also update local file copy (optional)
+    // ✅ Success - sync to local file
     try {
       const registrations = loadJSON(REGISTRATION_FILE);
-      registrations.push({ ...mapped, createdAt: mapped.createdAt });
+      registrations.push(insertData);
       saveJSON(REGISTRATION_FILE, registrations);
     } catch (fileErr) {
-      console.warn("Warning: could not sync local JSON file:", fileErr.message);
+      console.warn("⚠️ Could not sync local JSON:", fileErr.message);
     }
 
-    return res.status(201).json({ success: true, message: "Tour booking saved successfully!", data: mapped });
+    return res.status(201).json({ 
+      success: true, 
+      message: "Tour booking saved successfully!", 
+      data: insertData 
+    });
   } catch (err) {
-    console.error("Error saving registration:", err && (err.stack || err.message || err));
+    console.error("💥 Error saving registration:", err);
     return res.status(500).json({ success: false, message: "Error saving registration" });
   }
 });
+
+// ✅ ALSO FIX THE PATCH ENDPOINT
+app.patch("/api/admin/registrations/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { status } = req.body;
+
+    if (status !== "done" && status !== "undone") {
+      return res.status(400).json({ success: false, message: "Invalid status value." });
+    }
+
+    const idNumber = Number(id);
+    if (Number.isNaN(idNumber)) {
+      return res.status(400).json({ success: false, message: "Invalid id" });
+    }
+
+    const { data: existing, error: selectErr } = await supabase
+      .from("Alpha_registration_data")
+      .select("*")
+      .eq("id", idNumber)
+      .limit(1)
+      .single();
+
+    if (selectErr || !existing) {
+      console.error("❌ Registration not found:", selectErr);
+      return res.status(404).json({ success: false, message: "Registration not found." });
+    }
+
+    // ✅ Use camelCase for updatedAt
+    const { data: updated, error: updateErr } = await supabase
+      .from("Alpha_registration_data")
+      .update({ status, updatedAt: new Date().toISOString() })  // Changed from updated_at
+      .eq("id", idNumber)
+      .select()
+      .single();
+
+    if (updateErr) {
+      console.error("❌ Supabase update error:", updateErr);
+      return res.status(500).json({ success: false, message: "Error updating registration" });
+    }
+
+    // Sync local file
+    try {
+      const registrations = loadJSON(REGISTRATION_FILE);
+      const idx = registrations.findIndex((r) => Number(r.id) === idNumber);
+      if (idx !== -1) {
+        registrations[idx].status = status;
+        registrations[idx].updatedAt = new Date().toISOString();
+        saveJSON(REGISTRATION_FILE, registrations);
+      }
+    } catch (fileErr) {
+      console.warn("⚠️ Could not sync local file:", fileErr.message);
+    }
+
+    return res.status(200).json({
+      success: true,
+      message: `Registration ${id} updated to status: ${status}`,
+      data: updated,
+    });
+  } catch (error) {
+    console.error("💥 Error patching registration:", error);
+    return res.status(500).json({ success: false, message: "Error updating registration" });
+  }
+});
+
+// ✅ REMOVE the mapDbToClient function - it's no longer needed
+// Since we're using camelCase everywhere, no mapping required!
 
 /**
  * PATCH /api/admin/registrations/:id
