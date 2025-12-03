@@ -1,109 +1,767 @@
-[
-  {
-    "id": "d1",
-    "name": "Samarkand",     
-    "heroImage":  "/images/samarqand/iStock-1249451586.jpg",
-    "summary": "Samarkand, 'The Jewel of the Silk Road,' is a city steeped in over 2,500 years of history, most famously as the glorious capital of Timur's empire. It's a mandatory stop for any traveler seeking to be awestruck by the sheer scale and beauty of Central Asian Islamic architecture, primarily showcased in its world-famous historical squares and complexes, earning its reputation as a UNESCO World Heritage site and a cultural melting pot.",
-    "bestTime": "April-May (pleasant spring weather with blossoms), September-October (ideal autumn temperatures)",
-    "travelTips": "Aim to visit Registan Square both during the day and at sunset to witness the color changes on the tiles. Book accommodations near the old town for easy walking access to major sites. Learning a few basic Russian or Uzbek phrases will greatly enhance your interactions with locals.",
-    "mustSee": [
-      "Registan Square: Three madrasas forming one of the world's most stunning Islamic architectural ensembles.",
-      "Gur-e-Amir Mausoleum: The ornate final resting place of Timur (Tamerlane).",
-      "Shah-i-Zinda: A breathtaking 'Avenue of Mausoleums' with vibrant azure-tiled tombs.",
-      "Bibi-Khanym Mosque: A colossal, historic mosque, once one of the largest in the Islamic world."
+{
+  "destinations": {
+    "en": [
+      {
+        "id": "d1",
+        "name": "Samarkand",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "Samarkand, 'The Jewel of the Silk Road,' is a city steeped in over 2,500 years of history, most famously as the glorious capital of Timur's empire. It's a mandatory stop for any traveler seeking to be awestruck by the sheer scale and beauty of Central Asian Islamic architecture, primarily showcased in its world-famous historical squares and complexes, earning its reputation as a UNESCO World Heritage site and a cultural melting pot.",
+        "bestTime": "April-May (pleasant spring weather with blossoms), September-October (ideal autumn temperatures)",
+        "travelTips": "Aim to visit Registan Square both during the day and at sunset to witness the color changes on the tiles. Book accommodations near the old town for easy walking access to major sites. Learning a few basic Russian or Uzbek phrases will greatly enhance your interactions with locals.",
+        "mustSee": [
+          "Registan Square: Three madrasas forming one of the world's most stunning Islamic architectural ensembles.",
+          "Gur-e-Amir Mausoleum: The ornate final resting place of Timur (Tamerlane).",
+          "Shah-i-Zinda: A breathtaking 'Avenue of Mausoleums' with vibrant azure-tiled tombs.",
+          "Bibi-Khanym Mosque: A colossal, historic mosque, once one of the largest in the Islamic world."
+        ],
+        "nature": "While Samarkand is an urban center, it is surrounded by the fertile Zeravshan River valley. Travelers can enjoy the local vineyards and orchards outside the city center, which are especially vibrant during the spring and autumn harvest. The nearby mountains offer opportunities for day trips and scenic views over the plains.",
+        "food": "Samarkand is famous for its bread, *non*, which is baked in a unique tandoor and stamped with traditional patterns. You must try the local variation of *plov* (pilaf), often cooked with chickpeas and raisins, giving it a sweeter flavor profile. Also sample *shashlik* (kebabs) from one of the many street vendors near the sites.",
+        "gettingThere": "Samarkand is accessible by high-speed *Afrosiyob* train from Tashkent (approx. 2 hours) and Bukhara. The Samarkand International Airport (SKD) receives a growing number of international and domestic flights.",
+        "featureDescription": "Samarkand's best feature is its awe-inspiring, world-class Islamic Architecture and its profound historical significance as the glittering capital of the legendary Timurid Empire. The city's magnificent structures, particularly the Registan Square with its trio of grand madrasas, showcase a mastery of tilework and monumental scale unmatched across Central Asia. This rich heritage makes Samarkand a vibrant UNESCO World Heritage Site that functions as a stunning physical timeline of the Silk Road's intellectual and artistic peak, offering a truly grand experience of imperial history."
+      },
+      {
+        "id": "d2",
+        "name": "Bukhara",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "Bukhara is often called a 'living museum' due to its miraculously well-preserved, centuries-old historic center, which contains over 140 protected architectural monuments. This UNESCO World Heritage Site served as a major intellectual and spiritual hub on the Silk Road, offering a deeply authentic and immersive journey back in time, characterized by its labyrinthine alleyways, ancient *madrasas*, and peaceful central pools.",
+        "bestTime": "March-May (cool spring) or September-November (mild autumn) to avoid intense summer heat.",
+        "travelTips": "Stay within or close to the old town (Shakhristan) to experience the city's atmosphere fully, as most sights are within walking distance. Remember to bargain politely and with a smile when purchasing crafts at the historic dome bazaars. Try to find a local tea house near Lyabi-Hauz for people-watching.",
+        "mustSee": [
+          "Ark Citadel: An immense, ancient royal fortress and town-within-a-town dating back over 2,000 years.",
+          "Poi Kalyan Complex: Dominated by the iconic, 47-meter-tall Kalyan Minaret and Mosque.",
+          "Lyabi-Hauz: A historic plaza surrounding an ancient pool, perfect for evening strolls and relaxation.",
+          "Chor Minor: A unique, beautiful gatehouse with four distinctive turquoise-domed minarets."
+        ],
+        "nature": "Bukhara sits near the Kyzylkum Desert, giving the region a stark, arid beauty. While lush greenery is less common than in Fergana, the gardens and parks around the city's pools (*hauz*) provide lovely, shaded oases. You can also organize day trips into the desert for a unique landscape experience.",
+        "food": "A must-try dish in Bukhara is *shurpa*, a hearty, traditional meat and vegetable soup. The local *samsa* (baked meat pastries) are exceptionally good, often baked in a tandoor. Seek out Bukharan Jewish cuisine for unique flavors, such as *osh-savo*, a meat and rice dish distinct from *plov*.",
+        "gettingThere": "Regular, comfortable high-speed and conventional trains connect Bukhara to Samarkand and Tashkent. Bukhara International Airport (BHK) also offers regional flights.",
+        "featureDescription": "The defining feature of Bukhara is its status as a 'Living Museum,' due to its miraculously preserved and extensive historic center. Unlike many ancient cities, its core remains incredibly intact, offering a deeply authentic and immersive journey into medieval Central Asia. With over 140 protected monuments, including labyrinthine alleyways and peaceful Lyabi-Hauz pools, Bukhara’s old town is a UNESCO World Heritage site where history is not just displayed but actively felt. This seamless integration of the ancient and the present gives the city an unparalleled, timeless atmosphere."
+      },
+      {
+        "id": "d3",
+        "name": "Khiva",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "Khiva is an entire walled city, the **Ichan-Kala**, which has been perfectly preserved, offering travelers an unparalleled, immersive journey into medieval Central Asia. Walking its fortified walls and navigating its narrow, sandy lanes, surrounded by mosques and *madrasas* clad in breathtaking turquoise and blue tiles, truly makes it feel like a perfectly preserved open-air museum and the most intimate of the Silk Road's great oases.",
+        "bestTime": "April-June and September-October. The summer months (July/August) can be extremely hot.",
+        "travelTips": "Dedicate time to climb one of the minarets, like Islam Khoja's, just before sunset; the view of the tiled city glowing in the golden light is unforgettable. Be prepared to purchase a single, comprehensive entrance ticket to the Ichan-Kala, which grants access to most internal museums and monuments. Support local artisans by watching and purchasing their handmade crafts inside the city walls.",
+        "mustSee": [
+          "Ichan-Kala: The entire walled inner city, a UNESCO site, featuring over 50 historic monuments.",
+          "Kalta Minor Minaret: The iconic, stubby, turquoise-tiled minaret that defines the Khiva skyline.",
+          "Tash Hauli Palace: The lavishly decorated residence of the Khans, showcasing rich tilework and courtyards.",
+          "Juma Mosque: A unique mosque notable for its cool, dark interior supported by over 200 intricately carved wooden columns."
+        ],
+        "nature": "Khiva is situated in the Khorezm region, close to the Amu Darya river, which historically sustained its oasis. Although surrounded by desert, the oasis environment means the city has pockets of greenery and the climate is notably drier. The scenic backdrop is the endless, flat expanse of the Central Asian desert.",
+        "food": "The specialty of the Khorezm region is *tukhum barak*, pasta pockets filled with egg that are surprisingly delicate and delicious. You should also try *shivit oshi*, a distinctive regional pasta dish where the noodles are naturally dyed green with dill. The local *manti* (dumplings) are also excellent.",
+        "gettingThere": "The most common way to arrive is to fly to Urgench (UGC) from Tashkent, followed by a 30-minute taxi to Khiva. Conventional trains connect Khiva with Bukhara (a long, scenic desert journey).",
+        "featureDescription": "Khiva's most exceptional feature is the **Ichan-Kala**, a perfectly intact, walled inner city that functions as an unparalleled, living open-air museum. Unlike other Silk Road destinations, Khiva's historical core is entirely contained within high, fortified brick walls, offering an incredibly intimate and immersive journey back to the era of the Khans. Walking its narrow, sandy lanes, one is surrounded by dazzling turquoise-tiled mosques, madrasas, and the iconic Kalta Minor Minaret, making it the most visually complete and best-preserved Silk Road oasis experience."
+      },
+      {
+        "id": "d4",
+        "name": "Tashkent",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "As the largest city in Central Asia, Tashkent is the vibrant, modern capital of Uzbekistan, offering a unique blend of Soviet-era monumental architecture, contemporary glass and steel development, and deeply rooted Islamic heritage. It serves as the country's main economic and cultural engine, providing a fascinating contrast to the ancient Silk Road cities and acting as the primary international gateway for most travelers.",
+        "bestTime": "March-May and September-November, when the weather is mild and comfortable for city exploration.",
+        "travelTips": "Make sure to use the Tashkent Metro for transport; it's incredibly cheap, efficient, and many of the stations are stunning, decorated like underground palaces. Exchange currency at official bank booths upon arrival as rates are generally standardized. Download a local ride-hailing app for convenient and inexpensive taxi services.",
+        "mustSee": [
+          "Chorsu Bazaar: A massive, vibrant domed market where you can buy everything from spices to clothing.",
+          "Khast Imam Complex: The religious center of the city, housing the world-famous, 7th-century Uthman Quran.",
+          "Tashkent Metro: The beautifully decorated Soviet-era subway stations, each with a unique theme and design.",
+          "Amir Timur Museum: Dedicated to the life and legacy of the great emperor, a key figure in Uzbek history."
+        ],
+        "nature": "Tashkent is known for its many green spaces, parks, and tree-lined streets, making it a very walkable and pleasant capital. The nearby Chimgan Mountains (often called 'Uzbek Switzerland') offer fantastic weekend escapes with opportunities for hiking, skiing (in winter), and enjoying crisp mountain air and beautiful high-altitude scenery.",
+        "food": "Tashkent is the best place to sample a wide variety of Uzbek cuisine, but you must find a proper *Plov Center* to experience the national dish cooked in huge *kazans*. The city also has excellent international cuisine options. Try *laghman* (hand-pulled noodles with meat and vegetables) and the various fresh salads, like *achichuk* (tomato and onion), which are perfect for a main course.",
+        "gettingThere": "Tashkent International Airport (TAS) is the largest and most connected airport in Uzbekistan, serving as the main hub for international travel. High-speed rail connects it easily to Samarkand and Bukhara.",
+        "featureDescription": "Tashkent's defining characteristic is its role as the **Modern Capital and Cultural Engine** of Uzbekistan, presenting a striking duality to the ancient Silk Road towns. It offers a unique fusion of wide, tree-lined avenues and monumental architecture from the Soviet era alongside modern glass towers and deeply respected historical sites like the Khast Imam Complex. This blend makes it a dynamic hub for contemporary Central Asian life and the arts, while its beautifully decorated metro stations and vibrant Chorsu Bazaar provide accessible glimpses into both its recent past and its bustling present."
+      },
+      {
+        "id": "d5",
+        "name": "Fergana Valley",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "The Fergana Valley is the most fertile and densely populated region of Uzbekistan, often referred to as the 'Garden of Uzbekistan.' It is a distinct cultural area renowned for its traditional crafts, including silk production and ceramics, and offers a glimpse into authentic rural life and the agricultural heart of the country, far from the main tourist trail of the Silk Road cities.",
+        "bestTime": "April-June for spring blossoms and pleasant heat, or August-September for the bountiful fruit harvest.",
+        "travelTips": "The best way to experience the valley is to visit the specialized workshops in each town, like the silk factory in Margilan or the ceramic studios in Rishtan. Due to the regional dialect and less tourist traffic, hiring a local guide is highly recommended, especially for navigating the rural areas and markets. Don't miss out on trying the incredible fresh fruits and local sweets.",
+        "mustSee": [
+          "Margilan: An ancient Silk Road city still famous for its traditional *ikat* and silk production methods.",
+          "Kokand: The former capital of the Kokand Khanate, featuring impressive palaces like the Khudayar Khan Palace.",
+          "Rishtan: Internationally renowned for its distinctive, stunning blue and turquoise ceramic pottery.",
+          "Rural Villages: Experience authentic Uzbek hospitality and traditional life away from major urban centers."
+        ],
+        "nature": "The valley is an agricultural powerhouse, fed by the Syr Darya river, creating a lush, green landscape of cotton fields, fruit orchards, and vegetable farms. Its setting, nestled between the Kurama and Alay mountain ranges, provides beautiful vistas, especially during the spring when the valley is in full bloom.",
+        "food": "The valley's food is characterized by its use of fresh produce. Be sure to try *Fergana Plov*, often darker and richer than other regional versions. *Damlam* (a steamed meat and vegetable stew) is a local comfort food. Given its status as the fruit basket, you must sample the seasonal fresh apricots, grapes, and melons, which are considered some of the best in Central Asia.",
+        "gettingThere": "Shared taxis and buses are the primary means of transport between the valley's cities (Fergana, Kokand, Andijan). New road tunnels connecting the valley with Tashkent have significantly improved travel times.",
+        "featureDescription": "The primary feature of the Fergana Valley is its role as the **Traditional Craft and Agricultural Heart** of Uzbekistan, often called the 'Garden of Uzbekistan.' Nestled between mountain ranges, its extraordinary fertility, fed by the Syr Darya river, supports a lush landscape of orchards and fields. Culturally, it is distinct and renowned for traditional, centuries-old artisanal production, particularly the vibrant *ikat* silk weaving of Margilan and the internationally celebrated blue ceramic pottery from Rishtan. This region offers travelers a unique, authentic glimpse into the nation's traditional and rural life, away from the main tourist hubs."
+      },
+      {
+        "id": "d6",
+        "name": "Nukus & Aral Sea",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "Nukus, the capital of the autonomous Karakalpakstan region, and the Aral Sea offer a stark, poignant contrast to the opulence of the Silk Road cities. This region provides a powerful journey into environmental history with the haunting 'ship graveyard' at Moynaq, which stands as a monument to ecological disaster, combined with the world-class Savitsky Museum—a true hidden gem of avant-garde art—making it an essential stop for the adventurous and culturally curious traveler.",
+        "bestTime": "April-May and September-October. Avoid the extreme cold of winter and the intense heat of summer.",
+        "travelTips": "Plan your trip well in advance, as this region is remote and transport is less frequent. The Savitsky Museum is a world-class hidden gem, so dedicate a full morning or afternoon to explore its unique collection. When visiting the Aral Sea site, be prepared for a long, bumpy 4WD journey across the desert, and wear layers as desert temperatures can fluctuate dramatically.",
+        "mustSee": [
+          "Savitsky Museum: One of the world's finest collections of forbidden Russian avant-garde art.",
+          "Aral Sea Ship Graveyard (Moynaq): Rusting ships stranded in the desert, a powerful ecological monument.",
+          "Mizdakhan Necropolis: An ancient hilltop burial site with impressive mausoleums and panoramic views."
+        ],
+        "nature": "The nature here is defined by the Aral Sea disaster. The trip to the 'sea' is a journey across the desiccated Aralkum Desert, which was once the seabed. This provides a stark, powerful, and unique landscape, completely different from the rest of Uzbekistan, offering an unforgettable and sobering look at human impact on the environment.",
+        "food": "The cuisine in Karakalpakstan is distinct, reflecting its proximity to the Aral Sea (historically). Try *beshbarmak* (boiled meat and pasta sheets) or *zhuri* (a sour milk soup). Given the remote location and the local history, meals here are often simple, hearty, and focused on sustenance, providing an authentic taste of the Karakalpak nomadic heritage.",
+        "gettingThere": "The best way to reach Nukus is by flying from Tashkent (NKS). Reaching the Aral Sea area (Moynaq and the shore) requires hiring a specialized 4WD vehicle and driver for a challenging 8-10 hour round-trip from Nukus.",
+        "featureDescription": "The key feature of the Nukus and Aral Sea region is the profound **Ecological and Cultural Contrast** it presents to the rest of the country. This remote region offers a powerful, sobering journey into environmental history, centered around the haunting ship graveyard at Moynaq, a stark monument to the Aral Sea disaster. Counterbalancing this unique desert landscape is the world-renowned Savitsky Museum in Nukus, a true hidden gem housing one of the planet's best collections of forbidden Russian avant-garde art, making this an essential and emotionally complex stop for the culturally curious."
+      }
     ],
-    "nature": "While Samarkand is an urban center, it is surrounded by the fertile Zeravshan River valley. Travelers can enjoy the local vineyards and orchards outside the city center, which are especially vibrant during the spring and autumn harvest. The nearby mountains offer opportunities for day trips and scenic views over the plains.",
-    "food": "Samarkand is famous for its bread, *non*, which is baked in a unique tandoor and stamped with traditional patterns. You must try the local variation of *plov* (pilaf), often cooked with chickpeas and raisins, giving it a sweeter flavor profile. Also sample *shashlik* (kebabs) from one of the many street vendors near the sites.",
-    "gettingThere": "Samarkand is accessible by high-speed *Afrosiyob* train from Tashkent (approx. 2 hours) and Bukhara. The Samarkand International Airport (SKD) receives a growing number of international and domestic flights.",
-    "featureDescription": "Samarkand's best feature is its awe-inspiring, world-class Islamic Architecture and its profound historical significance as the glittering capital of the legendary Timurid Empire. The city's magnificent structures, particularly the Registan Square with its trio of grand madrasas, showcase a mastery of tilework and monumental scale unmatched across Central Asia. This rich heritage makes Samarkand a vibrant UNESCO World Heritage Site that functions as a stunning physical timeline of the Silk Road's intellectual and artistic peak, offering a truly grand experience of imperial history."
-  },
-  {
-    "id": "d2",
-    "name": "Bukhara",
-    "heroImage":  "/images/buxoro/service_content-5d77b07839e46.jpg",
-    "summary": "Bukhara is often called a 'living museum' due to its miraculously well-preserved, centuries-old historic center, which contains over 140 protected architectural monuments. This UNESCO World Heritage Site served as a major intellectual and spiritual hub on the Silk Road, offering a deeply authentic and immersive journey back in time, characterized by its labyrinthine alleyways, ancient *madrasas*, and peaceful central pools.",
-    "bestTime": "March-May (cool spring) or September-November (mild autumn) to avoid intense summer heat.",
-    "travelTips": "Stay within or close to the old town (Shakhristan) to experience the city's atmosphere fully, as most sights are within walking distance. Remember to bargain politely and with a smile when purchasing crafts at the historic dome bazaars. Try to find a local tea house near Lyabi-Hauz for people-watching.",
-    "mustSee": [
-      "Ark Citadel: An immense, ancient royal fortress and town-within-a-town dating back over 2,000 years.",
-      "Poi Kalyan Complex: Dominated by the iconic, 47-meter-tall Kalyan Minaret and Mosque.",
-      "Lyabi-Hauz: A historic plaza surrounding an ancient pool, perfect for evening strolls and relaxation.",
-      "Chor Minor: A unique, beautiful gatehouse with four distinctive turquoise-domed minarets."
+    "ru": [
+      {
+        "id": "d1",
+        "name": "Самарканд",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "Самарканд, «Жемчужина Шелкового пути», — это город с более чем 2500-летней историей, наиболее известный как славная столица империи Тимура. Это обязательная остановка для любого путешественника, стремящегося быть пораженным масштабами и красотой центральноазиатской исламской архитектуры, в первую очередь демонстрируемой в его всемирно известных исторических площадях и комплексах, что принесло ему репутацию объекта Всемирного наследия ЮНЕСКО и культурного плавильного котла.",
+        "bestTime": "Апрель-май (приятная весенняя погода с цветением), Сентябрь-октябрь (идеальная осенняя температура)",
+        "travelTips": "Постарайтесь посетить площадь Регистан как днем, так и на закате, чтобы увидеть изменения цвета плитки. Бронируйте жилье рядом со старым городом для легкого доступа к основным достопримечательностям. Изучение нескольких базовых фраз на русском или узбекском языке значительно улучшит ваше общение с местными жителями.",
+        "mustSee": [
+          "Площадь Регистан: Три медресе, образующие один из самых потрясающих исламских архитектурных ансамблей в мире.",
+          "Мавзолей Гур-Эмир: Богато украшенное место последнего упокоения Тимура (Тамерлана).",
+          "Шахи-Зинда: Захватывающая «Аллея мавзолеев» с яркими, лазурно-плиточными гробницами.",
+          "Мечеть Биби-Ханым: Колоссальная, историческая мечеть, когда-то одна из крупнейших в исламском мире."
+        ],
+        "nature": "Хотя Самарканд является городским центром, он окружен плодородной долиной реки Зеравшан. Путешественники могут насладиться местными виноградниками и садами за пределами центра города, которые особенно яркие во время весеннего и осеннего сбора урожая. Близлежащие горы предлагают возможности для однодневных поездок и живописных видов на равнины.",
+        "food": "Самарканд славится своим хлебом, *нон*, который пекут в уникальном тандыре и штампуют традиционными узорами. Вы обязательно должны попробовать местный вариант *плова*, часто приготовленный с нутом и изюмом, что придает ему более сладкий вкус. Также попробуйте *шашлык* (кебабы) у одного из многочисленных уличных торговцев рядом с достопримечательностями.",
+        "gettingThere": "До Самарканда можно добраться на высокоскоростном поезде *Афросиёб* из Ташкента (около 2 часов) и Бухары. Международный аэропорт Самарканда (SKD) принимает все больше международных и внутренних рейсов.",
+        "featureDescription": "Лучшая черта Самарканда – это его впечатляющая, мирового класса Исламская архитектура и глубокое историческое значение как блестящей столицы легендарной Империи Тимуридов. Величественные сооружения города, в частности площадь Регистан с ее трио грандиозных медресе, демонстрируют мастерство плиточной работы и монументальный масштаб, не имеющий себе равных во всей Центральной Азии. Это богатое наследие делает Самарканд ярким объектом Всемирного наследия ЮНЕСКО, который функционирует как потрясающая физическая временная шкала интеллектуального и художественного пика Шелкового пути, предлагая поистине грандиозный опыт имперской истории."
+      },
+      {
+        "id": "d2",
+        "name": "Бухара",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "Бухару часто называют «живым музеем» благодаря ее чудом хорошо сохранившемуся, вековому историческому центру, который содержит более 140 охраняемых архитектурных памятников. Этот объект Всемирного наследия ЮНЕСКО служил крупным интеллектуальным и духовным центром на Шелковом пути, предлагая глубоко аутентичное и захватывающее путешествие в прошлое, характеризующееся лабиринтами переулков, древними *медресе* и мирными центральными водоемами.",
+        "bestTime": "Март-май (прохладная весна) или Сентябрь-ноябрь (мягкая осень), чтобы избежать сильной летней жары.",
+        "travelTips": "Останавливайтесь в старом городе (Шахристан) или рядом с ним, чтобы в полной мере ощутить атмосферу города, поскольку большинство достопримечательностей находятся в пешей доступности. Не забудьте вежливо и с улыбкой торговаться при покупке ремесел на исторических купольных базарах. Попробуйте найти местную чайхану рядом с Ляби-Хаузом, чтобы наблюдать за людьми.",
+        "mustSee": [
+          "Крепость Арк: Огромная, древняя королевская крепость и город в городе, датируемая более чем 2000 лет назад.",
+          "Комплекс Пои-Калян: Доминирует культовый, 47-метровый минарет Калян и мечеть.",
+          "Ляби-Хауз: Историческая площадь, окружающая древний водоем, идеальная для вечерних прогулок и отдыха.",
+          "Чор-Минор: Уникальный, красивый ворота с четырьмя характерными бирюзово-купольными минаретами."
+        ],
+        "nature": "Бухара расположена недалеко от пустыни Кызылкум, что придает региону суровую, засушливую красоту. Хотя пышная зелень встречается реже, чем в Фергане, сады и парки вокруг городских водоемов (*хауз*) обеспечивают прекрасные, тенистые оазисы. Вы также можете организовать однодневные поездки в пустыню для получения уникального ландшафтного опыта.",
+        "food": "Обязательное к употреблению блюдо в Бухаре — *шурпа*, сытный, традиционный суп из мяса и овощей. Местные *самса* (запеченные мясные пирожки) исключительно хороши, их часто пекут в тандыре. Поищите бухарско-еврейскую кухню с уникальными вкусами, такими как *ош-саво*, мясное и рисовое блюдо, отличное от *плова*.",
+        "gettingThere": "Регулярные, комфортабельные высокоскоростные и обычные поезда соединяют Бухару с Самаркандом и Ташкентом. Международный аэропорт Бухары (BHK) также предлагает региональные рейсы.",
+        "featureDescription": "Определяющей чертой Бухары является ее статус «Живого музея» благодаря чудом сохранившемуся и обширному историческому центру. В отличие от многих древних городов, ее ядро остается невероятно нетронутым, предлагая глубоко аутентичное и захватывающее путешествие в средневековую Центральную Азию. С более чем 140 охраняемыми памятниками, включая лабиринты переулков и мирные водоемы Ляби-Хауз, старый город Бухары является объектом Всемирного наследия ЮНЕСКО, где история не просто демонстрируется, а активно ощущается. Эта плавная интеграция древнего и настоящего придает городу беспрецедентную, вневременную атмосферу."
+      },
+      {
+        "id": "d3",
+        "name": "Хива",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "Хива — это целый обнесенный стеной город, **Ичан-Кала**, который был идеально сохранен, предлагая путешественникам беспрецедентное, захватывающее путешествие в средневековую Центральную Азию. Прогулка по его укрепленным стенам и навигация по его узким, песчаным переулкам, окруженным мечетями и *медресе*, облицованными захватывающей бирюзовой и синей плиткой, действительно создает ощущение идеально сохранившегося музея под открытым небом и самого интимного из великих оазисов Шелкового пути.",
+        "bestTime": "Апрель-июнь и Сентябрь-октябрь. Летние месяцы (июль/август) могут быть чрезвычайно жаркими.",
+        "travelTips": "Уделите время, чтобы подняться на один из минаретов, например, Ислам-Ходжа, прямо перед закатом; вид на город с плиткой, сияющий золотым светом, незабываем. Будьте готовы приобрести единый, комплексный входной билет в Ичан-Калу, который предоставляет доступ к большинству внутренних музеев и памятников. Поддержите местных ремесленников, наблюдая и покупая их ручные изделия внутри городских стен.",
+        "mustSee": [
+          "Ичан-Кала: Весь обнесенный стеной внутренний город, объект ЮНЕСКО, включающий более 50 исторических памятников.",
+          "Минарет Кальта-Минор: Культовый, укороченный, бирюзово-плиточный минарет, который определяет горизонт Хивы.",
+          "Дворец Таш-Хаули: Роскошно украшенная резиденция ханов, демонстрирующая богатую плитку и дворы.",
+          "Мечеть Джума: Уникальная мечеть, примечательная своим прохладным, темным интерьером, поддерживаемым более чем 200 искусно вырезанными деревянными колоннами."
+        ],
+        "nature": "Хива расположена в Хорезмской области, недалеко от реки Амударья, которая исторически питала ее оазис. Хотя она окружена пустыней, оазисная среда означает, что в городе есть участки зелени, а климат заметно суше. Живописный фон — бесконечная, плоская даль Центральноазиатской пустыни.",
+        "food": "Специалитет Хорезмской области — *тухум барак*, карманы из теста, наполненные яйцом, которые удивительно нежны и вкусны. Вы также должны попробовать *шивит оши*, отличительное региональное блюдо из пасты, где лапша натурально окрашена в зеленый цвет укропом. Местные *манты* (пельмени) также превосходны.",
+        "gettingThere": "Самый распространенный способ прибытия — это полет в Ургенч (UGC) из Ташкента, за которым следует 30-минутная поездка на такси до Хивы. Обычные поезда соединяют Хиву с Бухарой (долгое, живописное путешествие по пустыне).",
+        "featureDescription": "Самая исключительная черта Хивы — это **Ичан-Кала**, идеально нетронутый, обнесенный стеной внутренний город, который функционирует как беспрецедентный, живой музей под открытым небом. В отличие от других направлений Шелкового пути, историческое ядро Хивы полностью содержится в высоких, укрепленных кирпичных стенах, предлагая невероятно интимное и захватывающее путешествие обратно в эпоху ханов. Прогуливаясь по его узким, песчаным переулкам, вы окружены ослепительными бирюзово-плиточными мечетями, медресе и культовым минаретом Кальта-Минор, что делает его самым визуально полным и лучше всего сохранившимся опытом оазиса Шелкового пути."
+      },
+      {
+        "id": "d4",
+        "name": "Ташкент",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "Будучи крупнейшим городом в Центральной Азии, Ташкент является яркой, современной столицей Узбекистана, предлагающей уникальное сочетание монументальной архитектуры советской эпохи, современного развития из стекла и стали и глубоко укоренившегося исламского наследия. Он служит главным экономическим и культурным двигателем страны, обеспечивая увлекательный контраст древним городам Шелкового пути и выступая в качестве основного международного шлюза для большинства путешественников.",
+        "bestTime": "Март-май и Сентябрь-ноябрь, когда погода мягкая и комфортная для изучения города.",
+        "travelTips": "Обязательно используйте Ташкентское метро для транспорта; оно невероятно дешевое, эффективное, и многие станции потрясающе украшены, как подземные дворцы. Обменивайте валюту в официальных банковских киосках по прибытии, так как курсы, как правило, стандартизированы. Загрузите местное приложение для вызова такси для удобных и недорогих услуг такси.",
+        "mustSee": [
+          "Базар Чорсу: Массивный, яркий купольный рынок, где можно купить все, от специй до одежды.",
+          "Комплекс Хаст Имам: Религиозный центр города, где хранится всемирно известный Коран Усмана VII века.",
+          "Ташкентское метро: Красиво украшенные станции метро советской эпохи, каждая из которых имеет уникальную тему и дизайн.",
+          "Музей Амира Тимура: Посвящен жизни и наследию великого императора, ключевой фигуры в истории Узбекистана."
+        ],
+        "nature": "Ташкент известен своими многочисленными зелеными насаждениями, парками и обсаженными деревьями улицами, что делает его очень удобной для прогулок и приятной столицей. Близлежащие горы Чимган (часто называемые «Узбекской Швейцарией») предлагают фантастические побеги на выходные с возможностями для пеших прогулок, катания на лыжах (зимой) и наслаждения свежим горным воздухом и красивыми высокогорными пейзажами.",
+        "food": "Ташкент — лучшее место, чтобы попробовать широкий спектр узбекской кухни, но вы должны найти подходящий *Плов Центр*, чтобы попробовать национальное блюдо, приготовленное в огромных *казанах*. В городе также есть отличные варианты международной кухни. Попробуйте *лагман* (лапша ручной работы с мясом и овощами) и различные свежие салаты, такие как *ачичук* (помидоры и лук), которые идеально подходят для основного блюда.",
+        "gettingThere": "Международный аэропорт Ташкента (TAS) является крупнейшим и наиболее связанным аэропортом в Узбекистане, служащим основным узлом для международных поездок. Высокоскоростная железная дорога легко соединяет его с Самаркандом и Бухарой.",
+        "featureDescription": "Определяющая характеристика Ташкента — его роль **Современной Столицы и Культурного Двигателя** Узбекистана, представляющая поразительную двойственность древним городам Шелкового пути. Он предлагает уникальное слияние широких, обсаженных деревьями проспектов и монументальной архитектуры советской эпохи наряду с современными стеклянными башнями и глубоко уважаемыми историческими местами, такими как комплекс Хаст Имам. Эта смесь делает его динамичным центром современной центральноазиатской жизни и искусства, в то время как его красиво украшенные станции метро и яркий базар Чорсу предоставляют доступные проблески как его недавнего прошлого, так и его шумного настоящего."
+      },
+      {
+        "id": "d5",
+        "name": "Ферганская долина",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "Ферганская долина — самый плодородный и густонаселенный регион Узбекистана, который часто называют «Садом Узбекистана». Это отдельный культурный район, известный своими традиционными ремеслами, включая производство шелка и керамики, и предлагает взглянуть на аутентичную сельскую жизнь и сельскохозяйственное сердце страны, вдали от основного туристического маршрута городов Шелкового пути.",
+        "bestTime": "Апрель-июнь для весеннего цветения и приятного тепла, или Август-сентябрь для обильного сбора фруктов.",
+        "travelTips": "Лучший способ познакомиться с долиной — посетить специализированные мастерские в каждом городе, такие как шелковая фабрика в Маргилане или керамические студии в Риштане. Из-за регионального диалекта и меньшего туристического потока настоятельно рекомендуется нанять местного гида, особенно для навигации по сельской местности и рынкам. Не пропустите попробовать невероятные свежие фрукты и местные сладости.",
+        "mustSee": [
+          "Маргилан: Древний город Шелкового пути, до сих пор известный своими традиционными методами производства *икат* и шелка.",
+          "Коканд: Бывшая столица Кокандского ханства, с впечатляющими дворцами, такими как Дворец Худояр-хана.",
+          "Риштан: Всемирно известный своей отличительной, потрясающей синей и бирюзовой керамической посудой.",
+          "Сельские деревни: Ощутите аутентичное узбекское гостеприимство и традиционную жизнь вдали от крупных городских центров."
+        ],
+        "nature": "Долина является сельскохозяйственной электростанцией, питаемой рекой Сырдарья, создавая пышный, зеленый ландшафт хлопковых полей, фруктовых садов и овощных ферм. Ее расположение, расположенное между горными хребтами Курама и Алай, обеспечивает красивые виды, особенно весной, когда долина в полном цвету.",
+        "food": "Кухня долины характеризуется использованием свежих продуктов. Обязательно попробуйте *Ферганский плов*, часто более темный и богатый, чем другие региональные версии. *Дамлам* (тушеное мясо и овощное рагу на пару) — это местная комфортная еда. Учитывая ее статус фруктовой корзины, вы должны попробовать сезонные свежие абрикосы, виноград и дыни, которые считаются одними из лучших в Центральной Азии.",
+        "gettingThere": "Общие такси и автобусы являются основными средствами транспорта между городами долины (Фергана, Коканд, Андижан). Новые дорожные туннели, соединяющие долину с Ташкентом, значительно улучшили время в пути.",
+        "featureDescription": "Основная черта Ферганской долины — ее роль **Традиционного Ремесленного и Сельскохозяйственного Сердца** Узбекистана, часто называемого «Садом Узбекистана». Расположенная между горными хребтами, ее необычайное плодородие, питаемое рекой Сырдарья, поддерживает пышный ландшафт садов и полей. В культурном отношении она отличается и известна традиционным, вековым ремесленным производством, в частности ярким шелковым ткачеством *икат* в Маргилане и всемирно известной синей керамической посудой из Риштана. Этот регион предлагает путешественникам уникальный, аутентичный взгляд на традиционную и сельскую жизнь нации, вдали от основных туристических центров."
+      },
+      {
+        "id": "d6",
+        "name": "Нукус и Аральское море",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "Нукус, столица автономной Каракалпакстана, и Аральское море предлагают резкий, острый контраст роскоши городов Шелкового пути. Этот регион обеспечивает мощное путешествие в историю окружающей среды с преследующим «кладбищем кораблей» в Муйнаке, которое стоит как памятник экологической катастрофе, в сочетании с музеем Савицкого мирового класса — настоящей скрытой жемчужиной авангардного искусства — что делает его обязательной остановкой для предприимчивого и культурно любознательного путешественника.",
+        "bestTime": "Апрель-май и Сентябрь-октябрь. Избегайте экстремального холода зимой и сильной жары летом.",
+        "travelTips": "Планируйте свою поездку заранее, так как этот регион удаленный, и транспорт менее частый. Музей Савицкого — это скрытая жемчужина мирового класса, поэтому выделите целое утро или вторую половину дня для изучения его уникальной коллекции. При посещении Аральского моря будьте готовы к долгой, ухабистой поездке на полноприводном автомобиле по пустыне, и одевайтесь слоями, так как температура в пустыне может резко колебаться.",
+        "mustSee": [
+          "Музей Савицкого: Одна из лучших в мире коллекций запрещенного русского авангардного искусства.",
+          "Кладбище кораблей Аральского моря (Муйнак): Ржавеющие корабли, застрявшие в пустыне, мощный экологический памятник.",
+          "Некрополь Миздахкан: Древнее захоронение на вершине холма с впечатляющими мавзолеями и панорамными видами."
+        ],
+        "nature": "Природа здесь определяется катастрофой Аральского моря. Поездка к «морю» — это путешествие по иссушенной пустыне Аралкум, которая когда-то была морским дном. Это обеспечивает суровый, мощный и уникальный ландшафт, полностью отличающийся от остальной части Узбекистана, предлагая незабываемый и отрезвляющий взгляд на влияние человека на окружающую среду.",
+        "food": "Кухня в Каракалпакстане отличается, отражая ее близость к Аральскому морю (исторически). Попробуйте *бешбармак* (вареное мясо и листы пасты) или *жури* (суп из кислого молока). Учитывая удаленное расположение и местную историю, блюда здесь часто простые, сытные и сосредоточены на пропитании, обеспечивая аутентичный вкус каракалпакского кочевого наследия.",
+        "gettingThere": "Лучший способ добраться до Нукуса — это полет из Ташкента (NKS). Достижение района Аральского моря (Муйнак и берег) требует найма специализированного полноприводного автомобиля и водителя для сложной 8-10-часовой поездки туда и обратно из Нукуса.",
+        "featureDescription": "Ключевая особенность региона Нукус и Аральского моря — это глубокий **Экологический и Культурный Контраст**, который он представляет остальной части страны. Этот удаленный регион предлагает мощное, отрезвляющее путешествие в историю окружающей среды, сосредоточенное вокруг преследующего кладбища кораблей в Муйнаке, сурового памятника катастрофе Аральского моря. В противовес этому уникальному пустынному ландшафту находится всемирно известный Музей Савицкого в Нукусе, настоящая скрытая жемчужина, хранящая одну из лучших в мире коллекций запрещенного русского авангардного искусства, что делает его обязательной и эмоционально сложной остановкой для культурно любознательного."
+      }
     ],
-    "nature": "Bukhara sits near the Kyzylkum Desert, giving the region a stark, arid beauty. While lush greenery is less common than in Fergana, the gardens and parks around the city's pools (*hauz*) provide lovely, shaded oases. You can also organize day trips into the desert for a unique landscape experience.",
-    "food": "A must-try dish in Bukhara is *shurpa*, a hearty, traditional meat and vegetable soup. The local *samsa* (baked meat pastries) are exceptionally good, often baked in a tandoor. Seek out Bukharan Jewish cuisine for unique flavors, such as *osh-savo*, a meat and rice dish distinct from *plov*.",
-    "gettingThere": "Regular, comfortable high-speed and conventional trains connect Bukhara to Samarkand and Tashkent. Bukhara International Airport (BHK) also offers regional flights.",
-    "featureDescription": "The defining feature of Bukhara is its status as a 'Living Museum,' due to its miraculously preserved and extensive historic center. Unlike many ancient cities, its core remains incredibly intact, offering a deeply authentic and immersive journey into medieval Central Asia. With over 140 protected monuments, including labyrinthine alleyways and peaceful Lyabi-Hauz pools, Bukhara’s old town is a UNESCO World Heritage site where history is not just displayed but actively felt. This seamless integration of the ancient and the present gives the city an unparalleled, timeless atmosphere."
-  },
-  {
-    "id": "d3",
-    "name": "Khiva",
-    "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
-    "summary": "Khiva is an entire walled city, the **Ichan-Kala**, which has been perfectly preserved, offering travelers an unparalleled, immersive journey into medieval Central Asia. Walking its fortified walls and navigating its narrow, sandy lanes, surrounded by mosques and *madrasas* clad in breathtaking turquoise and blue tiles, truly makes it feel like a perfectly preserved open-air museum and the most intimate of the Silk Road's great oases.",
-    "bestTime": "April-June and September-October. The summer months (July/August) can be extremely hot.",
-    "travelTips": "Dedicate time to climb one of the minarets, like Islam Khoja's, just before sunset; the view of the tiled city glowing in the golden light is unforgettable. Be prepared to purchase a single, comprehensive entrance ticket to the Ichan-Kala, which grants access to most internal museums and monuments. Support local artisans by watching and purchasing their handmade crafts inside the city walls.",
-    "mustSee": [
-      "Ichan-Kala: The entire walled inner city, a UNESCO site, featuring over 50 historic monuments.",
-      "Kalta Minor Minaret: The iconic, stubby, turquoise-tiled minaret that defines the Khiva skyline.",
-      "Tash Hauli Palace: The lavishly decorated residence of the Khans, showcasing rich tilework and courtyards.",
-      "Juma Mosque: A unique mosque notable for its cool, dark interior supported by over 200 intricately carved wooden columns."
+    "es": [
+      {
+        "id": "d1",
+        "name": "Samarcanda",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "Samarcanda, 'La Joya de la Ruta de la Seda', es una ciudad con más de 2.500 años de historia, famosa por ser la gloriosa capital del imperio de Tamerlán. Es una parada obligatoria para cualquier viajero que busque asombrarse por la magnitud y belleza de la arquitectura islámica de Asia Central, principalmente mostrada en sus plazas y complejos históricos de fama mundial, lo que le ha valido su reputación como sitio de Patrimonio Mundial de la UNESCO y un crisol cultural.",
+        "bestTime": "Abril-Mayo (agradable clima primaveral con flores), Septiembre-Octubre (temperaturas otoñales ideales)",
+        "travelTips": "Intente visitar la Plaza Registán tanto durante el día como al atardecer para presenciar los cambios de color en los azulejos. Reserve alojamiento cerca del casco antiguo para facilitar el acceso a pie a los principales sitios. Aprender algunas frases básicas en ruso o uzbeko mejorará enormemente sus interacciones con los lugareños.",
+        "mustSee": [
+          "Plaza Registán: Tres madrasas que forman uno de los conjuntos arquitectónicos islámicos más impresionantes del mundo.",
+          "Mausoleo Gur-e-Amir: El ornamentado lugar de descanso final de Tamerlán (Timur).",
+          "Shah-i-Zinda: Una impresionante 'Avenida de Mausoleos' con vibrantes tumbas de azulejos azules.",
+          "Mezquita Bibi-Khanym: Una mezquita colosal e histórica, una vez una de las más grandes del mundo islámico."
+        ],
+        "nature": "Aunque Samarcanda es un centro urbano, está rodeada por el fértil valle del río Zeravshan. Los viajeros pueden disfrutar de los viñedos y huertos locales fuera del centro de la ciudad, que son especialmente vibrantes durante la cosecha de primavera y otoño. Las montañas cercanas ofrecen oportunidades para excursiones de un día y vistas panorámicas sobre las llanuras.",
+        "food": "Samarcanda es famosa por su pan, *non*, que se hornea en un tandoor único y se sella con patrones tradicionales. Debe probar la variación local de *plov* (pilaf), a menudo cocinado con garbanzos y pasas, dándole un perfil de sabor más dulce. También pruebe *shashlik* (brochetas) de uno de los muchos vendedores ambulantes cerca de los sitios.",
+        "gettingThere": "Samarcanda es accesible por el tren de alta velocidad *Afrosiyob* desde Taskent (aprox. 2 horas) y Bujará. El Aeropuerto Internacional de Samarcanda (SKD) recibe un número creciente de vuelos internacionales y nacionales.",
+        "featureDescription": "La mejor característica de Samarcanda es su impresionante Arquitectura Islámica de clase mundial y su profunda importancia histórica como la brillante capital del legendario Imperio Timúrida. Las magníficas estructuras de la ciudad, particularmente la Plaza Registán con su trío de grandes madrasas, muestran una maestría en el trabajo de azulejos y una escala monumental inigualable en toda Asia Central. Este rico patrimonio hace de Samarcanda un vibrante Sitio de Patrimonio Mundial de la UNESCO que funciona como una impresionante línea de tiempo física del pico intelectual y artístico de la Ruta de la Seda, ofreciendo una experiencia verdaderamente grandiosa de historia imperial."
+      },
+      {
+        "id": "d2",
+        "name": "Bujará",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "Bujará a menudo se llama un 'museo viviente' debido a su centro histórico de siglos de antigüedad, milagrosamente bien conservado, que contiene más de 140 monumentos arquitectónicos protegidos. Este Sitio de Patrimonio Mundial de la UNESCO sirvió como un importante centro intelectual y espiritual en la Ruta de la Seda, ofreciendo un viaje profundamente auténtico e inmersivo en el tiempo, caracterizado por sus laberínticos callejones, antiguas *madrasas* y tranquilas piscinas centrales.",
+        "bestTime": "Marzo-Mayo (primavera fresca) o Septiembre-Noviembre (otoño suave) para evitar el intenso calor del verano.",
+        "travelTips": "Alójese dentro o cerca del casco antiguo (Shakhristan) para experimentar plenamente la atmósfera de la ciudad, ya que la mayoría de los lugares de interés están a poca distancia a pie. Recuerde regatear educadamente y con una sonrisa al comprar artesanías en los históricos bazares de cúpula. Intente encontrar una casa de té local cerca de Lyabi-Hauz para observar a la gente.",
+        "mustSee": [
+          "Ciudadela Ark: Una inmensa y antigua fortaleza real y ciudad dentro de una ciudad que data de más de 2.000 años.",
+          "Complejo Poi Kalyan: Dominado por el icónico Minarete y Mezquita Kalyan, de 47 metros de altura.",
+          "Lyabi-Hauz: Una plaza histórica que rodea una antigua piscina, perfecta para paseos nocturnos y relajación.",
+          "Chor Minor: Una puerta de entrada única y hermosa con cuatro distintivos minaretes de cúpula turquesa."
+        ],
+        "nature": "Bujará se encuentra cerca del Desierto de Kyzylkum, lo que le da a la región una belleza austera y árida. Si bien la exuberante vegetación es menos común que en Fergana, los jardines y parques alrededor de las piscinas de la ciudad (*hauz*) proporcionan oasis encantadores y sombreados. También puede organizar excursiones de un día al desierto para una experiencia paisajística única.",
+        "food": "Un plato que debe probar en Bujará es *shurpa*, una sopa sustanciosa y tradicional de carne y verduras. Las *samsa* locales (pasteles de carne horneados) son excepcionalmente buenos, a menudo horneados en un tandoor. Busque la cocina judía de Bujará para sabores únicos, como *osh-savo*, un plato de carne y arroz distinto del *plov*.",
+        "gettingThere": "Trenes regulares, cómodos de alta velocidad y convencionales conectan Bujará con Samarcanda y Taskent. El Aeropuerto Internacional de Bujará (BHK) también ofrece vuelos regionales.",
+        "featureDescription": "La característica definitoria de Bujará es su estatus de 'Museo Viviente', debido a su centro histórico milagrosamente preservado y extenso. A diferencia de muchas ciudades antiguas, su núcleo permanece increíblemente intacto, ofreciendo un viaje profundamente auténtico e inmersivo a la Asia Central medieval. Con más de 140 monumentos protegidos, incluidos laberínticos callejones y tranquilas piscinas Lyabi-Hauz, el casco antiguo de Bujará es un sitio de Patrimonio Mundial de la UNESCO donde la historia no solo se exhibe, sino que se siente activamente. Esta perfecta integración de lo antiguo y lo presente le da a la ciudad una atmósfera inigualable y atemporal."
+      },
+      {
+        "id": "d3",
+        "name": "Jiva",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "Jiva es una ciudad amurallada completa, la **Ichan-Kala**, que ha sido perfectamente conservada, ofreciendo a los viajeros un viaje inmersivo e inigualable a la Asia Central medieval. Caminar por sus murallas fortificadas y navegar por sus estrechos y arenosos callejones, rodeado de mezquitas y *madrasas* revestidas de impresionantes azulejos turquesa y azul, realmente hace que se sienta como un museo al aire libre perfectamente conservado y el más íntimo de los grandes oasis de la Ruta de la Seda.",
+        "bestTime": "Abril-Junio y Septiembre-Octubre. Los meses de verano (Julio/Agosto) pueden ser extremadamente calurosos.",
+        "travelTips": "Dedique tiempo a subir a uno de los minaretes, como el de Islam Khoja, justo antes del atardecer; la vista de la ciudad de azulejos brillando con la luz dorada es inolvidable. Esté preparado para comprar un único y completo boleto de entrada a la Ichan-Kala, que otorga acceso a la mayoría de los museos y monumentos internos. Apoye a los artesanos locales observando y comprando sus artesanías hechas a mano dentro de las murallas de la ciudad.",
+        "mustSee": [
+          "Ichan-Kala: Toda la ciudad interior amurallada, un sitio de la UNESCO, con más de 50 monumentos históricos.",
+          "Minarete Kalta Minor: El icónico, achaparrado minarete de azulejos turquesa que define el horizonte de Jiva.",
+          "Palacio Tash Hauli: La residencia lujosamente decorada de los Jánes, que muestra ricos azulejos y patios.",
+          "Mezquita Juma: Una mezquita única notable por su interior fresco y oscuro sostenido por más de 200 columnas de madera intrincadamente talladas."
+        ],
+        "nature": "Jiva está situada en la región de Khorezm, cerca del río Amu Darya, que históricamente sustentó su oasis. Aunque está rodeada de desierto, el ambiente de oasis significa que la ciudad tiene focos de vegetación y el clima es notablemente más seco. El telón de fondo escénico es la extensión interminable y plana del desierto de Asia Central.",
+        "food": "La especialidad de la región de Khorezm es *tukhum barak*, bolsillos de pasta rellenos de huevo que son sorprendentemente delicados y deliciosos. También debe probar *shivit oshi*, un plato de pasta regional distintivo donde los fideos están teñidos naturalmente de verde con eneldo. Los *manti* (dumplings) locales también son excelentes.",
+        "gettingThere": "La forma más común de llegar es volar a Urgench (UGC) desde Taskent, seguido de un taxi de 30 minutos a Jiva. Los trenes convencionales conectan Jiva con Bujará (un largo y pintoresco viaje por el desierto).",
+        "featureDescription": "La característica más excepcional de Jiva es la **Ichan-Kala**, una ciudad interior amurallada perfectamente intacta que funciona como un museo al aire libre vivo e inigualable. A diferencia de otros destinos de la Ruta de la Seda, el núcleo histórico de Jiva está completamente contenido dentro de altas murallas de ladrillo fortificadas, ofreciendo un viaje increíblemente íntimo e inmersivo de regreso a la era de los Jánes. Caminando por sus estrechos y arenosos callejones, uno está rodeado de deslumbrantes mezquitas y madrasas de azulejos turquesa, y el icónico Minarete Kalta Minor, lo que la convierte en la experiencia de oasis de la Ruta de la Seda más visualmente completa y mejor conservada."
+      },
+      {
+        "id": "d4",
+        "name": "Taskent",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "Como la ciudad más grande de Asia Central, Taskent es la vibrante y moderna capital de Uzbekistán, que ofrece una mezcla única de arquitectura monumental de la era soviética, desarrollo contemporáneo de vidrio y acero, y herencia islámica profundamente arraigada. Sirve como el principal motor económico y cultural del país, proporcionando un contraste fascinante con las antiguas ciudades de la Ruta de la Seda y actuando como la principal puerta de entrada internacional para la mayoría de los viajeros.",
+        "bestTime": "Marzo-Mayo y Septiembre-Noviembre, cuando el clima es suave y cómodo para la exploración de la ciudad.",
+        "travelTips": "Asegúrese de usar el Metro de Taskent para el transporte; es increíblemente barato, eficiente, y muchas de las estaciones son impresionantes, decoradas como palacios subterráneos. Cambie moneda en las cabinas bancarias oficiales a su llegada, ya que las tasas están generalmente estandarizadas. Descargue una aplicación local de transporte para servicios de taxi convenientes y económicos.",
+        "mustSee": [
+          "Bazar Chorsu: Un mercado abovedado masivo y vibrante donde se puede comprar de todo, desde especias hasta ropa.",
+          "Complejo Khast Imam: El centro religioso de la ciudad, que alberga el mundialmente famoso Corán de Uthman del siglo VII.",
+          "Metro de Taskent: Las estaciones de metro de la era soviética bellamente decoradas, cada una con un tema y diseño únicos.",
+          "Museo Amir Timur: Dedicado a la vida y el legado del gran emperador, una figura clave en la historia uzbeka."
+        ],
+        "nature": "Taskent es conocida por sus muchos espacios verdes, parques y calles arboladas, lo que la convierte en una capital muy transitable y agradable. Las cercanas Montañas Chimgan (a menudo llamadas 'Suiza uzbeka') ofrecen fantásticas escapadas de fin de semana con oportunidades para practicar senderismo, esquí (en invierno) y disfrutar del aire fresco de la montaña y hermosos paisajes de gran altitud.",
+        "food": "Taskent es el mejor lugar para probar una amplia variedad de cocina uzbeka, pero debe encontrar un *Centro de Plov* adecuado para experimentar el plato nacional cocinado en enormes *kazans*. La ciudad también tiene excelentes opciones de cocina internacional. Pruebe *laghman* (fideos tirados a mano con carne y verduras) y las diversas ensaladas frescas, como *achichuk* (tomate y cebolla), que son perfectas para un plato principal.",
+        "gettingThere": "El Aeropuerto Internacional de Taskent (TAS) es el aeropuerto más grande y mejor conectado de Uzbekistán, sirviendo como el principal centro para viajes internacionales. El tren de alta velocidad lo conecta fácilmente con Samarcanda y Bujará.",
+        "featureDescription": "La característica definitoria de Taskent es su papel como la **Capital Moderna y Motor Cultural** de Uzbekistán, presentando una sorprendente dualidad a las antiguas ciudades de la Ruta de la Seda. Ofrece una fusión única de amplias avenidas arboladas y arquitectura monumental de la era soviética junto con modernas torres de cristal y sitios históricos profundamente respetados como el Complejo Khast Imam. Esta mezcla lo convierte en un centro dinámico para la vida y las artes contemporáneas de Asia Central, mientras que sus estaciones de metro bellamente decoradas y el vibrante Bazar Chorsu brindan vislumbres accesibles tanto de su pasado reciente como de su bullicioso presente."
+      },
+      {
+        "id": "d5",
+        "name": "Valle de Fergana",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "El Valle de Fergana es la región más fértil y densamente poblada de Uzbekistán, a menudo denominada el 'Jardín de Uzbekistán'. Es un área cultural distinta reconocida por sus artesanías tradicionales, incluida la producción de seda y cerámica, y ofrece un vistazo a la vida rural auténtica y el corazón agrícola del país, lejos del principal camino turístico de las ciudades de la Ruta de la Seda.",
+        "bestTime": "Abril-Junio para las flores de primavera y el calor agradable, o Agosto-Septiembre para la abundante cosecha de frutas.",
+        "travelTips": "La mejor manera de experimentar el valle es visitar los talleres especializados en cada ciudad, como la fábrica de seda en Margilán o los estudios de cerámica en Rishtan. Debido al dialecto regional y al menor tráfico turístico, se recomienda encarecidamente contratar un guía local, especialmente para navegar por las zonas rurales y los mercados. No se pierda probar las increíbles frutas frescas y los dulces locales.",
+        "mustSee": [
+          "Margilán: Una antigua ciudad de la Ruta de la Seda todavía famosa por sus métodos tradicionales de producción de *ikat* y seda.",
+          "Kokand: La antigua capital del Kanato de Kokand, con impresionantes palacios como el Palacio Khudayar Khan.",
+          "Rishtan: Internacionalmente reconocido por su distintiva e impresionante cerámica azul y turquesa.",
+          "Aldeas Rurales: Experimente la auténtica hospitalidad uzbeka y la vida tradicional lejos de los principales centros urbanos."
+        ],
+        "nature": "El valle es una potencia agrícola, alimentada por el río Syr Darya, creando un paisaje exuberante y verde de campos de algodón, huertos frutales y granjas de verduras. Su ubicación, anidada entre las cordilleras de Kurama y Alay, proporciona hermosas vistas, especialmente durante la primavera cuando el valle está en plena floración.",
+        "food": "La comida del valle se caracteriza por el uso de productos frescos. Asegúrese de probar el *Plov de Fergana*, a menudo más oscuro y rico que otras versiones regionales. *Damlam* (un estofado de carne y verduras al vapor) es una comida reconfortante local. Dado su estado como la canasta de frutas, debe probar los albaricoques, uvas y melones frescos de temporada, que se consideran algunos de los mejores de Asia Central.",
+        "gettingThere": "Los taxis compartidos y los autobuses son los principales medios de transporte entre las ciudades del valle (Fergana, Kokand, Andijan). Los nuevos túneles de carretera que conectan el valle con Taskent han mejorado significativamente los tiempos de viaje.",
+        "featureDescription": "La característica principal del Valle de Fergana es su papel como el **Corazón Artesanal Tradicional y Agrícola** de Uzbekistán, a menudo llamado el 'Jardín de Uzbekistán'. Ubicado entre cadenas montañosas, su extraordinaria fertilidad, alimentada por el río Syr Darya, soporta un paisaje exuberante de huertos y campos. Culturalmente, es distinto y reconocido por la producción artesanal tradicional y centenaria, particularmente el vibrante tejido de seda *ikat* de Margilán y la cerámica azul internacionalmente celebrada de Rishtan. Esta región ofrece a los viajeros una visión única y auténtica de la vida tradicional y rural de la nación, lejos de los principales centros turísticos."
+      },
+      {
+        "id": "d6",
+        "name": "Nukus y Mar de Aral",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "Nukus, la capital de la región autónoma de Karakalpakstán, y el Mar de Aral ofrecen un contraste austero y conmovedor con la opulencia de las ciudades de la Ruta de la Seda. Esta región proporciona un poderoso viaje a la historia ambiental con el inquietante 'cementerio de barcos' en Moynaq, que se erige como un monumento al desastre ecológico, combinado con el Museo Savitsky de clase mundial, una verdadera joya escondida del arte de vanguardia, lo que lo convierte en una parada esencial para el viajero aventurero y culturalmente curioso.",
+        "bestTime": "Abril-Mayo y Septiembre-Octubre. Evite el frío extremo del invierno y el calor intenso del verano.",
+        "travelTips": "Planifique su viaje con mucha antelación, ya que esta región es remota y el transporte es menos frecuente. El Museo Savitsky es una joya escondida de clase mundial, así que dedique una mañana o una tarde completa a explorar su colección única. Al visitar el sitio del Mar de Aral, prepárese para un largo y accidentado viaje en 4x4 a través del desierto, y use capas ya que las temperaturas del desierto pueden fluctuar dramáticamente.",
+        "mustSee": [
+          "Museo Savitsky: Una de las mejores colecciones del mundo de arte de vanguardia ruso prohibido.",
+          "Cementerio de Barcos del Mar de Aral (Moynaq): Barcos oxidados varados en el desierto, un poderoso monumento ecológico.",
+          "Necrópolis de Mizdakhan: Un antiguo cementerio en la cima de una colina con impresionantes mausoleos y vistas panorámicas."
+        ],
+        "nature": "La naturaleza aquí está definida por el desastre del Mar de Aral. El viaje al 'mar' es un viaje a través del desierto desecado de Aralkum, que una vez fue el fondo marino. Esto proporciona un paisaje austero, poderoso y único, completamente diferente del resto de Uzbekistán, ofreciendo una mirada inolvidable y aleccionadora al impacto humano en el medio ambiente.",
+        "food": "La cocina en Karakalpakstán es distinta, reflejando su proximidad al Mar de Aral (históricamente). Pruebe *beshbarmak* (carne hervida y láminas de pasta) o *zhuri* (una sopa de leche agria). Dada la ubicación remota y la historia local, las comidas aquí son a menudo simples, sustanciosas y centradas en el sustento, proporcionando un sabor auténtico de la herencia nómada karakalpaka.",
+        "gettingThere": "La mejor manera de llegar a Nukus es volando desde Taskent (NKS). Llegar al área del Mar de Aral (Moynaq y la orilla) requiere contratar un vehículo 4x4 especializado y un conductor para un desafiante viaje de ida y vuelta de 8 a 10 horas desde Nukus.",
+        "featureDescription": "La característica clave de la región de Nukus y el Mar de Aral es el profundo **Contraste Ecológico y Cultural** que presenta al resto del país. Esta región remota ofrece un viaje poderoso y aleccionador a la historia ambiental, centrado en el inquietante cementerio de barcos en Moynaq, un monumento austero al desastre del Mar de Aral. Contrarrestando este paisaje desértico único se encuentra el mundialmente famoso Museo Savitsky en Nukus, una verdadera joya escondida que alberga una de las mejores colecciones del planeta de arte de vanguardia ruso prohibido, lo que la convierte en una parada esencial y emocionalmente compleja para el culturalmente curioso."
+      }
     ],
-    "nature": "Khiva is situated in the Khorezm region, close to the Amu Darya river, which historically sustained its oasis. Although surrounded by desert, the oasis environment means the city has pockets of greenery and the climate is notably drier. The scenic backdrop is the endless, flat expanse of the Central Asian desert.",
-    "food": "The specialty of the Khorezm region is *tukhum barak*, pasta pockets filled with egg that are surprisingly delicate and delicious. You should also try *shivit oshi*, a distinctive regional pasta dish where the noodles are naturally dyed green with dill. The local *manti* (dumplings) are also excellent.",
-    "gettingThere": "The most common way to arrive is to fly to Urgench (UGC) from Tashkent, followed by a 30-minute taxi to Khiva. Conventional trains connect Khiva with Bukhara (a long, scenic desert journey).",
-    "featureDescription": "Khiva's most exceptional feature is the **Ichan-Kala**, a perfectly intact, walled inner city that functions as an unparalleled, living open-air museum. Unlike other Silk Road destinations, Khiva's historical core is entirely contained within high, fortified brick walls, offering an incredibly intimate and immersive journey back to the era of the Khans. Walking its narrow, sandy lanes, one is surrounded by dazzling turquoise-tiled mosques, madrasas, and the iconic Kalta Minor Minaret, making it the most visually complete and best-preserved Silk Road oasis experience."
-  },
-  {
-    "id": "d4",
-    "name": "Tashkent",
-    "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
-    "summary": "As the largest city in Central Asia, Tashkent is the vibrant, modern capital of Uzbekistan, offering a unique blend of Soviet-era monumental architecture, contemporary glass and steel development, and deeply rooted Islamic heritage. It serves as the country's main economic and cultural engine, providing a fascinating contrast to the ancient Silk Road cities and acting as the primary international gateway for most travelers.",
-    "bestTime": "March-May and September-November, when the weather is mild and comfortable for city exploration.",
-    "travelTips": "Make sure to use the Tashkent Metro for transport; it's incredibly cheap, efficient, and many of the stations are stunning, decorated like underground palaces. Exchange currency at official bank booths upon arrival as rates are generally standardized. Download a local ride-hailing app for convenient and inexpensive taxi services.",
-    "mustSee": [
-      "Chorsu Bazaar: A massive, vibrant domed market where you can buy everything from spices to clothing.",
-      "Khast Imam Complex: The religious center of the city, housing the world-famous, 7th-century Uthman Quran.",
-      "Tashkent Metro: The beautifully decorated Soviet-era subway stations, each with a unique theme and design.",
-      "Amir Timur Museum: Dedicated to the life and legacy of the great emperor, a key figure in Uzbek history."
+    "it": [
+      {
+        "id": "d1",
+        "name": "Samarcanda",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "Samarcanda, 'Il Gioiello della Via della Seta', è una città immersa in oltre 2.500 anni di storia, famosa soprattutto come la gloriosa capitale dell'impero di Tamerlano. È una tappa obbligatoria per ogni viaggiatore che desidera essere sbalordito dalla vastità e dalla bellezza dell'architettura islamica dell'Asia Centrale, mostrata principalmente nelle sue piazze e complessi storici di fama mondiale, guadagnandosi la reputazione di sito del Patrimonio Mondiale dell'UNESCO e di crocevia culturale.",
+        "bestTime": "Aprile-Maggio (piacevole clima primaverile con fioriture), Settembre-Ottobre (temperature autunnali ideali)",
+        "travelTips": "Cercate di visitare la Piazza Registan sia durante il giorno che al tramonto per ammirare i cambiamenti di colore sulle piastrelle. Prenotate alloggi vicino alla città vecchia per un facile accesso a piedi ai principali siti. Imparare alcune frasi di base in russo o uzbeko migliorerà notevolmente le vostre interazioni con la gente del posto.",
+        "mustSee": [
+          "Piazza Registan: Tre madrase che formano uno degli insiemi architettonici islamici più sbalorditivi del mondo.",
+          "Mausoleo Gur-e-Amir: L'ornato luogo di riposo finale di Tamerlano (Timur).",
+          "Shah-i-Zinda: Una mozzafiato 'Viale dei Mausolei' con tombe piastrellate in azzurro vibrante.",
+          "Moschea Bibi-Khanym: Una moschea colossale e storica, un tempo una delle più grandi del mondo islamico."
+        ],
+        "nature": "Sebbene Samarcanda sia un centro urbano, è circondata dalla fertile valle del fiume Zeravshan. I viaggiatori possono godersi i vigneti e i frutteti locali fuori dal centro città, che sono particolarmente vibranti durante la raccolta primaverile e autunnale. Le montagne vicine offrono opportunità per gite di un giorno e viste panoramiche sulle pianure.",
+        "food": "Samarcanda è famosa per il suo pane, *non*, che viene cotto in un tandoor unico e timbrato con motivi tradizionali. Dovete provare la variazione locale del *plov* (pilaf), spesso cucinato con ceci e uvetta, che gli conferisce un profilo aromatico più dolce. Assaggiate anche lo *shashlik* (spiedini) da uno dei tanti venditori ambulanti vicino ai siti.",
+        "gettingThere": "Samarcanda è accessibile con il treno ad alta velocità *Afrosiyob* da Tashkent (circa 2 ore) e Bukhara. L'Aeroporto Internazionale di Samarcanda (SKD) riceve un numero crescente di voli internazionali e nazionali.",
+        "featureDescription": "La migliore caratteristica di Samarcanda è la sua maestosa Architettura Islamica di livello mondiale e il suo profondo significato storico come la scintillante capitale del leggendario Impero Timuride. Le magnifiche strutture della città, in particolare la Piazza Registan con il suo trio di grandi madrase, mostrano una maestria nella lavorazione delle piastrelle e una scala monumentale ineguagliabile in tutta l'Asia Centrale. Questo ricco patrimonio rende Samarcanda un vibrante Sito del Patrimonio Mondiale dell'UNESCO che funziona come una straordinaria linea temporale fisica del picco intellettuale e artistico della Via della Seta, offrendo un'esperienza davvero grandiosa della storia imperiale."
+      },
+      {
+        "id": "d2",
+        "name": "Bukhara",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "Bukhara è spesso chiamata un 'museo vivente' grazie al suo centro storico secolare miracolosamente ben conservato, che contiene oltre 140 monumenti architettonici protetti. Questo sito del Patrimonio Mondiale dell'UNESCO è stato un importante centro intellettuale e spirituale sulla Via della Seta, offrendo un viaggio profondamente autentico e coinvolgente nel passato, caratterizzato dai suoi vicoli labirintici, antiche *madrase* e pacifiche piscine centrali.",
+        "bestTime": "Marzo-Maggio (primavera fresca) o Settembre-Novembre (autunno mite) per evitare l'intenso caldo estivo.",
+        "travelTips": "Soggiornate all'interno o vicino alla città vecchia (Shakhristan) per vivere appieno l'atmosfera della città, poiché la maggior parte dei luoghi d'interesse sono raggiungibili a piedi. Ricordatevi di contrattare educatamente e con un sorriso quando acquistate oggetti artigianali nei bazar a cupola storici. Cercate di trovare una casa da tè locale vicino a Lyabi-Hauz per osservare la gente.",
+        "mustSee": [
+          "Cittadella dell'Arca: Un'immensa, antica fortezza reale e città all'interno di una città risalente a oltre 2.000 anni fa.",
+          "Complesso Poi Kalyan: Dominato dall'iconico Minareto e Moschea Kalyan, alto 47 metri.",
+          "Lyabi-Hauz: Una piazza storica che circonda una piscina antica, perfetta per passeggiate serali e relax.",
+          "Chor Minor: Una porta unica e bellissima con quattro caratteristici minareti a cupola turchese."
+        ],
+        "nature": "Bukhara si trova vicino al deserto del Kyzylkum, conferendo alla regione una bellezza aspra e arida. Sebbene la vegetazione lussureggiante sia meno comune che a Fergana, i giardini e i parchi intorno alle piscine della città (*hauz*) offrono oasi incantevoli e ombreggiate. Potete anche organizzare gite di un giorno nel deserto per un'esperienza paesaggistica unica.",
+        "food": "Un piatto da provare assolutamente a Bukhara è la *shurpa*, una zuppa tradizionale e sostanziosa di carne e verdure. I *samsa* locali (pasticcini di carne al forno) sono eccezionalmente buoni, spesso cotti in un tandoor. Cercate la cucina ebraica di Bukhara per sapori unici, come l' *osh-savo*, un piatto di carne e riso distinto dal *plov*.",
+        "gettingThere": "Treni regolari, comodi ad alta velocità e convenzionali collegano Bukhara a Samarcanda e Tashkent. L'Aeroporto Internazionale di Bukhara (BHK) offre anche voli regionali.",
+        "featureDescription": "La caratteristica distintiva di Bukhara è il suo status di 'Museo Vivente', dovuto al suo centro storico miracolosamente conservato ed esteso. A differenza di molte città antiche, il suo nucleo rimane incredibilmente intatto, offrendo un viaggio profondamente autentico e coinvolgente nell'Asia Centrale medievale. Con oltre 140 monumenti protetti, inclusi vicoli labirintici e pacifiche piscine Lyabi-Hauz, la città vecchia di Bukhara è un sito del Patrimonio Mondiale dell'UNESCO dove la storia non è solo esposta, ma attivamente sentita. Questa perfetta integrazione tra l'antico e il presente conferisce alla città un'atmosfera ineguagliabile e senza tempo."
+      },
+      {
+        "id": "d3",
+        "name": "Khiva",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "Khiva è un'intera città murata, l'**Ichan-Kala**, che è stata perfettamente conservata, offrendo ai viaggiatori un viaggio coinvolgente e senza precedenti nell'Asia Centrale medievale. Camminare lungo le sue mura fortificate e navigare nei suoi vicoli stretti e sabbiosi, circondati da moschee e *madrase* rivestite di piastrelle turchesi e blu mozzafiato, fa davvero sentire come un museo a cielo aperto perfettamente conservato e il più intimo dei grandi oasi della Via della Seta.",
+        "bestTime": "Aprile-Giugno e Settembre-Ottobre. I mesi estivi (luglio/agosto) possono essere estremamente caldi.",
+        "travelTips": "Dedicate del tempo a salire su uno dei minareti, come quello di Islam Khoja, poco prima del tramonto; la vista della città piastrellata che si illumina di luce dorata è indimenticabile. Siate pronti ad acquistare un unico e completo biglietto d'ingresso per l'Ichan-Kala, che garantisce l'accesso alla maggior parte dei musei e monumenti interni. Sostenete gli artigiani locali osservando e acquistando i loro oggetti fatti a mano all'interno delle mura della città.",
+        "mustSee": [
+          "Ichan-Kala: L'intera città interna murata, un sito UNESCO, con oltre 50 monumenti storici.",
+          "Minareto Kalta Minor: L'iconico, tozzo minareto piastrellato in turchese che definisce lo skyline di Khiva.",
+          "Palazzo Tash Hauli: La residenza riccamente decorata dei Khan, che mostra ricche piastrelle e cortili.",
+          "Moschea Juma: Una moschea unica, nota per il suo interno fresco e scuro sostenuto da oltre 200 colonne di legno intagliate in modo complesso."
+        ],
+        "nature": "Khiva è situata nella regione di Khorezm, vicino al fiume Amu Darya, che storicamente ha sostenuto la sua oasi. Sebbene sia circondata dal deserto, l'ambiente dell'oasi significa che la città ha sacche di vegetazione e il clima è notevolmente più secco. Lo sfondo panoramico è l'infinita, piatta distesa del deserto dell'Asia Centrale.",
+        "food": "La specialità della regione di Khorezm è il *tukhum barak*, tasche di pasta ripiene di uova che sono sorprendentemente delicate e deliziose. Dovreste anche provare lo *shivit oshi*, un piatto di pasta regionale distintivo in cui le tagliatelle sono tinte naturalmente di verde con aneto. Anche i *manti* locali (gnocchi) sono eccellenti.",
+        "gettingThere": "Il modo più comune per arrivare è volare a Urgench (UGC) da Tashkent, seguito da un taxi di 30 minuti per Khiva. I treni convenzionali collegano Khiva con Bukhara (un lungo e panoramico viaggio nel deserto).",
+        "featureDescription": "La caratteristica più eccezionale di Khiva è l'**Ichan-Kala**, una città interna murata perfettamente intatta che funziona come un impareggiabile museo a cielo aperto vivente. A differenza di altre destinazioni della Via della Seta, il nucleo storico di Khiva è interamente contenuto all'interno di alte mura di mattoni fortificate, offrendo un viaggio incredibilmente intimo e coinvolgente nell'era dei Khan. Camminando per i suoi vicoli stretti e sabbiosi, si è circondati da abbaglianti moschee piastrellate in turchese, madrase e l'iconico Minareto Kalta Minor, rendendola l'esperienza di oasi della Via della Seta più visivamente completa e meglio conservata."
+      },
+      {
+        "id": "d4",
+        "name": "Tashkent",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "Essendo la città più grande dell'Asia Centrale, Tashkent è la vivace e moderna capitale dell'Uzbekistan, che offre una miscela unica di architettura monumentale di epoca sovietica, sviluppo contemporaneo in vetro e acciaio e un patrimonio islamico profondamente radicato. Serve come il principale motore economico e culturale del paese, fornendo un affascinante contrasto con le antiche città della Via della Seta e fungendo da principale porta d'accesso internazionale per la maggior parte dei viaggiatori.",
+        "bestTime": "Marzo-Maggio e Settembre-Novembre, quando il clima è mite e confortevole per l'esplorazione della città.",
+        "travelTips": "Assicuratevi di utilizzare la metropolitana di Tashkent per il trasporto; è incredibilmente economica, efficiente e molte delle stazioni sono sbalorditive, decorate come palazzi sotterranei. Cambiate valuta presso gli sportelli bancari ufficiali all'arrivo, poiché i tassi sono generalmente standardizzati. Scaricate un'app locale per il trasporto su richiesta per servizi di taxi convenienti ed economici.",
+        "mustSee": [
+          "Bazar Chorsu: Un enorme e vibrante mercato a cupola dove è possibile acquistare di tutto, dalle spezie ai vestiti.",
+          "Complesso Khast Imam: Il centro religioso della città, che ospita il Corano di Uthman del VII secolo, famoso in tutto il mondo.",
+          "Metropolitana di Tashkent: Le stazioni della metropolitana di epoca sovietica splendidamente decorate, ognuna con un tema e un design unici.",
+          "Museo Amir Timur: Dedicato alla vita e all'eredità del grande imperatore, una figura chiave nella storia uzbeka."
+        ],
+        "nature": "Tashkent è nota per i suoi numerosi spazi verdi, parchi e strade alberate, il che la rende una capitale molto percorribile e piacevole. Le vicine montagne Chimgan (spesso chiamate 'Svizzera uzbeka') offrono fantastiche fughe per il fine settimana con opportunità di escursioni, sci (in inverno) e per godersi l'aria frizzante di montagna e splendidi paesaggi ad alta quota.",
+        "food": "Tashkent è il posto migliore per assaggiare una vasta gamma di cucina uzbeka, ma dovete trovare un vero e proprio *Plov Center* per provare il piatto nazionale cucinato in enormi *kazans*. La città ha anche eccellenti opzioni di cucina internazionale. Provate il *laghman* (tagliatelle tirate a mano con carne e verdure) e le varie insalate fresche, come l'*achichuk* (pomodoro e cipolla), che sono perfette per un piatto principale.",
+        "gettingThere": "L'Aeroporto Internazionale di Tashkent (TAS) è l'aeroporto più grande e meglio collegato dell'Uzbekistan, fungendo da hub principale per i viaggi internazionali. La ferrovia ad alta velocità lo collega facilmente a Samarcanda e Bukhara.",
+        "featureDescription": "La caratteristica distintiva di Tashkent è il suo ruolo di **Capitale Moderna e Motore Culturale** dell'Uzbekistan, presentando una sorprendente dualità rispetto alle antiche città della Via della Seta. Offre una fusione unica di ampi viali alberati e architettura monumentale dell'era sovietica insieme a moderne torri di vetro e siti storici profondamente rispettati come il Complesso Khast Imam. Questa miscela lo rende un centro dinamico per la vita e le arti contemporanee dell'Asia Centrale, mentre le sue stazioni della metropolitana splendidamente decorate e il vibrante Bazar Chorsu offrono scorci accessibili sia del suo passato recente che del suo vivace presente."
+      },
+      {
+        "id": "d5",
+        "name": "Valle di Fergana",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "La Valle di Fergana è la regione più fertile e densamente popolata dell'Uzbekistan, spesso definita il 'Giardino dell'Uzbekistan'. È un'area culturale distinta rinomata per i suoi mestieri tradizionali, tra cui la produzione di seta e ceramica, e offre uno scorcio sulla vita rurale autentica e sul cuore agricolo del paese, lontano dal principale percorso turistico delle città della Via della Seta.",
+        "bestTime": "Aprile-Giugno per le fioriture primaverili e il calore piacevole, o Agosto-Settembre per l'abbondante raccolta di frutta.",
+        "travelTips": "Il modo migliore per vivere la valle è visitare i laboratori specializzati in ogni città, come la fabbrica di seta a Margilan o gli studi di ceramica a Rishtan. A causa del dialetto regionale e del minor traffico turistico, si consiglia vivamente di assumere una guida locale, soprattutto per navigare nelle aree rurali e nei mercati. Non perdetevi l'assaggio della incredibile frutta fresca e dei dolci locali.",
+        "mustSee": [
+          "Margilan: Un'antica città della Via della Seta ancora famosa per i suoi metodi tradizionali di produzione di *ikat* e seta.",
+          "Kokand: L'ex capitale del Khanato di Kokand, con imponenti palazzi come il Palazzo Khudayar Khan.",
+          "Rishtan: Rinomata a livello internazionale per le sue distintive e sbalorditive ceramiche blu e turchesi.",
+          "Villaggi Rurali: Sperimentate l'autentica ospitalità uzbeka e la vita tradizionale lontano dai principali centri urbani."
+        ],
+        "nature": "La valle è una potenza agricola, alimentata dal fiume Syr Darya, che crea un paesaggio lussureggiante e verde di campi di cotone, frutteti e orti. La sua posizione, incastonata tra le catene montuose di Kurama e Alay, offre splendide vedute, soprattutto durante la primavera, quando la valle è in piena fioritura.",
+        "food": "Il cibo della valle è caratterizzato dall'uso di prodotti freschi. Assicuratevi di provare il *Plov di Fergana*, spesso più scuro e ricco di altre versioni regionali. Il *Damlam* (uno stufato di carne e verdure al vapore) è un cibo confortante locale. Dato il suo status di cesto della frutta, dovete assaggiare le albicocche, l'uva e i meloni freschi di stagione, considerati alcuni dei migliori dell'Asia Centrale.",
+        "gettingThere": "Taxi condivisi e autobus sono i principali mezzi di trasporto tra le città della valle (Fergana, Kokand, Andijan). Nuove gallerie stradali che collegano la valle con Tashkent hanno migliorato significativamente i tempi di percorrenza.",
+        "featureDescription": "La caratteristica principale della Valle di Fergana è il suo ruolo di **Cuore Artigianale Tradizionale e Agricolo** dell'Uzbekistan, spesso chiamato il 'Giardino dell'Uzbekistan'. Incastonata tra catene montuose, la sua straordinaria fertilità, alimentata dal fiume Syr Darya, sostiene un paesaggio lussureggiante di frutteti e campi. Culturalmente, è distinta e rinomata per la produzione artigianale tradizionale e secolare, in particolare la vivace tessitura della seta *ikat* di Margilan e la ceramica blu di Rishtan, celebrata a livello internazionale. Questa regione offre ai viaggiatori uno scorcio unico e autentico della vita tradizionale e rurale della nazione, lontano dai principali centri turistici."
+      },
+      {
+        "id": "d6",
+        "name": "Nukus e Mar d'Aral",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "Nukus, la capitale della regione autonoma del Karakalpakstan, e il Mar d'Aral offrono un contrasto netto e toccante con l'opulenza delle città della Via della Seta. Questa regione offre un potente viaggio nella storia ambientale con il suggestivo 'cimitero di navi' a Moynaq, che si erge come un monumento al disastro ecologico, combinato con il Museo Savitsky di livello mondiale, un vero gioiello nascosto dell'arte d'avanguardia, rendendolo una tappa essenziale per il viaggiatore avventuroso e culturalmente curioso.",
+        "bestTime": "Aprile-Maggio e Settembre-Ottobre. Evitate il freddo estremo dell'inverno e il caldo intenso dell'estate.",
+        "travelTips": "Pianificate il vostro viaggio con largo anticipo, poiché questa regione è remota e il trasporto è meno frequente. Il Museo Savitsky è un gioiello nascosto di livello mondiale, quindi dedicate una mattinata o un pomeriggio intero per esplorare la sua collezione unica. Quando visitate il sito del Mar d'Aral, preparatevi per un lungo e accidentato viaggio in 4x4 attraverso il deserto e vestitevi a strati poiché le temperature del deserto possono fluttuare drasticamente.",
+        "mustSee": [
+          "Museo Savitsky: Una delle più belle collezioni al mondo di arte d'avanguardia russa proibita.",
+          "Cimitero di Navi del Mar d'Aral (Moynaq): Navi arrugginite bloccate nel deserto, un potente monumento ecologico.",
+          "Necropoli di Mizdakhan: Un antico sito di sepoltura in cima a una collina con imponenti mausolei e viste panoramiche."
+        ],
+        "nature": "La natura qui è definita dal disastro del Mar d'Aral. Il viaggio verso il 'mare' è un viaggio attraverso il deserto prosciugato di Aralkum, che un tempo era il fondo del mare. Questo offre un paesaggio austero, potente e unico, completamente diverso dal resto dell'Uzbekistan, offrendo uno sguardo indimenticabile e che fa riflettere sull'impatto umano sull'ambiente.",
+        "food": "La cucina in Karakalpakstan è distinta, riflettendo la sua vicinanza al Mar d'Aral (storicamente). Provate il *beshbarmak* (carne bollita e sfoglie di pasta) o lo *zhuri* (una zuppa di latte acido). Data la posizione remota e la storia locale, i pasti qui sono spesso semplici, sostanziosi e focalizzati sul sostentamento, fornendo un gusto autentico dell'eredità nomade karakalpaka.",
+        "gettingThere": "Il modo migliore per raggiungere Nukus è volare da Tashkent (NKS). Raggiungere l'area del Mar d'Aral (Moynaq e la riva) richiede l'assunzione di un veicolo 4x4 specializzato e un autista per un impegnativo viaggio di andata e ritorno di 8-10 ore da Nukus.",
+        "featureDescription": "La caratteristica fondamentale della regione di Nukus e del Mar d'Aral è il profondo **Contrasto Ecologico e Culturale** che presenta al resto del paese. Questa regione remota offre un viaggio potente e che fa riflettere nella storia ambientale, incentrato sull'inquietante cimitero di navi a Moynaq, un austero monumento al disastro del Mar d'Aral. A contrastare questo paesaggio desertico unico c'è il Museo Savitsky di fama mondiale a Nukus, un vero gioiello nascosto che ospita una delle migliori collezioni del pianeta di arte d'avanguardia russa proibita, rendendolo una tappa essenziale ed emotivamente complessa per il culturalmente curioso."
+      }
     ],
-    "nature": "Tashkent is known for its many green spaces, parks, and tree-lined streets, making it a very walkable and pleasant capital. The nearby Chimgan Mountains (often called 'Uzbek Switzerland') offer fantastic weekend escapes with opportunities for hiking, skiing (in winter), and enjoying crisp mountain air and beautiful high-altitude scenery.",
-    "food": "Tashkent is the best place to sample a wide variety of Uzbek cuisine, but you must find a proper *Plov Center* to experience the national dish cooked in huge *kazans*. The city also has excellent international cuisine options. Try *laghman* (hand-pulled noodles with meat and vegetables) and the various fresh salads, like *achichuk* (tomato and onion), which are perfect for a main course.",
-    "gettingThere": "Tashkent International Airport (TAS) is the largest and most connected airport in Uzbekistan, serving as the main hub for international travel. High-speed rail connects it easily to Samarkand and Bukhara.",
-    "featureDescription": "Tashkent's defining characteristic is its role as the **Modern Capital and Cultural Engine** of Uzbekistan, presenting a striking duality to the ancient Silk Road towns. It offers a unique fusion of wide, tree-lined avenues and monumental architecture from the Soviet era alongside modern glass towers and deeply respected historical sites like the Khast Imam Complex. This blend makes it a dynamic hub for contemporary Central Asian life and the arts, while its beautifully decorated metro stations and vibrant Chorsu Bazaar provide accessible glimpses into both its recent past and its bustling present."
-  },
-  {
-    "id": "d5",
-    "name": "Fergana Valley",
-    "heroImage": "/images/fergana.jpg",
-    "summary": "The Fergana Valley is the most fertile and densely populated region of Uzbekistan, often referred to as the 'Garden of Uzbekistan.' It is a distinct cultural area renowned for its traditional crafts, including silk production and ceramics, and offers a glimpse into authentic rural life and the agricultural heart of the country, far from the main tourist trail of the Silk Road cities.",
-    "bestTime": "April-June for spring blossoms and pleasant heat, or August-September for the bountiful fruit harvest.",
-    "travelTips": "The best way to experience the valley is to visit the specialized workshops in each town, like the silk factory in Margilan or the ceramic studios in Rishtan. Due to the regional dialect and less tourist traffic, hiring a local guide is highly recommended, especially for navigating the rural areas and markets. Don't miss out on trying the incredible fresh fruits and local sweets.",
-    "mustSee": [
-      "Margilan: An ancient Silk Road city still famous for its traditional *ikat* and silk production methods.",
-      "Kokand: The former capital of the Kokand Khanate, featuring impressive palaces like the Khudayar Khan Palace.",
-      "Rishtan: Internationally renowned for its distinctive, stunning blue and turquoise ceramic pottery.",
-      "Rural Villages: Experience authentic Uzbek hospitality and traditional life away from major urban centers."
+    "fr": [
+      {
+        "id": "d1",
+        "name": "Samarcande",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "Samarcande, 'Le Joyau de la Route de la Soie', est une ville imprégnée de plus de 2 500 ans d'histoire, célèbre surtout comme la capitale glorieuse de l'empire de Tamerlan. C'est un arrêt obligatoire pour tout voyageur cherchant à être émerveillé par l'ampleur et la beauté de l'architecture islamique d'Asie Centrale, principalement mise en valeur dans ses places et complexes historiques de renommée mondiale, lui valant sa réputation de site du patrimoine mondial de l'UNESCO et de creuset culturel.",
+        "bestTime": "Avril-Mai (temps printanier agréable avec des floraisons), Septembre-Octobre (températures automnales idéales)",
+        "travelTips": "Visez à visiter la place du Régistan à la fois pendant la journée et au coucher du soleil pour observer les changements de couleur sur les carreaux. Réservez un hébergement près de la vieille ville pour un accès facile à pied aux principaux sites. Apprendre quelques phrases de base en russe ou en ouzbek améliorera grandement vos interactions avec les habitants.",
+        "mustSee": [
+          "Place du Régistan: Trois madrasas formant l'un des ensembles architecturaux islamiques les plus époustouflants du monde.",
+          "Mausolée Gour-e-Amir: Le lieu de repos final orné de Tamerlan (Timur).",
+          "Shah-i-Zinda: Une 'Avenue des Mausolées' à couper le souffle avec des tombeaux aux carreaux azur vibrants.",
+          "Mosquée Bibi-Khanoum: Une mosquée colossale et historique, autrefois l'une des plus grandes du monde islamique."
+        ],
+        "nature": "Bien que Samarcande soit un centre urbain, elle est entourée par la fertile vallée de la rivière Zeravshan. Les voyageurs peuvent profiter des vignobles et vergers locaux en dehors du centre-ville, qui sont particulièrement vibrants pendant les récoltes de printemps et d'automne. Les montagnes voisines offrent des opportunités d'excursions d'une journée et des vues panoramiques sur les plaines.",
+        "food": "Samarcande est célèbre pour son pain, le *non*, qui est cuit dans un tandoor unique et estampillé de motifs traditionnels. Vous devez essayer la variation locale du *plov* (pilaf), souvent cuisiné avec des pois chiches et des raisins secs, ce qui lui donne un profil de saveur plus doux. Goûtez également le *chachlik* (brochettes) chez l'un des nombreux vendeurs de rue près des sites.",
+        "gettingThere": "Samarcande est accessible par le train à grande vitesse *Afrosiyob* depuis Tachkent (environ 2 heures) et Boukhara. L'aéroport international de Samarcande (SKD) reçoit un nombre croissant de vols internationaux et nationaux.",
+        "featureDescription": "La meilleure caractéristique de Samarcande est son Architecture Islamique de classe mondiale, impressionnante, et sa profonde signification historique en tant que capitale scintillante du légendaire Empire Timouride. Les magnifiques structures de la ville, en particulier la Place du Régistan avec son trio de grandes madrasas, témoignent d'une maîtrise des carreaux et d'une échelle monumentale inégalées en Asie Centrale. Ce riche héritage fait de Samarcande un site du patrimoine mondial de l'UNESCO vibrant qui fonctionne comme une ligne de temps physique époustouflante du pic intellectuel et artistique de la Route de la Soie, offrant une expérience véritablement grandiose de l'histoire impériale."
+      },
+      {
+        "id": "d2",
+        "name": "Boukhara",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "Boukhara est souvent appelée un 'musée vivant' en raison de son centre historique séculaire miraculeusement bien conservé, qui contient plus de 140 monuments architecturaux protégés. Ce site du patrimoine mondial de l'UNESCO a servi de plaque tournante intellectuelle et spirituelle majeure sur la Route de la Soie, offrant un voyage profondément authentique et immersif dans le temps, caractérisé par ses ruelles labyrinthiques, ses anciennes *madrasas* et ses paisibles bassins centraux.",
+        "bestTime": "Mars-Mai (printemps frais) ou Septembre-Novembre (automne doux) pour éviter la chaleur intense de l'été.",
+        "travelTips": "Restez dans ou près de la vieille ville (Shakhristan) pour expérimenter pleinement l'atmosphère de la ville, car la plupart des sites sont accessibles à pied. N'oubliez pas de marchander poliment et avec le sourire lors de l'achat d'artisanat dans les bazars à dôme historiques. Essayez de trouver un salon de thé local près de Lyabi-Haouz pour observer les gens.",
+        "mustSee": [
+          "Citadelle d'Ark: Une immense et ancienne forteresse royale et ville dans la ville datant de plus de 2 000 ans.",
+          "Complexe Poi Kalyan: Dominé par l'emblématique Minaret et Mosquée Kalyan, hauts de 47 mètres.",
+          "Lyabi-Haouz: Une place historique entourant un ancien bassin, parfaite pour les promenades en soirée et la détente.",
+          "Chor Minor: Une porte unique et magnifique avec quatre minarets distinctifs à dôme turquoise."
+        ],
+        "nature": "Boukhara est située près du désert du Kyzylkoum, donnant à la région une beauté austère et aride. Bien que la verdure luxuriante soit moins courante qu'à Fergana, les jardins et les parcs autour des bassins de la ville (*haouz*) offrent de jolies oasis ombragées. Vous pouvez également organiser des excursions d'une journée dans le désert pour une expérience paysagère unique.",
+        "food": "Un plat incontournable à Boukhara est la *chourpa*, une soupe copieuse et traditionnelle de viande et de légumes. Les *samsa* locaux (pâtisseries à la viande cuites au four) sont exceptionnellement bons, souvent cuits dans un tandoor. Cherchez la cuisine juive de Boukhara pour des saveurs uniques, comme l'*och-savo*, un plat de viande et de riz distinct du *plov*.",
+        "gettingThere": "Des trains réguliers, confortables à grande vitesse et conventionnels relient Boukhara à Samarcande et Tachkent. L'aéroport international de Boukhara (BHK) propose également des vols régionaux.",
+        "featureDescription": "La caractéristique déterminante de Boukhara est son statut de 'Musée Vivant', en raison de son centre historique miraculeusement préservé et étendu. Contrairement à de nombreuses villes anciennes, son cœur reste incroyablement intact, offrant un voyage profondément authentique et immersif dans l'Asie Centrale médiévale. Avec plus de 140 monuments protégés, y compris des ruelles labyrinthiques et les paisibles bassins de Lyabi-Haouz, la vieille ville de Boukhara est un site du patrimoine mondial de l'UNESCO où l'histoire n'est pas seulement exposée mais activement ressentie. Cette intégration transparente de l'ancien et du présent confère à la ville une atmosphère intemporelle et inégalée."
+      },
+      {
+        "id": "d3",
+        "name": "Khiva",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "Khiva est une ville entière fortifiée, l'**Ichan-Kala**, qui a été parfaitement conservée, offrant aux voyageurs un voyage immersif et inégalé dans l'Asie Centrale médiévale. Marcher le long de ses murs fortifiés et naviguer dans ses ruelles étroites et sablonneuses, entouré de mosquées et de *madrasas* revêtues de carreaux turquoise et bleus à couper le souffle, donne vraiment l'impression d'être un musée en plein air parfaitement conservé et l'oasis la plus intime des grandes oasis de la Route de la Soie.",
+        "bestTime": "Avril-Juin et Septembre-Octobre. Les mois d'été (juillet/août) peuvent être extrêmement chauds.",
+        "travelTips": "Consacrez du temps à monter sur l'un des minarets, comme celui d'Islam Khoja, juste avant le coucher du soleil; la vue de la ville carrelée brillant dans la lumière dorée est inoubliable. Soyez prêt à acheter un seul billet d'entrée complet à l'Ichan-Kala, qui donne accès à la plupart des musées et monuments internes. Soutenez les artisans locaux en observant et en achetant leurs créations artisanales à l'intérieur des murs de la ville.",
+        "mustSee": [
+          "Ichan-Kala: L'intégralité de la ville intérieure fortifiée, un site UNESCO, comprenant plus de 50 monuments historiques.",
+          "Minaret Kalta Minor: L'emblématique minaret trapu aux carreaux turquoises qui définit l'horizon de Khiva.",
+          "Palais Tash Haouli: La résidence richement décorée des Khans, présentant de riches carreaux et des cours.",
+          "Mosquée Djouma: Une mosquée unique remarquable pour son intérieur frais et sombre soutenu par plus de 200 colonnes de bois sculptées de manière complexe."
+        ],
+        "nature": "Khiva est située dans la région du Khorezm, près de la rivière Amou Daria, qui a historiquement soutenu son oasis. Bien qu'elle soit entourée de désert, l'environnement d'oasis signifie que la ville a des poches de verdure et que le climat est nettement plus sec. L'arrière-plan pittoresque est l'étendue plate et sans fin du désert d'Asie Centrale.",
+        "food": "La spécialité de la région du Khorezm est le *toukhoum barak*, des poches de pâte farcies d'œuf qui sont étonnamment délicates et délicieuses. Vous devriez également essayer le *chivit oshi*, un plat de pâtes régional distinctif où les nouilles sont naturellement teintes en vert avec de l'aneth. Les *manti* (boulettes) locaux sont également excellents.",
+        "gettingThere": "Le moyen le plus courant d'arriver est de prendre un vol pour Ourguentch (UGC) depuis Tachkent, suivi d'un taxi de 30 minutes jusqu'à Khiva. Les trains conventionnels relient Khiva à Boukhara (un long et pittoresque voyage dans le désert).",
+        "featureDescription": "La caractéristique la plus exceptionnelle de Khiva est l'**Ichan-Kala**, une ville intérieure fortifiée parfaitement intacte qui fonctionne comme un musée en plein air vivant et inégalé. Contrairement à d'autres destinations de la Route de la Soie, le cœur historique de Khiva est entièrement contenu dans de hauts murs de briques fortifiés, offrant un voyage incroyablement intime et immersif à l'époque des Khans. En marchant dans ses ruelles étroites et sablonneuses, on est entouré de mosquées et de madrasas aux carreaux turquoises éblouissants, et de l'emblématique Minaret Kalta Minor, ce qui en fait l'expérience d'oasis de la Route de la Soie la plus complète visuellement et la mieux conservée."
+      },
+      {
+        "id": "d4",
+        "name": "Tachkent",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "En tant que plus grande ville d'Asie Centrale, Tachkent est la capitale vibrante et moderne de l'Ouzbékistan, offrant un mélange unique d'architecture monumentale de l'ère soviétique, de développement contemporain en verre et en acier, et d'un héritage islamique profondément enraciné. Elle sert de principal moteur économique et culturel du pays, offrant un contraste fascinant avec les anciennes villes de la Route de la Soie et agissant comme la principale porte d'entrée internationale pour la plupart des voyageurs.",
+        "bestTime": "Mars-Mai et Septembre-Novembre, lorsque le temps est doux et confortable pour l'exploration de la ville.",
+        "travelTips": "Assurez-vous d'utiliser le métro de Tachkent pour le transport; il est incroyablement bon marché, efficace, et de nombreuses stations sont époustouflantes, décorées comme des palais souterrains. Changez de devise aux guichets de banque officiels à l'arrivée, car les taux sont généralement standardisés. Téléchargez une application locale de covoiturage pour des services de taxi pratiques et peu coûteux.",
+        "mustSee": [
+          "Bazar de Chorsou: Un marché à dôme massif et vibrant où vous pouvez acheter de tout, des épices aux vêtements.",
+          "Complexe Khast Imam: Le centre religieux de la ville, abritant le Coran d'Uthman du VIIe siècle, mondialement célèbre.",
+          "Métro de Tachkent: Les stations de métro de l'ère soviétique magnifiquement décorées, chacune avec un thème et un design uniques.",
+          "Musée Amir Timur: Dédié à la vie et à l'héritage du grand empereur, une figure clé de l'histoire ouzbèke."
+        ],
+        "nature": "Tachkent est connue pour ses nombreux espaces verts, parcs et rues bordées d'arbres, ce qui en fait une capitale très agréable et où il fait bon marcher. Les montagnes de Chimgan voisines (souvent appelées 'Suisse ouzbèke') offrent de fantastiques escapades de week-end avec des possibilités de randonnée, de ski (en hiver) et de profiter de l'air frais de la montagne et de magnifiques paysages de haute altitude.",
+        "food": "Tachkent est le meilleur endroit pour déguster une grande variété de cuisine ouzbèke, mais vous devez trouver un *Centre de Plov* approprié pour découvrir le plat national cuisiné dans d'énormes *kazans*. La ville propose également d'excellentes options de cuisine internationale. Essayez le *laghman* (nouilles tirées à la main avec de la viande et des légumes) et les diverses salades fraîches, comme l'*achichouk* (tomate et oignon), qui sont parfaites pour un plat principal.",
+        "gettingThere": "L'aéroport international de Tachkent (TAS) est le plus grand et le mieux connecté de l'Ouzbékistan, servant de plaque tournante principale pour les voyages internationaux. Le rail à grande vitesse le relie facilement à Samarcande et Boukhara.",
+        "featureDescription": "La caractéristique déterminante de Tachkent est son rôle de **Capitale Moderne et Moteur Culturel** de l'Ouzbékistan, présentant une dualité frappante avec les anciennes villes de la Route de la Soie. Elle offre une fusion unique de larges avenues bordées d'arbres et d'architecture monumentale de l'ère soviétique aux côtés de tours de verre modernes et de sites historiques profondément respectés comme le Complexe Khast Imam. Ce mélange en fait un centre dynamique pour la vie et les arts contemporains d'Asie Centrale, tandis que ses stations de métro magnifiquement décorées et le vibrant Bazar de Chorsou offrent des aperçus accessibles à la fois de son passé récent et de son présent animé."
+      },
+      {
+        "id": "d5",
+        "name": "Vallée de Fergana",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "La Vallée de Fergana est la région la plus fertile et la plus densément peuplée d'Ouzbékistan, souvent appelée le 'Jardin de l'Ouzbékistan'. C'est une zone culturelle distincte réputée pour ses artisanats traditionnels, y compris la production de soie et de céramique, et offre un aperçu de la vie rurale authentique et du cœur agricole du pays, loin du principal sentier touristique des villes de la Route de la Soie.",
+        "bestTime": "Avril-Juin pour les floraisons printanières et la chaleur agréable, ou Août-Septembre pour l'abondante récolte de fruits.",
+        "travelTips": "La meilleure façon de découvrir la vallée est de visiter les ateliers spécialisés dans chaque ville, comme la fabrique de soie à Marguilan ou les studios de céramique à Richtan. En raison du dialecte régional et du trafic touristique moindre, l'embauche d'un guide local est fortement recommandée, surtout pour naviguer dans les zones rurales et les marchés. Ne manquez pas de goûter les incroyables fruits frais et les douceurs locales.",
+        "mustSee": [
+          "Marguilan: Une ancienne ville de la Route de la Soie toujours célèbre pour ses méthodes traditionnelles de production d'*ikat* et de soie.",
+          "Kokand: L'ancienne capitale du Khanat de Kokand, avec des palais impressionnants comme le Palais Khudayar Khan.",
+          "Richtan: Mondialement réputée pour sa poterie en céramique bleue et turquoise distinctive et époustouflante.",
+          "Villages Ruraux: Faites l'expérience de l'hospitalité ouzbèke authentique et de la vie traditionnelle loin des grands centres urbains."
+        ],
+        "nature": "La vallée est une puissance agricole, alimentée par la rivière Syr-Daria, créant un paysage luxuriant et vert de champs de coton, de vergers et de fermes maraîchères. Son emplacement, niché entre les chaînes de montagnes de Kurama et d'Alaï, offre de belles vues, surtout au printemps lorsque la vallée est en pleine floraison.",
+        "food": "La cuisine de la vallée se caractérise par son utilisation de produits frais. Assurez-vous d'essayer le *Plov de Fergana*, souvent plus foncé et plus riche que les autres versions régionales. Le *damlam* (un ragoût de viande et de légumes cuit à la vapeur) est un plat réconfortant local. Étant donné son statut de panier de fruits, vous devez goûter les abricots, les raisins et les melons frais de saison, qui sont considérés comme certains des meilleurs d'Asie Centrale.",
+        "gettingThere": "Les taxis partagés et les bus sont les principaux moyens de transport entre les villes de la vallée (Fergana, Kokand, Andijan). De nouveaux tunnels routiers reliant la vallée à Tachkent ont considérablement amélioré les temps de trajet.",
+        "featureDescription": "La principale caractéristique de la Vallée de Fergana est son rôle de **Cœur Artisanal Traditionnel et Agricole** de l'Ouzbékistan, souvent appelée le 'Jardin de l'Ouzbékistan'. Nichée entre des chaînes de montagnes, son extraordinaire fertilité, alimentée par la rivière Syr-Daria, soutient un paysage luxuriant de vergers et de champs. Culturellement, elle est distincte et réputée pour sa production artisanale traditionnelle et séculaire, en particulier le tissage de soie *ikat* vibrant de Marguilan et la céramique bleue internationalement célébrée de Richtan. Cette région offre aux voyageurs un aperçu unique et authentique de la vie traditionnelle et rurale de la nation, loin des principaux centres touristiques."
+      },
+      {
+        "id": "d6",
+        "name": "Noukous et Mer d'Aral",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "Noukous, la capitale de la région autonome du Karakalpakstan, et la Mer d'Aral offrent un contraste saisissant et poignant avec l'opulence des villes de la Route de la Soie. Cette région offre un puissant voyage dans l'histoire environnementale avec le troublant 'cimetière de navires' à Mouïnak, qui se dresse comme un monument à la catastrophe écologique, combiné au Musée Savitsky de classe mondiale – un véritable joyau caché de l'art d'avant-garde – ce qui en fait une étape essentielle pour le voyageur aventureux et curieux de culture.",
+        "bestTime": "Avril-Mai et Septembre-Octobre. Évitez le froid extrême de l'hiver et la chaleur intense de l'été.",
+        "travelTips": "Planifiez votre voyage bien à l'avance, car cette région est éloignée et les transports sont moins fréquents. Le Musée Savitsky est un joyau caché de classe mondiale, alors consacrez une matinée ou un après-midi complet à explorer sa collection unique. Lors de la visite du site de la Mer d'Aral, soyez prêt pour un long et cahoteux voyage en 4x4 à travers le désert, et portez des couches car les températures du désert peuvent fluctuer considérablement.",
+        "mustSee": [
+          "Musée Savitsky: L'une des plus belles collections au monde d'art d'avant-garde russe interdit.",
+          "Cimetière de Navires de la Mer d'Aral (Mouïnak): Navires rouillés échoués dans le désert, un puissant monument écologique.",
+          "Nécropole de Mizdakhane: Un ancien site de sépulture au sommet d'une colline avec des mausolées impressionnants et des vues panoramiques."
+        ],
+        "nature": "La nature ici est définie par la catastrophe de la Mer d'Aral. Le voyage vers la 'mer' est un voyage à travers le désert desséché d'Aralkoum, qui était autrefois le fond marin. Cela offre un paysage austère, puissant et unique, complètement différent du reste de l'Ouzbékistan, offrant un regard inoubliable et qui donne à réfléchir sur l'impact humain sur l'environnement.",
+        "food": "La cuisine du Karakalpakstan est distincte, reflétant sa proximité avec la Mer d'Aral (historiquement). Essayez le *beshbarmak* (viande bouillie et feuilles de pâte) ou le *jouri* (une soupe au lait aigre). Compte tenu de l'emplacement éloigné et de l'histoire locale, les repas y sont souvent simples, copieux et axés sur la subsistance, offrant un goût authentique de l'héritage nomade karakalpak.",
+        "gettingThere": "Le meilleur moyen d'atteindre Noukous est de prendre un vol depuis Tachkent (NKS). Atteindre la zone de la Mer d'Aral (Mouïnak et la rive) nécessite de louer un véhicule 4x4 spécialisé avec chauffeur pour un aller-retour difficile de 8 à 10 heures depuis Noukous.",
+        "featureDescription": "La caractéristique clé de la région de Noukous et de la Mer d'Aral est le profond **Contraste Écologique et Culturel** qu'elle présente au reste du pays. Cette région éloignée offre un voyage puissant et qui donne à réfléchir dans l'histoire environnementale, centré autour du troublant cimetière de navires à Mouïnak, un monument austère à la catastrophe de la Mer d'Aral. Contrebalançant ce paysage désertique unique se trouve le Musée Savitsky de renommée mondiale à Noukous, un véritable joyau caché abritant l'une des meilleures collections au monde d'art d'avant-garde russe interdit, ce qui en fait une étape essentielle et émotionnellement complexe pour le curieux de culture."
+      }
     ],
-    "nature": "The valley is an agricultural powerhouse, fed by the Syr Darya river, creating a lush, green landscape of cotton fields, fruit orchards, and vegetable farms. Its setting, nestled between the Kurama and Alay mountain ranges, provides beautiful vistas, especially during the spring when the valley is in full bloom.",
-    "food": "The valley's food is characterized by its use of fresh produce. Be sure to try *Fergana Plov*, often darker and richer than other regional versions. *Damlam* (a steamed meat and vegetable stew) is a local comfort food. Given its status as the fruit basket, you must sample the seasonal fresh apricots, grapes, and melons, which are considered some of the best in Central Asia.",
-    "gettingThere": "Shared taxis and buses are the primary means of transport between the valley's cities (Fergana, Kokand, Andijan). New road tunnels connecting the valley with Tashkent have significantly improved travel times.",
-    "featureDescription": "The primary feature of the Fergana Valley is its role as the **Traditional Craft and Agricultural Heart** of Uzbekistan, often called the 'Garden of Uzbekistan.' Nestled between mountain ranges, its extraordinary fertility, fed by the Syr Darya river, supports a lush landscape of orchards and fields. Culturally, it is distinct and renowned for traditional, centuries-old artisanal production, particularly the vibrant *ikat* silk weaving of Margilan and the internationally celebrated blue ceramic pottery from Rishtan. This region offers travelers a unique, authentic glimpse into the nation's traditional and rural life, away from the main tourist hubs."
-  },
-  {
-    "id": "d6",
-    "name": "Nukus & Aral Sea", 
-    "heroImage": "/images/nukus.jpg",
-    "summary": "Nukus, the capital of the autonomous Karakalpakstan region, and the Aral Sea offer a stark, poignant contrast to the opulence of the Silk Road cities. This region provides a powerful journey into environmental history with the haunting 'ship graveyard' at Moynaq, which stands as a monument to ecological disaster, combined with the world-class Savitsky Museum—a true hidden gem of avant-garde art—making it an essential stop for the adventurous and culturally curious traveler.",
-    "bestTime": "April-May and September-October. Avoid the extreme cold of winter and the intense heat of summer.",
-    "travelTips": "Plan your trip well in advance, as this region is remote and transport is less frequent. The Savitsky Museum is a world-class hidden gem, so dedicate a full morning or afternoon to explore its unique collection. When visiting the Aral Sea site, be prepared for a long, bumpy 4WD journey across the desert, and wear layers as desert temperatures can fluctuate dramatically.",
-    "mustSee": [
-      "Savitsky Museum: One of the world's finest collections of forbidden Russian avant-garde art.",
-      "Aral Sea Ship Graveyard (Moynaq): Rusting ships stranded in the desert, a powerful ecological monument.",
-      "Mizdakhan Necropolis: An ancient hilltop burial site with impressive mausoleums and panoramic views."
+    "zh": [
+      {
+        "id": "d1",
+        "name": "撒马尔罕",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "撒马尔罕，有“丝绸之路上的宝石”之称，是一座拥有超过2500年历史的城市，最著名的是作为帖木儿帝国的辉煌首都。任何寻求被中亚伊斯兰建筑的宏大规模和美丽所震撼的旅行者都必须到此一游，这些建筑主要展示在其世界著名的历史广场和建筑群中，为它赢得了联合国教科文组织世界遗产和文化大熔炉的声誉。",
+        "bestTime": "四月至五月（宜人的春季天气，有花朵盛开），九月至十月（理想的秋季气温）",
+        "travelTips": "尽量在白天和日落时分都参观雷吉斯坦广场，以见证瓷砖颜色的变化。预订老城附近的住宿，方便步行前往主要景点。学习一些基本的俄语或乌兹别克语短语将大大增强您与当地人的互动。",
+        "mustSee": [
+          "雷吉斯坦广场：三座经学院构成了世界上最令人惊叹的伊斯兰建筑群之一。",
+          "古尔·埃米尔陵：帖木儿（Tamerlane）华丽的最终安息之地。",
+          "夏伊辛达：一条令人叹为观止的“陵墓大道”，拥有充满活力的蔚蓝色瓷砖坟墓。",
+          "比比·哈努姆清真寺：一座巨大的历史性清真寺，曾是伊斯兰世界最大的清真寺之一。"
+        ],
+        "nature": "虽然撒马尔罕是一个城市中心，但它被肥沃的泽拉夫尚河谷所环绕。游客可以享受市中心外的当地葡萄园和果园，这些地方在春季和秋季收割期间尤其生机勃勃。附近的山脉提供了一日游的机会和俯瞰平原的风景。",
+        "food": "撒马尔罕以其面包 *non* 而闻名，这种面包在独特的土炉（tandoor）中烘烤，并印有传统图案。您必须尝试当地风味的 *抓饭*（plov），通常与鹰嘴豆和葡萄干一起烹饪，赋予其更甜的口感。还可以品尝景点附近许多街头小贩的 *烤肉串*（shashlik）。",
+        "gettingThere": "从塔什干（约2小时）和布哈拉乘坐高速 *Afrosiyob* 列车可抵达撒马尔罕。撒马尔罕国际机场（SKD）接待着越来越多的国际和国内航班。",
+        "featureDescription": "撒马尔罕最好的特色是其令人敬畏的世界级伊斯兰建筑，以及作为传奇帖木儿帝国光辉首都的深远历史意义。这座城市宏伟的建筑，特别是雷吉斯坦广场及其三座宏伟的经学院，展示了在中亚无与伦比的瓷砖工艺和纪念性规模。这种丰富的遗产使撒马尔罕成为一个充满活力的联合国教科文组织世界遗产地，它是一条令人惊叹的丝绸之路知识和艺术巅峰的实体时间线，提供了一种真正宏伟的帝国历史体验。"
+      },
+      {
+        "id": "d2",
+        "name": "布哈拉",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "布哈拉因其奇迹般保存完好的、拥有数百年历史的历史中心而常被称为“活着的博物馆”，该中心包含超过140个受保护的建筑古迹。这个联合国教科文组织世界遗产地曾是丝绸之路上的一个主要知识和精神中心，提供了对过去的深入真实和沉浸式旅程，以其迷宫般的胡同、古老的 *经学院* 和宁静的中央水池为特色。",
+        "bestTime": "三月至五月（凉爽的春天）或九月至十一月（温和的秋天）以避开夏季的酷热。",
+        "travelTips": "住在老城（Shakhristan）内或附近，以充分体验城市的氛围，因为大多数景点都在步行距离之内。在历史悠久的圆顶集市购买手工艺品时，记得礼貌地微笑着讨价还价。试着在莱比豪兹水池附近找一家当地的茶馆，进行人物观察。",
+        "mustSee": [
+          "阿克城堡：一座巨大的、古老的皇家堡垒和城中之城，可追溯到2000多年前。",
+          "波伊·卡扬建筑群：由标志性的、47米高的卡扬宣礼塔和清真寺主导。",
+          "莱比豪兹水池：一个环绕着古老水池的历史广场，非常适合晚间漫步和放松。",
+          "恰尔·米纳尔：一座独特而美丽的门楼，有四个独特的绿松石圆顶宣礼塔。"
+        ],
+        "nature": "布哈拉坐落在克孜勒库姆沙漠附近，赋予了该地区一种鲜明、干旱的美感。虽然郁郁葱葱的绿色植物不如费尔干纳常见，但城市水池（*豪兹*）周围的花园和公园提供了可爱、阴凉的绿洲。您还可以组织一日游到沙漠中，以获得独特的景观体验。",
+        "food": "布哈拉必尝的菜肴是 *shurpa*，一种丰盛的传统肉类和蔬菜汤。当地的 *samsa*（烤肉馅饼）非常好吃，通常在土炉（tandoor）中烘烤。寻找布哈拉犹太美食，以获得独特的风味，例如 *osh-savo*，一种与 *抓饭* 不同的肉饭菜肴。",
+        "gettingThere": "定期、舒适的高速和常规列车将布哈拉连接到撒马尔罕和塔什干。布哈拉国际机场（BHK）也提供地区航班。",
+        "featureDescription": "布哈拉的决定性特征是其“活着的博物馆”地位，因为它保存完好且广阔的历史中心。与许多古老城市不同，其核心保持着令人难以置信的完整，提供了一个深入真实和沉浸式的中世纪中亚之旅。拥有超过140个受保护的古迹，包括迷宫般的胡同和宁静的莱比豪兹水池，布哈拉的老城是一个联合国教科文组织世界遗产地，历史在这里不仅被展示，而且被积极地感受到。古代与现在的这种无缝融合赋予了这座城市无与伦比的永恒氛围。"
+      },
+      {
+        "id": "d3",
+        "name": "希瓦",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "希瓦是一座完整的城墙城市，**伊钦·卡拉（Ichan-Kala）**，它被完美地保存了下来，为旅行者提供了一次无与伦比的、沉浸式的中世纪中亚之旅。走在它的防御墙上，穿梭于狭窄、沙质的小巷中，周围环绕着覆盖着令人惊叹的绿松石和蓝色瓷砖的清真寺和 *经学院*，真的让人感觉它是一个完美保存的露天博物馆和丝绸之路伟大绿洲中最亲密的一个。",
+        "bestTime": "四月至六月和九月至十月。夏季（七月/八月）可能非常炎热。",
+        "travelTips": "花时间爬上其中一座宣礼塔，例如伊斯拉姆·霍加（Islam Khoja）的宣礼塔，就在日落之前；看着这座瓷砖城市在金色光芒中闪耀的景色是难忘的。准备好购买一张单一、全面的伊钦·卡拉门票，该票允许进入大多数内部博物馆和古迹。通过观察和购买城墙内的手工制品来支持当地工匠。",
+        "mustSee": [
+          "伊钦·卡拉（Ichan-Kala）：整个围墙内的城市，一个联合国教科文组织遗址，拥有超过50个历史古迹。",
+          "卡尔塔·米纳尔宣礼塔：标志性的、矮胖的、绿松石瓷砖宣礼塔，它定义了希瓦的天际线。",
+          "塔什·豪利宫：可汗们装饰奢华的住所，展示了丰富的瓷砖工艺和庭院。",
+          "朱玛清真寺：一座独特的清真寺，以其凉爽、黑暗的内部空间而闻名，该内部空间由200多根精雕细刻的木柱支撑。"
+        ],
+        "nature": "希瓦位于花拉子模地区，靠近阿姆河，这条河历史上维持了它的绿洲。虽然周围是沙漠，但绿洲环境意味着这座城市有绿色植物的斑块，气候明显更干燥。风景背景是中亚沙漠无尽、平坦的广阔。",
+        "food": "花拉子模地区的特色菜是 *tukhum barak*，面团口袋里塞满了鸡蛋，令人惊讶地精致和美味。您还应该尝试 *shivit oshi*，一种独特的区域面食，面条是用莳萝天然染成绿色的。当地的 *manti*（饺子）也非常棒。",
+        "gettingThere": "最常见的到达方式是从塔什干飞往乌尔根奇（UGC），然后乘坐30分钟的出租车到希瓦。常规列车将希瓦与布哈拉连接起来（一段漫长、风景优美的沙漠旅程）。",
+        "featureDescription": "希瓦最独特的特色是 **伊钦·卡拉（Ichan-Kala）**，一座完美完整的围墙内城，它作为一个无与伦比的、活着的露天博物馆。与其他丝绸之路目的地不同，希瓦的历史核心完全包含在高耸的、防御性的砖墙内，提供了一次令人难以置信的亲密和沉浸式的回到可汗时代的旅程。走在它狭窄、沙质的小巷中，周围环绕着令人眼花缭乱的绿松石瓷砖清真寺、经学院和标志性的卡尔塔·米纳尔宣礼塔，使其成为视觉上最完整、保存最完好的丝绸之路绿洲体验。"
+      },
+      {
+        "id": "d4",
+        "name": "塔什干",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "作为中亚最大的城市，塔什干是乌兹别克斯坦充满活力、现代化的首都，提供苏联时代纪念碑式建筑、当代玻璃和钢铁发展以及根深蒂固的伊斯兰遗产的独特融合。它作为该国主要的经济和文化引擎，与古代丝绸之路城市形成了鲜明的对比，并作为大多数旅行者的主要国际门户。",
+        "bestTime": "三月至五月和九月至十一月，此时天气温和舒适，适合城市探索。",
+        "travelTips": "务必使用塔什干地铁进行交通；它非常便宜、高效，许多车站都令人惊叹，装饰得像地下宫殿。抵达时在官方银行柜台兑换货币，因为汇率通常是标准化的。下载一个当地的叫车应用程序，以获得方便且廉价的出租车服务。",
+        "mustSee": [
+          "Chorsu 巴扎：一个巨大的、充满活力的圆顶市场，您可以在那里买到从香料到服装的各种商品。",
+          "哈斯特伊玛目建筑群：这座城市的宗教中心，收藏着世界著名的7世纪乌斯曼古兰经。",
+          "塔什干地铁：装饰精美的苏联时代地铁站，每个车站都有独特的主题和设计。",
+          "帖木儿博物馆：致力于这位伟大皇帝的生活和遗产，他是乌兹别克历史上的一个关键人物。"
+        ],
+        "nature": "塔什干以其众多的绿地、公园和绿树成荫的街道而闻名，使其成为一个非常适合步行和宜人的首都。附近的奇姆甘山（通常被称为“乌兹别克瑞士”）提供了绝佳的周末度假机会，包括徒步旅行、滑雪（冬季）以及享受清新的山间空气和美丽的高海拔风景。",
+        "food": "塔什干是品尝各种乌兹别克美食的最佳地点，但您必须找到一个合适的 *抓饭中心*，才能体验在巨大的 *kazans* 中烹制的国菜。这座城市也有很棒的国际美食选择。尝试 *laghman*（手拉面条与肉和蔬菜）和各种新鲜沙拉，如 *achichuk*（番茄和洋葱），它们非常适合主菜。",
+        "gettingThere": "塔什干国际机场（TAS）是乌兹别克斯坦最大、连接最广的机场，作为国际旅行的主要枢纽。高速铁路将其轻松连接到撒马尔罕和布哈拉。",
+        "featureDescription": "塔什干的决定性特征是其作为乌兹别克斯坦的 **现代首都和文化引擎** 的作用，与古代丝绸之路城镇形成了鲜明的二元性。它提供了独特的融合：宽阔、绿树成荫的大道和苏联时代的纪念碑式建筑，以及现代玻璃塔和像哈斯特伊玛目建筑群这样深受尊重的历史遗迹。这种融合使其成为当代中亚生活和艺术的动态中心，而其装饰精美的地铁站和充满活力的 Chorsu 巴扎则提供了对其近期历史和喧嚣现状的易于接触的瞥见。"
+      },
+      {
+        "id": "d5",
+        "name": "费尔干纳谷地",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "费尔干纳谷地是乌兹别克斯坦最肥沃、人口最稠密的地区，常被称为“乌兹别克斯坦的花园”。它是一个独特的文化区域，以其传统手工艺闻名，包括丝绸生产和陶瓷，并提供了对真实乡村生活和国家农业心脏的瞥见，远离丝绸之路城市的主要旅游路线。",
+        "bestTime": "四月至六月，适合春天的花朵和宜人的热度，或八月至九月，适合丰硕的果实收获。",
+        "travelTips": "体验山谷的最佳方式是参观每个城镇的专业作坊，例如马尔吉兰的丝绸厂或里什坦的陶瓷工作室。由于地区方言和较少的游客流量，强烈建议聘请当地导游，特别是用于导航农村地区和市场。不要错过尝试令人难以置信的新鲜水果和当地糖果。",
+        "mustSee": [
+          "马尔吉兰：一座古老的丝绸之路城市，仍然以其传统的 *ikat* 和丝绸生产方法而闻名。",
+          "浩罕：浩罕汗国的前首都，拥有令人印象深刻的宫殿，如 Khudayar Khan 宫殿。",
+          "里什坦：以其独特的、令人惊叹的蓝色和绿松石陶瓷陶器而闻名于世。",
+          "乡村村庄：体验远离主要城市中心的真实乌兹别克热情好客和传统生活。"
+        ],
+        "nature": "该山谷是一个农业强国，由锡尔河供养，创造了一个郁郁葱葱、绿色的棉田、果园和蔬菜农场景观。它的位置，坐落在库拉马和阿赖山脉之间，提供了美丽的景色，尤其是在春天，山谷里百花齐放。",
+        "food": "山谷的食物以使用新鲜农产品为特征。一定要尝试 *费尔干纳抓饭*，它通常比其他地区版本更黑、更丰富。*Damlam*（蒸肉和蔬菜炖菜）是当地的舒适食品。鉴于其作为水果篮的地位，您必须品尝季节性的新鲜杏子、葡萄和瓜类，它们被认为是中亚最好的水果之一。",
+        "gettingThere": "共享出租车和公共汽车是山谷城市（费尔干纳、浩罕、安集延）之间主要的交通工具。连接山谷和塔什干的新公路隧道显着改善了旅行时间。",
+        "featureDescription": "费尔干纳谷地的主要特色是其作为乌兹别克斯坦的 **传统工艺和农业心脏** 的作用，常被称为“乌兹别克斯坦的花园”。它坐落在山脉之间，由锡尔河供养的非凡肥沃度，支持着一个郁郁葱葱的果园和农田景观。在文化上，它是独特的，并以传统、数百年历史的工匠生产而闻名，特别是马尔吉兰充满活力的 *ikat* 丝绸编织和里什坦国际知名的蓝色陶瓷陶器。这个地区为旅行者提供了一个独特、真实的瞥见，了解该国的传统和乡村生活，远离主要的旅游中心。"
+      },
+      {
+        "id": "d6",
+        "name": "努库斯与咸海",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "努库斯（卡拉卡尔帕克斯坦自治区的首府）和咸海与丝绸之路城市的奢华形成了鲜明、凄美的对比。该地区提供了一个有力的环境历史之旅，在穆伊纳克（Moynaq）有令人难以忘怀的“船舶墓地”，它作为生态灾难的纪念碑而存在，并结合了世界级的萨维茨基博物馆——一个真正的先锋艺术隐藏的宝石——使其成为冒险和文化好奇的旅行者的重要一站。",
+        "bestTime": "四月至五月和九月至十月。避开冬季的极度寒冷和夏季的酷热。",
+        "travelTips": "提前计划您的旅行，因为这个地区偏远，交通不那么频繁。萨维茨基博物馆是一个世界级的隐藏瑰宝，因此请预留一个完整的上午或下午来探索其独特的收藏。在参观咸海遗址时，要做好穿越沙漠的漫长、颠簸的四驱车之旅的准备，并穿上多层衣服，因为沙漠温度可能会剧烈波动。",
+        "mustSee": [
+          "萨维茨基博物馆：世界上最好的被禁俄罗斯先锋艺术收藏之一。",
+          "咸海船舶墓地（穆伊纳克）：生锈的船只滞留在沙漠中，一个强大的生态纪念碑。",
+          "米兹达汗墓地：一个古老的山顶墓地，有令人印象深刻的陵墓和全景视野。"
+        ],
+        "nature": "这里的自然环境是由咸海灾难定义的。前往“海”的旅程是穿越干燥的阿雷库姆沙漠的旅程，这片沙漠曾经是海床。这提供了一个鲜明、强大和独特的景观，与乌兹别克斯坦的其他地方完全不同，为人类对环境的影响提供了令人难忘和清醒的观察。",
+        "food": "卡拉卡尔帕克斯坦的菜肴是独特的，反映了它与咸海（历史上）的接近。尝试 *beshbarmak*（煮肉和面食片）或 *zhuri*（酸牛奶汤）。考虑到偏远的地理位置和当地的历史，这里的饭菜通常简单、丰盛，注重维持生计，提供了卡拉卡尔帕克游牧遗产的真实味道。",
+        "gettingThere": "到达努库斯的最佳方式是从塔什干乘坐飞机（NKS）。到达咸海地区（穆伊纳克和海岸）需要租用一辆专业的四驱车和司机，从努库斯出发进行具有挑战性的8-10小时往返旅程。",
+        "featureDescription": "努库斯和咸海地区的主要特色是它与该国其他地区所呈现的深刻 **生态和文化对比**。这个偏远地区提供了一次有力、清醒的环境历史之旅，围绕着穆伊纳克令人难以忘怀的船舶墓地展开，这是咸海灾难的一个鲜明纪念碑。与这种独特的沙漠景观形成对比的是努库斯世界著名的萨维茨基博物馆，这是一个真正的隐藏瑰宝，收藏着地球上最好的被禁俄罗斯先锋艺术收藏之一，使其成为对文化好奇的旅行者来说必不可少且情感复杂的停靠站。"
+      }
     ],
-    "nature": "The nature here is defined by the Aral Sea disaster. The trip to the 'sea' is a journey across the desiccated Aralkum Desert, which was once the seabed. This provides a stark, powerful, and unique landscape, completely different from the rest of Uzbekistan, offering an unforgettable and sobering look at human impact on the environment.",
-    "food": "The cuisine in Karakalpakstan is distinct, reflecting its proximity to the Aral Sea (historically). Try *beshbarmak* (boiled meat and pasta sheets) or *zhuri* (a sour milk soup). Given the remote location and the local history, meals here are often simple, hearty, and focused on sustenance, providing an authentic taste of the Karakalpak nomadic heritage.",
-    "gettingThere": "The best way to reach Nukus is by flying from Tashkent (NKS). Reaching the Aral Sea area (Moynaq and the shore) requires hiring a specialized 4WD vehicle and driver for a challenging 8-10 hour round-trip from Nukus.",
-    "featureDescription": "The key feature of the Nukus and Aral Sea region is the profound **Ecological and Cultural Contrast** it presents to the rest of the country. This remote region offers a powerful, sobering journey into environmental history, centered around the haunting ship graveyard at Moynaq, a stark monument to the Aral Sea disaster. Counterbalancing this unique desert landscape is the world-renowned Savitsky Museum in Nukus, a true hidden gem housing one of the planet's best collections of forbidden Russian avant-garde art, making this an essential and emotionally complex stop for the culturally curious."
+    "uz": [
+      {
+        "id": "d1",
+        "name": "Samarqand",
+        "heroImage": "/images/samarqand/iStock-1249451586.jpg",
+        "summary": "Samarqand, 'Ipak yo'lining gavhari,' 2500 yildan ortiq tarixga ega shahar bo'lib, eng mashhuri Amir Temur imperiyasining shonli poytaxti sifatida tanilgan. Bu O'rta Osiyo islom me'morchiligining ulkan miqyosi va go'zalligidan hayratlanishni istagan har qanday sayohatchi uchun majburiy to'xtash joyi bo'lib, uning dunyoga mashhur tarixiy maydonlari va majmualarida namoyish etilgan bo'lib, u YUNESKOning Butunjahon merosi ob'ekti va madaniy erish nuqtasi sifatida obro' qozongan.",
+        "bestTime": "Aprel-may (gullar bilan yoqimli bahor ob-havosi), Sentyabr-oktyabr (ideal kuz haroratlari)",
+        "travelTips": "Plitkalardagi rang o'zgarishlarini kuzatish uchun Registon maydoniga kun davomida ham, quyosh botishida ham tashrif buyurishni maqsad qiling. Asosiy joylarga piyoda borish qulay bo'lishi uchun eski shahar yaqinidagi turar joylarni band qiling. Bir nechta asosiy rus yoki o'zbekcha iboralarni o'rganish mahalliy aholi bilan muloqotingizni sezilarli darajada yaxshilaydi.",
+        "mustSee": [
+          "Registon maydoni: Dunyodagi eng ajoyib islomiy me'moriy ansambllardan birini tashkil etuvchi uchta madrasa.",
+          "Go'ri Amir maqbarasi: Amir Temur (Tamerlan) ning hashamatli oxirgi maskani.",
+          "Shohizinda: Yorqin firuza koshinli qabrlar bilan to'la nafasni qamrovchi 'Maqbaralar xiyoboni'.",
+          "Bibi-Xonim masjidi: Ulkan, tarixiy masjid, bir vaqtlar islom dunyosidagi eng kattalaridan biri bo'lgan."
+        ],
+        "nature": "Samarqand shahar markazi bo'lsa-da, u serhosil Zarafshon daryosi vodiysi bilan o'ralgan. Sayohatchilar shahar markazidan tashqarida joylashgan mahalliy uzumzorlar va bog'lardan bahramand bo'lishlari mumkin, ular bahor va kuzgi hosil yig'imi paytida ayniqsa jozibali bo'ladi. Yaqin atrofdagi tog'lar bir kunlik sayohatlar va tekisliklar ustidan manzarali ko'rinishlar uchun imkoniyatlar yaratadi.",
+        "food": "Samarqand o'zining noyob tandirda pishirilgan va an'anaviy naqshlar bilan muhrlangan noni, *non*i bilan mashhur. Siz no'xat va mayiz bilan pishirilgan, unga shirinroq ta'm beradigan mahalliy *palov* variantini albatta tatib ko'rishingiz kerak. Shuningdek, joylar yaqinidagi ko'plab ko'cha sotuvchilaridan *shashlik* (kaboblar)dan namuna oling.",
+        "gettingThere": "Samarqandga Toshkentdan (taxminan 2 soat) va Buxorodan yuqori tezlikdagi *Afrosiyob* poezdi orqali borish mumkin. Samarqand Xalqaro Aeroporti (SKD) tobora ko'proq xalqaro va ichki reyslarni qabul qilmoqda.",
+        "featureDescription": "Samarqandning eng yaxshi xususiyati uning hayratlanarli, jahon darajasidagi Islom me'morchiligi va afsonaviy Temuriylar imperiyasining yorqin poytaxti sifatidagi chuqur tarixiy ahamiyatidir. Shaharning ulug'vor inshootlari, ayniqsa Registon maydoni o'zining uchta ulkan madrasasi bilan, O'rta Osiyoda tengi yo'q koshin ishi va ulkan miqyosdagi mahoratni namoyish etadi. Ushbu boy meros Samarqandni Ipak yo'lining intellektual va badiiy cho'qqisining ajoyib jismoniy xronologiyasi vazifasini bajaradigan jonli YUNESKOning Butunjahon merosi ob'ektiga aylantiradi, bu esa imperiya tarixining haqiqatan ham ulug'vor tajribasini taklif etadi."
+      },
+      {
+        "id": "d2",
+        "name": "Buxoro",
+        "heroImage": "/images/buxoro/service_content-5d77b07839e46.jpg",
+        "summary": "Buxoro o'zining mo'jizaviy tarzda yaxshi saqlanib qolgan, asrlik tarixiy markazi tufayli ko'pincha 'jonli muzey' deb ataladi, u 140 dan ortiq himoyalangan me'moriy yodgorliklarni o'z ichiga oladi. YUNESKOning Butunjahon merosi ob'ekti Ipak yo'lida muhim intellektual va ma'naviy markaz bo'lib xizmat qilgan, o'zining labirintsimon tor ko'chalari, qadimiy *madrasalar* va tinch markaziy hovuzlari bilan ajralib turadigan, vaqtga chuqur avtentiq va ta'sirchan sayohatni taklif etadi.",
+        "bestTime": "Mart-may (salqin bahor) yoki Sentyabr-noyabr (yumshoq kuz) intensiv yozgi jaziramadan qochish uchun.",
+        "travelTips": "Shaharning atmosferasini to'liq his qilish uchun eski shahar (Shahriston) ichida yoki yaqinida qoling, chunki ko'pgina diqqatga sazovor joylar piyoda masofada joylashgan. Tarixiy gumbazli bozorlarda hunarmandchilik buyumlarini sotib olayotganda, xushmuomalalik bilan va tabassum bilan savdolashishni unutmang. Odamlarni kuzatish uchun Labi-Hovuz yaqinida mahalliy choyxonani topishga harakat qiling.",
+        "mustSee": [
+          "Ark qal'asi: 2000 yildan ortiq tarixga ega bo'lgan ulkan, qadimiy qirollik qal'asi va shahar ichidagi shahar.",
+          "Poi Kalon majmuasi: Ramziy, 47 metr balandlikdagi Kalon minorasi va masjidi hukmronlik qiladi.",
+          "Labi-Hovuz: Qadimiy hovuzni o'rab turgan tarixiy maydon, kechki sayrlar va dam olish uchun mukammal.",
+          "Chor Minor: To'rtta o'ziga xos firuza gumbazli minorasi bo'lgan noyob, go'zal darvoza uyi."
+        ],
+        "nature": "Buxoro Qizilqum cho'li yaqinida joylashgan bo'lib, mintaqaga keskin, qurg'oqchil go'zallik beradi. Garchi yashil o'simliklar Farg'onadan ko'ra kamroq bo'lsa-da, shahar hovuzlari (*hovuz*) atrofidagi bog'lar va parklar yoqimli, soyali vohalarni ta'minlaydi. Shuningdek, noyob landshaft tajribasi uchun cho'lga bir kunlik sayohatlarni tashkil qilishingiz mumkin.",
+        "food": "Buxoroda albatta tatib ko'rish kerak bo'lgan taom – bu *sho'rva*, to'yimli, an'anaviy go'sht va sabzavot sho'rvasi. Mahalliy *samsa* (pishirilgan go'shtli piroglar) ajoyib, ko'pincha tandirda pishiriladi. *Palov*dan farqli o'laroq, *osh-savo* kabi noyob ta'mlar uchun Buxoro yahudiylari oshxonasini qidirib ko'ring.",
+        "gettingThere": "Muntazam, qulay yuqori tezlikdagi va oddiy poezdlar Buxoroni Samarqand va Toshkent bilan bog'laydi. Buxoro Xalqaro Aeroporti (BHK) ham mintaqaviy reyslarni taklif etadi.",
+        "featureDescription": "Buxoroning asosiy xususiyati uning mo'jizaviy tarzda saqlanib qolgan va keng tarixiy markazi tufayli 'Jonli muzey' maqomidir. Ko'pgina qadimiy shaharlardan farqli o'laroq, uning yadrosi nihoyatda buzilmagan holda qolgan, bu esa o'rta asr O'rta Osiyosiga chuqur avtentiq va ta'sirchan sayohatni taklif etadi. Labirintsimon tor ko'chalar va tinch Labi-Hovuz hovuzlari kabi 140 dan ortiq himoyalangan yodgorliklar bilan Buxoro eski shahri YUNESKOning Butunjahon merosi ob'ekti bo'lib, u yerda tarix shunchaki namoyish etilmaydi, balki faol ravishda his qilinadi. Qadimiylik va hozirgi kunning bu uzluksiz integratsiyasi shaharga beqiyos, abadiy atmosferani beradi."
+      },
+      {
+        "id": "d3",
+        "name": "Xiva",
+        "heroImage": "/images/snowscat-JCVVFidnSuc-unsplash.jpg",
+        "summary": "Xiva butunlay devor bilan o'ralgan shahar, **Ichan-Qal'a**, bo'lib, u mukammal saqlanib qolgan, sayohatchilarga o'rta asr O'rta Osiyosiga mislsiz, ta'sirchan sayohatni taklif etadi. Uning mustahkamlangan devorlari bo'ylab yurish va nafasni qamrovchi firuza va ko'k koshinlar bilan qoplangan masjidlar va *madrasalar* bilan o'ralgan tor, qumli yo'laklarida harakatlanish uni haqiqatan ham mukammal saqlanib qolgan ochiq osmon ostidagi muzey va Ipak yo'lining buyuk vohalaridan eng samimiysi kabi his qiladi.",
+        "bestTime": "Aprel-iyun va Sentyabr-oktyabr. Yoz oylari (iyul/avgust) juda issiq bo'lishi mumkin.",
+        "travelTips": "Quyosh botishidan oldin Islom Xo'ja minoralari kabi minoralaridan biriga ko'tarilishga vaqt ajrating; koshinli shaharning oltin nurda porlash manzarasi unutilmas. Ichan-Qal'aga yagona, keng qamrovli kirish chiptasini sotib olishga tayyor bo'ling, bu chipta ko'pgina ichki muzeylar va yodgorliklarga kirishni ta'minlaydi. Shahar devorlari ichidagi qo'l mehnatidan yasalgan hunarmandchilik buyumlarini tomosha qilib va sotib olib mahalliy hunarmandlarni qo'llab-quvvatlang.",
+        "mustSee": [
+          "Ichan-Qal'a: 50 dan ortiq tarixiy yodgorliklarni o'z ichiga olgan butun devor bilan o'ralgan ichki shahar, YUNESKO ob'ekti.",
+          "Kalta Minor minorasi: Xiva siluetini belgilovchi ramziy, kalta, firuza koshinli minora.",
+          "Tosh Hovli saroyi: Xonlarning hashamatli bezatilgan qarorgohi, boy koshin ishi va hovlilarni namoyish etadi.",
+          "Juma masjidi: O'zining salqin, qorong'i ichki qismi bilan ajralib turadigan noyob masjid bo'lib, 200 dan ortiq murakkab o'yilgan yog'och ustunlar bilan qo'llab-quvvatlanadi."
+        ],
+        "nature": "Xiva Xorazm viloyatida, Amudaryo daryosiga yaqin joylashgan bo'lib, u tarixan o'zining vohasini qo'llab-quvvatlagan. Garchi cho'l bilan o'ralgan bo'lsa-da, voha muhiti shaharda yashil hududlar mavjudligini anglatadi va iqlim sezilarli darajada quruqroq. Manzarali fon - Markaziy Osiyo cho'lining cheksiz, tekis maydoni.",
+        "food": "Xorazm viloyatining o'ziga xos taomi - bu *tuxum barak*, tuxum bilan to'ldirilgan xamir cho'ntaklari bo'lib, ular hayratlanarli darajada nozik va mazali. Shuningdek, siz *shivit oshi*ni tatib ko'rishingiz kerak, bu o'ziga xos mintaqaviy xamir ovqati bo'lib, unda lapshalar ukrop bilan tabiiy ravishda yashil rangga bo'yalgan. Mahalliy *manti* (chuchvara) ham a'lo darajada.",
+        "gettingThere": "Eng keng tarqalgan kelish usuli Toshkentdan Urganchga (UGC) parvoz qilish, so'ngra Xivaga 30 daqiqalik taksi orqali borish. Oddiy poezdlar Xivani Buxoro bilan bog'laydi (uzoq, manzarali cho'l sayohati).",
+        "featureDescription": "Xivaning eng ajoyib xususiyati **Ichan-Qal'a** bo'lib, u tengi yo'q, yopiq osmon ostidagi jonli muzey vazifasini bajaradigan mukammal buzilmagan, devor bilan o'ralgan ichki shahardir. Boshqa Ipak yo'li yo'nalishlaridan farqli o'laroq, Xivaning tarixiy yadrosi butunlay baland, mustahkamlangan g'isht devorlari ichida joylashgan bo'lib, xonlar davriga qaytish uchun nihoyatda samimiy va ta'sirchan sayohatni taklif etadi. Uning tor, qumli yo'laklarida yurishda, kishini ko'zni qamashtiruvchi firuza koshinli masjidlar, madrasalar va ramziy Kalta Minor minorasi o'rab oladi, bu esa uni vizual jihatdan eng to'liq va eng yaxshi saqlanib qolgan Ipak yo'li vohasi tajribasiga aylantiradi."
+      },
+      {
+        "id": "d4",
+        "name": "Toshkent",
+        "heroImage": "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+        "summary": "Markaziy Osiyodagi eng yirik shahar sifatida Toshkent O'zbekistonning jonli, zamonaviy poytaxti bo'lib, Sovet davridagi monumental arxitektura, zamonaviy shisha va po'lat qurilishlari hamda chuqur ildiz otgan islom merosining noyob uyg'unligini taklif etadi. U mamlakatning asosiy iqtisodiy va madaniy dvigateli bo'lib xizmat qiladi, qadimiy Ipak yo'li shaharlariga qiziqarli kontrast yaratadi va ko'pchilik sayohatchilar uchun asosiy xalqaro shlyuz vazifasini bajaradi.",
+        "bestTime": "Mart-may va Sentyabr-noyabr, ob-havo yumshoq va shaharni o'rganish uchun qulay bo'lganda.",
+        "travelTips": "Transport uchun Toshkent metrosidan foydalanishni unutmang; u nihoyatda arzon, samarali va ko'plab stantsiyalar er osti saroylari kabi bezatilgan, ajoyibdir. Kelganda rasmiy bank bo'limlarida valyuta ayirboshlang, chunki kurslar odatda standartlashtirilgan. Qulay va arzon taksi xizmatlari uchun mahalliy ride-hailing ilovasini yuklab oling.",
+        "mustSee": [
+          "Chorsu bozori: Ziravorlardan tortib kiyimlarga qadar hamma narsani sotib olish mumkin bo'lgan ulkan, jonli gumbazli bozor.",
+          "Hazrati Imom majmuasi: Shaharning diniy markazi bo'lib, u erda dunyoga mashhur, 7-asrdagi Usmon Qur'oni saqlanadi.",
+          "Toshkent metrosi: Chiroyli bezatilgan Sovet davridagi metro stantsiyalari, ularning har biri o'ziga xos mavzu va dizaynga ega.",
+          "Amir Temur muzeyi: Buyuk imperatorning hayoti va merosiga bag'ishlangan, O'zbekiston tarixidagi asosiy shaxs."
+        ],
+        "nature": "Toshkent o'zining ko'plab yashil maydonlari, parklari va daraxtlar bilan qoplangan ko'chalari bilan mashhur bo'lib, uni juda qulay va yoqimli poytaxtga aylantiradi. Yaqin atrofdagi Chimyon tog'lari ('O'zbek Shveytsariyasi' deb ataladi) piyoda yurish, chang'i uchish (qishda) va tiniq tog' havosidan va chiroyli baland tog' manzaralaridan bahramand bo'lish uchun ajoyib dam olish kunlarini taklif etadi.",
+        "food": "Toshkent O'zbekiston taomlarining keng assortimentini tatib ko'rish uchun eng yaxshi joy, ammo siz milliy taomni ulkan *qozonlar*da pishirilganini his qilish uchun tegishli *Palov markazi*ni topishingiz kerak. Shaharda shuningdek, ajoyib xalqaro oshxona variantlari mavjud. *Lag'mon* (go'sht va sabzavotlar bilan qo'lda tortilgan lapsha) va asosiy taom uchun mukammal bo'lgan *achchiq-chuchuk* (pomidor va piyoz) kabi turli xil yangi salatlarni sinab ko'ring.",
+        "gettingThere": "Toshkent Xalqaro Aeroporti (TAS) O'zbekistondagi eng yirik va eng ko'p ulanishga ega aeroport bo'lib, xalqaro sayohatlar uchun asosiy markaz bo'lib xizmat qiladi. Yuqori tezlikdagi temir yo'l uni Samarqand va Buxoro bilan osongina bog'laydi.",
+        "featureDescription": "Toshkentning o'ziga xos xususiyati uning O'zbekistonning **Zamonaviy Poytaxti va Madaniy Dvigateli** sifatidagi roli bo'lib, qadimiy Ipak yo'li shaharlariga keskin ikkilikni taqdim etadi. U keng, daraxtlar bilan qoplangan xiyobonlar va Sovet davridagi monumental arxitektura, zamonaviy shisha minoralari va Hazrati Imom majmuasi kabi chuqur hurmatga sazovor bo'lgan tarixiy joylarning noyob uyg'unligini taklif etadi. Ushbu aralashma uni zamonaviy Markaziy Osiyo hayoti va san'ati uchun dinamik markazga aylantiradi, shu bilan birga uning chiroyli bezatilgan metro stantsiyalari va jonli Chorsu bozori uning yaqin o'tmishi va shovqinli hozirgi holatiga kirish mumkin bo'lgan ko'rinishlarni taqdim etadi."
+      },
+      {
+        "id": "d5",
+        "name": "Farg'ona vodiysi",
+        "heroImage": "/images/fergana.jpg",
+        "summary": "Farg'ona vodiysi O'zbekistonning eng serhosil va zich joylashgan mintaqasi bo'lib, ko'pincha 'O'zbekiston bog'i' deb ataladi. Bu ipakchilik va kulolchilik kabi an'anaviy hunarmandchiligi bilan mashhur bo'lgan alohida madaniy hudud bo'lib, Ipak yo'li shaharlarining asosiy sayyohlik yo'lidan uzoqda, mamlakatning haqiqiy qishloq hayoti va qishloq xo'jaligi markaziga nazar tashlash imkonini beradi.",
+        "bestTime": "Aprel-iyun bahor gullari va yoqimli issiqlik uchun, yoki Avgust-sentyabr mo'l-ko'l meva hosili uchun.",
+        "travelTips": "Vodiyni his qilishning eng yaxshi usuli Marg'ilon shahridagi ipak fabrikasi yoki Rishtondagi kulolchilik studiyalari kabi har bir shahardagi ixtisoslashgan ustaxonalarga tashrif buyurishdir. Mintaqaviy dialekt va kamroq sayyohlik oqimi tufayli, ayniqsa qishloq joylari va bozorlarda harakatlanish uchun mahalliy gidni yollash tavsiya etiladi. Ajoyib yangi mevalar va mahalliy shirinliklarni tatib ko'rishni unutmang.",
+        "mustSee": [
+          "Marg'ilon: O'zining an'anaviy *ikat* va ipak ishlab chiqarish usullari bilan hali ham mashhur bo'lgan qadimiy Ipak yo'li shahri.",
+          "Qo'qon: Qo'qon xonligining sobiq poytaxti bo'lib, u yerda Xudoyorxon saroyi kabi ta'sirchan saroylar mavjud.",
+          "Rishton: O'zining o'ziga xos, ajoyib ko'k va firuza rangli kulolchilik buyumlari bilan xalqaro miqyosda mashhur.",
+          "Qishloq joylari: Asosiy shahar markazlaridan uzoqda haqiqiy o'zbek mehmondo'stligi va an'anaviy hayotini his qiling."
+        ],
+        "nature": "Vodiy Sirdaryo daryosi tomonidan sug'oriladigan qishloq xo'jaligi elektr stantsiyasi bo'lib, paxta maydonlari, mevali bog'lar va sabzavot fermalarining yashil, yam-yashil landshaftini yaratadi. Uning Kurama va Olay tog' tizmalari orasida joylashishi, ayniqsa bahorda, vodiy to'liq gullaganda, chiroyli manzaralarni taqdim etadi.",
+        "food": "Vodiyning taomi yangi mahsulotlardan foydalanish bilan ajralib turadi. *Farg'ona palovi*ni sinab ko'rishni unutmang, u ko'pincha boshqa mintaqaviy versiyalardan ko'ra quyuqroq va boyroq bo'ladi. *Damlam* (bug'langan go'sht va sabzavotli dimlama) mahalliy qulay taomdir. Meva savati maqomi tufayli, siz mavsumiy yangi o'rik, uzum va qovunlarni tatib ko'rishingiz kerak, ular Markaziy Osiyodagi eng yaxshilardan hisoblanadi.",
+        "gettingThere": "Umumiy taksilar va avtobuslar vodiy shaharlari (Farg'ona, Qo'qon, Andijon) o'rtasida asosiy transport vositasidir. Vodiy va Toshkentni bog'laydigan yangi avtomobil tunnellari sayohat vaqtini sezilarli darajada yaxshiladi.",
+        "featureDescription": "Farg'ona vodiysining asosiy xususiyati uning O'zbekistonning **An'anaviy Hunarmandchilik va Qishloq Xo'jaligi Yuragi** sifatidagi roli bo'lib, ko'pincha 'O'zbekiston bog'i' deb ataladi. Tog' tizmalari orasida joylashgan bo'lib, Sirdaryo daryosi tomonidan sug'oriladigan uning g'ayrioddiy hosildorligi bog'lar va dalalarning yam-yashil landshaftini qo'llab-quvvatlaydi. Madaniy jihatdan, u o'ziga xos va an'anaviy, asrlik hunarmandchilik ishlab chiqarishi, xususan, Marg'ilondagi jonli *ikat* ipak to'qish va Rishtondagi xalqaro miqyosda nishonlanadigan ko'k kulolchilik buyumlari bilan mashhur. Ushbu mintaqa sayohatchilarga asosiy turistik markazlardan uzoqda, millatning an'anaviy va qishloq hayotiga noyob, avtentiq nazar tashlash imkonini beradi."
+      },
+      {
+        "id": "d6",
+        "name": "Nukus va Orol dengizi",
+        "heroImage": "/images/nukus.jpg",
+        "summary": "Avtonom Qoraqalpog'iston Respublikasining poytaxti Nukus va Orol dengizi Ipak yo'li shaharlarining hashamatiga keskin, ta'sirchan kontrastni taklif etadi. Ushbu mintaqa ekologik falokat yodgorligi bo'lgan Mo'ynoqdagi dahshatli 'kemalar qabristoni' bilan birlashgan, avangard san'atining haqiqiy yashirin gavhari bo'lgan jahon darajasidagi Savitskiy muzeyi bilan ekologik tarixga kuchli sayohatni ta'minlaydi, bu uni sarguzashtli va madaniy jihatdan qiziquvchan sayohatchi uchun muhim to'xtash joyiga aylantiradi.",
+        "bestTime": "Aprel-may va Sentyabr-oktyabr. Qishning haddan tashqari sovuqligidan va yozning intensiv jaziramasidan qoching.",
+        "travelTips": "Sayohatni oldindan rejalashtiring, chunki bu mintaqa olis va transport kamroq chastotada. Savitskiy muzeyi jahon darajasidagi yashirin gavhar bo'lib, uning noyob kolleksiyasini o'rganish uchun butun bir ertalab yoki tushdan keyin vaqt ajrating. Orol dengizi joyiga tashrif buyurganingizda, cho'l bo'ylab uzoq, notekis 4WD sayohatiga tayyor bo'ling va qatlamli kiyim kiying, chunki cho'l haroratlari keskin o'zgarishi mumkin.",
+        "mustSee": [
+          "Savitskiy muzeyi: Taqiqalangan rus avangard san'atining dunyodagi eng yaxshi kolleksiyalaridan biri.",
+          "Orol dengizi kemalari qabristoni (Mo'ynoq): Cho'lda qolib ketgan zanglagan kemalar, kuchli ekologik yodgorlik.",
+          "Mizdaxan nekropoli: Ta'sirchan maqbaralar va panoramik ko'rinishlarga ega bo'lgan qadimiy tepalikdagi qabriston."
+        ],
+        "nature": "Bu yerdagi tabiat Orol dengizi falokati bilan belgilanadi. 'Dengiz'ga sayohat bir vaqtlar dengiz tubi bo'lgan qurigan Orolqum cho'li bo'ylab sayohatdir. Bu O'zbekistonning qolgan qismidan butunlay farq qiladigan keskin, kuchli va noyob landshaftni ta'minlaydi, atrof-muhitga inson ta'siriga unutilmas va hushyor qarashni taklif etadi.",
+        "food": "Qoraqalpog'istondagi oshxona o'ziga xos bo'lib, uning Orol dengiziga yaqinligini aks ettiradi (tarixiy jihatdan). *Beshbarmak* (qaynatilgan go'sht va xamir varaqalari) yoki *ju'ri* (nordon sutli sho'rva)ni sinab ko'ring. Olis joylashuvi va mahalliy tarixini hisobga olgan holda, bu yerdagi ovqatlar ko'pincha oddiy, to'yimli va oziqlanishga qaratilgan bo'lib, Qoraqalpoq ko'chmanchi merosining haqiqiy ta'mini ta'minlaydi.",
+        "gettingThere": "Nukusga etib borishning eng yaxshi usuli Toshkentdan (NKS) parvoz qilishdir. Orol dengizi hududiga (Mo'ynoq va qirg'oq) etib borish Nukusdan murakkab 8-10 soatlik do'ng yo'lda borish uchun ixtisoslashgan 4WD avtomobil va haydovchini yollashni talab qiladi.",
+        "featureDescription": "Nukus va Orol dengizi mintaqasining asosiy xususiyati uning mamlakatning qolgan qismiga taqdim etadigan chuqur **Ekologik va Madaniy Kontrasti**dir. Ushbu olis mintaqa Orol dengizi falokatining keskin yodgorligi bo'lgan Mo'ynoqdagi dahshatli kemalar qabristoni atrofida jamlangan ekologik tarixga kuchli, hushyor sayohatni taklif etadi. Ushbu noyob cho'l landshaftiga qarama-qarshi bo'lgan Nukusdagi jahon darajasidagi Savitskiy muzeyi bo'lib, u taqiqlangan rus avangard san'atining sayyoradagi eng yaxshi kolleksiyalaridan birini o'z ichiga olgan haqiqiy yashirin gavhardir, bu esa uni madaniy jihatdan qiziquvchan uchun muhim va hissiy jihatdan murakkab to'xtash joyiga aylantiradi."
+      }
+    ]
   }
-]
+}

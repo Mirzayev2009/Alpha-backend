@@ -1,140 +1,949 @@
 {
-  "transport": [
-    {
-      "id": "t1",
-      "title": "Zhong Tong LCK6127Н",
-      "features": [
-        "51+1+1 seats",
-        "Air conditioning",
-        "Fridge",
-        "Coffee machine",
-        "Restroom",
-        "LCD, DVD, and music system"
-      ],
-      "description": "Experience luxury travel with our flagship Zhong Tong coach, featuring spacious seating for 53 passengers. This modern bus offers premium amenities including climate control, entertainment systems, and onboard refreshments, perfect for long-distance tours across Uzbekistan.",
-      "image": "/images/transport-1.jpg"
-    },
-    {
-      "id": "t2",
-      "title": "Mercedes-Benz vito",
-      "features": [
-        "5+1 seats",
-        "Large luggage space",
-        "Air conditioning",
-        "USB charging ports",
-        "English-speaking driver",
-        "DVD "
-
-      ],
-       "description": "Discover Uzbekistan in comfort with our Mercedes-Benz Vito, ideal for small groups or families. This premium van combines elegance with practicality, offering ample luggage space and modern amenities for an intimate travel experience with personalized service.",
-      "image": "/images/transport-2.jpg"
-    },
-    {
-      "id": "t3",
-      "title": "Zhong Tong LCK6127Н",
-      "features": [
-        "51+1+1 seats",
-        "Air conditioning",
-        "Fridge",
-        "Coffee machine",
-        "Restroom",
-        "LCD, DVD, and music system"
-      ],
-       "description": "Journey in style aboard our well-appointed Zhong Tong coach, featuring comprehensive amenities for ultimate passenger comfort. Ideal for large group tours, this bus ensures a pleasant travel experience with entertainment options and convenient refreshment facilities.",
-      "image": "/images/transport-3.jpg"
-    },
-    {
-      "id": "t4",
-      "title": "Hunday Н1",
+  "transport": {
+    "en": [
+      {
+        "id": "t1",
+        "title": "Zhong Tong LCK6127Н",
         "features": [
-         "7+1 seats",
-        "Large luggage space",
-        "Air conditioning",
-        "USB charging ports",
-        "English-speaking driver",
-        "DVD"
-
-      ],
-      "description": "Perfect for small group excursions, our Hyundai H1 van provides a versatile travel solution with comfortable seating for eight passengers. Enjoy modern conveniences and ample storage space while exploring Uzbekistan's historic sites and urban attractions.",
-      "image": "/images/transport-4.jpg"
-    },
-    {
-      "id": "t5",
-      "title": "Joylong",
-      "features": [
-        "16 seats",
-        "Comfortable for up to 3 passengers",
-        "Air conditioning",
-        "Professional English-speaking driver",
-        "LCD, DVD, and music system"
-      ],
-      "description": "The Joylong minibus offers the perfect balance between capacity and maneuverability, making it ideal for city tours and airport transfers. With professional service and thoughtful amenities, this 16-seater ensures a comfortable journey for medium-sized groups.",
-      "image": "/images/transport-5.jpg"
-    },
-    {
-      "id": "t6",
-      "title": "YUTONG ZK6858",
-       "features": [
-         "Air conditioning",
-         "LCD, DVD, and music system"
+          "51+1+1 seats",
+          "Air conditioning",
+          "Fridge",
+          "Coffee machine",
+          "Restroom",
+          "LCD, DVD, and music system"
         ],
-       "description": "Our YUTONG ZK6858 offers an efficient solution for medium-sized groups with its 33-seat configuration. This well-equipped coach provides essential comfort features and entertainment options, perfect for day trips and shorter excursions around Uzbekistan.",
-      "image": "/images/transport-6.jpg"
-    },
-    {
-      "id": "t7",
-      "title": "YUTONG ZK6119",
-         "features": [
-        "43 seats",
-        "Air conditioning",
-        "Coffee machine",
-        "Restroom",
-        "LCD, DVD, and music system"
-      ],
-      "description": "Travel in comfort aboard our YUTONG ZK6119, a spacious 43-seater coach equipped with all modern conveniences. Perfect for extended tours, this vehicle combines luxury amenities with reliable performance for an exceptional group travel experience.",
-      "image": "/images/transport-7.jpg"
-    },
-     {
-      "id": "t8",
-      "title": "YUTONG ZK6127 ",
-       "features": [
-        "45 seats",
-        "Fridge",
-        "Coffee machine",
-        "Restroom",
-        "LCD, DVD, and music system"
-      ],
-      "description": "The YUTONG ZK6127 delivers premium comfort for larger groups with its 45-seat capacity. Equipped with comprehensive amenities including refreshment facilities and entertainment systems, this coach ensures a superior travel experience across Uzbekistan.",
-      "image": "/images/transport-8.jpg"
-    },
-    {
-      "id": "t9",
-      "title": "Zhong Tong LCK6127",
-      "features": [
-        "53 seats",
-        "Air conditioning",
-        "Fridge",
-        "Coffee machine",
-        "Restroom",
-        "LCD, DVD, and music system"
-      ],
-      "description": "Our largest capacity Zhong Tong LCK6127 coach accommodates 53 passengers in supreme comfort. Featuring full amenities and modern entertainment systems, this vehicle is perfect for large group tours and extended journeys throughout Uzbekistan.",
-      "image": "/images/transport-9.jpg"
-    },
-    {
-      "id": "t10",
-      "title": "YUTONG ZK6122",
-      "features": [
-      "49 seats",
-      "Air conditioning",
-      "Fridge",
-      "Coffee machine",
-      "Restroom",
-      "LCD, DVD, and music system"
+        "description": "Experience luxury travel with our flagship Zhong Tong coach, featuring spacious seating for 53 passengers. This modern bus offers premium amenities including climate control, entertainment systems, and onboard refreshments, perfect for long-distance tours across Uzbekistan.",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "Mercedes-Benz vito",
+        "features": [
+          "5+1 seats",
+          "Large luggage space",
+          "Air conditioning",
+          "USB charging ports",
+          "English-speaking driver",
+          "DVD "
+        ],
+        "description": "Discover Uzbekistan in comfort with our Mercedes-Benz Vito, ideal for small groups or families. This premium van combines elegance with practicality, offering ample luggage space and modern amenities for an intimate travel experience with personalized service.",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 seats",
+          "Air conditioning",
+          "Fridge",
+          "Coffee machine",
+          "Restroom",
+          "LCD, DVD, and music system"
+        ],
+        "description": "Journey in style aboard our well-appointed Zhong Tong coach, featuring comprehensive amenities for ultimate passenger comfort. Ideal for large group tours, this bus ensures a pleasant travel experience with entertainment options and convenient refreshment facilities.",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "Hunday Н1",
+        "features": [
+          "7+1 seats",
+          "Large luggage space",
+          "Air conditioning",
+          "USB charging ports",
+          "English-speaking driver",
+          "DVD"
+        ],
+        "description": "Perfect for small group excursions, our Hyundai H1 van provides a versatile travel solution with comfortable seating for eight passengers. Enjoy modern conveniences and ample storage space while exploring Uzbekistan's historic sites and urban attractions.",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "Joylong",
+        "features": [
+          "16 seats",
+          "Comfortable for up to 3 passengers",
+          "Air conditioning",
+          "Professional English-speaking driver",
+          "LCD, DVD, and music system"
+        ],
+        "description": "The Joylong minibus offers the perfect balance between capacity and maneuverability, making it ideal for city tours and airport transfers. With professional service and thoughtful amenities, this 16-seater ensures a comfortable journey for medium-sized groups.",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "YUTONG ZK6858",
+        "features": [
+          "Air conditioning",
+          "LCD, DVD, and music system"
+        ],
+        "description": "Our YUTONG ZK6858 offers an efficient solution for medium-sized groups with its 33-seat configuration. This well-equipped coach provides essential comfort features and entertainment options, perfect for day trips and shorter excursions around Uzbekistan.",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "YUTONG ZK6119",
+        "features": [
+          "43 seats",
+          "Air conditioning",
+          "Coffee machine",
+          "Restroom",
+          "LCD, DVD, and music system"
+        ],
+        "description": "Travel in comfort aboard our YUTONG ZK6119, a spacious 43-seater coach equipped with all modern conveniences. Perfect for extended tours, this vehicle combines luxury amenities with reliable performance for an exceptional group travel experience.",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "YUTONG ZK6127 ",
+        "features": [
+          "45 seats",
+          "Fridge",
+          "Coffee machine",
+          "Restroom",
+          "LCD, DVD, and music system"
+        ],
+        "description": "The YUTONG ZK6127 delivers premium comfort for larger groups with its 45-seat capacity. Equipped with comprehensive amenities including refreshment facilities and entertainment systems, this coach ensures a superior travel experience across Uzbekistan.",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "Zhong Tong LCK6127",
+        "features": [
+          "53 seats",
+          "Air conditioning",
+          "Fridge",
+          "Coffee machine",
+          "Restroom",
+          "LCD, DVD, and music system"
+        ],
+        "description": "Our largest capacity Zhong Tong LCK6127 coach accommodates 53 passengers in supreme comfort. Featuring full amenities and modern entertainment systems, this vehicle is perfect for large group tours and extended journeys throughout Uzbekistan.",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "YUTONG ZK6122",
+        "features": [
+          "49 seats",
+          "Air conditioning",
+          "Fridge",
+          "Coffee machine",
+          "Restroom",
+          "LCD, DVD, and music system"
+        ],
+        "description": "Experience premium group travel in our YUTONG ZK6122, a sophisticated 49-seater coach with comprehensive amenities. From climate control to onboard refreshments, every detail is designed for passenger comfort on long-distance tours across Uzbekistan.",
+        "image": "/images/transport-10.jpg"
+      }
     ],
-    "description": "Experience premium group travel in our YUTONG ZK6122, a sophisticated 49-seater coach with comprehensive amenities. From climate control to onboard refreshments, every detail is designed for passenger comfort on long-distance tours across Uzbekistan.",
-      "image": "/images/transport-10.jpg"
-    }
-
-  ]
+    "ru": [
+      {
+        "id": "t1",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 мест",
+          "Кондиционер",
+          "Холодильник",
+          "Кофемашина",
+          "Туалет",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Ощутите роскошь путешествия на нашем флагманском автобусе Zhong Tong, располагающем просторными сиденьями для 53 пассажиров. Этот современный автобус предлагает премиальные удобства, включая климат-контроль, развлекательные системы и бортовые напитки, что идеально подходит для междугородних туров по Узбекистану.",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "Mercedes-Benz Vito",
+        "features": [
+          "5+1 мест",
+          "Большое багажное отделение",
+          "Кондиционер",
+          "USB-порты для зарядки",
+          "Англоговорящий водитель",
+          "DVD"
+        ],
+        "description": "Откройте для себя Узбекистан с комфортом на нашем Mercedes-Benz Vito, идеальном для небольших групп или семей. Этот премиальный фургон сочетает элегантность с практичностью, предлагая достаточно места для багажа и современные удобства для уединенного путешествия с индивидуальным обслуживанием.",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 мест",
+          "Кондиционер",
+          "Холодильник",
+          "Кофемашина",
+          "Туалет",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Путешествуйте стильно на нашем прекрасно оборудованном автобусе Zhong Tong, предлагающем всесторонние удобства для максимального комфорта пассажиров. Идеально подходит для туров больших групп, этот автобус обеспечивает приятное путешествие с возможностями развлечений и удобными средствами для освежения.",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "Hyundai H1",
+        "features": [
+          "7+1 мест",
+          "Большое багажное отделение",
+          "Кондиционер",
+          "USB-порты для зарядки",
+          "Англоговорящий водитель",
+          "DVD"
+        ],
+        "description": "Идеально подходящий для небольших групповых экскурсий, наш фургон Hyundai H1 предоставляет универсальное транспортное решение с удобными сиденьями для восьми пассажиров. Наслаждайтесь современными удобствами и достаточным местом для хранения багажа, исследуя исторические места и городские достопримечательности Узбекистана.",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "Joylong",
+        "features": [
+          "16 мест",
+          "Комфортабельно для 3 пассажиров",
+          "Кондиционер",
+          "Профессиональный англоговорящий водитель",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Микроавтобус Joylong предлагает идеальный баланс между вместимостью и маневренностью, что делает его идеальным для городских туров и трансферов в аэропорт. Благодаря профессиональному обслуживанию и продуманным удобствам, этот 16-местный автомобиль обеспечивает комфортное путешествие для групп среднего размера.",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "YUTONG ZK6858",
+        "features": [
+          "Кондиционер",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Наш YUTONG ZK6858 предлагает эффективное решение для групп среднего размера с его 33-местной конфигурацией. Этот хорошо оборудованный автобус предоставляет необходимые функции комфорта и возможности для развлечений, идеально подходящие для однодневных поездок и коротких экскурсий по Узбекистану.",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "YUTONG ZK6119",
+        "features": [
+          "43 места",
+          "Кондиционер",
+          "Кофемашина",
+          "Туалет",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Путешествуйте с комфортом на нашем YUTONG ZK6119, просторном 43-местном автобусе, оснащенном всеми современными удобствами. Идеально подходит для длительных туров, этот автомобиль сочетает роскошные удобства с надежной производительностью для исключительного опыта группового путешествия.",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "YUTONG ZK6127",
+        "features": [
+          "45 мест",
+          "Холодильник",
+          "Кофемашина",
+          "Туалет",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "YUTONG ZK6127 обеспечивает премиальный комфорт для больших групп с его 45-местной вместимостью. Оборудованный всесторонними удобствами, включая средства для освежения и развлекательные системы, этот автобус гарантирует превосходный опыт путешествия по Узбекистану.",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "Zhong Tong LCK6127",
+        "features": [
+          "53 места",
+          "Кондиционер",
+          "Холодильник",
+          "Кофемашина",
+          "Туалет",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Наш самый вместительный автобус Zhong Tong LCK6127 вмещает 53 пассажира в высшем комфорте. Обладая полным набором удобств и современными развлекательными системами, этот автомобиль идеально подходит для туров больших групп и длительных поездок по всему Узбекистану.",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "YUTONG ZK6122",
+        "features": [
+          "49 мест",
+          "Кондиционер",
+          "Холодильник",
+          "Кофемашина",
+          "Туалет",
+          "LCD, DVD и музыкальная система"
+        ],
+        "description": "Ощутите премиальное групповое путешествие на нашем YUTONG ZK6122, сложном 49-местном автобусе с всесторонними удобствами. От климат-контроля до бортовых напитков, каждая деталь разработана для комфорта пассажиров во время междугородних туров по Узбекистану.",
+        "image": "/images/transport-10.jpg"
+      }
+    ],
+    "es": [
+      {
+        "id": "t1",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 asientos",
+          "Aire acondicionado",
+          "Nevera",
+          "Cafetera",
+          "Baño",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "Experimente el viaje de lujo con nuestro autocar insignia Zhong Tong, con asientos espaciosos para 53 pasajeros. Este autobús moderno ofrece comodidades premium, incluyendo control de clima, sistemas de entretenimiento y refrigerios a bordo, perfecto para recorridos de larga distancia por Uzbekistán.",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "Mercedes-Benz vito",
+        "features": [
+          "5+1 asientos",
+          "Amplio espacio para equipaje",
+          "Aire acondicionado",
+          "Puertos de carga USB",
+          "Conductor de habla inglesa",
+          "DVD"
+        ],
+        "description": "Descubra Uzbekistán cómodamente con nuestra Mercedes-Benz Vito, ideal para grupos pequeños o familias. Esta furgoneta premium combina elegancia con practicidad, ofreciendo amplio espacio para equipaje y comodidades modernas para una experiencia de viaje íntima con servicio personalizado.",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 asientos",
+          "Aire acondicionado",
+          "Nevera",
+          "Cafetera",
+          "Baño",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "Viaje con estilo a bordo de nuestro bien equipado autocar Zhong Tong, que cuenta con comodidades completas para el máximo confort del pasajero. Ideal para grandes tours en grupo, este autobús garantiza una experiencia de viaje agradable con opciones de entretenimiento e instalaciones convenientes para refrigerios.",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "Hunday Н1",
+        "features": [
+          "7+1 asientos",
+          "Amplio espacio para equipaje",
+          "Aire acondicionado",
+          "Puertos de carga USB",
+          "Conductor de habla inglesa",
+          "DVD"
+        ],
+        "description": "Perfecto para pequeñas excursiones en grupo, nuestra furgoneta Hyundai H1 proporciona una solución de viaje versátil con asientos cómodos para ocho pasajeros. Disfrute de comodidades modernas y amplio espacio de almacenamiento mientras explora los sitios históricos y las atracciones urbanas de Uzbekistán.",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "Joylong",
+        "features": [
+          "16 asientos",
+          "Cómodo para hasta 3 pasajeros",
+          "Aire acondicionado",
+          "Conductor profesional de habla inglesa",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "El minibús Joylong ofrece el equilibrio perfecto entre capacidad y maniobrabilidad, lo que lo hace ideal para tours por la ciudad y traslados al aeropuerto. Con servicio profesional y comodidades bien pensadas, este vehículo de 16 asientos garantiza un viaje cómodo para grupos de tamaño mediano.",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "YUTONG ZK6858",
+        "features": [
+          "Aire acondicionado",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "Nuestro YUTONG ZK6858 ofrece una solución eficiente para grupos medianos con su configuración de 33 asientos. Este autocar bien equipado proporciona características esenciales de confort y opciones de entretenimiento, perfecto para excursiones de un día y viajes más cortos por Uzbekistán.",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "YUTONG ZK6119",
+        "features": [
+          "43 asientos",
+          "Aire acondicionado",
+          "Cafetera",
+          "Baño",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "Viaje con comodidad a bordo de nuestro YUTONG ZK6119, un espacioso autocar de 43 asientos equipado con todas las comodidades modernas. Perfecto para tours prolongados, este vehículo combina comodidades de lujo con un rendimiento confiable para una experiencia excepcional de viaje en grupo.",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "YUTONG ZK6127",
+        "features": [
+          "45 asientos",
+          "Nevera",
+          "Cafetera",
+          "Baño",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "El YUTONG ZK6127 ofrece un confort premium para grupos más grandes con su capacidad de 45 asientos. Equipado con comodidades completas que incluyen instalaciones para refrigerios y sistemas de entretenimiento, este autocar garantiza una experiencia de viaje superior por Uzbekistán.",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "Zhong Tong LCK6127",
+        "features": [
+          "53 asientos",
+          "Aire acondicionado",
+          "Nevera",
+          "Cafetera",
+          "Baño",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "Nuestro autocar Zhong Tong LCK6127 de mayor capacidad tiene capacidad para 53 pasajeros con el máximo confort. Con todas las comodidades y modernos sistemas de entretenimiento, este vehículo es perfecto para grandes tours en grupo y viajes prolongados por todo Uzbekistán.",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "YUTONG ZK6122",
+        "features": [
+          "49 asientos",
+          "Aire acondicionado",
+          "Nevera",
+          "Cafetera",
+          "Baño",
+          "Sistema LCD, DVD y música"
+        ],
+        "description": "Experimente el viaje premium en grupo en nuestro YUTONG ZK6122, un sofisticado autocar de 49 asientos con comodidades completas. Desde el control de clima hasta los refrigerios a bordo, cada detalle está diseñado para la comodidad del pasajero en tours de larga distancia por Uzbekistán.",
+        "image": "/images/transport-10.jpg"
+      }
+    ],
+    "it": [
+      {
+        "id": "t1",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 posti",
+          "Aria condizionata",
+          "Frigorifero",
+          "Macchina da caffè",
+          "Bagno",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Provate il viaggio di lusso con il nostro pullman ammiraglio Zhong Tong, dotato di posti spaziosi per 53 passeggeri. Questo autobus moderno offre servizi premium, tra cui climatizzazione, sistemi di intrattenimento e rinfreschi a bordo, perfetto per i tour a lunga distanza in Uzbekistan.",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "Mercedes-Benz Vito",
+        "features": [
+          "5+1 posti",
+          "Ampio spazio per i bagagli",
+          "Aria condizionata",
+          "Porte di ricarica USB",
+          "Autista parlante inglese",
+          "DVD"
+        ],
+        "description": "Scoprite l'Uzbekistan in comfort con il nostro Mercedes-Benz Vito, ideale per piccoli gruppi o famiglie. Questo furgone premium combina eleganza e praticità, offrendo ampio spazio per i bagagli e comfort moderni per un'esperienza di viaggio intima con servizio personalizzato.",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 posti",
+          "Aria condizionata",
+          "Frigorifero",
+          "Macchina da caffè",
+          "Bagno",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Viaggiate con stile a bordo del nostro ben attrezzato pullman Zhong Tong, dotato di servizi completi per il massimo comfort dei passeggeri. Ideale per tour di grandi gruppi, questo autobus garantisce un'esperienza di viaggio piacevole con opzioni di intrattenimento e comodi servizi di ristoro.",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "Hunday Н1",
+        "features": [
+          "7+1 posti",
+          "Ampio spazio per i bagagli",
+          "Aria condizionata",
+          "Porte di ricarica USB",
+          "Autista parlante inglese",
+          "DVD"
+        ],
+        "description": "Perfetto per piccole escursioni di gruppo, il nostro furgone Hyundai H1 offre una soluzione di viaggio versatile con posti comodi per otto passeggeri. Godetevi i comfort moderni e l'ampio spazio di archiviazione mentre esplorate i siti storici e le attrazioni urbane dell'Uzbekistan.",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "Joylong",
+        "features": [
+          "16 posti",
+          "Comodo per un massimo di 3 passeggeri",
+          "Aria condizionata",
+          "Autista professionista parlante inglese",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Il minibus Joylong offre il perfetto equilibrio tra capacità e manovrabilità, rendendolo ideale per tour cittadini e trasferimenti aeroportuali. Con un servizio professionale e servizi attenti, questo 16 posti garantisce un viaggio confortevole per gruppi di medie dimensioni.",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "YUTONG ZK6858",
+        "features": [
+          "Aria condizionata",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Il nostro YUTONG ZK6858 offre una soluzione efficiente per gruppi di medie dimensioni con la sua configurazione a 33 posti. Questo pullman ben attrezzato fornisce caratteristiche essenziali di comfort e opzioni di intrattenimento, perfetto per gite di un giorno ed escursioni più brevi in Uzbekistan.",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "YUTONG ZK6119",
+        "features": [
+          "43 posti",
+          "Aria condizionata",
+          "Macchina da caffè",
+          "Bagno",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Viaggiate in comfort a bordo del nostro YUTONG ZK6119, un spazioso pullman da 43 posti dotato di tutte le moderne comodità. Perfetto per tour prolungati, questo veicolo combina servizi di lusso con prestazioni affidabili per un'esperienza di viaggio di gruppo eccezionale.",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "YUTONG ZK6127",
+        "features": [
+          "45 posti",
+          "Frigorifero",
+          "Macchina da caffè",
+          "Bagno",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Lo YUTONG ZK6127 offre un comfort premium per gruppi più grandi con la sua capacità di 45 posti. Dotato di servizi completi, inclusi servizi di ristoro e sistemi di intrattenimento, questo pullman garantisce un'esperienza di viaggio superiore in tutto l'Uzbekistan.",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "Zhong Tong LCK6127",
+        "features": [
+          "53 posti",
+          "Aria condizionata",
+          "Frigorifero",
+          "Macchina da caffè",
+          "Bagno",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Il nostro pullman Zhong Tong LCK6127 con maggiore capacità ospita 53 passeggeri in un comfort supremo. Dotato di servizi completi e moderni sistemi di intrattenimento, questo veicolo è perfetto per tour di grandi gruppi e viaggi prolungati in tutto l'Uzbekistan.",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "YUTONG ZK6122",
+        "features": [
+          "49 posti",
+          "Aria condizionata",
+          "Frigorifero",
+          "Macchina da caffè",
+          "Bagno",
+          "Sistema LCD, DVD e musica"
+        ],
+        "description": "Provate il viaggio premium in gruppo nel nostro YUTONG ZK6122, un sofisticato pullman da 49 posti con servizi completi. Dal climatizzatore ai rinfreschi a bordo, ogni dettaglio è progettato per il comfort dei passeggeri nei tour a lunga distanza in Uzbekistan.",
+        "image": "/images/transport-10.jpg"
+      }
+    ],
+    "fr": [
+      {
+        "id": "t1",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 sièges",
+          "Climatisation",
+          "Réfrigérateur",
+          "Machine à café",
+          "Toilettes",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Faites l'expérience du voyage de luxe avec notre autocar phare Zhong Tong, doté de sièges spacieux pour 53 passagers. Ce bus moderne offre des équipements haut de gamme, y compris la climatisation, des systèmes de divertissement et des rafraîchissements à bord, parfait pour les circuits longue distance à travers l'Ouzbékistan.",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "Mercedes-Benz Vito",
+        "features": [
+          "5+1 sièges",
+          "Grand espace pour les bagages",
+          "Climatisation",
+          "Ports de charge USB",
+          "Chauffeur parlant anglais",
+          "DVD"
+        ],
+        "description": "Découvrez l'Ouzbékistan dans le confort avec notre Mercedes-Benz Vito, idéal pour les petits groupes ou les familles. Cette fourgonnette premium allie élégance et praticité, offrant amplement d'espace pour les bagages et des équipements modernes pour une expérience de voyage intime avec un service personnalisé.",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 sièges",
+          "Climatisation",
+          "Réfrigérateur",
+          "Machine à café",
+          "Toilettes",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Voyagez avec style à bord de notre autocar Zhong Tong bien équipé, doté d'équipements complets pour le confort ultime des passagers. Idéal pour les grands circuits de groupe, ce bus assure une expérience de voyage agréable avec des options de divertissement et des installations de rafraîchissement pratiques.",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "Hunday Н1",
+        "features": [
+          "7+1 sièges",
+          "Grand espace pour les bagages",
+          "Climatisation",
+          "Ports de charge USB",
+          "Chauffeur parlant anglais",
+          "DVD"
+        ],
+        "description": "Parfait pour les petites excursions en groupe, notre fourgon Hyundai H1 offre une solution de voyage polyvalente avec des sièges confortables pour huit passagers. Profitez des commodités modernes et d'un grand espace de rangement tout en explorant les sites historiques et les attractions urbaines de l'Ouzbékistan.",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "Joylong",
+        "features": [
+          "16 sièges",
+          "Confortable pour jusqu'à 3 passagers",
+          "Climatisation",
+          "Chauffeur professionnel parlant anglais",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Le minibus Joylong offre l'équilibre parfait entre capacité et maniabilité, ce qui le rend idéal pour les visites de la ville et les transferts aéroportuaires. Avec un service professionnel et des équipements bien pensés, ce véhicule de 16 places assure un voyage confortable pour les groupes de taille moyenne.",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "YUTONG ZK6858",
+        "features": [
+          "Climatisation",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Notre YUTONG ZK6858 offre une solution efficace pour les groupes de taille moyenne avec sa configuration de 33 sièges. Cet autocar bien équipé offre des caractéristiques de confort essentielles et des options de divertissement, parfait pour les excursions d'une journée et les voyages plus courts autour de l'Ouzbékistan.",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "YUTONG ZK6119",
+        "features": [
+          "43 sièges",
+          "Climatisation",
+          "Machine à café",
+          "Toilettes",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Voyagez confortablement à bord de notre YUTONG ZK6119, un autocar spacieux de 43 places équipé de toutes les commodités modernes. Parfait pour les circuits prolongés, ce véhicule allie équipements de luxe et performances fiables pour une expérience de voyage en groupe exceptionnelle.",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "YUTONG ZK6127",
+        "features": [
+          "45 sièges",
+          "Réfrigérateur",
+          "Machine à café",
+          "Toilettes",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Le YUTONG ZK6127 offre un confort premium pour les grands groupes avec sa capacité de 45 sièges. Équipé d'équipements complets, y compris des installations de rafraîchissement et des systèmes de divertissement, cet autocar assure une expérience de voyage supérieure à travers l'Ouzbékistan.",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "Zhong Tong LCK6127",
+        "features": [
+          "53 sièges",
+          "Climatisation",
+          "Réfrigérateur",
+          "Machine à café",
+          "Toilettes",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Notre autocar Zhong Tong LCK6127 de plus grande capacité peut accueillir 53 passagers dans un confort suprême. Doté d'équipements complets et de systèmes de divertissement modernes, ce véhicule est parfait pour les grands circuits de groupe et les longs voyages à travers l'Ouzbékistan.",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "YUTONG ZK6122",
+        "features": [
+          "49 sièges",
+          "Climatisation",
+          "Réfrigérateur",
+          "Machine à café",
+          "Toilettes",
+          "Système LCD, DVD et musique"
+        ],
+        "description": "Faites l'expérience du voyage de groupe premium dans notre YUTONG ZK6122, un autocar sophistiqué de 49 places avec des équipements complets. Du contrôle climatique aux rafraîchissements à bord, chaque détail est conçu pour le confort des passagers lors des circuits longue distance à travers l'Ouzbékistan.",
+        "image": "/images/transport-10.jpg"
+      }
+    ],
+    "zh": [
+      {
+        "id": "t1",
+        "title": "中通客车 LCK6127Н",
+        "features": [
+          "51+1+1 个座位",
+          "空调",
+          "冰箱",
+          "咖啡机",
+          "洗手间",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "乘坐我们的旗舰中通客车，体验豪华旅行，车内设有宽敞的座椅，可容纳 53 名乘客。这辆现代化巴士提供优质设施，包括气候控制、娱乐系统和车载茶点，非常适合在乌兹别克斯坦进行长途旅行。",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "梅赛德斯-奔驰 Vito",
+        "features": [
+          "5+1 个座位",
+          "大行李空间",
+          "空调",
+          "USB 充电端口",
+          "会说英语的司机",
+          "DVD"
+        ],
+        "description": "乘坐我们的梅赛德斯-奔驰 Vito 舒适地探索乌兹别克斯坦，非常适合小型团体或家庭。这款高级面包车将优雅与实用性相结合，提供充足的行李空间和现代化设施，为您带来私密且个性化的旅行体验。",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "中通客车 LCK6127Н",
+        "features": [
+          "51+1+1 个座位",
+          "空调",
+          "冰箱",
+          "咖啡机",
+          "洗手间",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "乘坐我们设备齐全的中通客车，时尚出行，该车拥有全面的设施，可为乘客提供极致舒适。这款巴士是大型团体旅游的理想选择，提供娱乐选择和便利的茶点设施，确保愉快的旅行体验。",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "现代 Н1",
+        "features": [
+          "7+1 个座位",
+          "大行李空间",
+          "空调",
+          "USB 充电端口",
+          "会说英语的司机",
+          "DVD"
+        ],
+        "description": "我们的现代 H1 面包车非常适合小型团体短途旅行，提供多功能的旅行解决方案，设有舒适的八人座位。在探索乌兹别克斯坦历史遗迹和城市景点时，享受现代便利设施和充足的存储空间。",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "九龙",
+        "features": [
+          "16 个座位",
+          "最多可容纳 3 名乘客",
+          "空调",
+          "专业的会说英语的司机",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "九龙中巴在容量和机动性之间取得了完美的平衡，是城市观光和机场接送的理想选择。这款 16 座巴士提供专业的服务和周到的设施，确保中型团体拥有舒适的旅程。",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "宇通 ZK6858",
+        "features": [
+          "空调",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "我们的宇通 ZK6858 以其 33 座的配置为中型团体提供了高效的解决方案。这款设备齐全的客车提供基本的舒适功能和娱乐选择，非常适合在乌兹别克斯坦周边的短途旅行和短途旅行。",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "宇通 ZK6119",
+        "features": [
+          "43 个座位",
+          "空调",
+          "咖啡机",
+          "洗手间",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "乘坐我们的宇通 ZK6119 舒适旅行，这是一辆宽敞的 43 座客车，配备了所有现代便利设施。该车非常适合延长旅行，将豪华设施与可靠性能相结合，带来卓越的团体旅行体验。",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "宇通 ZK6127",
+        "features": [
+          "45 个座位",
+          "冰箱",
+          "咖啡机",
+          "洗手间",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "宇通 ZK6127 凭借其 45 座的容量为大型团体提供优质舒适。这款客车配备了全面的设施，包括茶点设施和娱乐系统，确保在乌兹别克斯坦拥有卓越的旅行体验。",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "中通客车 LCK6127",
+        "features": [
+          "53 个座位",
+          "空调",
+          "冰箱",
+          "咖啡机",
+          "洗手间",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "我们容量最大的中通客车 LCK6127 可容纳 53 名乘客，提供极致舒适。该车配备了全套设施和现代娱乐系统，非常适合大型团体旅游和整个乌兹别克斯坦的延长旅程。",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "宇通 ZK6122",
+        "features": [
+          "49 个座位",
+          "空调",
+          "冰箱",
+          "咖啡机",
+          "洗手间",
+          "液晶显示屏、DVD和音乐系统"
+        ],
+        "description": "乘坐我们的宇通 ZK6122 体验高级团体旅行，这是一辆拥有全面设施的精致 49 座客车。从气候控制到车载茶点，每个细节都旨在为乘客在乌兹别克斯坦长途旅行中提供舒适。",
+        "image": "/images/transport-10.jpg"
+      }
+    ],
+    "uz": [
+      {
+        "id": "t1",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 o'rin",
+          "Konditsioner",
+          "Muzlatgich",
+          "Qahva mashinasi",
+          "Hojatxona",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "53 yo'lovchiga mo'ljallangan keng o'rindiqlarga ega bo'lgan flagman Zhong Tong avtobusimiz bilan hashamatli sayohatni his qiling. Ushbu zamonaviy avtobus O'zbekiston bo'ylab uzoq masofali turlar uchun ideal bo'lgan iqlim nazorati, ko'ngilochar tizimlar va bortdagi ichimliklar kabi premium qulayliklarni taklif etadi.",
+        "image": "/images/transport-1.jpg"
+      },
+      {
+        "id": "t2",
+        "title": "Mercedes-Benz Vito",
+        "features": [
+          "5+1 o'rin",
+          "Katta yuk xonasi",
+          "Konditsioner",
+          "USB zaryadlash portlari",
+          "Ingliz tilida so'zlashuvchi haydovchi",
+          "DVD"
+        ],
+        "description": "Kichik guruhlar yoki oilalar uchun ideal bo'lgan Mercedes-Benz Vito mikroavtobusimiz bilan O'zbekistonni qulay kashf eting. Ushbu premium furgon nafislikni amaliylik bilan birlashtirib, shaxsiylashtirilgan xizmat bilan yaqin sayohat tajribasi uchun yetarli yuk xonasi va zamonaviy qulayliklarni taklif etadi.",
+        "image": "/images/transport-2.jpg"
+      },
+      {
+        "id": "t3",
+        "title": "Zhong Tong LCK6127Н",
+        "features": [
+          "51+1+1 o'rin",
+          "Konditsioner",
+          "Muzlatgich",
+          "Qahva mashinasi",
+          "Hojatxona",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "Yo'lovchilarning maksimal qulayligi uchun keng qamrovli qulayliklarga ega bo'lgan yaxshi jihozlangan Zhong Tong avtobusimizda uslubda sayohat qiling. Katta guruh turlari uchun ideal bo'lgan ushbu avtobus ko'ngilochar imkoniyatlar va qulay ichimliklar xizmati bilan yoqimli sayohat tajribasini ta'minlaydi.",
+        "image": "/images/transport-3.jpg"
+      },
+      {
+        "id": "t4",
+        "title": "Hyundai H1",
+        "features": [
+          "7+1 o'rin",
+          "Katta yuk xonasi",
+          "Konditsioner",
+          "USB zaryadlash portlari",
+          "Ingliz tilida so'zlashuvchi haydovchi",
+          "DVD"
+        ],
+        "description": "Kichik guruh sayohatlari uchun mukammal bo'lgan Hyundai H1 furgonimiz sakkiz yo'lovchi uchun qulay o'rindiqlarga ega ko'p qirrali sayohat yechimini taqdim etadi. O'zbekistonning tarixiy joylari va shahar diqqatga sazovor joylarini o'rganishda zamonaviy qulayliklar va yetarli saqlash joyidan bahramand bo'ling.",
+        "image": "/images/transport-4.jpg"
+      },
+      {
+        "id": "t5",
+        "title": "Joylong",
+        "features": [
+          "16 o'rin",
+          "3 yo'lovchiga qadar qulay",
+          "Konditsioner",
+          "Professional ingliz tilida so'zlashuvchi haydovchi",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "Joylong mikroavtobusi sig'im va manevr qobiliyati o'rtasidagi mukammal muvozanatni taklif etadi, bu esa uni shahar turlari va aeroport transferlari uchun ideal qiladi. Professional xizmat va puxta o'ylangan qulayliklar bilan ushbu 16 o'rinli avtomobil o'rta guruhlar uchun qulay sayohatni ta'minlaydi.",
+        "image": "/images/transport-5.jpg"
+      },
+      {
+        "id": "t6",
+        "title": "YUTONG ZK6858",
+        "features": [
+          "Konditsioner",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "Bizning YUTONG ZK6858 33 o'rinli konfiguratsiyasi bilan o'rta guruhlar uchun samarali yechim taklif etadi. Ushbu yaxshi jihozlangan avtobus O'zbekiston bo'ylab bir kunlik sayohatlar va qisqa ekskursiyalar uchun mukammal bo'lgan asosiy qulaylik xususiyatlari va ko'ngilochar imkoniyatlarni taqdim etadi.",
+        "image": "/images/transport-6.jpg"
+      },
+      {
+        "id": "t7",
+        "title": "YUTONG ZK6119",
+        "features": [
+          "43 o'rin",
+          "Konditsioner",
+          "Qahva mashinasi",
+          "Hojatxona",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "Barcha zamonaviy qulayliklar bilan jihozlangan keng 43 o'rinli YUTONG ZK6119 avtobusimizda qulay sayohat qiling. Uzaytirilgan turlar uchun mukammal bo'lgan ushbu avtomobil hashamatli qulayliklarni ishonchli ishlash bilan birlashtirib, guruh sayohati uchun ajoyib tajriba beradi.",
+        "image": "/images/transport-7.jpg"
+      },
+      {
+        "id": "t8",
+        "title": "YUTONG ZK6127",
+        "features": [
+          "45 o'rin",
+          "Muzlatgich",
+          "Qahva mashinasi",
+          "Hojatxona",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "YUTONG ZK6127 o'zining 45 o'rinli sig'imi bilan kattaroq guruhlar uchun premium qulaylikni taqdim etadi. Ichimliklar xizmati va ko'ngilochar tizimlarni o'z ichiga olgan keng qamrovli qulayliklar bilan jihozlangan ushbu avtobus O'zbekiston bo'ylab yuqori darajadagi sayohat tajribasini ta'minlaydi.",
+        "image": "/images/transport-8.jpg"
+      },
+      {
+        "id": "t9",
+        "title": "Zhong Tong LCK6127",
+        "features": [
+          "53 o'rin",
+          "Konditsioner",
+          "Muzlatgich",
+          "Qahva mashinasi",
+          "Hojatxona",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "Eng katta sig'imga ega Zhong Tong LCK6127 avtobusimiz 53 yo'lovchini yuqori darajadagi qulaylik bilan joylashtiradi. To'liq qulayliklar va zamonaviy ko'ngilochar tizimlarga ega bo'lgan ushbu avtomobil katta guruh turlari va O'zbekiston bo'ylab uzaytirilgan sayohatlar uchun mukammaldir.",
+        "image": "/images/transport-9.jpg"
+      },
+      {
+        "id": "t10",
+        "title": "YUTONG ZK6122",
+        "features": [
+          "49 o'rin",
+          "Konditsioner",
+          "Muzlatgich",
+          "Qahva mashinasi",
+          "Hojatxona",
+          "LCD, DVD va musiqa tizimi"
+        ],
+        "description": "Keng qamrovli qulayliklarga ega murakkab 49 o'rinli YUTONG ZK6122 avtobusimizda premium guruh sayohatini his qiling. Iqlim nazoratidan tortib bortdagi ichimliklargacha, har bir detal O'zbekiston bo'ylab uzoq masofali turlarda yo'lovchilarning qulayligi uchun mo'ljallangan.",
+        "image": "/images/transport-10.jpg"
+      }
+    ]
+  }
 }

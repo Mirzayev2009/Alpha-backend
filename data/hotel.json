@@ -1,257 +1,1801 @@
-[
+{
+  "en": [
     {
-  "id": "sahid-zarafshon",
-  "title": "Sahid Zarafshon",
-  "description": "Sahid Zarafshon is a 4-star hotel located in central Bukhara. The hotel offers comfortable rooms, indoor and outdoor pools, a gym, a restaurant, and 24/7 reception. Its central location makes it easy for tourists to explore the city.",
-  "location": {
-    "city": "Bukhara",
-    "area": "City Center",
-    "address": "",
-    "country": "Uzbekistan"
-  },
-  "star_rating": 4,
-  "facilities": [
-    "Indoor swimming pool",
-    "Outdoor swimming pool",
-    "Fitness center",
-    "Restaurant and bar",
-    "Garden/Terrace",
-    "24-hour front desk",
-    "Currency exchange",
-    "Laundry service",
-    "Airport shuttle (extra fee)",
-    "Local breakfast available"
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon is a 4-star hotel located in central Bukhara. The hotel offers comfortable rooms, indoor and outdoor pools, a gym, a restaurant, and 24/7 reception. Its central location makes it easy for tourists to explore the city.",
+      "location": {
+        "city": "Bukhara",
+        "area": "City Center",
+        "address": "",
+        "country": "Uzbekistan"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "Indoor swimming pool",
+        "Outdoor swimming pool",
+        "Fitness center",
+        "Restaurant and bar",
+        "Garden/Terrace",
+        "24-hour front desk",
+        "Currency exchange",
+        "Laundry service",
+        "Airport shuttle (extra fee)",
+        "Local breakfast available"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "Air conditioning",
+          "Flat-screen TV",
+          "Refrigerator"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "Central location",
+        "Tourist-friendly",
+        "Comfortable stay"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "Mövenpick Hotels & Resorts",
+      "description": "Mövenpick Hotels & Resorts is a Swiss-heritage hospitality brand known for upscale accommodation and strong culinary traditions. The brand began in 1948 in Zurich with an innovative dining concept inspired by a seagull picking food mid-flight. Mövenpick expanded into hotels in 1973 and today operates more than 80 hotels, resorts, and Nile cruisers in over 35 countries.",
+      "location": {
+        "city": "Zurich (origin)",
+        "area": "Swiss heritage brand",
+        "address": "",
+        "country": "Switzerland"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Upscale accommodation",
+        "Culinary-focused experiences",
+        "Sustainability-focused operations",
+        "International locations",
+        "Hotels, resorts, and Nile cruisers"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "Swiss-heritage",
+        "Upscale",
+        "Culinary",
+        "International brand"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "Farovon Khiva Hotel",
+      "description": "Farovon Khiva Hotel is located in the heart of Khiva, one of the oldest cities in Uzbekistan and Central Asia. The hotel is suitable for both leisure and business stays, offering 106 modern rooms with national design elements. It features 3 restaurants, a bar, spacious ballrooms, multiple meeting rooms, and a large indoor swimming pool.",
+      "location": {
+        "city": "Khiva",
+        "area": "City Center",
+        "address": "",
+        "country": "Uzbekistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 restaurants and a bar",
+        "Indoor swimming pool",
+        "Ballrooms for up to 430 people",
+        "2 large banquet halls (390 sq.m and 479 sq.m)",
+        "11 meeting rooms (10–80 people)",
+        "Event hosting (weddings, conferences, workshops)",
+        "Coffee break and catering services",
+        "Professional cleaning and disinfection measures"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "Modern design",
+          "National décor elements"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "City center",
+        "Business-friendly",
+        "Event-friendly",
+        "Modern style",
+        "National design"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "Savitsky Plaza Hotel",
+      "description": "Savitsky Plaza Hotel was named after Igor Savitsky, the honored art collector and founder of the Nukus art museum. The hotel's interior design features contemporary artworks and references to Savitsky's legacy, particularly his work related to avant-garde art and the Kara-Kalpaks. It is a modern hotel suitable for both leisure and business stays.",
+      "location": {
+        "city": "Nukus",
+        "area": "",
+        "address": "",
+        "country": "Uzbekistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Restaurant services",
+        "Bar amenities",
+        "1 conference room for meetings and events"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "Fully-equipped services (standard rooms)",
+          "27 suites"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "Art-themed",
+        "Igor Savitsky",
+        "Modern design",
+        "Business-friendly",
+        "Nukus"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "Marwa Hotel Tashkent",
+      "description": "Marwa Hotel Tashkent is located in the city center, offering luxurious rooms for a comfortable stay. It is an ideal place to relax and hold business meetings. It features an indoor pool, spa, rooftop terrace, and Pan Asian restaurant. Its central location places it within 10 minutes of Chorsu Bazaar and the Alisher Navoï Opera, and it is around the corner from two metro stations.",
+      "location": {
+        "city": "Tashkent",
+        "area": "City Center",
+        "address": "Between Chorsu Bazaar and Alisher Navoï Opera (Near two metro stations)",
+        "country": "Uzbekistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Restaurant (including delicious breakfast)",
+        "Pan Asian restaurant on the rooftop terrace",
+        "Indoor pool",
+        "Spa",
+        "Rooftop terrace",
+        "Facilities for business meetings"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "Luxurious rooms",
+          "Equipped with everything necessary for a comfortable stay"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "City center",
+        "Business-friendly",
+        "Luxury",
+        "Spa",
+        "Rooftop"
+      ]
+    }
   ],
-  "rooms_info": {
-    "total_rooms": 150,
-    "amenities": ["Air conditioning", "Flat-screen TV", "Refrigerator"]
-  },
-  "images": [
-    "/images/photo_1_2025-12-01_19-18-07.jpg",
-    "/images/photo_2_2025-12-01_19-18-07.jpg",
-    "/images/photo_3_2025-12-01_19-18-07.jpg",
-    "/images/photo_4_2025-12-01_19-18-07.jpg",
-    "/images/photo_5_2025-12-01_19-18-07.jpg",
-    "/images/photo_6_2025-12-01_19-18-07.jpg",
-    "/images/photo_7_2025-12-01_19-18-07.jpg",
-    "/images/photo_8_2025-12-01_19-18-07.jpg",
-    "/images/photo_9_2025-12-01_19-18-07.jpg",
-    "/images/photo_10_2025-12-01_19-18-07.jpg",
-    "/images/photo_11_2025-12-01_19-18-07.jpg",
-    "/images/photo_12_2025-12-01_19-18-07.jpg",
-    "/images/photo_13_2025-12-01_19-18-07.jpg",
-    "/images/photo_14_2025-12-01_19-18-07.jpg",
-    "/images/photo_15_2025-12-01_19-18-07.jpg"
+  "es": [
+    {
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon es un hotel de 4 estrellas ubicado en el centro de Bukhara. El hotel ofrece cómodas habitaciones, piscinas cubierta y exterior, un gimnasio, un restaurante y recepción 24/7. Su ubicación céntrica facilita a los turistas la exploración de la ciudad.",
+      "location": {
+        "city": "Bukhara",
+        "area": "Centro de la ciudad",
+        "address": "",
+        "country": "Uzbekistán"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "Piscina cubierta",
+        "Piscina al aire libre",
+        "Gimnasio",
+        "Restaurante y bar",
+        "Jardín/Terraza",
+        "Recepción 24 horas",
+        "Cambio de divisas",
+        "Servicio de lavandería",
+        "Traslado al aeropuerto (tarifa extra)",
+        "Desayuno local disponible"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "Aire acondicionado",
+          "TV de pantalla plana",
+          "Refrigerador"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "Ubicación central",
+        "Ideal para turistas",
+        "Estancia cómoda"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "Mövenpick Hotels & Resorts",
+      "description": "Mövenpick Hotels & Resorts es una marca de hostelería de herencia suiza conocida por su alojamiento de lujo y sus sólidas tradiciones culinarias. La marca comenzó en 1948 en Zúrich con un concepto de restauración innovador inspirado en una gaviota recogiendo comida en pleno vuelo. Mövenpick se expandió a hoteles en 1973 y hoy opera más de 80 hoteles, resorts y cruceros por el Nilo en más de 35 países.",
+      "location": {
+        "city": "Zúrich (origen)",
+        "area": "Marca de herencia suiza",
+        "address": "",
+        "country": "Suiza"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Alojamiento de lujo",
+        "Experiencias centradas en la gastronomía",
+        "Operaciones enfocadas en la sostenibilidad",
+        "Ubicaciones internacionales",
+        "Hoteles, resorts y cruceros por el Nilo"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "Herencia suiza",
+        "Lujo",
+        "Gastronomía",
+        "Marca internacional"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "Farovon Khiva Hotel",
+      "description": "Farovon Khiva Hotel se encuentra en el corazón de Khiva, una de las ciudades más antiguas de Uzbekistán y Asia Central. El hotel es adecuado tanto para estancias de ocio como de negocios, ofreciendo 106 habitaciones modernas con elementos de diseño nacional. Cuenta con 3 restaurantes, un bar, amplios salones de baile, múltiples salas de reuniones y una gran piscina cubierta.",
+      "location": {
+        "city": "Khiva",
+        "area": "Centro de la ciudad",
+        "address": "",
+        "country": "Uzbekistán"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 restaurantes y un bar",
+        "Piscina cubierta",
+        "Salones de baile para hasta 430 personas",
+        "2 grandes salones de banquetes (390 m² y 479 m²)",
+        "11 salas de reuniones (10–80 personas)",
+        "Organización de eventos (bodas, conferencias, talleres)",
+        "Servicios de coffee break y catering",
+        "Medidas profesionales de limpieza y desinfección"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "Diseño moderno",
+          "Elementos de decoración nacional"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "Centro de la ciudad",
+        "Ideal para negocios",
+        "Ideal para eventos",
+        "Estilo moderno",
+        "Diseño nacional"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "Savitsky Plaza Hotel",
+      "description": "Savitsky Plaza Hotel lleva el nombre de Igor Savitsky, el reconocido coleccionista de arte y fundador del museo de arte de Nukus. El diseño interior del hotel presenta obras de arte contemporáneas y referencias al legado de Savitsky, particularmente a su trabajo relacionado con el arte de vanguardia y los Kara-Kalpaks. Es un hotel moderno adecuado tanto para estancias de ocio como de negocios.",
+      "location": {
+        "city": "Nukus",
+        "area": "",
+        "address": "",
+        "country": "Uzbekistán"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Servicios de restaurante",
+        "Servicios de bar",
+        "1 sala de conferencias para reuniones y eventos"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "Servicios totalmente equipados (habitaciones estándar)",
+          "27 suites"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "Temática de arte",
+        "Igor Savitsky",
+        "Diseño moderno",
+        "Ideal para negocios",
+        "Nukus"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "Marwa Hotel Tashkent",
+      "description": "Marwa Hotel Tashkent está ubicado en el centro de la ciudad, ofreciendo lujosas habitaciones para una estancia confortable. Es un lugar ideal para relajarse y celebrar reuniones de negocios. Cuenta con una piscina cubierta, spa, terraza en la azotea y restaurante panasiático. Su ubicación central lo sitúa a 10 minutos del Bazar Chorsu y la Ópera Alisher Navoï, y está a la vuelta de la esquina de dos estaciones de metro.",
+      "location": {
+        "city": "Tashkent",
+        "area": "Centro de la ciudad",
+        "address": "Entre el Bazar Chorsu y la Ópera Alisher Navoï (Cerca de dos estaciones de metro)",
+        "country": "Uzbekistán"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Restaurante (incluyendo delicioso desayuno)",
+        "Restaurante panasiático en la terraza de la azotea",
+        "Piscina cubierta",
+        "Spa",
+        "Terraza en la azotea",
+        "Instalaciones para reuniones de negocios"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "Habitaciones lujosas",
+          "Equipadas con todo lo necesario para una estancia confortable"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "Centro de la ciudad",
+        "Ideal para negocios",
+        "Lujo",
+        "Spa",
+        "Azotea"
+      ]
+    }
   ],
-
-  "tags": ["Central location", "Tourist-friendly", "Comfortable stay"]
-},
-{
-  "id": "movenpick-hotels",
-  "title": "Mövenpick Hotels & Resorts",
-  "description": "Mövenpick Hotels & Resorts is a Swiss-heritage hospitality brand known for upscale accommodation and strong culinary traditions. The brand began in 1948 in Zurich with an innovative dining concept inspired by a seagull picking food mid-flight. Mövenpick expanded into hotels in 1973 and today operates more than 80 hotels, resorts, and Nile cruisers in over 35 countries.",
-  "location": {
-    "city": "Zurich (origin)",
-    "area": "Swiss heritage brand",
-    "address": "",
-    "country": "Switzerland"
-  },
-  "star_rating": null,
-  "facilities": [
-    "Upscale accommodation",
-    "Culinary-focused experiences",
-    "Sustainability-focused operations",
-    "International locations",
-    "Hotels, resorts, and Nile cruisers"
+  "fr": [
+    {
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon est un hôtel 4 étoiles situé dans le centre de Boukhara. L'hôtel propose des chambres confortables, des piscines intérieure et extérieure, une salle de sport, un restaurant et une réception ouverte 24h/24 et 7j/7. Son emplacement central permet aux touristes d'explorer facilement la ville.",
+      "location": {
+        "city": "Boukhara",
+        "area": "Centre-ville",
+        "address": "",
+        "country": "Ouzbékistan"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "Piscine intérieure",
+        "Piscine extérieure",
+        "Centre de fitness",
+        "Restaurant et bar",
+        "Jardin/Terrasse",
+        "Réception ouverte 24h/24",
+        "Bureau de change",
+        "Service de blanchisserie",
+        "Navette aéroport (frais supplémentaires)",
+        "Petit-déjeuner local disponible"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "Climatisation",
+          "Télévision à écran plat",
+          "Réfrigérateur"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "Emplacement central",
+        "Adapté aux touristes",
+        "Séjour confortable"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "Mövenpick Hotels & Resorts",
+      "description": "Mövenpick Hotels & Resorts est une marque d'hôtellerie d'héritage suisse reconnue pour son hébergement haut de gamme et ses fortes traditions culinaires. La marque a commencé en 1948 à Zurich avec un concept de restauration innovant inspiré d'une mouette cueillant de la nourriture en plein vol. Mövenpick s'est étendu aux hôtels en 1973 et exploite aujourd'hui plus de 80 hôtels, complexes hôteliers et croisières sur le Nil dans plus de 35 pays.",
+      "location": {
+        "city": "Zurich (origine)",
+        "area": "Marque d'héritage suisse",
+        "address": "",
+        "country": "Suisse"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Hébergement haut de gamme",
+        "Expériences axées sur la cuisine",
+        "Opérations axées sur la durabilité",
+        "Emplacements internationaux",
+        "Hôtels, complexes hôteliers et croisières sur le Nil"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "Héritage suisse",
+        "Haut de gamme",
+        "Culinaire",
+        "Marque internationale"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "Farovon Khiva Hotel",
+      "description": "Farovon Khiva Hotel est situé au cœur de Khiva, l'une des villes les plus anciennes d'Ouzbékistan et d'Asie centrale. L'hôtel convient aux séjours de loisirs et d'affaires, offrant 106 chambres modernes avec des éléments de design national. Il dispose de 3 restaurants, d'un bar, de spacieuses salles de bal, de plusieurs salles de réunion et d'une grande piscine intérieure.",
+      "location": {
+        "city": "Khiva",
+        "area": "Centre-ville",
+        "address": "",
+        "country": "Ouzbékistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 restaurants et un bar",
+        "Piscine intérieure",
+        "Salles de bal pouvant accueillir jusqu'à 430 personnes",
+        "2 grandes salles de banquet (390 m² et 479 m²)",
+        "11 salles de réunion (10–80 personnes)",
+        "Organisation d'événements (mariages, conférences, ateliers)",
+        "Services de pause-café et de traiteur",
+        "Mesures professionnelles de nettoyage et de désinfection"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "Design moderne",
+          "Éléments de décor national"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "Centre-ville",
+        "Adapté aux affaires",
+        "Adapté aux événements",
+        "Style moderne",
+        "Design national"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "Savitsky Plaza Hotel",
+      "description": "L'hôtel Savitsky Plaza a été nommé d'après Igor Savitsky, le collectionneur d'art honoré et fondateur du musée d'art de Nukus. La décoration intérieure de l'hôtel présente des œuvres d'art contemporaines et des références à l'héritage de Savitsky, en particulier à son travail lié à l'art d'avant-garde et aux Kara-Kalpaks. C'est un hôtel moderne adapté aux séjours de loisirs et d'affaires.",
+      "location": {
+        "city": "Nukus",
+        "area": "",
+        "address": "",
+        "country": "Ouzbékistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Services de restaurant",
+        "Commodités du bar",
+        "1 salle de conférence pour réunions et événements"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "Services entièrement équipés (chambres standard)",
+          "27 suites"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "Thème artistique",
+        "Igor Savitsky",
+        "Design moderne",
+        "Adapté aux affaires",
+        "Nukus"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "Marwa Hotel Tashkent",
+      "description": "Marwa Hotel Tashkent est situé dans le centre-ville, offrant des chambres luxueuses pour un séjour confortable. C'est un endroit idéal pour se détendre et organiser des réunions d'affaires. Il dispose d'une piscine intérieure, d'un spa, d'une terrasse sur le toit et d'un restaurant panasiatique. Son emplacement central le place à 10 minutes du Bazar Chorsu et de l'Opéra Alisher Navoï, et il est juste au coin de deux stations de métro.",
+      "location": {
+        "city": "Tashkent",
+        "area": "Centre-ville",
+        "address": "Entre le Bazar Chorsu et l'Opéra Alisher Navoï (Près de deux stations de métro)",
+        "country": "Ouzbékistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Restaurant (y compris un délicieux petit-déjeuner)",
+        "Restaurant panasiatique sur la terrasse du toit",
+        "Piscine intérieure",
+        "Spa",
+        "Terrasse sur le toit",
+        "Installations pour réunions d'affaires"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "Chambres luxueuses",
+          "Équipées de tout le nécessaire pour un séjour confortable"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "Centre-ville",
+        "Adapté aux affaires",
+        "Luxe",
+        "Spa",
+        "Terrasse sur le toit"
+      ]
+    }
   ],
-  "rooms_info": {
-    "total_rooms": null,
-    "amenities": []
-  },
-  "images": [
-    "/images/photo_1_2025-12-01_19-23-30.jpg",
-    "/images/photo_2_2025-12-01_19-23-30.jpg",
-    "/images/photo_3_2025-12-01_19-23-30.jpg",
-    "/images/photo_4_2025-12-01_19-23-30.jpg",
-    "/images/photo_5_2025-12-01_19-23-30.jpg",
-    "/images/photo_6_2025-12-01_19-23-30.jpg",
-    "/images/photo_7_2025-12-01_19-23-30.jpg",
-    "/images/photo_8_2025-12-01_19-23-30.jpg",
-    "/images/photo_9_2025-12-01_19-23-30.jpg",
-    "/images/photo_10_2025-12-01_19-23-30.jpg",
-    "/images/photo_11_2025-12-01_19-23-30.jpg",
-    "/images/photo_12_2025-12-01_19-23-30.jpg",
-    "/images/photo_13_2025-12-01_19-23-30.jpg",
-    "/images/photo_14_2025-12-01_19-23-30.jpg",
-    "/images/photo_15_2025-12-01_19-23-30.jpg",
-    "/images/photo_16_2025-12-01_19-23-30.jpg"
+  "zh": [
+    {
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon 是一家位于布哈拉市中心的四星级酒店。酒店提供舒适的客房、室内和室外游泳池、健身中心、餐厅和 24/7 前台。其中心位置方便游客探索城市。",
+      "location": {
+        "city": "布哈拉",
+        "area": "市中心",
+        "address": "",
+        "country": "乌兹别克斯坦"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "室内游泳池",
+        "室外游泳池",
+        "健身中心",
+        "餐厅和酒吧",
+        "花园/露台",
+        "24小时前台",
+        "货币兑换",
+        "洗衣服务",
+        "机场班车（额外收费）",
+        "提供当地早餐"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "空调",
+          "平板电视",
+          "冰箱"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "中心位置",
+        "适合游客",
+        "舒适住宿"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "瑞享酒店及度假村 (Mövenpick Hotels & Resorts)",
+      "description": "瑞享酒店及度假村是一个具有瑞士传统的酒店品牌，以高档住宿和浓厚的烹饪传统而闻名。该品牌于 1948 年在苏黎世创立，其创新的餐饮理念灵感来自于一只海鸥在飞行中觅食。瑞享于 1973 年扩展到酒店业，如今在超过 35 个国家/地区经营着 80 多家酒店、度假村和尼罗河游轮。",
+      "location": {
+        "city": "苏黎世（发源地）",
+        "area": "瑞士传统品牌",
+        "address": "",
+        "country": "瑞士"
+      },
+      "star_rating": null,
+      "facilities": [
+        "高档住宿",
+        "以烹饪为中心的体验",
+        "注重可持续运营",
+        "国际化位置",
+        "酒店、度假村和尼罗河游轮"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "瑞士传统",
+        "高档",
+        "烹饪",
+        "国际品牌"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "法罗翁希瓦酒店 (Farovon Khiva Hotel)",
+      "description": "法罗翁希瓦酒店位于乌兹别克斯坦和中亚最古老的城市之一——希瓦的中心地带。酒店提供 106 间融入民族设计元素的现代化客房，适合休闲和商务住宿。酒店设有 3 间餐厅、1 个酒吧、宽敞的宴会厅、多个会议室和一个大型室内游泳池。",
+      "location": {
+        "city": "希瓦",
+        "area": "市中心",
+        "address": "",
+        "country": "乌兹别克斯坦"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 间餐厅和 1 个酒吧",
+        "室内游泳池",
+        "可容纳 430 人的宴会厅",
+        "2 个大型宴会厅（390 平方米和 479 平方米）",
+        "11 个会议室（10–80 人）",
+        "活动承办（婚礼、会议、研讨会）",
+        "茶歇和餐饮服务",
+        "专业清洁和消毒措施"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "现代设计",
+          "民族装饰元素"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "市中心",
+        "适合商务",
+        "适合活动",
+        "现代风格",
+        "民族设计"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "萨维茨基广场酒店 (Savitsky Plaza Hotel)",
+      "description": "萨维茨基广场酒店以受人尊敬的艺术品收藏家和努库斯美术馆创始人伊戈尔·萨维茨基的名字命名。酒店的室内设计融合了当代艺术品，并参考了萨维茨基的遗产，特别是他与前卫艺术和卡拉-卡尔帕克人相关的工作。这是一家现代化的酒店，适合休闲和商务住宿。",
+      "location": {
+        "city": "努库斯",
+        "area": "",
+        "address": "",
+        "country": "乌兹别克斯坦"
+      },
+      "star_rating": null,
+      "facilities": [
+        "餐厅服务",
+        "酒吧设施",
+        "1 个用于会议和活动的会议室"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "设备齐全的服务（标准客房）",
+          "27 间套房"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "艺术主题",
+        "伊戈尔·萨维茨基",
+        "现代设计",
+        "适合商务",
+        "努库斯"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "塔什干马尔瓦酒店 (Marwa Hotel Tashkent)",
+      "description": "塔什干马尔瓦酒店位于市中心，提供豪华客房，确保舒适住宿。它是放松身心和举办商务会议的理想场所。酒店设有室内游泳池、水疗中心、屋顶露台和泛亚洲餐厅。其中心位置使其距离乔尔苏巴扎和阿里舍尔·纳沃伊歌剧院不到 10 分钟路程，并且就在两个地铁站的拐角处。",
+      "location": {
+        "city": "塔什干",
+        "area": "市中心",
+        "address": "乔尔苏巴扎和阿里舍尔·纳沃伊歌剧院之间（靠近两个地铁站）",
+        "country": "乌兹别克斯坦"
+      },
+      "star_rating": null,
+      "facilities": [
+        "餐厅（包括美味早餐）",
+        "屋顶露台上的泛亚洲餐厅",
+        "室内游泳池",
+        "水疗中心",
+        "屋顶露台",
+        "商务会议设施"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "豪华客房",
+          "配备舒适住宿所需的一切"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "市中心",
+        "适合商务",
+        "奢华",
+        "水疗",
+        "屋顶"
+      ]
+    }
   ],
-  "tags": [
-    "Swiss-heritage",
-    "Upscale",
-    "Culinary",
-    "International brand"
-  ]
-},
-{
-  "id": "farovon-khiva",
-  "title": "Farovon Khiva Hotel",
-  "description": "Farovon Khiva Hotel is located in the heart of Khiva, one of the oldest cities in Uzbekistan and Central Asia. The hotel is suitable for both leisure and business stays, offering 106 modern rooms with national design elements. It features 3 restaurants, a bar, spacious ballrooms, multiple meeting rooms, and a large indoor swimming pool.",
-  "location": {
-    "city": "Khiva",
-    "area": "City Center",
-    "address": "",
-    "country": "Uzbekistan"
-  },
-  "star_rating": null,
-  "facilities": [
-    "3 restaurants and a bar",
-    "Indoor swimming pool",
-    "Ballrooms for up to 430 people",
-    "2 large banquet halls (390 sq.m and 479 sq.m)",
-    "11 meeting rooms (10–80 people)",
-    "Event hosting (weddings, conferences, workshops)",
-    "Coffee break and catering services",
-    "Professional cleaning and disinfection measures"
+  "uz": [
+    {
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon Buxoro markazida joylashgan 4 yulduzli mehmonxona. Mehmonxona qulay xonalar, yopiq va ochiq hovuzlar, sport zali, restoran va 24/7 qabulxona xizmatini taklif etadi. Uning markaziy joylashuvi sayyohlar uchun shaharni o'rganishni osonlashtiradi.",
+      "location": {
+        "city": "Buxoro",
+        "area": "Shahar markazi",
+        "address": "",
+        "country": "O'zbekiston"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "Yopiq suzish havzasi",
+        "Ochiq suzish havzasi",
+        "Fitnes markazi",
+        "Restoran va bar",
+        "Bog'/Terrasa",
+        "24 soatlik qabulxona",
+        "Valyuta ayirboshlash",
+        "Kir yuvish xizmati",
+        "Aeroport shattli (qo'shimcha haq evaziga)",
+        "Mahalliy nonushta mavjud"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "Konditsioner",
+          "Yassi ekranli televizor",
+          "Muzlatgich"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "Markaziy joylashuv",
+        "Sayyohlar uchun qulay",
+        "Qulay qolish"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "Mövenpick Hotels & Resorts",
+      "description": "Mövenpick Hotels & Resorts Shveytsariya merosiga asoslangan mehmondo'stlik brendi bo'lib, yuqori darajadagi turar joy va kuchli kulinariya an'analari bilan mashhur. Brend 1948 yilda Syurixda havoda ov qilayotgan chayqadan ilhomlanib yaratilgan innovatsion ovqatlanish kontseptsiyasi bilan boshlangan. Mövenpick 1973 yilda mehmonxona sohasiga kengaydi va bugungi kunda 35 dan ortiq mamlakatlarda 80 dan ortiq mehmonxonalar, kurortlar va Nil kruiz kemalarini boshqaradi.",
+      "location": {
+        "city": "Syurix (kelib chiqish joyi)",
+        "area": "Shveytsariya merosi brendi",
+        "address": "",
+        "country": "Shveytsariya"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Yuqori darajadagi turar joy",
+        "Kulinariyaga yo'naltirilgan tajribalar",
+        "Barqarorlikka yo'naltirilgan operatsiyalar",
+        "Xalqaro joylashuvlar",
+        "Mehmonxonalar, kurortlar va Nil kruiz kemalari"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "Shveytsariya merosi",
+        "Yuqori darajali",
+        "Kulinariya",
+        "Xalqaro brend"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "Farovon Xiva Mehmonxonasi",
+      "description": "Farovon Xiva Mehmonxonasi O'zbekiston va Markaziy Osiyoning eng qadimgi shaharlaridan biri bo'lgan Xiva markazida joylashgan. Mehmonxona hordiq va ishbilarmonlik uchun mos bo'lib, milliy dizayn elementlari bilan jihozlangan 106 ta zamonaviy xonani taklif etadi. Unda 3 ta restoran, bar, keng bal zallari, bir nechta majlislar zallari va katta yopiq suzish havzasi mavjud.",
+      "location": {
+        "city": "Xiva",
+        "area": "Shahar markazi",
+        "address": "",
+        "country": "O'zbekiston"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 ta restoran va bar",
+        "Yopiq suzish havzasi",
+        "430 kishigacha mo'ljallangan bal zallari",
+        "2 ta katta banket zallari (390 kv.m va 479 kv.m)",
+        "11 ta majlislar xonasi (10–80 kishi)",
+        "Tadbirlarni o'tkazish (to'ylar, konferentsiyalar, seminarlar)",
+        "Kofe breyk va keytering xizmatlari",
+        "Professional tozalash va dezinfeksiya choralari"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "Zamonaviy dizayn",
+          "Milliy dekor elementlari"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "Shahar markazi",
+        "Ishbilarmonlik uchun qulay",
+        "Tadbirlar uchun qulay",
+        "Zamonaviy uslub",
+        "Milliy dizayn"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "Savitsky Plaza Mehmonxonasi",
+      "description": "Savitsky Plaza Mehmonxonasi nufuzli san'at kollektsioneri va Nukus san'at muzeyining asoschisi Igor Savitskiy nomi bilan atalgan. Mehmonxonaning ichki dizayni zamonaviy san'at asarlari va Savitskiy merosiga, xususan, uning avangard san'ati va qoraqalpoqlarga oid ishlariga ishoralarni o'z ichiga oladi. Bu hordiq va ishbilarmonlik uchun mos bo'lgan zamonaviy mehmonxona.",
+      "location": {
+        "city": "Nukus",
+        "area": "",
+        "address": "",
+        "country": "O'zbekiston"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Restoran xizmatlari",
+        "Bar qulayliklari",
+        "Uchrashuv va tadbirlar uchun 1 ta konferentsiya zali"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "To'liq jihozlangan xizmatlar (standart xonalar)",
+          "27 ta lyuks xonalar"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "San'at mavzusidagi",
+        "Igor Savitskiy",
+        "Zamonaviy dizayn",
+        "Ishbilarmonlik uchun qulay",
+        "Nukus"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "Marwa Hotel Toshkent",
+      "description": "Marwa Hotel Toshkent shahar markazida joylashgan bo'lib, qulay qolish uchun hashamatli xonalarni taklif etadi. Bu dam olish va ishbilarmonlik uchrashuvlarini o'tkazish uchun ideal joy. Unda yopiq hovuz, spa, tom usti terrasasi va Pan Osiyo restorani mavjud. Uning markaziy joylashuvi Chorsu bozori va Alisher Navoiy operasiyadan 10 daqiqalik masofada joylashgan bo'lib, ikki metro bekati yonida joylashgan.",
+      "location": {
+        "city": "Toshkent",
+        "area": "Shahar markazi",
+        "address": "Chorsu bozori va Alisher Navoiy operasi o'rtasida (Ikki metro bekati yaqinida)",
+        "country": "O'zbekiston"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Restoran (mazali nonushtani o'z ichiga oladi)",
+        "Tom usti terrasasida Pan Osiyo restorani",
+        "Yopiq hovuz",
+        "Spa",
+        "Tom usti terrasasi",
+        "Ishbilarmonlik uchrashuvlari uchun qulayliklar"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "Hashamatli xonalar",
+          "Qulay qolish uchun barcha kerakli narsalar bilan jihozlangan"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "Shahar markazi",
+        "Ishbilarmonlik uchun qulay",
+        "Hashamat",
+        "Spa",
+        "Tom usti"
+      ]
+    }
   ],
-  "rooms_info": {
-    "total_rooms": 106,
-    "amenities": [
-      "Modern design",
-      "National décor elements"
-    ]
-  },
-  "images": [
-    "/images/photo_1_2025-12-01_19-13-35.jpg",
-    "/images/photo_2_2025-12-01_19-13-35.jpg",
-    "/images/photo_3_2025-12-01_19-13-35.jpg",
-    "/images/photo_4_2025-12-01_19-13-35.jpg",
-    "/images/photo_5_2025-12-01_19-13-35.jpg",
-    "/images/photo_6_2025-12-01_19-13-35.jpg",
-    "/images/photo_7_2025-12-01_19-13-35.jpg",
-    "/images/photo_8_2025-12-01_19-13-35.jpg",
-    "/images/photo_9_2025-12-01_19-13-35.jpg",
-    "/images/photo_10_2025-12-01_19-13-35.jpg",
-    "/images/photo_11_2025-12-01_19-13-35.jpg",
-    "/images/photo_12_2025-12-01_19-13-35.jpg",
-    "/images/photo_13_2025-12-01_19-13-35.jpg",
-    "/images/photo_14_2025-12-01_19-13-35.jpg",
-    "/images/photo_15_2025-12-01_19-13-35.jpg"
-    
+  "ru": [
+    {
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon — это 4-звездочный отель, расположенный в центре Бухары. Отель предлагает комфортабельные номера, крытый и открытый бассейны, тренажерный зал, ресторан и круглосуточную стойку регистрации. Его центральное расположение позволяет туристам легко исследовать город.",
+      "location": {
+        "city": "Бухара",
+        "area": "Центр города",
+        "address": "",
+        "country": "Узбекистан"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "Крытый бассейн",
+        "Открытый бассейн",
+        "Фитнес-центр",
+        "Ресторан и бар",
+        "Сад/Терраса",
+        "Круглосуточная стойка регистрации",
+        "Обмен валюты",
+        "Услуги прачечной",
+        "Трансфер до аэропорта (за дополнительную плату)",
+        "Доступен местный завтрак"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "Кондиционер",
+          "Телевизор с плоским экраном",
+          "Холодильник"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "Центральное расположение",
+        "Удобный для туристов",
+        "Комфортное пребывание"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "Mövenpick Hotels & Resorts",
+      "description": "Mövenpick Hotels & Resorts — это бренд гостеприимства со швейцарским наследием, известный высококлассным размещением и сильными кулинарными традициями. Бренд начал свою историю в 1948 году в Цюрихе с инновационной концепции питания, вдохновленной чайкой, подбирающей еду на лету. Mövenpick расширился до отелей в 1973 году и сегодня управляет более чем 80 отелями, курортами и круизными лайнерами по Нилу в более чем 35 странах.",
+      "location": {
+        "city": "Цюрих (происхождение)",
+        "area": "Бренд со швейцарским наследием",
+        "address": "",
+        "country": "Швейцария"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Высококлассное размещение",
+        "Кулинарно-ориентированный опыт",
+        "Операции, ориентированные на устойчивое развитие",
+        "Международные локации",
+        "Отели, курорты и круизные лайнеры по Нилу"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "Швейцарское наследие",
+        "Высококлассный",
+        "Кулинарный",
+        "Международный бренд"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "Farovon Khiva Hotel",
+      "description": "Farovon Khiva Hotel расположен в самом сердце Хивы, одного из древнейших городов Узбекистана и Центральной Азии. Отель подходит как для отдыха, так и для деловых поездок, предлагая 106 современных номеров с элементами национального дизайна. В нем есть 3 ресторана, бар, просторные бальные залы, многочисленные конференц-залы и большой крытый бассейн.",
+      "location": {
+        "city": "Хива",
+        "area": "Центр города",
+        "address": "",
+        "country": "Узбекистан"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 ресторана и бар",
+        "Крытый бассейн",
+        "Бальные залы вместимостью до 430 человек",
+        "2 больших банкетных зала (390 кв.м и 479 кв.м)",
+        "11 конференц-залов (10–80 человек)",
+        "Организация мероприятий (свадьбы, конференции, семинары)",
+        "Услуги кофе-брейка и кейтеринга",
+        "Профессиональные меры по уборке и дезинфекции"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "Современный дизайн",
+          "Элементы национального декора"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "Центр города",
+        "Удобный для бизнеса",
+        "Подходит для мероприятий",
+        "Современный стиль",
+        "Национальный дизайн"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "Savitsky Plaza Hotel",
+      "description": "Отель Savitsky Plaza назван в честь Игоря Савицкого, заслуженного коллекционера произведений искусства и основателя Нукусского художественного музея. В дизайне интерьера отеля представлены современные произведения искусства и отсылки к наследию Савицкого, в частности, к его работе, связанной с авангардным искусством и каракалпаками. Это современный отель, подходящий как для отдыха, так и для деловых поездок.",
+      "location": {
+        "city": "Нукус",
+        "area": "",
+        "address": "",
+        "country": "Узбекистан"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Ресторанные услуги",
+        "Удобства бара",
+        "1 конференц-зал для встреч и мероприятий"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "Полностью оборудованные услуги (стандартные номера)",
+          "27 люксов"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "Художественная тематика",
+        "Игорь Савицкий",
+        "Современный дизайн",
+        "Удобный для бизнеса",
+        "Нукус"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "Marwa Hotel Tashkent",
+      "description": "Marwa Hotel Tashkent расположен в центре города и предлагает роскошные номера для комфортного проживания. Это идеальное место для отдыха и проведения деловых встреч. В отеле есть крытый бассейн, спа-салон, терраса на крыше и паназиатский ресторан. Его центральное расположение позволяет добраться до базара Чорсу и Оперы Алишера Навои за 10 минут, а также он находится недалеко от двух станций метро.",
+      "location": {
+        "city": "Ташкент",
+        "area": "Центр города",
+        "address": "Между базаром Чорсу и Оперой Алишера Навои (Рядом с двумя станциями метро)",
+        "country": "Узбекистан"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Ресторан (включая вкусный завтрак)",
+        "Паназиатский ресторан на террасе на крыше",
+        "Крытый бассейн",
+        "Спа",
+        "Терраса на крыше",
+        "Удобства для деловых встреч"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "Роскошные номера",
+          "Оснащены всем необходимым для комфортного проживания"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "Центр города",
+        "Удобный для бизнеса",
+        "Роскошь",
+        "Спа",
+        "Терраса на крыше"
+      ]
+    }
   ],
-  "tags": [
-    "City center",
-    "Business-friendly",
-    "Event-friendly",
-    "Modern style",
-    "National design"
-  ]
-},
-{
-  "id": "savitsky-plaza",
-  "title": "Savitsky Plaza Hotel",
-  "description": "Savitsky Plaza Hotel was named after Igor Savitsky, the honored art collector and founder of the Nukus art museum. The hotel's interior design features contemporary artworks and references to Savitsky's legacy, particularly his work related to avant-garde art and the Kara-Kalpaks. It is a modern hotel suitable for both leisure and business stays.",
-  "location": {
-    "city": "Nukus",
-    "area": "",
-    "address": "",
-    "country": "Uzbekistan"
-  },
-  "star_rating": null,
-  "facilities": [
-    "Restaurant services",
-    "Bar amenities",
-    "1 conference room for meetings and events"
-  ],
-  "rooms_info": {
-    "total_rooms": 175,
-    "amenities": [
-      "Fully-equipped services (standard rooms)",
-      "27 suites"
-    ]
-  },
-  "images": [
-    "/images/photo_1_2025-12-01_19-28-05.jpg",
-    "/images/photo_2_2025-12-01_19-28-05.jpg",
-    "/images/photo_3_2025-12-01_19-28-05.jpg",
-    "/images/photo_4_2025-12-01_19-28-05.jpg",
-    "/images/photo_5_2025-12-01_19-28-05.jpg",
-    "/images/photo_6_2025-12-01_19-28-05.jpg",
-    "/images/photo_7_2025-12-01_19-28-05.jpg",
-    "/images/photo_8_2025-12-01_19-28-05.jpg",
-    "/images/photo_9_2025-12-01_19-28-05.jpg",
-    "/images/photo_10_2025-12-01_19-28-05.jpg",
-    "/images/photo_11_2025-12-01_19-28-05.jpg",
-    "/images/photo_12_2025-12-01_19-28-05.jpg",
-    "/images/photo_13_2025-12-01_19-28-05.jpg",
-    "/images/photo_14_2025-12-01_19-28-05.jpg",
-    "/images/photo_15_2025-12-01_19-28-05.jpg",
-    "/images/photo_16_2025-12-01_19-28-05.jpg"
-  ],
-  "tags": [
-    "Art-themed",
-    "Igor Savitsky",
-    "Modern design",
-    "Business-friendly",
-    "Nukus"
-  ]
-},
-{
-  "id": "marwa-hotel-tashkent",
-  "title": "Marwa Hotel Tashkent",
-  "description": "Marwa Hotel Tashkent is located in the city center, offering luxurious rooms for a comfortable stay. It is an ideal place to relax and hold business meetings. It features an indoor pool, spa, rooftop terrace, and Pan Asian restaurant. Its central location places it within 10 minutes of Chorsu Bazaar and the Alisher Navoï Opera, and it is around the corner from two metro stations.",
-  "location": {
-    "city": "Tashkent",
-    "area": "City Center",
-    "address": "Between Chorsu Bazaar and Alisher Navoï Opera (Near two metro stations)",
-    "country": "Uzbekistan"
-  },
-  "star_rating": null,
-  "facilities": [
-    "Restaurant (including delicious breakfast)",
-    "Pan Asian restaurant on the rooftop terrace",
-    "Indoor pool",
-    "Spa",
-    "Rooftop terrace",
-    "Facilities for business meetings"
-  ],
-  "rooms_info": {
-    "total_rooms": null,
-    "amenities": [
-      "Luxurious rooms",
-      "Equipped with everything necessary for a comfortable stay"
-    ]
-  },
-  "images": [
-    "/images/photo_1_2025-12-01_19-08-07.jpg",
-    "/images/photo_2_2025-12-01_19-08-07.jpg",
-    "/images/photo_3_2025-12-01_19-08-07.jpg",
-    "/images/photo_4_2025-12-01_19-08-07.jpg",
-    "/images/photo_5_2025-12-01_19-08-07.jpg",
-    "/images/photo_6_2025-12-01_19-08-07.jpg",
-    "/images/photo_7_2025-12-01_19-08-07.jpg",
-    "/images/photo_8_2025-12-01_19-08-07.jpg",
-    "/images/photo_9_2025-12-01_19-08-07.jpg",
-    "/images/photo_10_2025-12-01_19-08-07.jpg",
-    "/images/photo_11_2025-12-01_19-08-07.jpg",
-    "/images/photo_12_2025-12-01_19-08-07.jpg",
-    "/images/photo_13_2025-12-01_19-08-07.jpg",
-    "/images/photo_14_2025-12-01_19-08-07.jpg",
-    "/images/photo_15_2025-12-01_19-08-07.jpg",
-    "/images/photo_16_2025-12-01_19-08-07.jpg"
-    
-
-  ],
-  "tags": [
-    "City center",
-    "Business-friendly",
-    "Luxury",
-    "Spa",
-    "Rooftop"
+  "it": [
+    {
+      "id": "sahid-zarafshon",
+      "title": "Sahid Zarafshon",
+      "description": "Sahid Zarafshon è un hotel 4 stelle situato nel centro di Bukhara. L'hotel offre camere confortevoli, piscine interne ed esterne, una palestra, un ristorante e reception 24 ore su 24, 7 giorni su 7. La sua posizione centrale facilita ai turisti l'esplorazione della città.",
+      "location": {
+        "city": "Bukhara",
+        "area": "Centro città",
+        "address": "",
+        "country": "Uzbekistan"
+      },
+      "star_rating": 4,
+      "facilities": [
+        "Piscina coperta",
+        "Piscina scoperta",
+        "Centro fitness",
+        "Ristorante e bar",
+        "Giardino/Terrazza",
+        "Reception 24 ore su 24",
+        "Cambio valuta",
+        "Servizio lavanderia",
+        "Navetta aeroportuale (a pagamento)",
+        "Colazione locale disponibile"
+      ],
+      "rooms_info": {
+        "total_rooms": 150,
+        "amenities": [
+          "Aria condizionata",
+          "TV a schermo piatto",
+          "Frigorifero"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-18-07.jpg",
+        "/images/photo_2_2025-12-01_19-18-07.jpg",
+        "/images/photo_3_2025-12-01_19-18-07.jpg",
+        "/images/photo_4_2025-12-01_19-18-07.jpg",
+        "/images/photo_5_2025-12-01_19-18-07.jpg",
+        "/images/photo_6_2025-12-01_19-18-07.jpg",
+        "/images/photo_7_2025-12-01_19-18-07.jpg",
+        "/images/photo_8_2025-12-01_19-18-07.jpg",
+        "/images/photo_9_2025-12-01_19-18-07.jpg",
+        "/images/photo_10_2025-12-01_19-18-07.jpg",
+        "/images/photo_11_2025-12-01_19-18-07.jpg",
+        "/images/photo_12_2025-12-01_19-18-07.jpg",
+        "/images/photo_13_2025-12-01_19-18-07.jpg",
+        "/images/photo_14_2025-12-01_19-18-07.jpg",
+        "/images/photo_15_2025-12-01_19-18-07.jpg"
+      ],
+      "tags": [
+        "Posizione centrale",
+        "Adatto ai turisti",
+        "Soggiorno confortevole"
+      ]
+    },
+    {
+      "id": "movenpick-hotels",
+      "title": "Mövenpick Hotels & Resorts",
+      "description": "Mövenpick Hotels & Resorts è un marchio di ospitalità di origine svizzera noto per gli alloggi di lusso e le forti tradizioni culinarie. Il marchio è nato nel 1948 a Zurigo con un concetto di ristorazione innovativo ispirato a un gabbiano che raccoglie il cibo a mezz'aria. Mövenpick si è espanso nel settore alberghiero nel 1973 e oggi gestisce oltre 80 hotel, resort e navi da crociera sul Nilo in più di 35 paesi.",
+      "location": {
+        "city": "Zurigo (origine)",
+        "area": "Marchio di origine svizzera",
+        "address": "",
+        "country": "Svizzera"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Alloggio di lusso",
+        "Esperienze incentrate sulla cucina",
+        "Operazioni focalizzate sulla sostenibilità",
+        "Sedi internazionali",
+        "Hotel, resort e navi da crociera sul Nilo"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": []
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-23-30.jpg",
+        "/images/photo_2_2025-12-01_19-23-30.jpg",
+        "/images/photo_3_2025-12-01_19-23-30.jpg",
+        "/images/photo_4_2025-12-01_19-23-30.jpg",
+        "/images/photo_5_2025-12-01_19-23-30.jpg",
+        "/images/photo_6_2025-12-01_19-23-30.jpg",
+        "/images/photo_7_2025-12-01_19-23-30.jpg",
+        "/images/photo_8_2025-12-01_19-23-30.jpg",
+        "/images/photo_9_2025-12-01_19-23-30.jpg",
+        "/images/photo_10_2025-12-01_19-23-30.jpg",
+        "/images/photo_11_2025-12-01_19-23-30.jpg",
+        "/images/photo_12_2025-12-01_19-23-30.jpg",
+        "/images/photo_13_2025-12-01_19-23-30.jpg",
+        "/images/photo_14_2025-12-01_19-23-30.jpg",
+        "/images/photo_15_2025-12-01_19-23-30.jpg",
+        "/images/photo_16_2025-12-01_19-23-30.jpg"
+      ],
+      "tags": [
+        "Origine svizzera",
+        "Lusso",
+        "Cucina",
+        "Marchio internazionale"
+      ]
+    },
+    {
+      "id": "farovon-khiva",
+      "title": "Farovon Khiva Hotel",
+      "description": "Farovon Khiva Hotel si trova nel cuore di Khiva, una delle città più antiche dell'Uzbekistan e dell'Asia centrale. L'hotel è adatto sia per soggiorni di piacere che d'affari, offrendo 106 camere moderne con elementi di design nazionale. Dispone di 3 ristoranti, un bar, ampie sale da ballo, diverse sale riunioni e una grande piscina coperta.",
+      "location": {
+        "city": "Khiva",
+        "area": "Centro città",
+        "address": "",
+        "country": "Uzbekistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "3 ristoranti e un bar",
+        "Piscina coperta",
+        "Sale da ballo per un massimo di 430 persone",
+        "2 ampie sale per banchetti (390 mq e 479 mq)",
+        "11 sale riunioni (10–80 persone)",
+        "Organizzazione di eventi (matrimoni, conferenze, workshop)",
+        "Servizi di coffee break e catering",
+        "Misure professionali di pulizia e disinfezione"
+      ],
+      "rooms_info": {
+        "total_rooms": 106,
+        "amenities": [
+          "Design moderno",
+          "Elementi di arredamento nazionale"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-13-35.jpg",
+        "/images/photo_2_2025-12-01_19-13-35.jpg",
+        "/images/photo_3_2025-12-01_19-13-35.jpg",
+        "/images/photo_4_2025-12-01_19-13-35.jpg",
+        "/images/photo_5_2025-12-01_19-13-35.jpg",
+        "/images/photo_6_2025-12-01_19-13-35.jpg",
+        "/images/photo_7_2025-12-01_19-13-35.jpg",
+        "/images/photo_8_2025-12-01_19-13-35.jpg",
+        "/images/photo_9_2025-12-01_19-13-35.jpg",
+        "/images/photo_10_2025-12-01_19-13-35.jpg",
+        "/images/photo_11_2025-12-01_19-13-35.jpg",
+        "/images/photo_12_2025-12-01_19-13-35.jpg",
+        "/images/photo_13_2025-12-01_19-13-35.jpg",
+        "/images/photo_14_2025-12-01_19-13-35.jpg",
+        "/images/photo_15_2025-12-01_19-13-35.jpg"
+      ],
+      "tags": [
+        "Centro città",
+        "Adatto agli affari",
+        "Adatto agli eventi",
+        "Stile moderno",
+        "Design nazionale"
+      ]
+    },
+    {
+      "id": "savitsky-plaza",
+      "title": "Savitsky Plaza Hotel",
+      "description": "Il Savitsky Plaza Hotel è stato intitolato a Igor Savitsky, l'onorato collezionista d'arte e fondatore del museo d'arte di Nukus. Il design degli interni dell'hotel presenta opere d'arte contemporanee e riferimenti all'eredità di Savitsky, in particolare al suo lavoro relativo all'arte d'avanguardia e ai Kara-Kalpak. È un hotel moderno adatto sia per soggiorni di piacere che d'affari.",
+      "location": {
+        "city": "Nukus",
+        "area": "",
+        "address": "",
+        "country": "Uzbekistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Servizi di ristorazione",
+        "Servizi bar",
+        "1 sala conferenze per riunioni ed eventi"
+      ],
+      "rooms_info": {
+        "total_rooms": 175,
+        "amenities": [
+          "Servizi completamente attrezzati (camere standard)",
+          "27 suite"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-28-05.jpg",
+        "/images/photo_2_2025-12-01_19-28-05.jpg",
+        "/images/photo_3_2025-12-01_19-28-05.jpg",
+        "/images/photo_4_2025-12-01_19-28-05.jpg",
+        "/images/photo_5_2025-12-01_19-28-05.jpg",
+        "/images/photo_6_2025-12-01_19-28-05.jpg",
+        "/images/photo_7_2025-12-01_19-28-05.jpg",
+        "/images/photo_8_2025-12-01_19-28-05.jpg",
+        "/images/photo_9_2025-12-01_19-28-05.jpg",
+        "/images/photo_10_2025-12-01_19-28-05.jpg",
+        "/images/photo_11_2025-12-01_19-28-05.jpg",
+        "/images/photo_12_2025-12-01_19-28-05.jpg",
+        "/images/photo_13_2025-12-01_19-28-05.jpg",
+        "/images/photo_14_2025-12-01_19-28-05.jpg",
+        "/images/photo_15_2025-12-01_19-28-05.jpg",
+        "/images/photo_16_2025-12-01_19-28-05.jpg"
+      ],
+      "tags": [
+        "A tema artistico",
+        "Igor Savitsky",
+        "Design moderno",
+        "Adatto agli affari",
+        "Nukus"
+      ]
+    },
+    {
+      "id": "marwa-hotel-tashkent",
+      "title": "Marwa Hotel Tashkent",
+      "description": "Marwa Hotel Tashkent si trova nel centro della città, offrendo camere lussuose per un soggiorno confortevole. È un luogo ideale per rilassarsi e tenere riunioni d'affari. Dispone di una piscina coperta, spa, terrazza sul tetto e ristorante Pan Asiatico. La sua posizione centrale lo colloca a 10 minuti dal Bazaar Chorsu e dall'Opera Alisher Navoï, ed è dietro l'angolo di due stazioni della metropolitana.",
+      "location": {
+        "city": "Tashkent",
+        "area": "Centro città",
+        "address": "Tra il Bazaar Chorsu e l'Opera Alisher Navoï (vicino a due stazioni della metropolitana)",
+        "country": "Uzbekistan"
+      },
+      "star_rating": null,
+      "facilities": [
+        "Ristorante (compresa una deliziosa colazione)",
+        "Ristorante Pan Asiatico sulla terrazza sul tetto",
+        "Piscina coperta",
+        "Spa",
+        "Terrazza sul tetto",
+        "Strutture per riunioni d'affari"
+      ],
+      "rooms_info": {
+        "total_rooms": null,
+        "amenities": [
+          "Camere lussuose",
+          "Dotate di tutto il necessario per un soggiorno confortevole"
+        ]
+      },
+      "images": [
+        "/images/photo_1_2025-12-01_19-08-07.jpg",
+        "/images/photo_2_2025-12-01_19-08-07.jpg",
+        "/images/photo_3_2025-12-01_19-08-07.jpg",
+        "/images/photo_4_2025-12-01_19-08-07.jpg",
+        "/images/photo_5_2025-12-01_19-08-07.jpg",
+        "/images/photo_6_2025-12-01_19-08-07.jpg",
+        "/images/photo_7_2025-12-01_19-08-07.jpg",
+        "/images/photo_8_2025-12-01_19-08-07.jpg",
+        "/images/photo_9_2025-12-01_19-08-07.jpg",
+        "/images/photo_10_2025-12-01_19-08-07.jpg",
+        "/images/photo_11_2025-12-01_19-08-07.jpg",
+        "/images/photo_12_2025-12-01_19-08-07.jpg",
+        "/images/photo_13_2025-12-01_19-08-07.jpg",
+        "/images/photo_14_2025-12-01_19-08-07.jpg",
+        "/images/photo_15_2025-12-01_19-08-07.jpg",
+        "/images/photo_16_2025-12-01_19-08-07.jpg"
+      ],
+      "tags": [
+        "Centro città",
+        "Adatto agli affari",
+        "Lusso",
+        "Spa",
+        "Terrazza sul tetto"
+      ]
+    }
   ]
 }
-
-
-
-
-]

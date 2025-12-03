@@ -1,4 +1,4 @@
-// server-supabase-index.js - FINAL WORKING VERSION
+// server-supabase-index.js - FINAL UPDATED VERSION
 import "dotenv/config";
 import express from "express";
 import cors from "cors";
@@ -52,38 +52,64 @@ const saveJSON = (filePath, data) => {
 app.use("/images", express.static(path.join(__dirname, "data", "images")));
 
 // Helper endpoints
-const createGetDataEndpoint = (route, relativePath) => {
+
+// 👇 *** UPDATED HELPER FUNCTION ***
+const createGetDataEndpoint = (route, relativePath, dataKey = null) => {
   const filePath = path.join(__dirname, relativePath);
   app.get(route, (req, res) => {
     try {
-      const data = loadJSON(filePath);
-      res.json(data);
+      const fullData = loadJSON(filePath);
+      
+      // If a dataKey is provided, return only that key's value (e.g., fullData.destinations)
+      // This supports the new nested structure where the data list is under a key.
+      const dataToSend = dataKey && fullData && fullData[dataKey] ? fullData[dataKey] : fullData;
+      
+      // If the data is empty or missing the key, return 404
+      if (!dataToSend || (Array.isArray(dataToSend) && dataToSend.length === 0)) {
+        return res.status(404).json({ success: false, message: `${path.basename(filePath)} data not found or is empty.` });
+      }
+
+      res.status(200).json(dataToSend);
+
     } catch (error) {
       console.error(`Error loading data for ${route}:`, error);
       res.status(500).json({ success: false, message: `Error loading data from ${path.basename(filePath)}` });
     }
   });
 };
+// 👆 *** END OF UPDATED HELPER FUNCTION ***
 
-createGetDataEndpoint("/api/destinations", "data/destination.json");
-createGetDataEndpoint("/api/gallery", "data/gallery.json");
-createGetDataEndpoint("/api/team", "data/team.json");
-createGetDataEndpoint("/api/hotel", "data/hotel.json");
-createGetDataEndpoint("/api/transport", "data/transport.json");
-createGetDataEndpoint("/api/visa", "data/visa.json");
+// 👇 *** UPDATED STATIC ENDPOINT CALLS ***
+// Assuming the new data structure is { "destinations": { "en": [...], "ru": [...] } }
+// If the key in destination.json is 'destinations', we pass 'destinations' as dataKey.
+createGetDataEndpoint("/api/destinations", "data/destination.json", "destinations");
+createGetDataEndpoint("/api/gallery", "data/gallery.json", "gallery");
+createGetDataEndpoint("/api/team", "data/team.json", "team");
+createGetDataEndpoint("/api/hotel", "data/hotel.json", "hotels");
+createGetDataEndpoint("/api/transport", "data/transport.json", "transportOptions");
+createGetDataEndpoint("/api/visa", "data/visa.json", "visaInfo"); 
+// 👆 *** END OF UPDATED STATIC ENDPOINT CALLS ***
 
+// 👇 *** UPDATED /api/tours ENDPOINT ***
 app.get("/api/tours", (req, res) => {
   try {
     const toursData = loadJSON(path.join(__dirname, "data", "tours.json"));
-    if (toursData && toursData.tours) return res.status(200).json(toursData.tours);
-    return res.status(404).json({ success: false, message: "Tours data not found." });
+    
+    // Send the entire 'tours' object which contains all categories and languages
+    if (toursData && toursData.tours) { 
+      return res.status(200).json(toursData.tours); 
+    }
+    
+    return res.status(404).json({ success: false, message: "Tours data not found or is empty." });
   } catch (error) {
     console.error("Error fetching all tours:", error);
     res.status(500).json({ success: false, message: "Error loading tour data" });
   }
 });
+// 👆 *** END OF UPDATED /api/tours ENDPOINT ***
 
 app.get("/api/tours/languages", (req, res) => {
+  // ... (this endpoint remains the same as it was already robust)
   try {
     const toursData = loadJSON(path.join(__dirname, "data", "tours.json"));
     const uzbekistanLangs = Object.keys(toursData.tours?.uzbekistan || {});
@@ -100,7 +126,6 @@ app.get("/api/tours/languages", (req, res) => {
     res.status(500).json({ success: false, message: "Error loading language data" });
   }
 });
-
 /* ============================================
    REGISTRATION ENDPOINTS (Supabase-backed)
    ============================================ */
@@ -140,14 +165,14 @@ app.get("/api/admin/registrations", async (req, res) => {
 /**
  * POST /api/registrations
  * Creates new tour booking in Supabase
- * 
+ *
  * COLUMN MAPPING (from table schema):
  * - name, email, phone, tourTitle, people, unitPrice, totalPrice, status, message → as-is
  * - created_at, updated_at → Supabase auto-generates these (don't include in insert)
  */
 app.post("/api/registrations", async (req, res) => {
   try {
-    const { name, email, phone, people, tourTitle, unitPrice, totalPrice } = req.body;
+    let { name, email, phone, people, tourTitle, unitPrice, totalPrice } = req.body;
 
     console.log("📥 Received registration request:", { name, email, tourTitle, people, totalPrice });
 
@@ -159,18 +184,31 @@ app.post("/api/registrations", async (req, res) => {
       });
     }
 
+    // Coerce numeric fields to numbers to match DB numeric columns
+    people = Number(people) || 1;
+    unitPrice = Number(unitPrice) || 0;
+    totalPrice = Number(totalPrice);
+
+    // If totalPrice is NaN or 0, require it (original validation required it)
+    if (Number.isNaN(totalPrice) || totalPrice === 0) {
+      return res.status(400).json({
+        success: false,
+        message: "Total price must be a valid number greater than 0."
+      });
+    }
+
     // Prepare insert object - EXACT match to Supabase columns
-    // Note: We do NOT include 'id', 'created_at', or 'updated_at' as Supabase auto-generates these
+    // Using bracket notation for mixed-case columns
     const insertData = {
       name,
       email,
       phone,
-      tourTitle,           // camelCase
-      people: people || 1,
-      unitPrice: unitPrice || 0,   // camelCase
-      totalPrice,          // camelCase
+      ['tourTitle']: tourTitle,
+      people,
+      ['unitPrice']: unitPrice,
+      ['totalPrice']: totalPrice,
       status: "undone",
-      message: `Booking request for ${tourTitle} (${people || 1} person(s)). Total: $${totalPrice}.`,
+      message: `Booking request for ${tourTitle} (${people} person(s)). Total: $${totalPrice}.`,
     };
 
     console.log("🔍 Inserting into Supabase:", insertData);
@@ -179,7 +217,7 @@ app.post("/api/registrations", async (req, res) => {
     const { data: result, error: insertError } = await supabase
       .from("Alpha_registration_data")
       .insert([insertData])
-      .select()
+      .select('id, created_at, updated_at, name, email, phone, tourTitle, people, unitPrice, totalPrice, status, message')
       .single();
 
     console.log("📊 Supabase response:", { result, insertError });
@@ -191,7 +229,7 @@ app.post("/api/registrations", async (req, res) => {
       console.error("❌ Error details:", insertError.details);
       console.error("❌ Error hint:", insertError.hint);
 
-      // Fallback to local file
+      // Fallback to local file (keep this for safety)
       const fallback = {
         id: crypto.randomBytes(16).toString("hex"),
         ...insertData,
@@ -208,7 +246,8 @@ app.post("/api/registrations", async (req, res) => {
         console.warn("⚠️ Could not save fallback:", fileErr.message);
       }
 
-      return res.status(201).json({
+      // Return 500 so client sees the DB failure (previously returned 201)
+      return res.status(500).json({
         success: false,
         message: "Failed to save to database. Check server logs.",
         data: fallback,
