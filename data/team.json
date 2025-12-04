@@ -5,7 +5,10 @@
       "name": "Eshmirzayev Nurislom",
       "role": "Director",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+      "languages": [
+         "English",
+        "Russian"
+      ],
       "bio": "My name is Eshmirzayev Nurislom, and as the Director of our travel company, I am immensely proud to lead an organization fundamentally dedicated to delivering high-quality, reliable, and profoundly memorable tourism services. With a robust higher education background complemented by strong, practical expertise in the dynamic tourism industry, I am committed to the continuous implementation of modern approaches and innovative solutions, ensuring we consistently meet and exceed the evolving needs of our global clientele. Our core mission is clear: to provide every single traveler with a safe, comfortable, and truly unforgettable experience. To successfully achieve this, we offer an exceptionally wide range of services, which includes expertly curated domestic and international tour packages, enriching excursions, convenient flight ticket procurement, dependable hotel reservations, and entirely customized travel solutions tailored to individual desires. As an actively engaged leader, I place paramount emphasis on continuously improving our team's professionalism, diligently enhancing our service quality standards, and strategically expanding our portfolio of exciting tour destinations worldwide. For us, customer trust is not just important—it is our most valuable asset. Looking forward, we are resolute in our commitment to uphold our principles of innovation, transparency, and excellence, thereby making a substantial and meaningful contribution to the advancement and development of the entire tourism industry."
     },
     {
@@ -22,7 +25,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Tour Operator",
+      "role": "Travel Consultant",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "English"
@@ -32,7 +35,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Tour Operator",
+      "role": "Travel Consultant",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Spanish"
@@ -44,7 +47,10 @@
       "name": "Azizbek Eshmirzayev",
       "role": "Reservation and Airline Ticketing Manager",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+      "languages": [
+         "Inglés",
+        "Ruso"
+      ],
       "bio": "Azizbek Eshmirzayev is a professional Reservation and Airline Ticketing Manager specializing in both domestic and international flight bookings. He provides clients with accurate travel information, issues airline tickets, manages reservations, and offers professional assistance throughout the entire booking process. He is dedicated to delivering timely service, smooth coordination, and reliable travel solutions tailored to each customer's needs. His goal is to ensure that every journey is comfortable, efficient, and stress-free."
     }
   ],
@@ -54,7 +60,10 @@
       "name": "Eshmirzayev Nurislom",
       "role": "Director",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+      "languages": [
+         "English",
+        "Russian"
+      ],
       "bio": "Mi nombre es Eshmirzayev Nurislom, y como Director de nuestra compañía de viajes, me enorgullece enormemente liderar una organización fundamentalmente dedicada a ofrecer servicios de turismo de alta calidad, confiables y profundamente memorables. Con una sólida formación de educación superior complementada por una gran experiencia práctica en la dinámica industria del turismo, estoy comprometido con la implementación continua de enfoques modernos y soluciones innovadoras, asegurando que satisfagamos y superemos constantemente las necesidades cambiantes de nuestra clientela global. Nuestra misión principal es clara: proporcionar a cada viajero una experiencia segura, cómoda y verdaderamente inolvidable. Para lograr esto con éxito, ofrecemos una gama excepcionalmente amplia de servicios, que incluye paquetes turísticos nacionales e internacionales curados por expertos, excursiones enriquecedoras, adquisición conveniente de billetes de avión, reservas de hotel fiables y soluciones de viaje totalmente personalizadas adaptadas a los deseos individuales. Como líder activamente comprometido, pongo un énfasis primordial en mejorar continuamente la profesionalidad de nuestro equipo, mejorar diligentemente nuestros estándares de calidad de servicio y expandir estratégicamente nuestra cartera de emocionantes destinos turísticos en todo el mundo. Para nosotros, la confianza del cliente no es solo importante, es nuestro activo más valioso. De cara al futuro, estamos decididos en nuestro compromiso de mantener nuestros principios de innovación, transparencia y excelencia, contribuyendo así de manera sustancial y significativa al avance y desarrollo de toda la industria turística."
     },
     {
@@ -71,7 +80,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Operador Turístico",
+      "role": "Consultor de Viajes",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Inglés"
@@ -81,7 +90,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Operador Turístico",
+      "role": "Consultor de Viajes",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Español"
@@ -93,7 +102,7 @@
       "name": "Azizbek Eshmirzayev",
       "role": "Gerente de Reservas y Emisión de Billetes Aéreos",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+      "languages": ["Inglés", "Ruso"],
       "bio": "Azizbek Eshmirzayev es un Gerente de Reservas y Emisión de Billetes Aéreos profesional, especializado en reservas de vuelos tanto nacionales como internacionales. Proporciona a los clientes información de viaje precisa, emite billetes de avión, gestiona reservas y ofrece asistencia profesional durante todo el proceso de reserva. Se dedica a ofrecer un servicio oportuno, una coordinación fluida y soluciones de viaje fiables adaptadas a las necesidades de cada cliente. Su objetivo es garantizar que cada viaje sea cómodo, eficiente y libre de estrés."
     }
   ],
@@ -103,7 +112,7 @@
       "name": "Eshmirzayev Nurislom",
       "role": "Directeur",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+     "languages": ["Anglais", "Russe"],
       "bio": "Mon nom est Eshmirzayev Nurislom, et en tant que Directeur de notre agence de voyage, je suis extrêmement fier de diriger une organisation fondamentalement dédiée à fournir des services de tourisme de haute qualité, fiables et profondément mémorables. Fort d'une solide formation d'études supérieures complétée par une expertise pratique solide dans l'industrie dynamique du tourisme, je suis engagé dans la mise en œuvre continue d'approches modernes et de solutions innovantes, garantissant que nous répondons et dépassons constamment les besoins changeants de notre clientèle mondiale. Notre mission principale est claire : offrir à chaque voyageur une expérience sûre, confortable et véritablement inoubliable. Pour y parvenir avec succès, nous proposons une gamme exceptionnellement étendue de services, comprenant des forfaits touristiques nationaux et internationaux soigneusement élaborés par des experts, des excursions enrichissantes, l'acquisition pratique de billets d'avion, des réservations d'hôtel fiables et des solutions de voyage entièrement personnalisées adaptées aux désirs individuels. En tant que leader activement engagé, j'accorde une importance primordiale à l'amélioration continue du professionnalisme de notre équipe, à l'amélioration diligente de nos normes de qualité de service et à l'expansion stratégique de notre portefeuille de destinations touristiques passionnantes dans le monde entier. Pour nous, la confiance des clients n'est pas seulement importante – c'est notre atout le plus précieux. Pour l'avenir, nous sommes résolus dans notre engagement à maintenir nos principes d'innovation, de transparence et d'excellence, contribuant ainsi de manière substantielle et significative à l'avancement et au développement de toute l'industrie touristique."
     },
     {
@@ -120,7 +129,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Opérateur de Voyages",
+      "role": "Consultant en Voyages",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Anglais"
@@ -130,7 +139,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Opérateur de Voyages",
+      "role": "Consultant en Voyages",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Espagnol"
@@ -142,7 +151,7 @@
       "name": "Azizbek Eshmirzayev",
       "role": "Responsable des Réservations et de la Billetterie Aérienne",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+     "languages": ["Anglais", "Russe"],
       "bio": "Azizbek Eshmirzayev est un Responsable des Réservations et de la Billetterie Aérienne professionnel, spécialisé dans les réservations de vols nationaux et internationaux. Il fournit aux clients des informations de voyage précises, émet des billets d'avion, gère les réservations et offre une assistance professionnelle tout au long du processus de réservation. Il s'engage à fournir un service rapide, une coordination fluide et des solutions de voyage fiables adaptées aux besoins de chaque client. Son objectif est de garantir que chaque voyage soit confortable, efficace et sans stress."
     }
   ],
@@ -152,7 +161,8 @@
       "name": "Eshmirzayev Nurislom",
       "role": "总监",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+         "languages": ["英语", "俄语"]
+      ,
       "bio": "我叫Eshmirzayev Nurislom,作为我们旅行公司的总监,我非常自豪能够领导一个致力于提供高质量、可靠、令人难忘的旅游服务的组织。凭借扎实的高等教育背景和在充满活力的旅游业中丰富的实践经验,我致力于持续实施现代方法和创新解决方案,确保我们不断满足并超越全球客户不断变化的需求。我们的核心使命很明确:为每一位旅行者提供安全、舒适和真正难忘的体验。为成功实现这一目标,我们提供异常广泛的服务,包括专家策划的国内和国际旅游套餐、丰富的短途旅行、便捷的机票采购、可靠的酒店预订,以及根据个人需求量身定制的旅行解决方案。作为一位积极投入的领导者,我将首要重点放在不断提高我们团队的专业水平、认真提升我们的服务质量标准,并战略性地扩展我们在全球范围内令人兴奋的旅游目的地组合。对我们来说,客户的信任不仅仅是重要,它是我们最宝贵的资产。展望未来,我们坚定不移地致力于维护我们的创新、透明度和卓越原则,从而为整个旅游业的进步和发展做出实质性和有意义的贡献。"
     },
     {
@@ -169,7 +179,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "旅行社操作员",
+      "role": "旅行顾问",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "英语"
@@ -179,7 +189,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "旅行社操作员",
+      "role": "旅行顾问",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "西班牙语"
@@ -191,7 +201,8 @@
       "name": "Azizbek Eshmirzayev",
       "role": "预订和机票经理",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+        "languages": ["英语", "俄语"]
+      ,
       "bio": "Azizbek Eshmirzayev是一名专业的预订和机票经理,专注于国内和国际航班预订。他为客户提供准确的旅行信息,签发机票,管理预订,并在整个预订过程中提供专业的帮助。他致力于提供及时的服务、顺畅的协调和根据每位客户需求量身定制的可靠旅行解决方案。他的目标是确保每一次旅程都舒适、高效且无压力。"
     }
   ],
@@ -201,7 +212,7 @@
       "name": "Eshmirzayev Nurislom",
       "role": "Direktor",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+     "languages": ["Ingliz tili", "Rus tili"],
       "bio": "Mening ismim Eshmirzayev Nurislom bo'lib, sayohat kompaniyamiz direktori sifatida men yuqori sifatli, ishonchli va chuqur unutilmas turizm xizmatlarini taqdim etishga asosiy e'tiborini qaratgan tashkilotga rahbarlik qilishdan g'ururlanaman. Turizmning dinamik sanoatidagi kuchli, amaliy tajriba bilan to'ldirilgan oliy ma'lumotga ega bo'lib, men global mijozlarimizning o'zgaruvchan ehtiyojlarini doimiy ravishda qondirish va ulardan ustun bo'lishni ta'minlash uchun zamonaviy yondashuvlar va innovatsion yechimlarni uzluksiz amalga oshirishga sodiqman. Bizning asosiy vazifamiz aniq: har bir sayohatchiga xavfsiz, qulay va chinakam unutilmas tajriba taqdim etish. Bunga muvaffaqiyatli erishish uchun biz juda keng doiradagi xizmatlarni taklif etamiz, jumladan, ekspertlar tomonidan tuzilgan ichki va xalqaro tur paketlari, boyituvchi ekskursiyalar, qulay aviachiptalar sotib olish, ishonchli mehmonxona bronlari va shaxsiy istaklarga moslashtirilgan to'liq tayyorlangan sayohat yechimlari. Faol ishtirok etuvchi rahbar sifatida men jamoamizning professionalligini doimiy ravishda oshirishga, xizmat ko'rsatish sifatimiz standartlarini g'ayrat bilan yaxshilashga va dunyo bo'ylab qiziqarli turistik yo'nalishlar portfelini strategik jihatdan kengaytirishga asosiy e'tibor qarataman. Biz uchun mijozlarning ishonchi shunchaki muhim emas — bu bizning eng qimmatli boyligimizdir. Kelajakka nazar tashlaydigan bo'lsak, biz innovatsiya, shaffoflik va mukammallik tamoyillarini saqlab qolishga qat'iy qaror qilganmiz, shu bilan butun turizm sanoatining rivojlanishiga sezilarli va mazmunli hissa qo'shamiz."
     },
     {
@@ -218,7 +229,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Tur Operator",
+      "role": "Sayohat Konsultanti",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Ingliz"
@@ -228,7 +239,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Tur Operator",
+      "role": "Sayohat Konsultanti",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Ispan"
@@ -240,7 +251,7 @@
       "name": "Azizbek Eshmirzayev",
       "role": "Bronlash va Aviachiptalar Menejeri",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+     "languages": ["Ingliz tili", "Rus tili"],
       "bio": "Azizbek Eshmirzayev ham ichki, ham xalqaro parvozlarni bron qilishga ixtisoslashgan professional Bronlash va Aviachiptalar Menejeridir. U mijozlarga aniq sayohat ma'lumotlarini taqdim etadi, aviachiptalarni chiqaradi, bronlarni boshqaradi va butun bronlash jarayoni davomida professional yordam beradi. U har bir mijozning ehtiyojlariga moslashtirilgan o'z vaqtida xizmat ko'rsatish, muammosiz muvofiqlashtirish va ishonchli sayohat yechimlarini taqdim etishga bag'ishlangan. Uning maqsadi har bir sayohatning qulay, samarali va stresssiz bo'lishini ta'minlashdir."
     }
   ],
@@ -250,7 +261,7 @@
       "name": "Эшмирзаев Нурислом",
       "role": "Директор",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+      "languages": ["Английский", "Русский"],
       "bio": "Меня зовут Эшмирзаев Нурислом, и как Директор нашей туристической компании, я горжусь тем, что возглавляю организацию, нацеленную на предоставление высококачественных, надежных и поистине запоминающихся туристических услуг. Обладая солидным высшим образованием, дополненным сильным, практическим опытом в динамичной индустрии туризма, я привержен постоянному внедрению современных подходов и инновационных решений, обеспечивая неизменное удовлетворение и превосхождение меняющихся потребностей нашей глобальной клиентуры. Наша основная миссия ясна: предоставить каждому путешественнику безопасный, комфортный и по-настоящему незабываемый опыт. Для успешного достижения этой цели мы предлагаем исключительно широкий спектр услуг, который включает экспертно разработанные внутренние и международные турпакеты, обогащающие экскурсии, удобное приобретение авиабилетов, надежное бронирование отелей и полностью индивидуальные туристические решения, адаптированные к индивидуальным пожеланиям. Как активно вовлеченный руководитель, я уделяю первостепенное внимание постоянному повышению профессионализма нашей команды, усердному улучшению наших стандартов качества обслуживания и стратегическому расширению нашего портфеля захватывающих туристических направлений по всему миру. Для нас доверие клиентов не просто важно — это наш самый ценный актив. Заглядывая вперед, мы полны решимости поддерживать наши принципы инноваций, прозрачности и превосходства, тем самым внося существенный и значимый вклад в развитие всей туристической индустрии."
     },
     {
@@ -267,7 +278,7 @@
     {
       "id": "tm3",
       "name": "Умурзаков Шохрух",
-      "role": "Туроператор",
+      "role": "Консультант по Путешествиям",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Английский"
@@ -277,7 +288,7 @@
     {
       "id": "tm4",
       "name": "Максуд Исакулов",
-      "role": "Туроператор",
+      "role": "Консультант по Путешествиям",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Испанский"
@@ -289,7 +300,7 @@
       "name": "Азизбек Эшмирзаев",
       "role": "Менеджер по Бронированию и Авиабилетам",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+      "languages": ["Английский", "Русский"],
       "bio": "Азизбек Эшмирзаев — профессиональный Менеджер по Бронированию и Авиабилетам, специализирующийся как на внутренних, так и на международных рейсах. Он предоставляет клиентам точную информацию о путешествиях, выписывает авиабилеты, управляет бронированием и предлагает профессиональную помощь на протяжении всего процесса бронирования. Он нацелен на предоставление своевременного обслуживания, слаженной координации и надежных туристических решений, адаптированных к потребностям каждого клиента. Его цель — обеспечить, чтобы каждое путешествие было комфортным, эффективным и беззаботным."
     }
   ],
@@ -299,7 +310,7 @@
       "name": "Eshmirzayev Nurislom",
       "role": "Direttore",
       "image": "/images/nurislom_alpha.jpg",
-      "languages": [],
+     "languages": ["Inglese", "Russo"],
       "bio": "Il mio nome è Eshmirzayev Nurislom, e in qualità di Direttore della nostra compagnia di viaggi, sono immensamente orgoglioso di guidare un'organizzazione fondamentalmente dedicata a fornire servizi turistici di alta qualità, affidabili e profondamente memorabili. Con un solido background di istruzione superiore, completato da una forte esperienza pratica nel dinamico settore del turismo, mi impegno per la continua implementazione di approcci moderni e soluzioni innovative, garantendo di soddisfare e superare costantemente le esigenze in evoluzione della nostra clientela globale. La nostra missione principale è chiara: fornire a ogni singolo viaggiatore un'esperienza sicura, confortevole e veramente indimenticabile. Per raggiungere questo obiettivo con successo, offriamo una gamma eccezionalmente ampia di servizi, che include pacchetti turistici nazionali e internazionali curati da esperti, escursioni arricchenti, acquisto conveniente di biglietti aerei, prenotazioni alberghiere affidabili e soluzioni di viaggio interamente personalizzate e adattate ai desideri individuali. In qualità di leader attivamente impegnato, attribuisco un'importanza fondamentale al miglioramento continuo della professionalità del nostro team, al diligente miglioramento dei nostri standard di qualità del servizio e all'espansione strategica del nostro portafoglio di entusiasmanti destinazioni turistiche in tutto il mondo. Per noi, la fiducia del cliente non è solo importante, è la nostra risorsa più preziosa. Guardando al futuro, siamo risoluti nel nostro impegno a sostenere i nostri principi di innovazione, trasparenza ed eccellenza, contribuendo così in modo sostanziale e significativo al progresso e allo sviluppo dell'intero settore turistico."
     },
     {
@@ -316,7 +327,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Operatore Turistico",
+      "role": "Consulente di Viaggi",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Inglese"
@@ -326,7 +337,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Operatore Turistico",
+      "role": "Consulente di Viaggi",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Spagnolo"
@@ -338,7 +349,7 @@
       "name": "Azizbek Eshmirzayev",
       "role": "Responsabile Prenotazioni e Biglietteria Aerea",
       "image": "/images/aziz_alpha.jpg",
-      "languages": [],
+     "languages": ["Inglese", "Russo"],
       "bio": "Azizbek Eshmirzayev è un Responsabile Prenotazioni e Biglietteria Aerea professionale specializzato sia nelle prenotazioni di voli nazionali che internazionali. Fornisce ai clienti informazioni di viaggio accurate, emette biglietti aerei, gestisce le prenotazioni e offre assistenza professionale durante l'intero processo di prenotazione. Si dedica a fornire un servizio tempestivo, una coordinazione fluida e soluzioni di viaggio affidabili su misura per le esigenze di ciascun cliente. Il suo obiettivo è garantire che ogni viaggio sia confortevole, efficiente e privo di stress."
     }
   ]
