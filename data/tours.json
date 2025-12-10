@@ -350,6 +350,84 @@
           "participants": "4-16 people",
           "notes": "Prices valid for 2026 and based on 4 people; reduced prices for larger groups on request.",
           "extras": []
+        },
+        {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "Journey into the Spiritual Heart of Sufism in Uzbekistan (8 Days)",
+          "short": "8-day spiritual pilgrimage through Uzbekistan's most renowned cities (Tashkent, Samarkand, Bukhara) to explore Sufi and Islamic heritage sites.",
+          "destination": "Tashkent, Samarkand, Bukhara",
+          "region": "Uzbekistan",
+           "images": [
+             "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg",
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "Price per person $1120. Prices valid for 2026 and based on 6 people, with reduced prices for larger groups on request.",
+          "duration": "8 days / 7 nights",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrival in Tashkent",
+              "activity": "Welcome and reception by the travel agency. Transfer to the hotel with a private driver and Tour Guide. Settle in and relax. Overnight stay at the hotel."
+            },
+            {
+              "day": 2,
+              "title": "Tashkent",
+              "activity": "Visit Khasti-Imam Square (Barak-Khan Madrasah, Tilla-Sheikh Mosque, Kaffal Shashi Mausoleum, viewing the Koran of Caliph Osman). Explore Chorsu Bazaar. Afternoon visit to the mausoleum of Zayniddin Sheikh-bobo and the Zangi-Ata complex. Overnight stay at the hotel."
+            },
+            {
+              "day": 3,
+              "title": "Tashkent - Samarkand",
+              "activity": "Morning transfer by express train \"Afrosiab\" (08:00 hrs) to Samarkand (arrival 10:10 am). Visit Gur-Emir Mausoleum and the heart of Samarkand: Registan Square (Ulugbek, Sher Dor, and Tilla-Kari madrasahs), Bibi-Khanum Mosque, Ulugbek Observatory. Overnight at hotel."
+            },
+            {
+              "day": 4,
+              "title": "Samarkand",
+              "activity": "Explore sacred pilgrimage sites: Al-Bukhari Mausoleum and Mosque, the tomb of Makhdumi Dahbedi Azam, and the complex of Khoja Ubaydullaha Ahror Wali (Naqshbandi Sufi Order leader). Overnight stay at the hotel."
+            },
+            {
+              "day": 5,
+              "title": "Samarkand – Bukhara",
+              "activity": "Morning departure for Bukhara and hotel transfer. City tour: Samanid Mausoleum, Grand House, Ark Fortress, Kalon Mosque and Minaret, Ulugbek and Abdul-Aziz-Khan Madrasahs, Dome Bazaar, and the Lyabi-Hauz Ensemble. Overnight stay at the hotel."
+            },
+            {
+              "day": 6,
+              "title": "Bukhara",
+              "activity": "Pilgrimage to the graves of seven Sufi saints outside the city: Tomb Abduhalik Gijduvani, grave Khodja Muhammad Orif Ar Revgari, tomb Khodja Makhmud Anjir Fagnavi, mausoleum Khodja Ali Rometani, grave Khodja Muhammad Boboi Samosi, mausoleum Said Mir Kulal. Necropolis and memorial Bahauddin Naqshbandi. Return to the city. Overnight at hotel."
+            },
+            {
+              "day": 7,
+              "title": "Bukhara – Tashkent",
+              "activity": "Sightseeing tour around the outskirts of Bukhara: Summer Palace of the last Emir — Sitorai-Mohi-Khosa — and the Chor-Bakr Mausoleum. Afterwards, transfer to the train station for the “Afrosiyob” high-speed train to Tashkent (arrival 19:10). Overnight stay at the hotel."
+            },
+            {
+              "day": 8,
+              "title": "Tashkent",
+              "activity": "Transfer to Tashkent International Airport for the return flight home. End of the tour."
+            }
+          ],
+          "highlights": [
+            "Registan Square, Samarkand",
+            "Gur-Emir Mausoleum, Samarkand",
+            "Necropolis and memorial Bahauddin Naqshbandi, Bukhara",
+            "Khasti-Imam Square and Uthman Qur'an, Tashkent",
+            "Grave of seven Sufi saints, Bukhara",
+            "Al-Bukhari Mausoleum, Samarkand",
+            "Ark Fortress and Poi-Kalon complex, Bukhara"
+          ],
+          "organizer": {
+            "name": "[Insert Organizer Name]",
+            "phone": "[Insert Phone Number]",
+            "email": "[Insert Email Address]",
+            "website": "[Insert Website]"
+          },
+          "participants": "2-16 people",
+          "notes": "Price per person $1120. Prices valid for 2026 and are based on 6 people, with reduced prices for larger groups on request. Price includes: Round trip / excursions and transfer in air-conditioned modern vehicles, Overnight accommodations in middle-class hotels in a double (twin) room, Train ticket \"Afrosiab\" Tashkent-Samarkand, Bukhara-Tashkent express train in 2nd class, HP (half board) according to the program (breakfast, dinner), English-speaking local tour guide throughout the trip, Entrance fees for complexes according to program, 3D show Samarkand, 24-hour assistance from the agency. Price doesn't include: International flights (can be booked through us), Travel and health insurances, Tips for guides, drivers, etc., Meals and drinks not mentioned, The fees for using a camera in some of the attractions in the museums, Personal expenses, Early check-in (before 14:00) and late check-outs (after 12:00 midday).",
+          "extras": []
         }
       ],
       "uz": [
@@ -701,7 +779,85 @@
     "participants": "4-16 kishi",
     "notes": "Narxlar 2026 yil uchun amal qiladi va 4 kishiga asoslangan; kattaroq guruhlar uchun chegirmali narxlar soʻrov boʻyicha taqdim etiladi.",
     "extras": []
-  }
+  },
+  {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "O'zbekistondagi Tasavvufning Ma'naviy Yuragiga Sayohat (8 Kun)",
+          "short": "O'zbekistonning eng mashhur shaharlari (Toshkent, Samarqand, Buxoro) orqali 8 kunlik ma'naviy ziyorat, tasavvuf va Islom merosi obidalarini o'rganish.",
+          "destination": "Toshkent, Samarqand, Buxoro",
+          "region": "O'zbekiston",
+           "images": [
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg",
+      "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "Kishi boshiga narxi $1120. Narxlar 2026 yil uchun amal qiladi va 6 kishiga asoslangan bo'lib, kattaroq guruhlar uchun narxlar so'rov bo'yicha kamaytiriladi.",
+          "duration": "8 kun / 7 tun",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Toshkentga Yetib Kelish",
+              "activity": "Sayyohlik agentligi tomonidan kutib olish va qabul. Shaxsiy haydovchi va gid bilan mehmonxonaga transfer. Joylashish va dam olish. Mehmonxonada tunash."
+            },
+            {
+              "day": 2,
+              "title": "Toshkent",
+              "activity": "Hasti-Imom maydoni (Baroqxon madrasasi, Tilla-Shayx masjidi, Kaffol Shoshi maqbarasi, Usmon Qur'onini ko'rish)ni ziyorat qilish. Chorsu bozorini o'rganish. Tushdan keyin Suhrawardiyya Sufiy Tariqoti asoschisining o'g'li Zayniddin Shayx-bobo maqbarasi va Zangi-Ota majmuasiga tashrif. Mehmonxonada tunash."
+            },
+            {
+              "day": 3,
+              "title": "Toshkent - Samarqand",
+              "activity": "Ertalab soat 08:00 da \"Afrosiyob\" tezyurar poyezdida Samarqandga (soat 10:10 da yetib kelish). Amir Temurning so'nggi maskani Go'ri Amir maqbarasi va Samarqandning yuragi: Registon maydoni (Ulug'bek, Sher Dor va Tilla-Kari madrasalari), Bibixonim masjidi, Ulug'bek rasadxonasini ziyorat qilish. Mehmonxonada tunash."
+            },
+            {
+              "day": 4,
+              "title": "Samarqand",
+              "activity": "Muqaddas ziyoratgohlarni o'rganish: Al-Buxoriy maqbarasi va masjidi, Makhdumi Dahbediy A'zam qabri va Xoja Ubaydulloh Ahror Valiy majmuasi (Naqshbandiya Sufiy Tariqoti rahbari). Mehmonxonada tunash."
+            },
+            {
+              "day": 5,
+              "title": "Samarqand – Buxoro",
+              "activity": "Ertalab Buxoroga jo'nab ketish va mehmonxonaga transfer. Shahar bo'ylab sayohat: Somoniylar maqbarasi, Katta uy, Ark qal'asi, Kalon masjidi va minorasi, Ulug'bek va Abdul-Azizxon madrasalari, Toq bozorlar va Labi-Hovuz majmuasi. Mehmonxonada tunash."
+            },
+            {
+              "day": 6,
+              "title": "Buxoro",
+              "activity": "Shahardan tashqaridagi yetti so'fiy avliyoning qabrlariga ziyorat: Abduxoliq G'ijduvoniy qabri, Xoja Muhammad Orif Ar Revgariy qabri, Xoja Mahmud Anjir Fag'naviy qabri, Xoja Ali Romitani maqbarasi, Xoja Muhammad Boboyi Samosiy qabri, Said Mir Kulol maqbarasi. Bahouddin Naqshbandiy qadamjo va yodgorligi. Shaharga qaytish. Mehmonxonada tunash."
+            },
+            {
+              "day": 7,
+              "title": "Buxoro – Toshkent",
+              "activity": "Buxoro atrofidagi diqqatga sazovor joylarga sayohat: Oxirgi Buxoro Amirining Yozgi Saroyi — Sitorai-Mohi-Xosa — va Chor-Bakr maqbarasi. Shundan so'ng, temir yo'l vokzaliga transfer va Toshkentga \"Afrosiyob\" tezyurar poyezdiga chiqish (soat 19:10 da yetib kelish). Mehmonxonada tunash."
+            },
+            {
+              "day": 8,
+              "title": "Toshkent",
+              "activity": "Uchib ketish uchun Toshkent Xalqaro aeroportiga transfer. Sayohat yakuni."
+            }
+          ],
+          "highlights": [
+            "Registon maydoni, Samarqand",
+            "Go'ri Amir maqbarasi, Samarqand",
+            "Bahouddin Naqshbandiy qadamjo va yodgorligi, Buxoro",
+            "Hasti-Imom maydoni va Usmon Qur'oni, Toshkent",
+            "Yetti so'fiy avliyoning qabri, Buxoro",
+            "Al-Buxoriy maqbarasi, Samarqand",
+            "Ark qal'asi va Poi-Kalon majmuasi, Buxoro"
+          ],
+          "organizer": {
+            "name": "[Tashkilotchi ismini kiriting]",
+            "phone": "[Telefon raqamini kiriting]",
+            "email": "[Elektron pochta manzilini kiriting]",
+            "website": "[Veb-sayt manzilini kiriting]"
+          },
+          "participants": "2-16 kishi",
+          "notes": "Kishi boshiga narxi $1120. Narxlar 2026 yil uchun amal qiladi va 6 kishiga asoslangan bo'lib, kattaroq guruhlar uchun narxlar so'rov bo'yicha kamaytiriladi. Narxga kiritilgan: Konditsionerli zamonaviy transportlarda avtoturlar / ekskursiyalar va transfer, O'rta darajadagi mehmonxonalarda ikki kishilik (twin) xonada tunash, \"Afrosiyob\" Toshkent-Samarqand, Buxoro-Toshkent tezyurar poyezdining 2-klass chiptasi, Dasturga muvofiq HP (yarim pansion) (nonushta, kechki ovqat), Butun sayohat davomida ingliz tilida so'zlashuvchi mahalliy gid, Dasturga muvofiq majmualar uchun kirish to'lovlari, 3D shou Samarqand, Agentlikdan 24 soatlik yordam. Narxga kiritilmagan: Xalqaro reyslar (biz orqali bron qilinishi mumkin), Sayyohlik va tibbiy sug'urtalar, Gidlar, haydovchilar va h.k. uchun choychaqa, Dasturda aytilmagan ovqatlar va ichimliklar, Muzeylardagi ba'zi diqqatga sazovor joylarda kamera ishlatish uchun to'lovlar, Shaxsiy xarajatlar, Erta ro'yxatdan o'tish (14:00 dan oldin) va kech ro'yxatdan o'tish (12:00 dan keyin).",
+          "extras": []
+        }
 ],
       "ru": [
         
@@ -1053,7 +1209,85 @@
     "participants": "4-16 человек",
     "notes": "Цены действительны на 2026 год и рассчитаны на 4 человек; сниженные цены для больших групп предоставляются по запросу.",
     "extras": []
-  }
+  },
+  {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "Путешествие в Духовное Сердце Суфизма в Узбекистане (8 Дней)",
+          "short": "8-дневное духовное паломничество по самым известным городам Узбекистана (Ташкент, Самарканд, Бухара) для изучения объектов суфийского и исламского наследия.",
+          "destination": "Ташкент, Самарканд, Бухара",
+          "region": "Узбекистан",
+          "images": [
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg",
+      "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "Цена на человека $1120. Цены действительны на 2026 год и рассчитаны исходя из 6 человек, снижение цен для больших групп по запросу.",
+          "duration": "8 дней / 7 ночей",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Прибытие в Ташкент",
+              "activity": "Встреча и прием представителями туристического агентства. Трансфер в отель с личным водителем и гидом. Размещение и отдых. Ночевка в отеле."
+            },
+            {
+              "day": 2,
+              "title": "Ташкент",
+              "activity": "Посещение площади Хасти-Имам (медресе Барак-Хана, мечеть Тилля-Шейха, мавзолей Каффаля Шаши, просмотр Корана халифа Османа). Исследование базара Чорсу. Во второй половине дня посещение мавзолея Зейниддина Шейх-бобо и комплекса Занги-Ата. Ночевка в отеле."
+            },
+            {
+              "day": 3,
+              "title": "Ташкент - Самарканд",
+              "activity": "Утренний трансфер на скоростном поезде \"Афросиаб\" (08:00) в Самарканд (прибытие 10:10). Посещение Мавзолея Гур-Эмир и сердца Самарканда: Площади Регистан (медресе Улугбека, Шер Дор и Тилля-Кари), мечети Биби-Ханум, Обсерватории Улугбека. Ночевка в отеле."
+            },
+            {
+              "day": 4,
+              "title": "Самарканд",
+              "activity": "Исследование священных мест паломничества: Мавзолей и Мечеть Аль-Бухари, гробница Махдуми Дахбеди Аъзама и комплекс Ходжа Убайдуллаха Ахрар Вали (лидера суфийского ордена Накшбанди). Ночевка в отеле."
+            },
+            {
+              "day": 5,
+              "title": "Самарканд – Бухара",
+              "activity": "Утренний отъезд в Бухару и трансфер в отель. Экскурсия по городу: Мавзолей Саманидов, Гранд Хаус, Крепость Арк, Мечеть и Минарет Калян, Медресе Улугбека и Абдул-Азиз-Хана, Купольные Базары и Ансамбль Ляби-Хауз. Ночевка в отеле."
+            },
+            {
+              "day": 6,
+              "title": "Бухара",
+              "activity": "Паломничество к могилам семи суфийских святых за городом: Гробница Абдухалика Гиждувани, могила Ходжи Мухаммада Ориф Ар Ревгари, гробница Ходжи Махмуда Анжир Фагнави, мавзолей Ходжи Али Рометани, могила Ходжи Мухаммада Бобои Самоси, мавзолей Саида Мир Кулала. Некрополь и мемориал Бахауддина Накшбанди. Возвращение в город. Ночевка в отеле."
+            },
+            {
+              "day": 7,
+              "title": "Бухара – Ташкент",
+              "activity": "Обзорная экскурсия по окрестностям Бухары: Летний Дворец последнего Эмира — Ситораи-Мохи-Хоса — и Мавзолей Чор-Бакр. Затем трансфер на вокзал для скоростного поезда «Афросиёб» в Ташкент (прибытие 19:10). Ночевка в отеле."
+            },
+            {
+              "day": 8,
+              "title": "Ташкент",
+              "activity": "Трансфер в Международный Аэропорт Ташкента для обратного рейса. Окончание тура."
+            }
+          ],
+          "highlights": [
+            "Площадь Регистан, Самарканд",
+            "Мавзолей Гур-Эмир, Самарканд",
+            "Некрополь и мемориал Бахауддина Накшбанди, Бухара",
+            "Площадь Хасти-Имам и Коран Османа, Ташкент",
+            "Могилы семи суфийских святых, Бухара",
+            "Мавзолей Аль-Бухари, Самарканд",
+            "Крепость Арк и комплекс Пои-Калян, Бухара"
+          ],
+          "organizer": {
+            "name": "[Вставьте Имя Организатора]",
+            "phone": "[Вставьте Номер Телефона]",
+            "email": "[Вставьте Адрес Электронной Почты]",
+            "website": "[Вставьте Адрес Веб-сайта]"
+          },
+          "participants": "2-16 человек",
+          "notes": "Цена на человека $1120. Цены действительны на 2026 год и рассчитаны исходя из 6 человек, снижение цен для больших групп по запросу. В стоимость включено: Трансфер на современных автомобилях с кондиционером / экскурсии и переезды, Проживание в двухместных номерах (twin) в отелях среднего класса, Билет на скоростной поезд \"Афросиаб\" Ташкент-Самарканд, Бухара-Ташкент 2-го класса, Питание HP (полупансион) согласно программе (завтрак, ужин), Англоговорящий местный гид на протяжении всей поездки, Входные билеты в комплексы согласно программе, 3D-шоу в Самарканде, Круглосуточная помощь от агентства. В стоимость не включено: Международные авиарейсы (могут быть забронированы через нас), Страхование путешествий и медицинское страхование, Чаевые для гидов, водителей и т. д., Неупомянутые блюда и напитки, Сборы за использование камеры в некоторых достопримечательностях в музеях, Личные расходы, Ранний заезд (до 14:00) и поздний выезд (после 12:00).",
+          "extras": []
+        }
 
       ], 
       "es": [
@@ -1405,7 +1639,85 @@
     "participants": "4-16 personas",
     "notes": "Precios válidos para 2026 y basados en 4 personas; precios reducidos para grupos más grandes bajo petición.",
     "extras": []
-  }
+  },
+  {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "Viaje al Corazón Espiritual del Sufismo en Uzbekistán (8 Días)",
+          "short": "Peregrinación espiritual de 8 días por las ciudades más famosas de Uzbekistán (Taskent, Samarcanda, Bujará) para explorar sitios de la herencia sufí e islámica.",
+          "destination": "Taskent, Samarcanda, Bujará",
+          "region": "Uzbekistán",
+            "images": [
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg",
+      "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "Precio por persona $1120. Precios válidos para 2026 y basados en 6 personas, con precios reducidos para grupos más grandes bajo petición.",
+          "duration": "8 días / 7 noches",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Llegada a Taskent",
+              "activity": "Bienvenida y recepción por la agencia de viajes. Traslado al hotel con conductor privado y guía. Alojamiento y descanso. Noche en el hotel."
+            },
+            {
+              "day": 2,
+              "title": "Taskent",
+              "activity": "Visita a la Plaza Khasti-Imam (Madrasa Barak-Khan, Mezquita Tilla-Sheikh, Mausoleo Kaffal Shashi, visualización del Corán del Califa Osman). Exploración del Bazar Chorsu. Por la tarde, visita al mausoleo de Zayniddin Sheikh-bobo y al complejo Zangi-Ata. Noche en el hotel."
+            },
+            {
+              "day": 3,
+              "title": "Taskent - Samarcanda",
+              "activity": "Traslado matutino en tren expreso \"Afrosiab\" (08:00 hrs) a Samarcanda (llegada 10:10 am). Visita al Mausoleo Gur-Emir y al corazón de Samarcanda: Plaza Registan (Madrasas Ulugbek, Sher Dor y Tilla-Kari), Mezquita Bibi-Khanum, Observatorio Ulugbek. Noche en el hotel."
+            },
+            {
+              "day": 4,
+              "title": "Samarcanda",
+              "activity": "Exploración de sitios sagrados de peregrinación: Mausoleo y Mezquita Al-Bukhari, la tumba de Makhdumi Dahbedi Azam, y el complejo de Khoja Ubaydullaha Ahror Wali (líder de la Orden Sufí Naqshbandi). Noche en el hotel."
+            },
+            {
+              "day": 5,
+              "title": "Samarcanda – Bujará",
+              "activity": "Salida matutina hacia Bujará y traslado al hotel. Tour por la ciudad: Mausoleo Samanid, Gran Casa, Fortaleza Ark, Mezquita y Minarete Kalon, Madrasas Ulugbek y Abdul-Aziz-Khan, Bazares abovedados y el Conjunto Lyabi-Hauz. Noche en el hotel."
+            },
+            {
+              "day": 6,
+              "title": "Bujará",
+              "activity": "Peregrinación a las tumbas de siete santos sufíes fuera de la ciudad: Tumba Abduhalik Gijduvani, tumba Khodja Muhammad Orif Ar Revgari, tumba Khodja Makhmud Anjir Fagnavi, mausoleo Khodja Ali Rometani, tumba Khodja Muhammad Boboi Samosi, mausoleo Said Mir Kulal. Necrópolis y memorial Bahauddin Naqshbandi. Regreso a la ciudad. Noche en el hotel."
+            },
+            {
+              "day": 7,
+              "title": "Bujará – Taskent",
+              "activity": "Tour por los alrededores de Bujará: Palacio de Verano del último Emir — Sitorai-Mohi-Khosa — y el Mausoleo Chor-Bakr. Luego, traslado a la estación de tren para el tren de alta velocidad “Afrosiyob” a Taskent (llegada 19:10). Noche en el hotel."
+            },
+            {
+              "day": 8,
+              "title": "Taskent",
+              "activity": "Traslado al Aeropuerto Internacional de Taskent para el vuelo de regreso a casa. Fin del tour."
+            }
+          ],
+          "highlights": [
+            "Plaza Registan, Samarcanda",
+            "Mausoleo Gur-Emir, Samarcanda",
+            "Necrópolis y memorial Bahauddin Naqshbandi, Bujará",
+            "Plaza Khasti-Imam y Corán de Osman, Taskent",
+            "Tumbas de siete santos sufíes, Bujará",
+            "Mausoleo Al-Bukhari, Samarcanda",
+            "Fortaleza Ark y complejo Poi-Kalon, Bujará"
+          ],
+          "organizer": {
+            "name": "[Insertar Nombre del Organizador]",
+            "phone": "[Insertar Número de Teléfono]",
+            "email": "[Insertar Dirección de Correo Electrónico]",
+            "website": "[Insertar Dirección del Sitio Web]"
+          },
+          "participants": "2-16 personas",
+          "notes": "Precio por persona $1120. Precios válidos para 2026 y basados en 6 personas, con precios reducidos para grupos más grandes bajo petición. El precio incluye: Viajes de ida y vuelta / excursiones y traslados en vehículos modernos con aire acondicionado, Alojamiento en hoteles de clase media en habitación doble (twin), Billete de tren express \"Afrosiab\" Taskent-Samarcanda, Bujará-Taskent en 2ª clase, Media pensión (HP) según el programa (desayuno, cena), Guía local de habla inglesa durante todo el viaje, Entradas a los complejos según el programa, Espectáculo 3D Samarcanda, Asistencia 24 horas de la agencia. El precio no incluye: Vuelos internacionales (pueden ser reservados a través de nosotros), Seguros de viaje y de salud, Propinas para guías, conductores, etc., Comidas y bebidas no mencionadas, Las tarifas por usar cámara en algunas de las atracciones en los museos, Gastos personales, Early check-in (antes de las 14:00) y late check-outs (después de las 12:00 del mediodía).",
+          "extras": []
+        }
 ],
 "fr": [
   {
@@ -1756,7 +2068,86 @@
     "participants": "4-16 personnes",
     "notes": "Prix valables pour 2026 et basés sur 4 personnes ; tarifs réduits pour les groupes plus importants sur demande.",
     "extras": []
-  }
+  },
+        {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "Voyage au Cœur Spirituel du Soufisme en Ouzbékistan (8 Jours)",
+          "short": "Pèlerinage spirituel de 8 jours à travers les villes les plus renommées d'Ouzbékistan (Tachkent, Samarcande, Boukhara) pour explorer les sites du patrimoine soufi et islamique.",
+          "destination": "Tachkent, Samarcande, Boukhara",
+          "region": "Ouzbékistan",
+"images": [
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg",
+      "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "Prix par personne 1120 $. Prix valables pour 2026 et basés sur 6 personnes, avec des prix réduits pour les groupes plus importants sur demande.",
+          "duration": "8 jours / 7 nuits",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrivée à Tachkent",
+              "activity": "Accueil et réception par l'agence de voyage. Transfert à votre hôtel avec un chauffeur privé et un guide. Installation et détente. Nuit à l'hôtel."
+            },
+            {
+              "day": 2,
+              "title": "Tachkent",
+              "activity": "Visite de la place Khasti-Imam (Madrasa Barak-Khan, Mosquée Tilla-Sheikh, Mausolée Kaffal Shashi, vision du Coran du Calife Osman). Exploration du Bazar Chorsu. L'après-midi, visite du mausolée de Zayniddin Sheikh-bobo et du complexe Zangi-Ata. Nuit à l'hôtel."
+            },
+            {
+              "day": 3,
+              "title": "Tachkent - Samarcande",
+              "activity": "Transfert matinal en train express \"Afrosiab\" (08h00) à Samarcande (arrivée 10h10). Visite du Mausolée Gur-Emir et du cœur de Samarcande : Place du Registan (Madrasas Ulugbek, Sher Dor et Tilla-Kari), Mosquée Bibi-Khanum, Observatoire d'Ulugbek. Nuit à l'hôtel."
+            },
+            {
+              "day": 4,
+              "title": "Samarcande",
+              "activity": "Exploration des sites de pèlerinage sacrés : Mausolée et Mosquée Al-Bukhari, tombe de Makhdumi Dahbedi Azam, et complexe de Khoja Ubaydullaha Ahror Wali (chef de l'Ordre Soufi Naqshbandi). Nuit à l'hôtel."
+            },
+            {
+              "day": 5,
+              "title": "Samarcande – Boukhara",
+              "activity": "Départ matinal pour Boukhara et transfert à l'hôtel. Visite de la ville : Mausolée Samanide, Grande Maison, Forteresse Ark, Mosquée et Minaret Kalon, Madrasas Ulugbek et Abdul-Aziz-Khan, Bazars à coupoles et Ensemble Lyabi-Hauz. Nuit à l'hôtel."
+            },
+            {
+              "day": 6,
+              "title": "Boukhara",
+              "activity": "Pèlerinage aux tombes de sept saints soufis à l'extérieur de la ville : Tombe Abduhalik Gijduvani, tombe Khodja Muhammad Orif Ar Revgari, tombe Khodja Makhmud Anjir Fagnavi, mausolée Khodja Ali Rometani, tombe Khodja Muhammad Boboi Samosi, mausolée Said Mir Kulal. Nécropole et mémorial Bahauddin Naqshbandi. Retour à la ville. Nuit à l'hôtel."
+            },
+            {
+              "day": 7,
+              "title": "Boukhara – Tachkent",
+              "activity": "Visite des environs de Boukhara : Palais d'été du dernier Émir — Sitorai-Mohi-Khosa — et le Mausolée Chor-Bakr. Ensuite, transfert à la gare pour le train à grande vitesse “Afrosiyob” à Tachkent (arrivée 19h10). Nuit à l'hôtel."
+            },
+            {
+              "day": 8,
+              "title": "Tachkent",
+              "activity": "Transfert à l'Aéroport International de Tachkent pour le vol de retour à la maison. Fin du voyage."
+            }
+          ],
+          "highlights": [
+            "Place du Registan, Samarcande",
+            "Mausolée Gur-Emir, Samarcande",
+            "Nécropole et mémorial Bahauddin Naqshbandi, Boukhara",
+            "Place Khasti-Imam et Coran d'Osman, Tachkent",
+            "Tombes de sept saints soufis, Boukhara",
+            "Mausolée Al-Bukhari, Samarcande",
+            "Forteresse Ark et complexe Poi-Kalon, Boukhara"
+          ],
+          "organizer": {
+            "name": "[Insérer Nom de l'Organisateur]",
+            "phone": "[Insérer Numéro de Téléphone]",
+            "email": "[Insérer Adresse E-mail]",
+            "website": "[Insérer Adresse du Site Web]"
+          },
+          "participants": "2-16 personnes",
+          "notes": "Prix par personne 1120 $. Prix valables pour 2026 et basés sur 6 personnes, avec des prix réduits pour les groupes plus importants sur demande. Le prix comprend : Aller-retour / excursions et transferts dans des véhicules modernes climatisés, Hébergement en hôtels de classe moyenne en chambre double (twin), Billet de train express \"Afrosiab\" Tachkent-Samarcande, Boukhara-Tachkent en 2ème classe, Demi-pension (HP) selon le programme (petit-déjeuner, dîner), Guide local anglophone tout au long du voyage, Frais d'entrée pour les complexes selon le programme, Spectacle 3D Samarcande, Assistance 24h/24 de l'agence. Le prix ne comprend pas : Vols internationaux (peuvent être réservés par notre intermédiaire), Assurances voyage et santé, Pourboires pour les guides, chauffeurs, etc., Repas et boissons non mentionnés, Les frais d'utilisation d'un appareil photo dans certaines attractions des musées, Dépenses personnelles, Enregistrement anticipé (avant 14h00) et départs tardifs (après 12h00).",
+          "extras": []
+        }
+  
 ],
 "it": [
   {
@@ -2107,7 +2498,85 @@
     "participants": "4-16 persone",
     "notes": "Prezzi validi per il 2026 e calcolati su 4 persone; prezzi ridotti per gruppi più numerosi su richiesta.",
     "extras": []
-  }
+  },
+  {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "Viaggio nel Cuore Spirituale del Sufismo in Uzbekistan (8 Giorni)",
+          "short": "Pellegrinaggio spirituale di 8 giorni attraverso le città più rinomate dell'Uzbekistan (Tashkent, Samarcanda, Bukhara) per esplorare i siti del patrimonio sufi e islamico.",
+          "destination": "Tashkent, Samarcanda, Bukhara",
+          "region": "Uzbekistan",
+          "images": [
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg",
+      "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "Prezzo per persona $1120. Prezzi validi per il 2026 e basati su 6 persone, con prezzi ridotti per gruppi più numerosi su richiesta.",
+          "duration": "8 giorni / 7 notti",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "Arrivo a Tashkent",
+              "activity": "Benvenuto e accoglienza da parte dell'agenzia di viaggi. Trasferimento in hotel con autista privato e guida. Sistemazione e relax. Pernottamento in hotel."
+            },
+            {
+              "day": 2,
+              "title": "Tashkent",
+              "activity": "Visita alla Piazza Khasti-Imam (Madrasa Barak-Khan, Moschea Tilla-Sheikh, Mausoleo Kaffal Shashi, visione del Corano del Califfo Osman). Esplorazione del Bazar Chorsu. Nel pomeriggio, visita al mausoleo di Zayniddin Sheikh-bobo e al complesso Zangi-Ata. Pernottamento in hotel."
+            },
+            {
+              "day": 3,
+              "title": "Tashkent - Samarcanda",
+              "activity": "Trasferimento mattutino con il treno espresso \"Afrosiab\" (ore 08:00) a Samarcanda (arrivo 10:10). Visita al Mausoleo Gur-Emir e al cuore di Samarcanda: Piazza Registan (Madrasa Ulugbek, Sher Dor e Tilla-Kari), Moschea Bibi-Khanum, Osservatorio Ulugbek. Pernottamento in hotel."
+            },
+            {
+              "day": 4,
+              "title": "Samarcanda",
+              "activity": "Esplorazione dei siti sacri di pellegrinaggio: Mausoleo e Moschea Al-Bukhari, tomba di Makhdumi Dahbedi Azam e complesso di Khoja Ubaydullaha Ahror Wali (leader dell'Ordine Sufi Naqshbandi). Pernottamento in hotel."
+            },
+            {
+              "day": 5,
+              "title": "Samarcanda – Bukhara",
+              "activity": "Partenza mattutina per Bukhara e trasferimento in hotel. Tour della città: Mausoleo Samanide, Grande Casa, Fortezza Ark, Moschea e Minareto Kalon, Madrasa Ulugbek e Abdul-Aziz-Khan, Bazaar a cupola e Complesso Lyabi-Hauz. Pernottamento in hotel."
+            },
+            {
+              "day": 6,
+              "title": "Bukhara",
+              "activity": "Pellegrinaggio alle tombe di sette santi sufi fuori città: Tomba Abduhalik Gijduvani, tomba Khodja Muhammad Orif Ar Revgari, tomba Khodja Makhmud Anjir Fagnavi, mausoleo Khodja Ali Rometani, tomba Khodja Muhammad Boboi Samosi, mausoleo Said Mir Kulal. Necropoli e memoriale Bahauddin Naqshbandi. Ritorno in città. Pernottamento in hotel."
+            },
+            {
+              "day": 7,
+              "title": "Bukhara – Tashkent",
+              "activity": "Tour panoramico nei dintorni di Bukhara: Palazzo Estivo dell'ultimo Emiro — Sitorai-Mohi-Khosa — e il Mausoleo Chor-Bakr. Successivamente, trasferimento alla stazione ferroviaria per il treno ad alta velocità “Afrosiyob” per Tashkent (arrivo 19:10). Pernottamento in hotel."
+            },
+            {
+              "day": 8,
+              "title": "Tashkent",
+              "activity": "Trasferimento all'Aeroporto Internazionale di Tashkent per il volo di ritorno a casa. Fine del tour."
+            }
+          ],
+          "highlights": [
+            "Piazza Registan, Samarcanda",
+            "Mausoleo Gur-Emir, Samarcanda",
+            "Necropoli e memoriale Bahauddin Naqshbandi, Bukhara",
+            "Piazza Khasti-Imam e Corano di Osman, Tashkent",
+            "Tombe di sette santi sufi, Bukhara",
+            "Mausoleo Al-Bukhari, Samarcanda",
+            "Fortezza Ark e complesso Poi-Kalon, Bukhara"
+          ],
+          "organizer": {
+            "name": "[Inserisci Nome Organizzatore]",
+            "phone": "[Inserisci Numero di Telefono]",
+            "email": "[Inserisci Indirizzo E-mail]",
+            "website": "[Inserisci Indirizzo Sito Web]"
+          },
+          "participants": "2-16 persone",
+          "notes": "Prezzo per persona $1120. Prezzi validi per il 2026 e basati su 6 persone, con prezzi ridotti per gruppi più numerosi su richiesta. Il prezzo include: Viaggio di andata e ritorno / escursioni e trasferimenti in veicoli moderni con aria condizionata, Sistemazione in hotel di classe media in camera doppia (twin), Biglietto del treno espresso \"Afrosiab\" Tashkent-Samarcanda, Bukhara-Tashkent in 2ª classe, Mezza pensione (HP) secondo il programma (colazione, cena), Guida turistica locale parlante inglese per tutto il viaggio, Biglietti d'ingresso per i complessi secondo il programma, Spettacolo 3D Samarcanda, Assistenza 24 ore su 24 dall'agenzia. Il prezzo non include: Voli internazionali (possono essere prenotati tramite noi), Assicurazioni di viaggio e sanitarie, Mance per guide, autisti, ecc., Pasti e bevande non menzionati, Le tariffe per l'utilizzo della macchina fotografica in alcune delle attrazioni nei musei, Spese personali, Check-in anticipato (prima delle 14:00) e check-out posticipato (dopo le 12:00).",
+          "extras": []
+        }
 ],
 "zh": [
   {
@@ -2458,7 +2927,85 @@
     "participants": "4-16人",
     "notes": "价格适用于2026年，按4人计算；较大团体的折扣价可根据要求提供。",
     "extras": []
-  }
+  },
+  {
+          "id": "t_sufism_uzbekistan_8d",
+          "title": "探寻乌兹别克斯坦苏菲派精神之心旅程（8天）",
+          "short": "为期8天的精神朝圣之旅，穿越乌兹别克斯坦最著名的城市（塔什干、撒马尔罕、布哈拉），探索苏菲派和伊斯兰遗产遗址。",
+          "destination": "塔什干, 撒马尔罕, 布哈拉",
+          "region": "乌兹别克斯坦",
+              "images": [
+      "/images/samarqand/iStock-1249451586.jpg",
+      "/images/samarqand/ph001.jpg",
+      "/images/Tashkent/hastiimom -0-0-0-0-1737975962.jpg"
+    ],
+          "price": 1120,
+          "priceNote": "每人价格1120美元。价格有效期至2026年，以6人团为基础，较大团体可要求降低价格。",
+          "duration": "8天 / 7晚",
+          "rating": null,
+          "category": "uzbekistan",
+          "availableDates": [],
+          "itinerary": [
+            {
+              "day": 1,
+              "title": "抵达塔什干",
+              "activity": "旅行社欢迎和接待。由私人司机和导游接送至酒店，办理入住并休息。在酒店过夜。"
+            },
+            {
+              "day": 2,
+              "title": "塔什干",
+              "activity": "参观哈兹拉提伊玛目广场（巴拉克汗经学院、蒂拉谢赫清真寺、卡法尔沙西陵墓，观看奥斯曼古兰经）。探索乔尔苏巴扎。下午继续参观扎伊尼丁谢赫巴巴陵墓和Zangi-Ata建筑群。在酒店过夜。"
+            },
+            {
+              "day": 3,
+              "title": "塔什干 - 撒马尔罕",
+              "activity": "早上 08:00 乘坐“Afrosiab”特快列车前往撒马尔罕（10:10 抵达）。参观古尔-埃米尔陵墓和撒马尔罕的中心地带：雷吉斯坦广场（乌鲁格别克、谢尔道尔、蒂拉卡里经学院）、比比哈努姆清真寺、乌鲁格别克天文台。在酒店过夜。"
+            },
+            {
+              "day": 4,
+              "title": "撒马尔罕",
+              "activity": "探索神圣的朝圣地：al-Bukhari陵墓和清真寺，Makhdumi Dahbedi Azam之墓，以及霍贾·乌拜杜拉·阿赫拉尔·瓦利建筑群（纳克什班迪苏菲教团领袖）。在酒店过夜。"
+            },
+            {
+              "day": 5,
+              "title": "撒马尔罕 – 布哈拉",
+              "activity": "早上出发前往布哈拉，并送至酒店。城市游览：萨曼尼陵墓、大宅、阿克堡垒、卡隆清真寺和宣礼塔、乌鲁格别克和阿卜杜勒-阿齐兹-汗经学院、圆顶集市和拉比豪兹建筑群。在酒店过夜。"
+            },
+            {
+              "day": 6,
+              "title": "布哈拉",
+              "activity": "前往城外七位苏菲派圣人墓地的朝圣：阿卜杜哈利克·吉杜瓦尼之墓、霍贾·穆罕默德·奥里夫·阿尔·雷夫加里之墓、霍贾·马赫穆德·安吉尔·法格纳维之墓、霍贾·阿里·罗米塔尼陵墓、霍贾·穆罕默德·博博伊·萨摩西之墓、赛义德·米尔·库拉尔陵墓。巴哈丁·纳克什班迪陵园和纪念碑。返回城市。在酒店过夜。"
+            },
+            {
+              "day": 7,
+              "title": "布哈拉 – 塔什干",
+              "activity": "布哈拉郊区观光：末代埃米尔的夏宫—Sitorai-Mohi-Khosa—和乔尔-巴克尔陵墓。随后，前往火车站，乘坐“Afrosiyob”高速列车前往塔什干（19:10 抵达）。在酒店过夜。"
+            },
+            {
+              "day": 8,
+              "title": "塔什干",
+              "activity": "送往塔什干国际机场，搭乘返程航班回家。旅程结束。"
+            }
+          ],
+          "highlights": [
+            "雷吉斯坦广场, 撒马尔罕",
+            "古尔-埃米尔陵墓, 撒马尔罕",
+            "巴哈丁·纳克什班迪陵园和纪念碑, 布哈拉",
+            "哈兹拉提伊玛目广场和奥斯曼古兰经, 塔什干",
+            "七位苏菲派圣人墓地, 布哈拉",
+            "al-Bukhari陵墓, 撒马尔罕",
+            "阿克堡垒和Poi-Kalon建筑群, 布哈拉"
+          ],
+          "organizer": {
+            "name": "[插入组织者姓名]",
+            "phone": "[插入电话号码]",
+            "email": "[插入电子邮件地址]",
+            "website": "[插入网站地址]"
+          },
+          "participants": "2-16人",
+          "notes": "每人价格1120美元。价格有效期至2026年，以6人团为基础，较大团体可要求降低价格。价格包括：往返/游览和空调现代化车辆接送、中档酒店双人间(twin)住宿、塔什干-撒马尔罕、布哈拉-塔什干“Afrosiab”特快列车二等座车票、根据行程安排的HP（半食宿）（早餐、晚餐）、全程英语当地导游服务、行程中涉及的景点门票、撒马尔罕3D秀、旅行社24小时协助。价格不包括：国际航班（可通过我们预订）、旅行和健康保险、导游、司机等的小费、未提及的餐食和饮料、在博物馆某些景点使用相机的费用、个人开支、提早入住（14:00之前）和延迟退房（12:00之后）。",
+          "extras": []
+        }
 ]
      
     },
