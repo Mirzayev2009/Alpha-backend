@@ -25,7 +25,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Travel Consultant",
+      "role": "Tour operator",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "English"
@@ -35,7 +35,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Travel Consultant",
+      "role": "Tour operator",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Spanish"
@@ -80,7 +80,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Consultor de Viajes",
+      "role": "operador turístico",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Inglés"
@@ -90,7 +90,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Consultor de Viajes",
+      "role": "operador turístico",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Español"
@@ -129,7 +129,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Consultant en Voyages",
+      "role": "opérateur touristique",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Anglais"
@@ -139,7 +139,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Consultant en Voyages",
+      "role": "opérateur touristique",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Espagnol"
@@ -179,7 +179,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "旅行顾问",
+      "role": "旅游运营商",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "英语"
@@ -189,7 +189,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "旅行顾问",
+      "role": " 旅游运营商",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "西班牙语"
@@ -229,7 +229,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Sayohat Konsultanti",
+      "role": "Tur operatori",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Ingliz"
@@ -239,7 +239,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Sayohat Konsultanti",
+      "role": "Tur operatori",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Ispan"
@@ -278,7 +278,7 @@
     {
       "id": "tm3",
       "name": "Умурзаков Шохрух",
-      "role": "Консультант по Путешествиям",
+      "role": "Туроператор",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Английский"
@@ -288,7 +288,7 @@
     {
       "id": "tm4",
       "name": "Максуд Исакулов",
-      "role": "Консультант по Путешествиям",
+      "role": "Туроператор",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Испанский"
@@ -327,7 +327,7 @@
     {
       "id": "tm3",
       "name": "Umurzakov Shokhruh",
-      "role": "Consulente di Viaggi",
+      "role": "Operatore Turistico",
       "image": "/images/shohruh_alpha.jpg",
       "languages": [
         "Inglese"
@@ -337,7 +337,7 @@
     {
       "id": "tm4",
       "name": "Maqsud Isaqulov",
-      "role": "Consulente di Viaggi",
+      "role": "Operatore Turistico",
       "image": "/images/maqsud_alpha.jpg",
       "languages": [
         "Spagnolo"
