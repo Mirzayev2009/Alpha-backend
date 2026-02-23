@@ -545,9 +545,9 @@
           "destination": "Samarkand, Bukhara, Khiva",
           "region": "Uzbekistan",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "Price per person. Prices valid for 2026 and based on 6 people; reduced prices for larger groups on request.",
@@ -619,9 +619,9 @@
           "destination": "Nukus, Aral Sea, Khiva, Bukhara, Samarkand, Tashkent",
           "region": "Uzbekistan",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "Price per person. Valid for 2026 for departures from 2 people.",
@@ -713,9 +713,9 @@
           "destination": "Tashkent, Bukhara, Nurata, Samarkand, Tajikistan (7 Lakes)",
           "region": "Central Asia",
           "images": [
-            "/images/tashkent/khast_imam.jpg",
-            "/images/bukhara/lyabi_hauz.jpg",
-            "/images/tajikistan/seven_lakes.jpg"
+            "/images/tashkent/khast_imam.png",
+            "/images/bukhara/lyabi_hauz.png",
+            "/images/tajikistan/seven_lakes.png"
           ],
           "price": 1320,
           "priceNote": "Price per person. Valid for 2026, based on 12 people.",
@@ -813,9 +813,9 @@
           "destination": "Khiva",
           "region": "Uzbekistan",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "Price per person. Valid for 2026 and based on 2 people.",
@@ -863,9 +863,9 @@
           "destination": "Samarkand",
           "region": "Uzbekistan",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "Price per person. Valid for 2026 and based on 2 people.",
@@ -913,9 +913,9 @@
           "destination": "Tashkent, Samarkand, Bukhara",
           "region": "Uzbekistan",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "Price per person. Single supplement: $80. Valid for 2026, based on 6 people.",
@@ -1536,9 +1536,9 @@
           "destination": "Samarqand, Buxoro, Xiva",
           "region": "O'zbekiston",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "Bir kishi uchun narx. 2026-yil uchun amal qiladi va 6 kishilik guruhga asoslangan.",
@@ -1610,9 +1610,9 @@
           "destination": "Nukus, Orol dengizi, Xiva, Buxoro, Samarqand, Toshkent",
           "region": "O'zbekiston",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "Bir kishi uchun. 2026-yil uchun amal qiladi.",
@@ -1704,9 +1704,9 @@
           "destination": "Toshkent, Buxoro, Nurota, Samarqand, Tojikiston (7 ko'l)",
           "region": "Markaziy Osiyo",
           "images": [
-            "/images/tashkent/khast_imam.jpg",
-            "/images/bukhara/lyabi_hauz.jpg",
-            "/images/tajikistan/seven_lakes.jpg"
+            "/images/tashkent/khast_imam.png",
+            "/images/bukhara/lyabi_hauz.png",
+            "/images/tajikistan/seven_lakes.png"
           ],
           "price": 1320,
           "priceNote": "Bir kishi uchun. 2026-yil uchun amal qiladi.",
@@ -1803,9 +1803,9 @@
           "destination": "Xiva",
           "region": "O'zbekiston",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "Bir kishi uchun narx. 2026-yil uchun amal qiladi (2 kishilik guruh asosida).",
@@ -1852,9 +1852,9 @@
           "destination": "Samarqand",
           "region": "O'zbekiston",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "Bir kishi uchun narx. 2026-yil uchun amal qiladi (2 kishilik guruh asosida).",
@@ -1901,9 +1901,9 @@
           "destination": "Toshkent, Samarqand, Buxoro",
           "region": "O'zbekiston",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "Bir kishi uchun narx. Bir kishilik xona uchun qo'shimcha to'lov: $80. 2026-yil uchun amal qiladi.",
@@ -2522,9 +2522,9 @@
           "destination": "Самарканд, Бухара, Хива",
           "region": "Узбекистан",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "Цена на человека. Действительна на 2026 год для группы из 6 человек.",
@@ -2596,9 +2596,9 @@
           "destination": "Нукус, Аральское море, Хива, Бухара, Самарканд, Ташкент",
           "region": "Узбекистан",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "Цена на человека. Актуально на 2026 год.",
@@ -2690,9 +2690,9 @@
           "destination": "Ташкент, Бухара, Нурата, Самарканд, Таджикистан (7 озер)",
           "region": "Центральная Азия",
           "images": [
-            "/images/tashkent/khast_imam.jpg",
-            "/images/bukhara/lyabi_hauz.jpg",
-            "/images/tajikistan/seven_lakes.jpg"
+            "/images/tashkent/khast_imam.png",
+            "/images/bukhara/lyabi_hauz.png",
+            "/images/tajikistan/seven_lakes.png"
           ],
           "price": 1320,
           "priceNote": "Цена на человека. Действительна на 2026 год.",
@@ -2789,9 +2789,9 @@
           "destination": "Хива",
           "region": "Узбекистан",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "Цена на человека. Актуально на 2026 год для группы от 2 человек.",
@@ -2837,9 +2837,9 @@
           "destination": "Самарканд",
           "region": "Узбекистан",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "Цена на человека. Актуально на 2026 год для группы от 2 человек.",
@@ -2886,9 +2886,9 @@
           "destination": "Ташкент, Самарканд, Бухара",
           "region": "Узбекистан",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "Цена на человека. Доплата за одноместное размещение: $80. Актуально на 2026 год.",
@@ -3507,9 +3507,9 @@
           "destination": "Samarcanda, Bujará, Jiva",
           "region": "Uzbekistán",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "Precio por persona. Válido para 2026 basado en 4-6 personas.",
@@ -3581,9 +3581,9 @@
           "destination": "Nukus, Mar de Aral, Jiva, Bujará, Samarcanda, Tashkent",
           "region": "Uzbekistán",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "Precio por persona. Válido para 2026.",
@@ -3675,9 +3675,9 @@
           "destination": "Jiva",
           "region": "Uzbekistán",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "Precio por persona. Válido para 2026 basado en 2 personas.",
@@ -3724,9 +3724,9 @@
           "destination": "Samarcanda",
           "region": "Uzbekistán",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "Precio por persona. Válido para 2026 basado en 2 personas.",
@@ -3773,9 +3773,9 @@
           "destination": "Tashkent, Samarcanda, Bujará",
           "region": "Uzbekistán",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "Precio por persona. Suplemento individual: $80. Válido para 2026.",
@@ -4394,9 +4394,9 @@
           "destination": "Samarcande, Boukhara, Khiva",
           "region": "Ouzbékistan",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "Prix par personne. Valable pour 2026 sur la base de 6 personnes.",
@@ -4468,9 +4468,9 @@
           "destination": "Nukus, Mer d'Aral, Khiva, Boukhara, Samarcande, Tachkent",
           "region": "Ouzbékistan",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "Prix par personne. Valable pour 2026.",
@@ -4562,9 +4562,9 @@
           "destination": "Tachkent, Boukhara, Nourata, Samarcande, Tadjikistan (7 Lacs)",
           "region": "Asie Centrale",
           "images": [
-            "/images/tashkent/khast_imam.jpg",
-            "/images/bukhara/lyabi_hauz.jpg",
-            "/images/tajikistan/seven_lakes.jpg"
+            "/images/tashkent/khast_imam.png",
+            "/images/bukhara/lyabi_hauz.png",
+            "/images/tajikistan/seven_lakes.png"
           ],
           "price": 1320,
           "priceNote": "Prix par personne. Valable pour 2026.",
@@ -4661,9 +4661,9 @@
           "destination": "Khiva",
           "region": "Ouzbékistan",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "Prix par personne. Valable pour 2026 sur la base de 2 personnes.",
@@ -4710,9 +4710,9 @@
           "destination": "Samarcande",
           "region": "Ouzbékistan",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "Prix par personne. Valable pour 2026 sur la base de 2 personnes.",
@@ -4759,9 +4759,9 @@
           "destination": "Tachkent, Samarcande, Boukhara",
           "region": "Ouzbékistan",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "Prix par personne. Supplément single : $80. Valable pour 2026.",
@@ -5380,9 +5380,9 @@
           "destination": "Samarcanda, Bukhara, Khiva",
           "region": "Uzbekistan",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "Prezzo per persona. Valido per il 2026 basato su 6 persone.",
@@ -5454,9 +5454,9 @@
           "destination": "Nukus, Mar d'Aral, Khiva, Bukhara, Samarcanda, Tashkent",
           "region": "Uzbekistan",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "Prezzo per persona. Valido per il 2026.",
@@ -5548,9 +5548,9 @@
           "destination": "Tashkent, Bukhara, Nurata, Samarcanda, Tagikistan (7 Laghi)",
           "region": "Asia Centrale",
           "images": [
-            "/images/tashkent/khast_imam.jpg",
-            "/images/bukhara/lyabi_hauz.jpg",
-            "/images/tajikistan/seven_lakes.jpg"
+            "/images/tashkent/khast_imam.png",
+            "/images/bukhara/lyabi_hauz.png",
+            "/images/tajikistan/seven_lakes.png"
           ],
           "price": 1320,
           "priceNote": "Prezzo per persona. Valido per il 2026.",
@@ -5647,9 +5647,9 @@
           "destination": "Khiva",
           "region": "Uzbekistan",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "Prezzo per persona. Valido per il 2026 basato su 2 persone.",
@@ -5696,9 +5696,9 @@
           "destination": "Samarcanda",
           "region": "Uzbekistan",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "Prezzo per persona. Valido per il 2026 basato su 2 persone.",
@@ -5745,9 +5745,9 @@
           "destination": "Tashkent, Samarcanda, Bukhara",
           "region": "Uzbekistan",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "Prezzo per persona. Supplemento singola: $80. Valido per il 2026.",
@@ -6366,9 +6366,9 @@
           "destination": "撒马尔罕, 布哈拉, 希瓦",
           "region": "乌兹别克斯坦",
           "images": [
-            "/images/samarqand/registan.jpg",
-            "/images/bukhara/ark.jpg",
-            "/images/khiva/ichan_kala.jpg"
+            "/images/samarqand/registan.png",
+            "/images/bukhara/ark.png",
+            "/images/khiva/ichan_kala.png"
           ],
           "price": 800,
           "priceNote": "每人价格。2026年有效，基于6人团队。",
@@ -6440,9 +6440,9 @@
           "destination": "努库斯, 咸海, 希瓦, 布哈拉, 撒马尔罕, 塔什干",
           "region": "乌兹别克斯坦",
           "images": [
-            "/images/nukus/aral_sea_ships.jpg",
-            "/images/samarqand/registan_night.jpg",
-            "/images/tashkent/khast_imam.jpg"
+            "/images/nukus/aral_sea_ships.png",
+            "/images/samarqand/registan_night.png",
+            "/images/tashkent/khast_imam.png"
           ],
           "price": 1250,
           "priceNote": "每人价格。2026年有效，2人起行。",
@@ -6534,9 +6534,9 @@
           "destination": "塔什干, 布哈拉, 努库斯, 撒马尔罕, 塔吉克斯坦 (七个湖泊)",
           "region": "中亚",
           "images": [
-            "/images/tashkent/khast_imam.jpg",
-            "/images/bukhara/lyabi_hauz.jpg",
-            "/images/tajikistan/seven_lakes.jpg"
+            "/images/tashkent/khast_imam.png",
+            "/images/bukhara/lyabi_hauz.png",
+            "/images/tajikistan/seven_lakes.png"
           ],
           "price": 1320,
           "priceNote": "每人价格。2026年有效。",
@@ -6633,9 +6633,9 @@
           "destination": "希瓦",
           "region": "乌兹别克斯坦",
           "images": [
-            "/images/khiva/ichan_kala_view.jpg",
-            "/images/khiva/kalta_minor.jpg",
-            "/images/khiva/islam_khoja.jpg"
+            "/images/khiva/ichan_kala_view.png",
+            "/images/khiva/kalta_minor.png",
+            "/images/khiva/islam_khoja.png"
           ],
           "price": 124,
           "priceNote": "每人价格。2026年有效，基于2人成团。",
@@ -6682,9 +6682,9 @@
           "destination": "撒马尔罕",
           "region": "乌兹别克斯坦",
           "images": [
-            "/images/samarqand/registan_square.jpg",
-            "/images/samarqand/gur_emir.jpg",
-            "/images/samarqand/shah_i_zinda.jpg"
+            "/images/samarqand/registan_square.png",
+            "/images/samarqand/gur_emir.png",
+            "/images/samarqand/shah_i_zinda.png"
           ],
           "price": 142,
           "priceNote": "每人价格。2026年有效，基于2人成团。",
@@ -6731,9 +6731,9 @@
           "destination": "塔什干, 撒马尔罕, 布哈拉",
           "region": "乌兹别克斯坦",
           "images": [
-            "/images/tashkent/chorsu_bazaar.jpg",
-            "/images/samarqand/registan_square.jpg",
-            "/images/bukhara/poi_kalon.jpg"
+            "/images/tashkent/chorsu_bazaar.png",
+            "/images/samarqand/registan_square.png",
+            "/images/bukhara/poi_kalon.png"
           ],
           "price": 980,
           "priceNote": "每人价格。单间差：$80。2026年有效。",
